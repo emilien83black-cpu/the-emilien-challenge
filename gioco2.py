@@ -1,60 +1,61 @@
 import streamlit as st
 
-# 1. Forza la pagina a usare tutta la larghezza del telefono e toglie i margini
-st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+# FIX VISUALIZZAZIONE MOBILE (Testo grande e schermo intero)
+st.set_page_config(page_title="The Emilien Challenge", layout="wide")
 
-# 2. Questo blocco CSS risolve il problema della visualizzazione piccola
 st.markdown("""
     <style>
-    /* Forza il testo a non essere minuscolo */
-    html, body, [data-testid="stverticalblock"] {
-        font-size: 20px;
-    }
-    /* Elimina i bordi bianchi laterali che ti costringono a scorrere col dito */
-    .main .block-container {
-        padding-top: 1rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        max-width: 100%;
-    }
-    /* Rende i bottoni grandi quanto tutta la larghezza dello schermo */
-    .stButton button {
-        width: 100%;
-        margin-bottom: 10px;
-        height: 3em;
-        font-size: 18px !important;
-    }
-    /* Nasconde i menu di Streamlit per pulire la vista */
+    .main .block-container { max-width: 100% !important; padding: 1rem !important; }
+    p, div, span { font-size: 20px !important; }
+    .stButton button { width: 100% !important; height: 3em !important; font-size: 18px !important; }
     #MainMenu, footer, header {visibility: hidden;}
     </style>
     """, unsafe_allow_html=True)
 
-# 3. Logica del gioco (rimettiamo la tua storia)
+# --- LOGICA ORIGINALE ---
 if 'scena' not in st.session_state:
     st.session_state.scena = 'inizio'
+if 'aiuti' not in st.session_state:
+    st.session_state.aiuti = 3
 
-def vai_a(prossima):
-    st.session_state.scena = prossima
+def cambia_scena(nome):
+    st.session_state.scena = nome
 
-scena = st.session_state.scena
+# --- SCHERMATA INIZIALE ---
+if st.session_state.scena == 'inizio':
+    st.image("https://raw.githubusercontent.com/emilien83black-cpu/the-emilien-challenge/main/logo.png", width=300)
+    st.title("The Emilien Challenge")
+    st.write("Benvenuto nel gioco. Sei pronto ad affrontare la sfida?")
+    
+    if st.button("Inizia l'Avventura"):
+        cambia_scena('scena_1')
+    
+    st.markdown("---")
+    st.write(f"💡 Aiuti rimasti: {st.session_state.aiuti}")
+    st.caption("Creato da Emilien - 2026")
 
-if scena == 'inizio':
-    st.markdown("### Benvenuto in The Emilien Challenge")
-    st.write("La sfida ha inizio. Sei pronto a metterti in gioco?")
-    st.button("Inizia l'avventura", on_click=vai_a, args=('scelta_1',))
+# --- SCENA 1 ---
+elif st.session_state.scena == 'scena_1':
+    st.subheader("Capitolo 1: L'Inizio")
+    st.write("Il primo passo è sempre il più difficile. Cosa decidi di fare?")
+    
+    if st.button("Esplora la zona"):
+        cambia_scena('vittoria')
+    if st.button("Torna indietro"):
+        cambia_scena('sconfitta')
+    if st.button("Usa un aiuto") and st.session_state.aiuti > 0:
+        st.session_state.aiuti -= 1
+        st.info("Suggerimento: Chi non risica non rosica!")
 
-elif scena == 'scelta_1':
-    st.write("Ti trovi davanti a un bivio importante. Da che parte vai?")
-    col1, col2 = st.columns(2) # Mette i tasti affiancati se lo schermo è largo, o uno sopra l'altro su mobile
-    with col1:
-        st.button("SINISTRA", on_click=vai_a, args=('vittoria',))
-    with col2:
-        st.button("DESTRA", on_click=vai_a, args=('sconfitta',))
+# --- FINALI ---
+elif st.session_state.scena == 'vittoria':
+    st.success("Complimenti! Hai superato la prima prova.")
+    if st.button("Ricomincia"):
+        st.session_state.aiuti = 3
+        cambia_scena('inizio')
 
-elif scena == 'vittoria':
-    st.write("## HAI VINTO!")
-    st.button("Ricomincia", on_click=vai_a, args=('inizio',))
-
-elif scena == 'sconfitta':
-    st.write("## GAME OVER")
-    st.button("Riprova", on_click=vai_a, args=('inizio',))
+elif st.session_state.scena == 'sconfitta':
+    st.error("Peccato! La sfida finisce qui.")
+    if st.button("Riprova"):
+        st.session_state.aiuti = 3
+        cambia_scena('inizio')
