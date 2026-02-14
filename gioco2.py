@@ -5,31 +5,12 @@ import cultura, sport, calcio, cinema, intrattenimento, musica
 # 1. Configurazione (DEVE stare qui, in cima a tutto)
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰")
 
-# 2. Stile CSS Ottimizzato per Mobile
+# 2. Stile CSS
 st.markdown("""
     <style>
-    /* Elimina i margini laterali che stringono la visuale su mobile */
-    .main .block-container {
-        padding-top: 2rem;
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-        max-width: 100%;
+    .block-container {
+        padding-top: 3rem;
     }
-    /* Rende i testi delle domande grandi il giusto */
-    h1 { font-size: 28px !important; }
-    h2 { font-size: 22px !important; }
-    h3 { font-size: 18px !important; }
-    div[style*="font-size: 24px"] { font-size: 20px !important; }
-
-    /* Bottoni: più alti per essere toccati facilmente con le dita */
-    .stButton button {
-        height: 3.5em !important;
-        font-size: 16px !important;
-        margin-bottom: 5px !important;
-    }
-    
-    /* Nasconde menu e footer per guadagnare spazio verticale */
-    #MainMenu, footer, header {visibility: hidden;}
     </style>
     """, unsafe_allow_html=True)
 
@@ -191,4 +172,3 @@ else:
         st.session_state.usato_suggerimento = False
         st.session_state.opzioni_ridotte = None
         st.rerun()
-
