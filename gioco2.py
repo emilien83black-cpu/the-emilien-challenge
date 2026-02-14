@@ -5,26 +5,37 @@ import cultura, sport, calcio, cinema, intrattenimento, musica
 # 1. Configurazione
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
 
-# 2. CSS "BLOCCA-COLONNE" (Forza il layout 3 aiuti e 2x2 risposte)
+# 2. CSS "COMPATTO" (Tasti piccoli e proporzionati)
 st.markdown("""
     <style>
-    /* Impedisce alle colonne di andare una sotto l'altra su mobile */
+    /* Forza il layout orizzontale senza sbavature */
     [data-testid="stHorizontalBlock"] {
         display: flex !important;
         flex-direction: row !important;
-        flex-wrap: nowrap !important;
         gap: 5px !important;
     }
     [data-testid="column"] {
-        flex: 1 1 0% !important;
+        flex: 1 !important;
         min-width: 0px !important;
     }
+
+    /* Tasti AIUTI: piccoli quadratini */
+    div.stButton > button {
+        width: 100% !important;
+        height: 2.2em !important; /* Altezza ridotta */
+        min-height: 2.2em !important;
+        padding: 0px !important;
+        font-size: 16px !important;
+        line-height: 1 !important;
+    }
+
+    /* Tasti RISPOSTE: leggermente più grandi ma non enormi */
+    /* Usiamo il selettore per distinguere le risposte se necessario, 
+       altrimenti restano compatti come sopra */
     
-    /* Centratura e stile */
-    .centered { text-align: center; margin-left: auto; margin-right: auto; }
-    .stButton button { width: 100% !important; height: 3em !important; font-size: 14px !important; }
+    .centered { text-align: center; }
     header, footer { visibility: hidden; }
-    .block-container { padding-top: 1rem !important; }
+    .block-container { padding-top: 0.5rem !important; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -119,3 +130,4 @@ else:
         for key in ['indice', 'fine', 'game_over', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
