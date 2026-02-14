@@ -5,47 +5,48 @@ import cultura, sport, calcio, cinema, intrattenimento, musica
 # 1. Configurazione
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
 
-# 2. CSS "PORTRAIT-PERFECT" (Per avere il layout orizzontale anche in verticale)
+# 2. CSS "SOTTILE" (Elimina lo spazio vuoto intorno ai tasti)
 st.markdown("""
     <style>
-    /* Forza il contenitore a non avere margini interni */
-    .main .block-container {
-        padding: 0.5rem !important;
-        max-width: 100% !important;
-    }
-
-    /* AIUTI: 3 quadratini piccoli in linea */
+    /* 1. Forza le colonne a stare affiancate e toglie i margini tra loro */
     [data-testid="stHorizontalBlock"] {
         display: flex !important;
         flex-direction: row !important;
-        flex-wrap: nowrap !important; /* Impedisce di andare a capo */
-        gap: 2px !important;
-        margin-bottom: 10px !important;
+        flex-wrap: nowrap !important;
+        gap: 4px !important;
     }
-
-    /* Forza le colonne a dividersi lo spazio senza margini */
     [data-testid="column"] {
         flex: 1 !important;
         min-width: 0px !important;
-        padding: 0px !important;
+        padding: 0px !important; /* Toglie lo spazio interno della colonna */
     }
 
-    /* BOTTONI: Rimpicciolimento drastico del contenitore */
+    /* 2. Rimpicciolisce il contenitore del bottone */
+    [data-testid="stButton"] {
+        text-align: center;
+        margin-bottom: 0px !important;
+    }
+
+    /* 3. Tasti AIUTI e RISPOSTE: compatti e aderenti al testo */
     .stButton button {
         width: 100% !important;
-        height: 2.2rem !important; /* Altezza fissa ridotta */
-        padding: 0px !important;
-        font-size: 13px !important; /* Testo più piccolo per farlo stare dentro */
-        line-height: 1.1 !important;
+        height: 2.0em !important; /* Molto basso */
+        min-height: 2.0em !important;
+        padding: 0px 5px !important;
+        font-size: 14px !important;
+        border-radius: 4px !important;
         margin: 0px !important;
     }
 
-    /* Testi: riduciamo i margini tra Titolo, Logo e Domanda */
-    h1 { font-size: 1.2rem !important; margin-bottom: 0px !important; padding: 0px !important; }
-    h2 { font-size: 1rem !important; margin: 5px 0px !important; }
-    .centered-text { font-size: 15px !important; margin-bottom: 10px !important; }
+    /* 4. Toglie gli spazi tra le righe di Streamlit */
+    [data-testid="stVerticalBlock"] > div {
+        padding-bottom: 0px !important;
+        margin-bottom: 5px !important;
+    }
 
+    .centered { text-align: center; }
     header, footer { visibility: hidden; }
+    .block-container { padding: 0.5rem 0.5rem !important; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -140,6 +141,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
