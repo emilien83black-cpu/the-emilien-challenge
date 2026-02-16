@@ -1,6 +1,16 @@
 import streamlit as st
 import random
+import importlib
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
+
+importlib.reload(culturagenerale)
+importlib.reload(sport)
+importlib.reload(calcio)
+importlib.reload(cinema)
+importlib.reload(intrattenimento)
+importlib.reload(musica)
+
+# 1. Configurazione (questa riga c'è già, lasciala come riferimento)
 
 # 1. Configurazione
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
@@ -131,3 +141,4 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
