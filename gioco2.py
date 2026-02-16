@@ -1,15 +1,17 @@
+
 import streamlit as st
 import random
 import importlib
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
-# Forza il ricaricamento dei moduli delle domande
 importlib.reload(culturagenerale)
 importlib.reload(sport)
 importlib.reload(calcio)
 importlib.reload(cinema)
 importlib.reload(intrattenimento)
 importlib.reload(musica)
+
+# 1. Configurazione (questa riga c'è già, lasciala come riferimento)
 
 # 1. Configurazione
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
@@ -25,20 +27,13 @@ st.markdown("""
     [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 5px !important; }
     .centered { text-align: center; }
     
-    /* Nasconde tutto l'ingombro dell'header ma lascia i tre puntini cliccabili */
-    [data-testid="stHeader"] { background: transparent !important; border: none !important; }
+    /* Rende l'header trasparente e riduce l'altezza per non coprire il testo */
+    header { background-color: transparent !important; height: 2rem !important; }
+    /* Nasconde i tasti Fork, Edit e GitHub lasciando solo i tre puntini */
     .stAppDeployButton, [data-testid="stStatusWidget"], .stActionButton { display: none !important; }
-
-    /* Incolla il contenuto al bordo superiore assoluto */
-    .main .block-container { 
-        padding-top: 5px !important; 
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        right: 0 !important;
-    }
     
     footer { visibility: hidden; }
+    .block-container { padding: 0rem 0.5rem !important; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -152,10 +147,5 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
-
-
-
-
-
 
 
