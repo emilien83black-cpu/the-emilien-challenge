@@ -117,7 +117,7 @@ if not st.session_state.fine:
                 st.toast(attuale["aiuto"], icon="💡")
 
         # Divisore personalizzabile: modifica i px per stringere o allargare
-        st.markdown("<hr style='margin-top: 10px; margin-bottom: 0px; opacity: 0.3;'>", unsafe_allow_html=True)
+        st.markdown("<div style='padding-top: 10px;'></div>", unsafe_allow_html=True)
 
         # RISPOSTE
         opz = st.session_state.opzioni_ridotte if st.session_state.opzioni_ridotte else attuale["opzioni"]
@@ -155,6 +155,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
