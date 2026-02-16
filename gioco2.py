@@ -17,7 +17,7 @@ st.cache_data.clear()
 # 2. CSS
 st.markdown("""
     <style>
-    [data-testid="stVerticalBlock"] { gap: 0rem !important; }
+    [data-testid="stVerticalBlock"] { gap: 2rem !important; }
     [data-testid="stHorizontalBlock"] { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; gap: 4px !important; }
     [data-testid="column"] { flex: 1 !important; min-width: 0px !important; padding: 0px !important; }
     [data-testid="stButton"] { text-align: center; margin-bottom: 0px !important; }
@@ -131,3 +131,4 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
