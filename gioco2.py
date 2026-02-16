@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 import random
 import importlib
@@ -12,8 +10,6 @@ importlib.reload(cinema)
 importlib.reload(intrattenimento)
 importlib.reload(musica)
 
-# 1. Configurazione (questa riga c'è già, lasciala come riferimento)
-
 # 1. Configurazione
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
 st.cache_data.clear()
@@ -21,27 +17,17 @@ st.cache_data.clear()
 # 2. CSS
 st.markdown("""
     <style>
-    /* Azzeramento spazio tra i blocchi verticali (fondamentale) */
     [data-testid="stVerticalBlock"] { gap: 0rem !important; }
-    
     [data-testid="stHorizontalBlock"] { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; gap: 4px !important; }
     [data-testid="column"] { flex: 1 !important; min-width: 0px !important; padding: 0px !important; }
     [data-testid="stButton"] { text-align: center; margin-bottom: 0px !important; }
     .stButton button { width: 100% !important; height: 2.0em !important; min-height: 2.0em !important; padding: 0px 5px !important; font-size: 14px !important; border-radius: 4px !important; margin: 0px !important; }
-    
-    /* Riduce lo spazio interno di ogni contenitore */
-    [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 2px !important; }
-    
+    [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 1px !important; }
     .centered { text-align: center; }
-    
-    /* Header e pulizia */
     header { background-color: transparent !important; height: 2rem !important; }
     .stAppDeployButton, [data-testid="stStatusWidget"], .stActionButton { display: none !important; }
-    
     footer { visibility: hidden; }
     .block-container { padding: 0rem 0.5rem !important; }
-    
-    /* Linea orizzontale più sottile */
     hr { margin-top: 2px !important; margin-bottom: 2px !important; }
     </style>
     """, unsafe_allow_html=True)
@@ -71,10 +57,8 @@ if 'argomento_attuale' not in st.session_state or st.session_state.argomento_att
 
 if not st.session_state.fine:
     attuale = st.session_state.domande[st.session_state.indice]
-    
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
-    # Logo
     import base64
     try:
         with open("Emilien.png", "rb") as f:
@@ -82,24 +66,18 @@ if not st.session_state.fine:
         st.markdown(f'<div class="centered"><img src="data:image/png;base64,{data}" width="100"></div>', unsafe_allow_html=True)
     except: pass
 
-    # --- SCHERMATA DI ERRORE INTERMEDIA ---
     if st.session_state.mostra_errore:
-        st.markdown(f"<div style='background-color: #ff4b4b; padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 20px;'>"
-                    f"<h3>Sbagliato!</h3>"
-                    f"<p>La risposta corretta era: <b>{attuale['corretta']}</b></p>"
-                    f"<p><i>{attuale.get('spiegazione', 'Nessun commento disponibile.')}</i></p>"
-                    f"</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='background-color: #ff4b4b; padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 20px;'><h3>Sbagliato!</h3><p>La risposta corretta era: <b>{attuale['corretta']}</b></p><p><i>{attuale.get('spiegazione', 'Nessun commento disponibile.')}</i></p></div>", unsafe_allow_html=True)
         if st.button("Continua", use_container_width=True):
             st.session_state.game_over = True
             st.session_state.fine = True
             st.rerun()
-    
-    # --- SCHERMATA DOMANDA STANDARD ---
     else:
         st.markdown(f"<h2 class='centered'>🔴 Domanda {st.session_state.indice + 1}</h2>", unsafe_allow_html=True)
         st.markdown(f"<div class='centered' style='font-size: 18px; font-weight: bold; padding: 5px;'>{attuale['domanda'].replace('#', '')}</div>", unsafe_allow_html=True)
 
-        # AIUTI
+        st.markdown("<div style='margin-top: 15px;'></div>", unsafe_allow_html=True)
+
         c1, c2, c3 = st.columns(3)
         with c1:
             if st.button("⚖️", disabled=st.session_state.usato_5050, use_container_width=True):
@@ -118,10 +96,6 @@ if not st.session_state.fine:
                 st.session_state.usato_suggerimento = True
                 st.toast(attuale["aiuto"], icon="💡")
 
-        # Divisore personalizzabile: modifica i px per stringere o allargare
-        st.markdown("<hr style='margin-top: 0px; margin-bottom: 0px; opacity: 0.3;'>", unsafe_allow_html=True)
-
-        # RISPOSTE
         opz = st.session_state.opzioni_ridotte if st.session_state.opzioni_ridotte else attuale["opzioni"]
         
         for i in range(0, len(opz), 2):
@@ -157,7 +131,3 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
-
-
-
-
