@@ -97,8 +97,8 @@ if not st.session_state.fine:
         st.markdown(f"<h2 class='centered'>🔴 Domanda {st.session_state.indice + 1}</h2>", unsafe_allow_html=True)
         st.markdown(f"<div class='centered' style='font-size: 18px; font-weight: bold; padding: 5px;'>{attuale['domanda'].replace('#', '')}</div>", unsafe_allow_html=True)
 
-        # AIUTI
         st.markdown("<div style='margin-top: 15px;'></div>", unsafe_allow_html=True)
+
         c1, c2, c3 = st.columns(3)
         with c1:
             if st.button("⚖️", disabled=st.session_state.usato_5050, use_container_width=True):
@@ -116,6 +116,34 @@ if not st.session_state.fine:
             if st.button("💡", disabled=st.session_state.usato_suggerimento, use_container_width=True):
                 st.session_state.usato_suggerimento = True
                 st.toast(attuale["aiuto"], icon="💡")
+
+        opz = st.session_state.opzioni_ridotte if st.session_state.opzioni_ridotte else attuale["opzioni"]
+        
+        for i in range(0, len(opz), 2):
+            r_col1, r_col2 = st.columns(2)
+            with r_col1:
+                if st.button(opz[i], key=f"a_{i}", use_container_width=True):
+                    if opz[i] == attuale["corretta"]:
+                        st.session_state.indice += 1
+                        st.session_state.opzioni_ridotte = None
+                        if st.session_state.indice >= 10: st.session_state.fine = True
+                        st.rerun()
+                    else:
+                        st.session_state.mostra_errore = True
+                        st.rerun()
+            with r_col2:
+                if i + 1 < len(opz):
+                    if st.button(opz[i+1], key=f"a_{i+1}", use_container_width=True):
+                        if opz[i+1] == attuale["corretta"]:
+                            st.session_state.indice += 1
+                            st.session_state.opzioni_ridotte = None
+                            if st.session_state.indice >= 10: st.session_state.fine = True
+                            st.rerun()
+                        else:
+                            st.session_state.mostra_errore = True
+                            st.rerun()
+
+        st.markdown(f"<div style='background-color: #000; padding: 10px; border-radius: 5px; text-align: center; border: 1px solid gold; margin-top: 10px;'>Vincita: {premi[st.session_state.indice]}€</div>", unsafe_allow_html=True)
 
         # RISPOSTE
         opz = st.session_state.opzioni_ridotte if st.session_state.opzioni_ridotte else attuale["opzioni"]
@@ -180,6 +208,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
