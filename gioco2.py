@@ -36,6 +36,9 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+    [data-testid="stHeader"] { height: 0px !important; }
+    .main .block-container { padding-top: 1rem !important; }
+
 # --- LOGICA DI GIOCO ---
 if 'indice' not in st.session_state: st.session_state.indice = 0
 if 'fine' not in st.session_state: st.session_state.fine = False
@@ -146,5 +149,6 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
