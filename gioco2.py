@@ -25,16 +25,17 @@ st.markdown("""
     [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 5px !important; }
     .centered { text-align: center; }
     
-    /* Gestione Header e tasti */
-    [data-testid="stHeader"] { background: transparent !important; height: 0px !important; }
+    /* Nasconde tutto l'ingombro dell'header ma lascia i tre puntini cliccabili */
+    [data-testid="stHeader"] { background: transparent !important; border: none !important; }
     .stAppDeployButton, [data-testid="stStatusWidget"], .stActionButton { display: none !important; }
 
-    /* Sposta tutto verso l'alto */
+    /* Incolla il contenuto al bordo superiore assoluto */
     .main .block-container { 
-        padding-top: 0rem !important; 
-        margin-top: -3.5rem !important; 
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
+        padding-top: 5px !important; 
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
     }
     
     footer { visibility: hidden; }
@@ -151,6 +152,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
