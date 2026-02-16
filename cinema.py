@@ -1,2702 +1,1422 @@
 domande = [
     {
-        "domanda": "Quale attore ha interpretato il ruolo di Jack Torrance in 'Shining' di Stanley Kubrick?",
-        "opzioni": ["Jack Nicholson", "Robert De Niro", "Dustin Hoffman", "Al Pacino"],
-        "corretta": "Jack Nicholson"
-    },
-    {
-        "domanda": "In 'Pulp Fiction', cosa c'è dentro la valigetta che emette una luce dorata?",
-        "opzioni": ["Non viene mai rivelato", "L'anima di Marsellus Wallace", "Lingotti d'oro", "I diamanti de Le Iene"],
-        "corretta": "Non viene mai rivelato"
-    },
-    {
-        "domanda": "Qual è l'unico film horror ad aver vinto l'Oscar come Miglior Film?",
-        "opzioni": ["Il Silenzio degli Innocenti", "L'Esorcista", "Shining", "Psycho"],
-        "corretta": "Il Silenzio degli Innocenti"
-    },
-    {
-        "domanda": "Chi ha diretto la trilogia originale di 'Star Wars'?",
-        "opzioni": ["George Lucas", "Steven Spielberg", "Ridley Scott", "James Cameron"],
-        "corretta": "George Lucas"
-    },
-    {
-        "domanda": "Per quale film Leonardo DiCaprio ha vinto il suo primo Premio Oscar come Miglior Attore?",
-        "opzioni": ["The Revenant", "The Wolf of Wall Street", "Titanic", "Inception"],
-        "corretta": "The Revenant"
-    },
-    {
-        "domanda": "Quale film detiene il record per il maggior numero di nomination agli Oscar (14), a pari merito con Titanic e Eva contro Eva?",
-        "opzioni": ["La La Land", "Ben-Hur", "Il Signore degli Anelli - Il Ritorno del Re", "Forrest Gump"],
-        "corretta": "La La Land"
-    },
-    {
-        "domanda": "In quale film di fantascienza compare per la prima volta il computer HAL 9000?",
-        "opzioni": ["2001: Odissea nello spazio", "Blade Runner", "Alien", "Solaris"],
-        "corretta": "2001: Odissea nello spazio"
-    },
-    {
-        "domanda": "Quale regista ha diretto 'Inception', 'Interstellar' e la trilogia del Cavaliere Oscuro?",
-        "opzioni": ["Christopher Nolan", "Quentin Tarantino", "Martin Scorsese", "Denis Villeneuve"],
-        "corretta": "Christopher Nolan"
-    },
-    {
-        "domanda": "Come si chiama la città immaginaria dove vive Truman Burbank nel film 'The Truman Show'?",
-        "opzioni": ["Seahaven", "Hill Valley", "Pleasantville", "Shermer"],
-        "corretta": "Seahaven"
-    },
-    {
-        "domanda": "Quale film del 2019 è stato il primo film non in lingua inglese a vincere l'Oscar come Miglior Film?",
-        "opzioni": ["Parasite", "Roma", "La Vita è Bella", "Amour"],
-        "corretta": "Parasite"
-    },
-    {
-        "domanda": "In 'Matrix', di che colore è la pillola che Neo sceglie per scoprire la verità?",
-        "opzioni": ["Rossa", "Blu", "Verde", "Gialla"],
-        "corretta": "Rossa"
-    },
-    {
-        "domanda": "Quale famoso attore interpreta il 'Drugo' ne 'Il Grande Lebowski'?",
-        "opzioni": ["Jeff Bridges", "John Goodman", "Steve Buscemi", "John Turturro"],
-        "corretta": "Jeff Bridges"
-    },
-    {
-        "domanda": "Qual è il nome del robot protagonista del film d'animazione Disney-Pixar del 2008?",
-        "opzioni": ["WALL-E", "Baymax", "Rodney", "R2-D2"],
-        "corretta": "WALL-E"
-    },
-    {
-        "domanda": "In quale film Alfred Hitchcock fa un cameo apparendo in una foto di un giornale per una dieta?",
-        "opzioni": ["I Prigionieri dell'Oceano (Lifeboat)", "La finestra sul cortile", "La donna che visse due volte", "Psycho"],
-        "corretta": "I Prigionieri dell'Oceano (Lifeboat)"
-    },
-    {
-        "domanda": "Chi interpreta l'antagonista principale, Joker, nel film 'Il Cavaliere Oscuro' del 2008?",
-        "opzioni": ["Heath Ledger", "Joaquin Phoenix", "Jack Nicholson", "Jared Leto"],
-        "corretta": "Heath Ledger"
-    },
-    {
-        "domanda": "Quale film di Quentin Tarantino racconta una versione alternativa della storia di Sharon Tate?",
-        "opzioni": ["C'era una volta a... Hollywood", "Bastardi senza gloria", "Django Unchained", "The Hateful Eight"],
-        "corretta": "C'era una volta a... Hollywood"
-    },
-    {
-        "domanda": "In 'Fight Club', qual è la prima regola del Fight Club?",
-        "opzioni": ["Non si parla del Fight Club", "Non si urla nel Fight Club", "Si combatte sempre nudi", "Non si ride del Fight Club"],
-        "corretta": "Non si parla del Fight Club"
-    },
-    {
-        "domanda": "Quale attrice interpreta Mia Dolan nel musical 'La La Land'?",
-        "opzioni": ["Emma Stone", "Emma Watson", "Jennifer Lawrence", "Margot Robbie"],
-        "corretta": "Emma Stone"
-    },
-    {
-        "domanda": "In 'Ritorno al Futuro', a che velocità deve arrivare la DeLorean per viaggiare nel tempo?",
-        "opzioni": ["88 miglia orarie", "100 miglia orarie", "50 miglia orarie", "120 miglia orarie"],
-        "corretta": "88 miglia orarie"
-    },
-    {
-        "domanda": "Quale film d'animazione dello Studio Ghibli ha vinto l'Oscar nel 2003?",
-        "opzioni": ["La città incantata", "Il mio vicino Totoro", "Il castello errante di Howl", "Principessa Mononoke"],
-        "corretta": "La città incantata"
-    },
-    {
-        "domanda": "In quale film di Christopher Nolan il tempo scorre più velocemente in base alla profondità dei sogni?",
-        "opzioni": ["Inception", "Interstellar", "Tenet", "Memento"],
-        "corretta": "Inception"
-    },
-    {
-        "domanda": "Quale attore interpreta il protagonista nel film 'Heretic' (2024)?",
-        "opzioni": ["Hugh Grant", "Nicolas Cage", "Cillian Murphy", "Robert De Niro"],
-        "corretta": "Hugh Grant"
-    },
-    {
-        "domanda": "In 'Quando Dio imparò a scrivere', dove è ambientata principalmente la storia?",
-        "opzioni": ["In un ospedale psichiatrico", "In un tribunale", "In una prigione di massima sicurezza", "In una stazione di polizia"],
-        "corretta": "In un ospedale psichiatrico"
-    },
-    {
-        "domanda": "Chi interpreta il detective Aaron Falk nel thriller australiano 'Chi è senza peccato - The Dry'?",
-        "opzioni": ["Eric Bana", "Hugh Jackman", "Russell Crowe", "Guy Pearce"],
-        "corretta": "Eric Bana"
-    },
-    {
-        "domanda": "Qual è il titolo del film d'esordio alla regia di Emerald Fennell, con Carey Mulligan?",
-        "opzioni": ["Promising Young Woman", "Saltburn", "Barbie", "The Menu"],
-        "corretta": "Promising Young Woman"
-    },
-    {
-        "domanda": "In 'The Hateful Eight', quanti sono i passeggeri della diligenza che arrivano all'emporio di Minnie?",
-        "opzioni": ["8", "6", "10", "4"],
-        "corretta": "8"
-    },
-    {
-        "domanda": "Chi ha diretto il film cult 'Taxi Driver'?",
-        "opzioni": ["Martin Scorsese", "Francis Ford Coppola", "Brian De Palma", "Steven Spielberg"],
-        "corretta": "Martin Scorsese"
-    },
-    {
-        "domanda": "Quale film di animazione racconta la storia di una famiglia di supereroi che vive in clandestinità?",
-        "opzioni": ["Gli Incredibili", "Megamind", "Big Hero 6", "Spider-Man: Un nuovo universo"],
-        "corretta": "Gli Incredibili"
-    },
-    {
-        "domanda": "In quale anno è uscito nelle sale il primo capitolo di 'Jurassic Park'?",
-        "opzioni": ["1993", "1990", "1995", "1989"],
-        "corretta": "1993"
-    },
-    {
-        "domanda": "Quale attore interpreta l'antagonista Anton Chigurh in 'Non è un paese per vecchi'?",
-        "opzioni": ["Javier Bardem", "Josh Brolin", "Tommy Lee Jones", "Benicio del Toro"],
-        "corretta": "Javier Bardem"
-    },
-    {
-        "domanda": "Quale film ha vinto l'Oscar come Miglior Film nel 2024?",
-        "opzioni": ["Oppenheimer", "Povere Creature!", "Anatomia di una caduta", "The Zone of Interest"],
-        "corretta": "Oppenheimer"
-    },
-    {
-        "domanda": "Chi interpreta il ruolo di Joker nel film stand-alone del 2019 diretto da Todd Phillips?",
-        "opzioni": ["Joaquin Phoenix", "Heath Ledger", "Jared Leto", "Jack Nicholson"],
-        "corretta": "Joaquin Phoenix"
-    },
-    {
-        "domanda": "In 'Seven', quale dei sette peccati capitali è rappresentato dall'ultima scatola?",
-        "opzioni": ["Invidia", "Ira", "Accidia", "Lussuria"],
-        "corretta": "Invidia"
-    },
-    {
-        "domanda": "Quale regista è famoso per lo stile simmetrico e i colori pastello (es. 'Grand Budapest Hotel')?",
-        "opzioni": ["Wes Anderson", "Tim Burton", "Paul Thomas Anderson", "David Fincher"],
-        "corretta": "Wes Anderson"
-    },
-    {
-        "domanda": "In 'Arancia Meccanica', come si chiama la bevanda consumata dai Drughi al Korova Milk Bar?",
-        "opzioni": ["Latte+ (Moloko Plus)", "Nectar", "Veloce", "Synth-Milk"],
-        "corretta": "Latte+ (Moloko Plus)"
-    },
-    {
-        "domanda": "Quale film di fantascienza del 1982 è basato sul romanzo 'Il cacciatore di androidi'?",
-        "opzioni": ["Blade Runner", "Total Recall", "Minority Report", "Dune"],
-        "corretta": "Blade Runner"
-    },
-    {
-        "domanda": "Chi interpreta il ruolo di Jordan Belfort ne 'The Wolf of Wall Street'?",
-        "opzioni": ["Leonardo DiCaprio", "Jonah Hill", "Matthew McConaughey", "Brad Pitt"],
-        "corretta": "Leonardo DiCaprio"
-    },
-    {
-        "domanda": "Quale attore ha vinto l'Oscar postumo per la sua interpretazione in 'Il Gladiatore'?",
-        "opzioni": ["Nessuno (Oliver Reed morì ma non vinse)", "Russell Crowe", "Joaquin Phoenix", "Richard Harris"],
-        "corretta": "Nessuno (Oliver Reed morì ma non vinse)"
-    },
-    {
-        "domanda": "Quale film di Spielberg racconta lo sbarco in Normandia?",
-        "opzioni": ["Salvate il soldato Ryan", "Schindler's List", "Munich", "Il ponte delle spie"],
-        "corretta": "Salvate il soldato Ryan"
-    },
-    {
-        "domanda": "Qual è il nome del protagonista di 'Shutter Island' interpretato da DiCaprio?",
-        "opzioni": ["Teddy Daniels", "Cobb", "Howard Hughes", "Frank Abagnale"],
-        "corretta": "Teddy Daniels"
-    },
-    {
-        "domanda": "In quale film di Tarantino la trama ruota attorno al furto di diamanti finito male in un magazzino?",
-        "opzioni": ["Le Iene", "Pulp Fiction", "Jackie Brown", "The Hateful Eight"],
-        "corretta": "Le Iene"
-    },
-    {
-        "domanda": "Chi interpreta la protagonista Cassie nel thriller psicologico 'Promising Young Woman'?",
-        "opzioni": ["Carey Mulligan", "Margot Robbie", "Saoirse Ronan", "Florence Pugh"],
-        "corretta": "Carey Mulligan"
-    },
-    {
-        "domanda": "Quale attore interpreta l'investigatore privato in 'Chinatown' di Roman Polanski?",
-        "opzioni": ["Jack Nicholson", "Warren Beatty", "Robert Redford", "Paul Newman"],
-        "corretta": "Jack Nicholson"
-    },
-    {
-        "domanda": "In 'The Truman Show', qual è il nome del creatore del reality show interpretato da Ed Harris?",
-        "opzioni": ["Christof", "Marlon", "Kirk", "Moses"],
-        "corretta": "Christof"
-    },
-    {
-        "domanda": "Quale film di fantascienza del 2016 vede Amy Adams comunicare con alieni tramite simboli circolari?",
-        "opzioni": ["Arrival", "Life", "Passengers", "Annihilation"],
-        "corretta": "Arrival"
-    },
-    {
-        "domanda": "In 'Parasite', qual è l'odore che il Signor Park trova insopportabile nel Signor Kim?",
-        "opzioni": ["L'odore di chi viaggia in metropolitana", "L'odore di aglio", "L'odore di muffa", "L'odore di pioggia"],
-        "corretta": "L'odore di chi viaggia in metropolitana"
-    },
-    {
-        "domanda": "Quale film di Stanley Kubrick fu ritirato dalle sale del Regno Unito dallo stesso regista per timore di emulazione?",
-        "opzioni": ["Arancia Meccanica", "Lolita", "Eyes Wide Shut", "Full Metal Jacket"],
-        "corretta": "Arancia Meccanica"
-    },
-    {
-        "domanda": "Chi ha diretto il remake del 2021 di 'Dune'?",
-        "opzioni": ["Denis Villeneuve", "Ridley Scott", "Christopher Nolan", "James Cameron"],
-        "corretta": "Denis Villeneuve"
-    },
-    {
-        "domanda": "In 'The Departed', quale attore interpreta il boss della malavita irlandese Frank Costello?",
-        "opzioni": ["Jack Nicholson", "Mark Wahlberg", "Matt Damon", "Alec Baldwin"],
-        "corretta": "Jack Nicholson"
-    },
-    {
-        "domanda": "Quale film di animazione della Pixar esplora il mondo delle emozioni all'interno della testa di una ragazzina?",
-        "opzioni": ["Inside Out", "Coco", "Soul", "Luca"],
-        "corretta": "Inside Out"
-    },
-    {
-        "domanda": "In 'Psycho', qual è il cognome del proprietario del motel?",
-        "opzioni": ["Bates", "Crane", "Loomis", "Arbogast"],
-        "corretta": "Bates"
-    },
-    {
-        "domanda": "Quale film di Martin Scorsese racconta l'ascesa e la caduta del mafioso Henry Hill?",
-        "opzioni": ["Quei bravi ragazzi", "Casino", "The Irishman", "Gangs of New York"],
-        "corretta": "Quei bravi ragazzi"
-    },
-    {
-        "domanda": "In 'Oldboy' (versione originale di Park Chan-wook), per quanti anni viene tenuto prigioniero il protagonista?",
-        "opzioni": ["15 anni", "10 anni", "20 anni", "5 anni"],
-        "corretta": "15 anni"
-    },
-    {
-        "domanda": "Chi interpreta la versione anziana di Rose nel film 'Titanic' del 1997?",
-        "opzioni": ["Gloria Stuart", "Kathy Bates", "Frances Fisher", "Maggie Smith"],
-        "corretta": "Gloria Stuart"
-    },
-    {
-        "domanda": "Quale film del 2017 diretto da Jordan Peele affronta il tema del razzismo in chiave horror?",
-        "opzioni": ["Get Out", "Us", "Nope", "Midsommar"],
-        "corretta": "Get Out"
-    },
-    {
-        "domanda": "In 'Il silenzio degli innocenti', qual è la specialità culinaria che Hannibal Lecter mangia con le fave e un buon Chianti?",
-        "opzioni": ["Fegato umano", "Cervello", "Rognone", "Cuore"],
-        "corretta": "Fegato umano"
-    },
-    {
-        "domanda": "Quale attore interpreta il ruolo del protagonista in 'American Psycho'?",
-        "opzioni": ["Christian Bale", "Jared Leto", "Tom Cruise", "Edward Norton"],
-        "corretta": "Christian Bale"
-    },
-    {
-        "domanda": "In ' Whiplash', qual è lo strumento che il protagonista Andrew Neiman studia ossessivamente?",
-        "opzioni": ["Batteria", "Tromba", "Pianoforte", "Sassofono"],
-        "corretta": "Batteria"
-    },
-    {
-        "domanda": "Quale film di David Fincher termina con la frase: 'Mi hai conosciuto in un momento molto strano della mia vita'?",
-        "opzioni": ["Fight Club", "Seven", "Zodiac", "Gone Girl"],
-        "corretta": "Fight Club"
-    },
-    {
-        "domanda": "Chi ha vinto l'Oscar come Miglior Regista per il film 'La forma dell'acqua'?",
-        "opzioni": ["Guillermo del Toro", "Alfonso Cuarón", "Alejandro Iñárritu", "Bong Joon-ho"],
-        "corretta": "Guillermo del Toro"
-    },
-    {
-        "domanda": "In 'The Prestige', quale segreto nasconde il trucco del 'Trasporto Umano' di Alfred Borden?",
-        "opzioni": ["Ha un gemello identico", "Usa una macchina di Tesla", "Sfrutta botole nascoste", "Usa un sosia chirurgicamente alterato"],
-        "corretta": "Ha un gemello identico"
-    },
-    {
-        "domanda": "Chi interpreta la protagonista nel film horror 'Midsommar' di Ari Aster?",
-        "opzioni": ["Florence Pugh", "Anya Taylor-Joy", "Mia Goth", "Toni Collette"],
-        "corretta": "Florence Pugh"
-    },
-    {
-        "domanda": "Quale film di Christopher Nolan è girato in modo che una sequenza temporale vada avanti e l'altra all'indietro?",
-        "opzioni": ["Memento", "Tenet", "Inception", "Dunkirk"],
-        "corretta": "Memento"
-    },
-    {
-        "domanda": "In 'Bastardi senza gloria', come si fa chiamare il personaggio interpretato da Brad Pitt?",
-        "opzioni": ["Aldo l'Apache", "Donny l'Ebreo", "Hugo Stiglitz", "Archie Hicox"],
-        "corretta": "Aldo l'Apache"
-    },
-    {
-        "domanda": "Quale attore interpreta il detective Loki nel thriller 'Prisoners'?",
-        "opzioni": ["Jake Gyllenhaal", "Hugh Jackman", "Paul Dano", "Terrence Howard"],
-        "corretta": "Jake Gyllenhaal"
-    },
-    {
-        "domanda": "In 'Mad Max: Fury Road', come si chiama la guerriera interpretata da Charlize Theron?",
-        "opzioni": ["Imperatrice Furiosa", "Valkyrie", "Toast", "The Dag"],
-        "corretta": "Imperatrice Furiosa"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar ha per protagonista un vecchio venditore di palloncini di nome Carl?",
-        "opzioni": ["Up", "Soul", "Wall-E", "Coco"],
-        "corretta": "Up"
-    },
-    {
-        "domanda": "Chi ha diretto il film 'The Wolf of Wall Street'?",
-        "opzioni": ["Martin Scorsese", "Quentin Tarantino", "Ridley Scott", "Francis Ford Coppola"],
-        "corretta": "Martin Scorsese"
-    },
-    {
-        "domanda": "In 'Le riserve' (The Replacements), quale attore interpreta il quarterback Shane Falco?",
-        "opzioni": ["Keanu Reeves", "Gene Hackman", "Tom Cruise", "Brad Pitt"],
-        "corretta": "Keanu Reeves"
-    },
-    {
-        "domanda": "Quale film ha vinto l'Oscar come Miglior Film nel 1995, battendo 'Pulp Fiction' e 'Le ali della libertà'?",
-        "opzioni": ["Forrest Gump", "Braveheart", "Titanic", "Schindler's List"],
-        "corretta": "Forrest Gump"
-    },
-    {
-        "domanda": "In 'Joker' (2019), qual è il vero nome del protagonista prima della trasformazione?",
-        "opzioni": ["Arthur Fleck", "Jack Napier", "Joe Chill", "Thomas Wayne"],
-        "corretta": "Arthur Fleck"
-    },
-    {
-        "domanda": "Quale regista ha diretto 'Gran Torino' e 'Million Dollar Baby'?",
-        "opzioni": ["Clint Eastwood", "Steven Spielberg", "Ron Howard", "Mel Gibson"],
-        "corretta": "Clint Eastwood"
-    },
-    {
-        "domanda": "In 'Blade Runner 2049', chi interpreta l'agente K?",
-        "opzioni": ["Ryan Gosling", "Harrison Ford", "Jared Leto", "Tom Hardy"],
-        "corretta": "Ryan Gosling"
-    },
-    {
-        "domanda": "Quale attrice interpreta la Regina Elisabetta II nel film 'The Queen' (2006)?",
-        "opzioni": ["Helen Mirren", "Meryl Streep", "Cate Blanchett", "Judi Dench"],
-        "corretta": "Helen Mirren"
-    },
-    {
-        "domanda": "In quale città è ambientato il film 'La grande bellezza' di Paolo Sorrentino?",
-        "opzioni": ["Roma", "Napoli", "Milano", "Venezia"],
-        "corretta": "Roma"
-    },
-    {
-        "domanda": "Chi ha interpretato il ruolo di Voldemort nella saga cinematografica di Harry Potter?",
-        "opzioni": ["Ralph Fiennes", "Gary Oldman", "Alan Rickman", "Jason Isaacs"],
-        "corretta": "Ralph Fiennes"
-    },
-    {
-        "domanda": "In 'Django Unchained', quale attore interpreta il crudele proprietario terriero Calvin Candie?",
-        "opzioni": ["Leonardo DiCaprio", "Christoph Waltz", "Samuel L. Jackson", "Jamie Foxx"],
-        "corretta": "Leonardo DiCaprio"
-    },
-    {
-        "domanda": "Quale film di fantascienza del 2014 segue un gruppo di astronauti attraverso un wormhole?",
-        "opzioni": ["Interstellar", "Gravity", "The Martian", "Contact"],
-        "corretta": "Interstellar"
-    },
-    {
-        "domanda": "Chi è il regista del film horror 'Noi' (Us)?",
-        "opzioni": ["Jordan Peele", "Ari Aster", "Robert Eggers", "James Wan"],
-        "corretta": "Jordan Peele"
-    },
-    {
-        "domanda": "In 'Il Gladiatore', qual è il nome del figlio dell'imperatore Marco Aurelio?",
-        "opzioni": ["Commodo", "Massimo", "Lucio", "Quintus"],
-        "corretta": "Commodo"
-    },
-    {
-        "domanda": "Quale attore interpreta Iron Man nel Marvel Cinematic Universe?",
-        "opzioni": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],
-        "corretta": "Robert Downey Jr."
-    },
-    {
-        "domanda": "In quale film di Hitchcock la protagonista viene uccisa nella celebre scena della doccia?",
-        "opzioni": ["Psycho", "Gli Uccelli", "La finestra sul cortile", "Notorious"],
-        "corretta": "Psycho"
-    },
-    {
-        "domanda": "Chi interpreta la sposa in 'Kill Bill'?",
-        "opzioni": ["Uma Thurman", "Lucy Liu", "Daryl Hannah", "Vivica A. Fox"],
-        "corretta": "Uma Thurman"
-    },
-    {
-        "domanda": "Quale film racconta la storia della creazione di Facebook?",
-        "opzioni": ["The Social Network", "Steve Jobs", "Moneyball", "The Big Short"],
-        "corretta": "The Social Network"
-    },
-    {
-        "domanda": "In 'Zodiac', quale attore interpreta il giornalista Paul Avery?",
-        "opzioni": ["Robert Downey Jr.", "Jake Gyllenhaal", "Mark Ruffalo", "John Carroll Lynch"],
-        "corretta": "Robert Downey Jr."
-    },
-    {
-        "domanda": "Quale regista ha diretto 'Il labirinto del fauno'?",
-        "opzioni": ["Guillermo del Toro", "Alfonso Cuarón", "Alejandro Iñárritu", "Pedro Almodóvar"],
-        "corretta": "Guillermo del Toro"
-    },
-    {
-        "domanda": "In 'Birdman', il film è girato per sembrare cosa?",
-        "opzioni": ["Un unico piano sequenza", "Un documentario", "Un film muto", "Un cartone animato"],
-        "corretta": "Un unico piano sequenza"
-    },
-    {
-        "domanda": "Chi interpreta l'ispettore Javert nel film 'Les Misérables' (2012)?",
-        "opzioni": ["Russell Crowe", "Hugh Jackman", "Eddie Redmayne", "Sacha Baron Cohen"],
-        "corretta": "Russell Crowe"
-    },
-    {
-        "domanda": "Quale film di animazione della Disney è ispirato all'Amleto di Shakespeare?",
-        "opzioni": ["Il Re Leone", "Bambi", "Aladdin", "Hercules"],
-        "corretta": "Il Re Leone"
-    },
-    {
-        "domanda": "In 'C'era una volta a... Hollywood', chi interpreta lo stuntman Cliff Booth?",
-        "opzioni": ["Brad Pitt", "Leonardo DiCaprio", "Al Pacino", "Kurt Russell"],
-        "corretta": "Brad Pitt"
-    },
-    {
-        "domanda": "In 'The Departed', quale attore interpreta il poliziotto sotto copertura Billy Costigan?",
-        "opzioni": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson", "Mark Wahlberg"],
-        "corretta": "Leonardo DiCaprio"
-    },
-    {
-        "domanda": "Quale regista ha diretto il capolavoro del cinema coreano 'Oldboy'?",
-        "opzioni": ["Park Chan-wook", "Bong Joon-ho", "Kim Ki-duk", "Takeshi Kitano"],
-        "corretta": "Park Chan-wook"
-    },
-    {
-        "domanda": "In 'Shutter Island', qual è il vero nome del paziente 67?",
-        "opzioni": ["Andrew Laeddis", "Teddy Daniels", "Chuck Aule", "Lester Sheehan"],
-        "corretta": "Andrew Laeddis"
-    },
-    {
-        "domanda": "Chi interpreta la detective Marge Gunderson nel film 'Fargo'?",
-        "opzioni": ["Frances McDormand", "Julianne Moore", "Tilda Swinton", "Meryl Streep"],
-        "corretta": "Frances McDormand"
-    },
-    {
-        "domanda": "In 'Salvate il soldato Ryan', quanti sono i fratelli Ryan morti prima che inizi la missione di recupero?",
-        "opzioni": ["3", "2", "4", "1"],
-        "corretta": "3"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar ha come protagonista un topo che sogna di diventare uno chef?",
-        "opzioni": ["Ratatouille", "Luca", "Brave", "Cars"],
-        "corretta": "Ratatouille"
-    },
-    {
-        "domanda": "Chi interpreta l'ufficiale nazista Hans Landa in 'Bastardi senza gloria'?",
-        "opzioni": ["Christoph Waltz", "Michael Fassbender", "Daniel Brühl", "Til Schweiger"],
-        "corretta": "Christoph Waltz"
-    },
-    {
-        "domanda": "In 'Memento', di che colore sono le sequenze che seguono l'ordine cronologico corretto?",
-        "opzioni": ["Bianco e nero", "A colori", "Seppia", "Blu"],
-        "corretta": "Bianco e nero"
-    },
-    {
-        "domanda": "Quale attore interpreta l'antagonista Bane ne 'Il cavaliere oscuro - Il ritorno'?",
-        "opzioni": ["Tom Hardy", "Cillian Murphy", "Liam Neeson", "Gary Oldman"],
-        "corretta": "Tom Hardy"
-    },
-    {
-        "domanda": "In 'American Beauty', quale oggetto viene filmato in un video amatoriale e descritto come 'la cosa più bella'?",
-        "opzioni": ["Una busta di plastica", "Un petalo di rosa", "Un uccellino", "Una foglia"],
-        "corretta": "Una busta di plastica"
-    },
-    {
-        "domanda": "Quale film del 1994 vede Tom Hanks correre attraverso gli Stati Uniti?",
-        "opzioni": ["Forrest Gump", "Cast Away", "The Terminal", "Philadelphia"],
-        "corretta": "Forrest Gump"
-    },
-    {
-        "domanda": "Chi ha diretto il film horror 'L'Esorcista'?",
-        "opzioni": ["William Friedkin", "John Carpenter", "Wes Craven", "Roman Polanski"],
-        "corretta": "William Friedkin"
-    },
-    {
-        "domanda": "In 'The Hateful Eight', qual è lo strumento musicale che viene distrutto dal personaggio di Kurt Russell?",
-        "opzioni": ["Una chitarra", "Un violino", "Un pianoforte", "Un'armonica"],
-        "corretta": "Una chitarra"
-    },
-    {
-        "domanda": "Quale film di animazione Disney racconta la storia di una ragazza polinesiana e del semidio Maui?",
-        "opzioni": ["Oceania", "Lilo & Stitch", "Raya e l'ultimo drago", "Frozen"],
-        "corretta": "Oceania"
-    },
-    {
-        "domanda": "In quale anno è ambientato il futuro distopico del primo 'Blade Runner'?",
-        "opzioni": ["2019", "2022", "2049", "1999"],
-        "corretta": "2019"
-    },
-    {
-        "domanda": "Chi interpreta il protagonista Frank Abagnale Jr. in 'Prova a prendermi'?",
-        "opzioni": ["Leonardo DiCaprio", "Tom Hanks", "Matt Damon", "Bradley Cooper"],
-        "corretta": "Leonardo DiCaprio"
-    },
-    {
-        "domanda": "Quale film di Stanley Kubrick inizia con la celebre sequenza dell'osso lanciato in aria che diventa un'astronave?",
-        "opzioni": ["2001: Odissea nello spazio", "Dr. Stranamore", "Arancia Meccanica", "Full Metal Jacket"],
-        "corretta": "2001: Odissea nello spazio"
-    },
-    {
-        "domanda": "In 'Pulp Fiction', qual è il versetto biblico (inventato) citato da Jules Winnfield?",
-        "opzioni": ["Ezechiele 25:17", "Genesi 1:1", "Salmi 23", "Apocalisse 13:1"],
-        "corretta": "Ezechiele 25:17"
-    },
-    {
-        "domanda": "Chi interpreta la protagonista in 'Alien' (1979)?",
-        "opzioni": ["Sigourney Weaver", "Linda Hamilton", "Jamie Lee Curtis", "Carrie Fisher"],
-        "corretta": "Sigourney Weaver"
-    },
-    {
-        "domanda": "In 'Il padrino - Parte II', quale attore interpreta il giovane Vito Corleone?",
-        "opzioni": ["Robert De Niro", "Al Pacino", "James Caan", "Marlon Brando"],
-        "corretta": "Robert De Niro"
-    },
-    {
-        "domanda": "Quale film di David Fincher racconta la storia di un uomo che invecchia al contrario?",
-        "opzioni": ["Il curioso caso di Benjamin Button", "The Game", "Zodiac", "Mank"],
-        "corretta": "Il curioso caso di Benjamin Button"
-    },
-    {
-        "domanda": "In 'Scarface', qual è la nazionalità di Tony Montana?",
-        "opzioni": ["Cubana", "Messicana", "Colombiana", "Portoricana"],
-        "corretta": "Cubana"
-    },
-    {
-        "domanda": "Chi ha diretto il film 'La La Land'?",
-        "opzioni": ["Damien Chazelle", "Greta Gerwig", "Barry Jenkins", "Luca Guadagnino"],
-        "corretta": "Damien Chazelle"
-    },
-    {
-        "domanda": "In 'The Matrix', qual è il soprannome del personaggio interpretato da Laurence Fishburne?",
-        "opzioni": ["Morpheus", "Neo", "Cypher", "Tank"],
-        "corretta": "Morpheus"
-    },
-    {
-        "domanda": "Quale film di guerra di Francis Ford Coppola è ispirato al romanzo 'Cuore di tenebra'?",
-        "opzioni": ["Apocalypse Now", "Full Metal Jacket", "Platoon", "The Deer Hunter"],
-        "corretta": "Apocalypse Now"
-    },
-    {
-        "domanda": "Chi interpreta l'eccentrico Willy Wonka nel film 'La fabbrica di cioccolato' di Tim Burton?",
-        "opzioni": ["Johnny Depp", "Freddie Highmore", "Gene Wilder", "Timothée Chalamet"],
-        "corretta": "Johnny Depp"
-    },
-    {
-        "domanda": "In '12 anni schiavo', quale attore interpreta il crudele proprietario Edwin Epps?",
-        "opzioni": ["Michael Fassbender", "Benedict Cumberbatch", "Brad Pitt", "Paul Giamatti"],
-        "corretta": "Michael Fassbender"
-    },
-    {
-        "domanda": "Quale film di fantascienza vede un uomo vivere ripetutamente lo stesso giorno per combattere un'invasione aliena?",
-        "opzioni": ["Edge of Tomorrow", "Looper", "Source Code", "Oblivion"],
-        "corretta": "Edge of Tomorrow"
-    },
-    {
-        "domanda": "In 'Gran Torino', quale modello di auto cerca di rubare il giovane Thao?",
-        "opzioni": ["Ford Gran Torino del 1972", "Chevrolet Camaro", "Dodge Charger", "Ford Mustang"],
-        "corretta": "Ford Gran Torino del 1972"
-    },
-    {
-        "domanda": "Quale attrice interpreta la Regina di Cuori nel film 'Alice in Wonderland' di Tim Burton?",
-        "opzioni": ["Helena Bonham Carter", "Anne Hathaway", "Mia Wasikowska", "Cate Blanchett"],
-        "corretta": "Helena Bonham Carter"
-    },
-    {
-        "domanda": "In 'The Truman Show', qual è il nome del creatore del reality show interpretato da Ed Harris?",
-        "opzioni": ["Christof", "Marlon", "Kirk", "Moses"],
-        "corretta": "Christof"
-    },
-    {
-        "domanda": "Quale film di fantascienza del 2016 vede Amy Adams comunicare con alieni tramite simboli circolari?",
-        "opzioni": ["Arrival", "Life", "Passengers", "Annihilation"],
-        "corretta": "Arrival"
-    },
-    {
-        "domanda": "In 'Parasite', qual è l'odore che il Signor Park trova insopportabile nel Signor Kim?",
-        "opzioni": ["L'odore di chi viaggia in metropolitana", "L'odore di aglio", "L'odore di muffa", "L'odore di pioggia"],
-        "corretta": "L'odore di chi viaggia in metropolitana"
-    },
-    {
-        "domanda": "Quale film di Stanley Kubrick fu ritirato dalle sale del Regno Unito dallo stesso regista per timore di emulazione?",
-        "opzioni": ["Arancia Meccanica", "Lolita", "Eyes Wide Shut", "Full Metal Jacket"],
-        "corretta": "Arancia Meccanica"
-    },
-    {
-        "domanda": "Chi ha diretto il remake del 2021 di 'Dune'?",
-        "opzioni": ["Denis Villeneuve", "Ridley Scott", "Christopher Nolan", "James Cameron"],
-        "corretta": "Denis Villeneuve"
-    },
-    {
-        "domanda": "In 'The Departed', quale attore interpreta il boss della malavita irlandese Frank Costello?",
-        "opzioni": ["Jack Nicholson", "Mark Wahlberg", "Matt Damon", "Alec Baldwin"],
-        "corretta": "Jack Nicholson"
-    },
-    {
-        "domanda": "Quale film di animazione della Pixar esplora il mondo delle emozioni all'interno della testa di una ragazzina?",
-        "opzioni": ["Inside Out", "Coco", "Soul", "Luca"],
-        "corretta": "Inside Out"
-    },
-    {
-        "domanda": "In 'Psycho', qual è il cognome del proprietario del motel?",
-        "opzioni": ["Bates", "Crane", "Loomis", "Arbogast"],
-        "corretta": "Bates"
-    },
-    {
-        "domanda": "Quale film di Martin Scorsese racconta l'ascesa e la caduta del mafioso Henry Hill?",
-        "opzioni": ["Quei bravi ragazzi", "Casino", "The Irishman", "Gangs of New York"],
-        "corretta": "Quei bravi ragazzi"
-    },
-    {
-        "domanda": "In 'Oldboy' (versione originale di Park Chan-wook), per quanti anni viene tenuto prigioniero il protagonista?",
-        "opzioni": ["15 anni", "10 anni", "20 anni", "5 anni"],
-        "corretta": "15 anni"
-    },
-    {
-        "domanda": "Chi interpreta la versione anziana di Rose nel film 'Titanic' del 1997?",
-        "opzioni": ["Gloria Stuart", "Kathy Bates", "Frances Fisher", "Maggie Smith"],
-        "corretta": "Gloria Stuart"
-    },
-    {
-        "domanda": "Quale film del 2017 diretto da Jordan Peele affronta il tema del razzismo in chiave horror?",
-        "opzioni": ["Get Out", "Us", "Nope", "Midsommar"],
-        "corretta": "Get Out"
-    },
-    {
-        "domanda": "In 'Il silenzio degli innocenti', qual è la specialità culinaria che Hannibal Lecter mangia con le fave e un buon Chianti?",
-        "opzioni": ["Fegato umano", "Cervello", "Rognone", "Cuore"],
-        "corretta": "Fegato umano"
-    },
-    {
-        "domanda": "Quale attore interpreta il ruolo del protagonista in 'American Psycho'?",
-        "opzioni": ["Christian Bale", "Jared Leto", "Tom Cruise", "Edward Norton"],
-        "corretta": "Christian Bale"
-    },
-    {
-        "domanda": "In ' Whiplash', qual è lo strumento che il protagonista Andrew Neiman studia ossessivamente?",
-        "opzioni": ["Batteria", "Tromba", "Pianoforte", "Sassofono"],
-        "corretta": "Batteria"
-    },
-    {
-        "domanda": "Quale film di David Fincher termina con la frase: 'Mi hai conosciuto in un momento molto strano della mia vita'?",
-        "opzioni": ["Fight Club", "Seven", "Zodiac", "Gone Girl"],
-        "corretta": "Fight Club"
-    },
-    {
-        "domanda": "Chi ha vinto l'Oscar come Miglior Regista per il film 'La forma dell'acqua'?",
-        "opzioni": ["Guillermo del Toro", "Alfonso Cuarón", "Alejandro Iñárritu", "Bong Joon-ho"],
-        "corretta": "Guillermo del Toro"
-    },
-    {
-        "domanda": "In 'The Prestige', quale segreto nasconde il trucco del 'Trasporto Umano' di Alfred Borden?",
-        "opzioni": ["Ha un gemello identico", "Usa una macchina di Tesla", "Sfrutta botole nascoste", "Usa un sosia chirurgicamente alterato"],
-        "corretta": "Ha un gemello identico"
-    },
-    {
-        "domanda": "Chi interpreta la protagonista nel film horror 'Midsommar' di Ari Aster?",
-        "opzioni": ["Florence Pugh", "Anya Taylor-Joy", "Mia Goth", "Toni Collette"],
-        "corretta": "Florence Pugh"
-    },
-    {
-        "domanda": "Quale film di Christopher Nolan è girato in modo che una sequenza temporale vada avanti e l'altra all'indietro?",
-        "opzioni": ["Memento", "Tenet", "Inception", "Dunkirk"],
-        "corretta": "Memento"
-    },
-    {
-        "domanda": "In 'Bastardi senza gloria', come si fa chiamare il personaggio interpretato da Brad Pitt?",
-        "opzioni": ["Aldo l'Apache", "Donny l'Ebreo", "Hugo Stiglitz", "Archie Hicox"],
-        "corretta": "Aldo l'Apache"
-    },
-    {
-        "domanda": "Quale attore interpreta il detective Loki nel thriller 'Prisoners'?",
-        "opzioni": ["Jake Gyllenhaal", "Hugh Jackman", "Paul Dano", "Terrence Howard"],
-        "corretta": "Jake Gyllenhaal"
-    },
-    {
-        "domanda": "In 'Mad Max: Fury Road', come si chiama la guerriera interpretata da Charlize Theron?",
-        "opzioni": ["Imperatrice Furiosa", "Valkyrie", "Toast", "The Dag"],
-        "corretta": "Imperatrice Furiosa"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar ha per protagonista un vecchio venditore di palloncini di nome Carl?",
-        "opzioni": ["Up", "Soul", "Wall-E", "Coco"],
-        "corretta": "Up"
-    },
-    {
-        "domanda": "Chi ha diretto il film 'The Wolf of Wall Street'?",
-        "opzioni": ["Martin Scorsese", "Quentin Tarantino", "Ridley Scott", "Francis Ford Coppola"],
-        "corretta": "Martin Scorsese"
-    },
-    {
-        "domanda": "In 'Le riserve' (The Replacements), quale attore interpreta il quarterback Shane Falco?",
-        "opzioni": ["Keanu Reeves", "Gene Hackman", "Tom Cruise", "Brad Pitt"],
-        "corretta": "Keanu Reeves"
-    },
-    {
-        "domanda": "Quale film ha vinto l'Oscar come Miglior Film nel 1995, battendo 'Pulp Fiction' e 'Le ali della libertà'?",
-        "opzioni": ["Forrest Gump", "Braveheart", "Titanic", "Schindler's List"],
-        "corretta": "Forrest Gump"
-    },
-    {
-        "domanda": "In 'Joker' (2019), qual è il vero nome del protagonista prima della trasformazione?",
-        "opzioni": ["Arthur Fleck", "Jack Napier", "Joe Chill", "Thomas Wayne"],
-        "corretta": "Arthur Fleck"
-    },
-    {
-        "domanda": "Quale regista ha diretto 'Gran Torino' e 'Million Dollar Baby'?",
-        "opzioni": ["Clint Eastwood", "Steven Spielberg", "Ron Howard", "Mel Gibson"],
-        "corretta": "Clint Eastwood"
-    },
-    {
-        "domanda": "In 'Blade Runner 2049', chi interpreta l'agente K?",
-        "opzioni": ["Ryan Gosling", "Harrison Ford", "Jared Leto", "Tom Hardy"],
-        "corretta": "Ryan Gosling"
-    },
-    {
-        "domanda": "In 'Inception', quale oggetto usa Cobb (DiCaprio) come totem per capire se si trova in un sogno?",
-        "opzioni": ["Una trottola", "Un dado", "Una pedina degli scacchi", "Una moneta"],
-        "corretta": "Una trottola"
-    },
-    {
-        "domanda": "Quale film di fantascienza del 2013 è quasi interamente ambientato nello spazio e vede come protagonista Sandra Bullock?",
-        "opzioni": ["Gravity", "Interstellar", "Life", "Apollo 13"],
-        "corretta": "Gravity"
-    },
-    {
-        "domanda": "Chi interpreta il personaggio di John Wick nella celebre saga d'azione?",
-        "opzioni": ["Keanu Reeves", "Tom Cruise", "Liam Neeson", "Jason Statham"],
-        "corretta": "Keanu Reeves"
-    },
-    {
-        "domanda": "In 'The Social Network', chi interpreta il fondatore di Napster, Sean Parker?",
-        "opzioni": ["Justin Timberlake", "Andrew Garfield", "Jesse Eisenberg", "Armie Hammer"],
-        "corretta": "Justin Timberlake"
-    },
-    {
-        "domanda": "Quale film di Quentin Tarantino è diviso in capitoli e racconta la vendetta di 'Sposa'?",
-        "opzioni": ["Kill Bill", "Jackie Brown", "Pulp Fiction", "Death Proof"],
-        "corretta": "Kill Bill"
-    },
-    {
-        "domanda": "In 'V per Vendetta', quale maschera indossa il protagonista per nascondere il volto?",
-        "opzioni": ["Guy Fawkes", "Dali", "Michael Myers", "Arlecchino"],
-        "corretta": "Guy Fawkes"
-    },
-    {
-        "domanda": "Quale attore interpreta l'alpinista Aron Ralston nel film '127 ore'?",
-        "opzioni": ["James Franco", "Jake Gyllenhaal", "Ryan Reynolds", "Tom Hardy"],
-        "corretta": "James Franco"
-    },
-    {
-        "domanda": "In 'No Country for Old Men', quale strumento usa Anton Chigurh per uccidere alcune delle sue vittime?",
-        "opzioni": ["Una pistola a proiettile captivo", "Un silenziatore artigianale", "Un arco", "Un veleno"],
-        "corretta": "Una pistola a proiettile captivo"
-    },
-    {
-        "domanda": "Chi ha diretto il film 'The Hateful Eight'?",
-        "opzioni": ["Quentin Tarantino", "Robert Rodriguez", "Coen Brothers", "Sergio Leone"],
-        "corretta": "Quentin Tarantino"
-    },
-    {
-        "domanda": "In quale film di fantascienza del 1997 i nomi dei protagonisti richiamano le basi del DNA (A, C, G, T)?",
-        "opzioni": ["Gattaca", "Contact", "Il quinto elemento", "Starship Troopers"],
-        "corretta": "Gattaca"
-    },
-    {
-        "domanda": "Quale attore interpreta il ruolo di Patrick Bateman in 'American Psycho'?",
-        "opzioni": ["Christian Bale", "Jared Leto", "Tom Cruise", "Edward Norton"],
-        "corretta": "Christian Bale"
-    },
-    {
-        "domanda": "In 'Il Signore degli Anelli', chi è l'attore che interpreta il personaggio di Aragorn?",
-        "opzioni": ["Viggo Mortensen", "Orlando Bloom", "Sean Bean", "Ian McKellen"],
-        "corretta": "Viggo Mortensen"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar racconta il viaggio di un pesce pagliaccio alla ricerca del figlio?",
-        "opzioni": ["Alla ricerca di Nemo", "Shark Tale", "Luca", "Oceania"],
-        "corretta": "Alla ricerca di Nemo"
-    },
-    {
-        "domanda": "Chi interpreta l'enigmatico Gatsby nel film 'Il grande Gatsby' di Baz Luhrmann?",
-        "opzioni": ["Leonardo DiCaprio", "Tobey Maguire", "Joel Edgerton", "Ben Affleck"],
-        "corretta": "Leonardo DiCaprio"
-    },
-    {
-        "domanda": "In 'Sesto Senso', quale colore viene usato dal regista per indicare la presenza del soprannaturale?",
-        "opzioni": ["Rosso", "Blu", "Giallo", "Bianco"],
-        "corretta": "Rosso"
-    },
-    {
-        "domanda": "Quale film di Danny Boyle è ambientato nelle baraccopoli di Mumbai e ruota attorno a un quiz televisivo?",
-        "opzioni": ["The Millionaire", "Trainspotting", "Sunshine", "Yesterday"],
-        "corretta": "The Millionaire"
-    },
-    {
-        "domanda": "Chi interpreta il ruolo di Wolverine nella saga degli X-Men?",
-        "opzioni": ["Hugh Jackman", "Tom Hardy", "Karl Urban", "Scott Eastwood"],
-        "corretta": "Hugh Jackman"
-    },
-    {
-        "domanda": "In 'The Prestige', quale scienziato realmente esistito viene interpretato da David Bowie?",
-        "opzioni": ["Nikola Tesla", "Thomas Edison", "Albert Einstein", "Graham Bell"],
-        "corretta": "Nikola Tesla"
-    },
-    {
-        "domanda": "Quale film del 2014 racconta la vita dello scienziato Stephen Hawking?",
-        "opzioni": ["La teoria del tutto", "The Imitation Game", "A Beautiful Mind", "First Man"],
-        "corretta": "La teoria del tutto"
-    },
-    {
-        "domanda": "In 'The Wolf of Wall Street', qual è il nome della società fondata da Jordan Belfort?",
-        "opzioni": ["Stratton Oakmont", "Wall Street Corp", "Forbes & Co", "Belfort Investments"],
-        "corretta": "Stratton Oakmont"
-    },
-    {
-        "domanda": "Chi ha diretto il kolossal 'Titanic'?",
-        "opzioni": ["James Cameron", "Steven Spielberg", "Ridley Scott", "George Lucas"],
-        "corretta": "James Cameron"
-    },
-    {
-        "domanda": "In 'The Hateful Eight', chi è il boia incaricato di impiccare Daisy Domergue?",
-        "opzioni": ["Oswaldo Mobray", "Joe Gage", "John Ruth", "Chris Mannix"],
-        "corretta": "Oswaldo Mobray"
-    },
-    {
-        "domanda": "Quale attore interpreta il protagonista in 'Drive' (2011)?",
-        "opzioni": ["Ryan Gosling", "Bradley Cooper", "Oscar Isaac", "Jake Gyllenhaal"],
-        "corretta": "Ryan Gosling"
-    },
-    {
-        "domanda": "In 'Joker', quale comico e conduttore TV viene interpretato da Robert De Niro?",
-        "opzioni": ["Murray Franklin", "Jimmy Fallon", "David Letterman", "Rupert Pupkin"],
-        "corretta": "Murray Franklin"
-    },
-    {
-        "domanda": "Quale film di animazione Disney del 1994 è ambientato nella savana africana?",
-        "opzioni": ["Il Re Leone", "Tarzan", "Madagascar", "Dumbo"],
-        "corretta": "Il Re Leone"
-    },
-    {
-        "domanda": "Chi interpreta la protagonista Katniss Everdeen nella saga 'Hunger Games'?",
-        "opzioni": ["Jennifer Lawrence", "Shailene Woodley", "Emma Stone", "Hailee Steinfeld"],
-        "corretta": "Jennifer Lawrence"
-    },
-    {
-        "domanda": "In 'Full Metal Jacket', come viene soprannominato il soldato interpretato da Vincent D'Onofrio?",
-        "opzioni": ["Palla di Lardo", "Biancaneve", "Cowboy", "Joker"],
-        "corretta": "Palla di Lardo"
-    },
-    {
-        "domanda": "Quale film di Ridley Scott racconta la storia di un astronauta abbandonato su Marte?",
-        "opzioni": ["The Martian", "Prometheus", "Interstellar", "Ad Astra"],
-        "corretta": "The Martian"
-    },
-    {
-        "domanda": "In 'Pulp Fiction', come viene chiamato il Big Mac in Francia secondo Vincent Vega?",
-        "opzioni": ["Le Grand Mac", "Royale con formaggio", "Mac de France", "Burger de Luxe"],
-        "corretta": "Le Grand Mac"
-    },
-    {
-        "domanda": "Chi interpreta il ruolo di Neo nella trilogia originale di 'Matrix'?",
-        "opzioni": ["Keanu Reeves", "Laurence Fishburne", "Hugo Weaving", "Carrie-Anne Moss"],
-        "corretta": "Keanu Reeves"
-    },
-    {
-        "domanda": "In 'The Departed', quale attore interpreta il poliziotto sotto copertura Billy Costigan?",
-        "opzioni": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson", "Mark Wahlberg"],
-        "corretta": "Leonardo DiCaprio"
-    },
-    {
-        "domanda": "Quale regista ha diretto il capolavoro del cinema coreano 'Oldboy' (2003)?",
-        "opzioni": ["Park Chan-wook", "Bong Joon-ho", "Kim Ki-duk", "Takeshi Kitano"],
-        "corretta": "Park Chan-wook"
-    },
-    {
-        "domanda": "In 'Shutter Island', qual è il vero nome del paziente 67?",
-        "opzioni": ["Andrew Laeddis", "Teddy Daniels", "Chuck Aule", "Lester Sheehan"],
-        "corretta": "Andrew Laeddis"
-    },
-    {
-        "domanda": "Chi interpreta la detective Marge Gunderson nel film 'Fargo'?",
-        "opzioni": ["Frances McDormand", "Julianne Moore", "Tilda Swinton", "Meryl Streep"],
-        "corretta": "Frances McDormand"
-    },
-    {
-        "domanda": "In 'Salvate il soldato Ryan', quanti sono i fratelli Ryan dichiarati morti prima della missione?",
-        "opzioni": ["3", "2", "4", "1"],
-        "corretta": "3"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar ha come protagonista un topo che sogna di diventare uno chef a Parigi?",
-        "opzioni": ["Ratatouille", "Luca", "Brave", "Cars"],
-        "corretta": "Ratatouille"
-    },
-    {
-        "domanda": "Chi interpreta l'ufficiale delle SS Hans Landa in 'Bastardi senza gloria'?",
-        "opzioni": ["Christoph Waltz", "Michael Fassbender", "Daniel Brühl", "Til Schweiger"],
-        "corretta": "Christoph Waltz"
-    },
-    {
-        "domanda": "In 'Memento', di che colore sono le sequenze che seguono l'ordine cronologico lineare?",
-        "opzioni": ["Bianco e nero", "A colori", "Seppia", "Blu"],
-        "corretta": "Bianco e nero"
-    },
-    {
-        "domanda": "Quale attore interpreta l'antagonista Bane ne 'Il cavaliere oscuro - Il ritorno'?",
-        "opzioni": ["Tom Hardy", "Cillian Murphy", "Liam Neeson", "Gary Oldman"],
-        "corretta": "Tom Hardy"
-    },
-    {
-        "domanda": "In 'American Beauty', quale oggetto filmato in un video amatoriale viene descritto come 'la cosa più bella'?",
-        "opzioni": ["Una busta di plastica", "Un petalo di rosa", "Un uccellino", "Una foglia"],
-        "corretta": "Una busta di plastica"
-    },
-    {
-        "domanda": "Quale film del 1994 vede Tom Hanks attraversare gli Stati Uniti di corsa?",
-        "opzioni": ["Forrest Gump", "Cast Away", "The Terminal", "Philadelphia"],
-        "corretta": "Forrest Gump"
-    },
-    {
-        "domanda": "Chi ha diretto il film horror 'L'Esorcista' (1973)?",
-        "opzioni": ["William Friedkin", "John Carpenter", "Wes Craven", "Roman Polanski"],
-        "corretta": "William Friedkin"
-    },
-    {
-        "domanda": "In 'The Hateful Eight', quale strumento musicale (un pezzo d'epoca) viene distrutto accidentalmente sul set?",
-        "opzioni": ["Una chitarra", "Un violino", "Un pianoforte", "Un'armonica"],
-        "corretta": "Una chitarra"
-    },
-    {
-        "domanda": "Quale film di animazione Disney racconta la storia di una ragazza polinesiana e del semidio Maui?",
-        "opzioni": ["Oceania", "Lilo & Stitch", "Raya e l'ultimo drago", "Frozen"],
-        "corretta": "Oceania"
-    },
-    {
-        "domanda": "In quale anno è ambientato il futuro distopico nel primo capitolo di 'Blade Runner'?",
-        "opzioni": ["2019", "2022", "2049", "1999"],
-        "corretta": "2019"
-    },
-    {
-        "domanda": "Chi interpreta il protagonista Frank Abagnale Jr. in 'Prova a prendermi'?",
-        "opzioni": ["Leonardo DiCaprio", "Tom Hanks", "Matt Damon", "Bradley Cooper"],
-        "corretta": "Leonardo DiCaprio"
-    },
-    {
-        "domanda": "Quale film di Stanley Kubrick inizia con la transizione tra un osso lanciato in aria e un'astronave?",
-        "opzioni": ["2001: Odissea nello spazio", "Dr. Stranamore", "Arancia Meccanica", "Full Metal Jacket"],
-        "corretta": "2001: Odissea nello spazio"
-    },
-    {
-        "domanda": "In 'Pulp Fiction', qual è il versetto biblico (parzialmente inventato) citato da Jules?",
-        "opzioni": ["Ezechiele 25:17", "Genesi 1:1", "Salmi 23", "Apocalisse 13:1"],
-        "corretta": "Ezechiele 25:17"
-    },
-    {
-        "domanda": "Chi interpreta l'eroina Ellen Ripley nel film 'Alien' (1979)?",
-        "opzioni": ["Sigourney Weaver", "Linda Hamilton", "Jamie Lee Curtis", "Carrie Fisher"],
-        "corretta": "Sigourney Weaver"
-    },
-    {
-        "domanda": "In 'Il padrino - Parte II', quale attore interpreta il giovane Vito Corleone?",
-        "opzioni": ["Robert De Niro", "Al Pacino", "James Caan", "Marlon Brando"],
-        "corretta": "Robert De Niro"
-    },
-    {
-        "domanda": "Quale film di David Fincher racconta la storia di un uomo che nasce vecchio e ringiovanisce col tempo?",
-        "opzioni": ["Il curioso caso di Benjamin Button", "The Game", "Zodiac", "Mank"],
-        "corretta": "Il curioso caso di Benjamin Button"
-    },
-    {
-        "domanda": "In 'Scarface', da quale paese proviene il protagonista Tony Montana?",
-        "opzioni": ["Cuba", "Messico", "Colombia", "Porto Rico"],
-        "corretta": "Cuba"
-    },
-    {
-        "domanda": "Chi ha diretto il musical 'La La Land'?",
-        "opzioni": ["Damien Chazelle", "Greta Gerwig", "Barry Jenkins", "Luca Guadagnino"],
-        "corretta": "Damien Chazelle"
-    },
-    {
-        "domanda": "In 'Matrix', qual è il nome del leader della resistenza interpretato da Laurence Fishburne?",
-        "opzioni": ["Morpheus", "Neo", "Cypher", "Tank"],
-        "corretta": "Morpheus"
-    },
-    {
-        "domanda": "Quale film di guerra di Francis Ford Coppola traspone 'Cuore di tenebra' in Vietnam?",
-        "opzioni": ["Apocalypse Now", "Full Metal Jacket", "Platoon", "Il cacciatore"],
-        "corretta": "Apocalypse Now"
-    },
-    {
-        "domanda": "Chi interpreta Willy Wonka nella versione diretta da Tim Burton?",
-        "opzioni": ["Johnny Depp", "Freddie Highmore", "Gene Wilder", "Timothée Chalamet"],
-        "corretta": "Johnny Depp"
-    },
-    {
-        "domanda": "In '12 anni schiavo', quale attore interpreta il proprietario terriero Edwin Epps?",
-        "opzioni": ["Michael Fassbender", "Benedict Cumberbatch", "Brad Pitt", "Paul Giamatti"],
-        "corretta": "Michael Fassbender"
-    },
-    {
-        "domanda": "Quale film vede un uomo rivivere lo stesso giorno per combattere gli alieni 'Mimics'?",
-        "opzioni": ["Edge of Tomorrow", "Looper", "Source Code", "Oblivion"],
-        "corretta": "Edge of Tomorrow"
-    },
-    {
-        "domanda": "In 'Gran Torino', quale auto d'epoca Walt Kowalski custodisce gelosamente?",
-        "opzioni": ["Ford Gran Torino del 1972", "Chevrolet Camaro", "Dodge Charger", "Ford Mustang"],
-        "corretta": "Ford Gran Torino del 1972"
-    },
-    {
-        "domanda": "Quale attrice interpreta la Regina Rossa in 'Alice in Wonderland' (2010)?",
-        "opzioni": ["Helena Bonham Carter", "Anne Hathaway", "Mia Wasikowska", "Cate Blanchett"],
-        "corretta": "Helena Bonham Carter"
-    },
-    {
-        "domanda": "Quale film di Christopher Nolan è basato sulla biografia di J. Robert Oppenheimer?",
-        "opzioni": ["Oppenheimer", "Tenet", "Dunkirk", "The Prestige"],
-        "corretta": "Oppenheimer"
-    },
-    {
-        "domanda": "In 'Bastardi senza gloria', in quale città avviene la sparatoria nella taverna sotterranea?",
-        "opzioni": ["Nadine", "Berlino", "Parigi", "Lione"],
-        "corretta": "Nadine"
-    },
-    {
-        "domanda": "Chi interpreta il protagonista maschile nel film 'Promising Young Woman'?",
-        "opzioni": ["Bo Burnham", "Adam Brody", "Christopher Mintz-Plasse", "Max Greenfield"],
-        "corretta": "Bo Burnham"
-    },
-    {
-        "domanda": "In quale film di animazione Pixar i protagonisti sono personificazioni dei 22 elementi dell'anima?",
-        "opzioni": ["Soul", "Inside Out", "Onward", "Coco"],
-        "corretta": "Soul"
-    },
-    {
-        "domanda": "Chi ha diretto il film thriller 'Zodiac' del 2007?",
-        "opzioni": ["David Fincher", "Denis Villeneuve", "Christopher Nolan", "Bong Joon-ho"],
-        "corretta": "David Fincher"
-    },
-    {
-        "domanda": "In 'The Departed', qual è l'animale che appare nell'ultima inquadratura del film?",
-        "opzioni": ["Un topo", "Un piccione", "Un gatto", "Un cane"],
-        "corretta": "Un topo"
-    },
-    {
-        "domanda": "Quale attore interpreta il ruolo di Ken nel film 'Barbie' (2023)?",
-        "opzioni": ["Ryan Gosling", "Simu Liu", "Michael Cera", "Will Ferrell"],
-        "corretta": "Ryan Gosling"
-    },
-    {
-        "domanda": "In 'Pulp Fiction', qual è il nome del personaggio interpretato da Harvey Keitel?",
-        "opzioni": ["Mr. Wolf", "Mr. Pink", "Mr. White", "Mr. Blonde"],
-        "corretta": "Mr. Wolf"
-    },
-    {
-        "domanda": "Quale film di Stanley Kubrick è tratto da un romanzo di Stephen King?",
-        "opzioni": ["Shining", "Barry Lyndon", "Arancia Meccanica", "Lolita"],
-        "corretta": "Shining"
-    },
-    {
-        "domanda": "Chi interpreta l'antagonista principale in 'No Country for Old Men'?",
-        "opzioni": ["Javier Bardem", "Josh Brolin", "Tommy Lee Jones", "Woody Harrelson"],
-        "corretta": "Javier Bardem"
-    },
-    {
-        "domanda": "In 'Heretic', qual è il tema principale del 'duello verbale' proposto dal personaggio di Hugh Grant?",
-        "opzioni": ["La religione", "La politica", "La scienza", "La letteratura"],
-        "corretta": "La religione"
-    },
-    {
-        "domanda": "Quale attrice interpreta la protagonista nel film 'Povere Creature!' (Poor Things)?",
-        "opzioni": ["Emma Stone", "Margot Robbie", "Anya Taylor-Joy", "Florence Pugh"],
-        "corretta": "Emma Stone"
-    },
-    {
-        "domanda": "In 'Quando Dio imparò a scrivere', la protagonista Alice Gould sostiene di essere cosa?",
-        "opzioni": ["Un'investigatrice privata", "Un medico", "Una scrittrice", "Una vittima di rapimento"],
-        "corretta": "Un'investigatrice privata"
-    },
-    {
-        "domanda": "Chi ha diretto il pluripremiato film 'La forma dell'acqua'?",
-        "opzioni": ["Guillermo del Toro", "Alfonso Cuarón", "Alejandro Iñárritu", "Bong Joon-ho"],
-        "corretta": "Guillermo del Toro"
-    },
-    {
-        "domanda": "In 'Interstellar', come si chiama il robot che accompagna Cooper nella missione?",
-        "opzioni": ["TARS", "HAL", "R2-D2", "WALL-E"],
-        "corretta": "TARS"
-    },
-    {
-        "domanda": "Quale film di Quentin Tarantino è ambientato quasi interamente in un emporio durante una bufera?",
-        "opzioni": ["The Hateful Eight", "Django Unchained", "Le Iene", "Jackie Brown"],
-        "corretta": "The Hateful Eight"
-    },
-    {
-        "domanda": "Chi interpreta il detective Benoit Blanc in 'Knives Out'?",
-        "opzioni": ["Daniel Craig", "Chris Evans", "Lakeith Stanfield", "Christopher Plummer"],
-        "corretta": "Daniel Craig"
-    },
-    {
-        "domanda": "In 'Whiplash', qual è la canzone jazz che il protagonista deve eseguire perfettamente?",
-        "opzioni": ["Whiplash", "Caravan", "Take Five", "So What"],
-        "corretta": "Whiplash"
-    },
-    {
-        "domanda": "Quale film ha vinto l'Oscar come Miglior Film nel 2020?",
-        "opzioni": ["Parasite", "1917", "Joker", "Green Book"],
-        "corretta": "Parasite"
-    },
-    {
-        "domanda": "Chi interpreta la sposa in 'Kill Bill: Volume 1'?",
-        "opzioni": ["Uma Thurman", "Lucy Liu", "Daryl Hannah", "Vivica A. Fox"],
-        "corretta": "Uma Thurman"
-    },
-    {
-        "domanda": "In 'Inception', come si chiama la tecnica di entrare nei sogni altrui?",
-        "opzioni": ["Estrazione", "Inception", "Proiezione", "Lucidità"],
-        "corretta": "Estrazione"
-    },
-    {
-        "domanda": "Quale attore interpreta il capitano Miller in 'Salvate il soldato Ryan'?",
-        "opzioni": ["Tom Hanks", "Matt Damon", "Vin Diesel", "Edward Burns"],
-        "corretta": "Tom Hanks"
-    },
-    {
-        "domanda": "In 'American Psycho', qual è l'ossessione principale di Patrick Bateman riguardo ai suoi colleghi?",
-        "opzioni": ["Il biglietto da visita", "L'orologio", "L'auto", "L'appartamento"],
-        "corretta": "Il biglietto da visita"
-    },
-    {
-        "domanda": "Chi ha diretto il film horror 'Get Out'?",
-        "opzioni": ["Jordan Peele", "Ari Aster", "Robert Eggers", "James Wan"],
-        "corretta": "Jordan Peele"
-    },
-    {
-        "domanda": "In 'Batman Begins', chi interpreta il villain Ra's al Ghul?",
-        "opzioni": ["Liam Neeson", "Cillian Murphy", "Gary Oldman", "Tom Hardy"],
-        "corretta": "Liam Neeson"
-    },
-    {
-        "domanda": "Quale film di Ridley Scott vede Russell Crowe nei panni di un generale romano?",
-        "opzioni": ["Il Gladiatore", "Robin Hood", "Kingdom of Heaven", "Prometheus"],
-        "corretta": "Il Gladiatore"
-    },
-    {
-        "domanda": "In 'Fight Club', chi è il narratore (interpretato da Edward Norton)?",
-        "opzioni": ["Non ha un nome nel film", "Tyler Durden", "Jack", "Cornelius"],
-        "corretta": "Non ha un nome nel film"
-    },
-    {
-        "domanda": "Quale film d'animazione Disney racconta la storia di Rapunzel?",
-        "opzioni": ["Rapunzel - L'intreccio della torre", "Frozen", "La Sirenetta", "Cenerentola"],
-        "corretta": "Rapunzel - L'intreccio della torre"
-    },
-    {
-        "domanda": "Chi interpreta il protagonista nel film 'The Whale' (2022)?",
-        "opzioni": ["Brendan Fraser", "Colin Farrell", "Austin Butler", "Paul Mescal"],
-        "corretta": "Brendan Fraser"
-    },
-    {
-        "domanda": "In 'The Matrix', qual è l'occupazione 'civile' di Thomas Anderson (Neo)?",
-        "opzioni": ["Programmatore di software", "Ingegnere", "Contabile", "Scrittore"],
-        "corretta": "Programmatore di software"
-    },
-    {
-        "domanda": "In 'The Prestige', qual è il nome d'arte del personaggio interpretato da Hugh Jackman?",
-        "opzioni": ["Il Grande Danton", "Il Professore", "Milton l'Illusionista", "L'Americano"],
-        "corretta": "Il Grande Danton"
-    },
-    {
-        "domanda": "Quale film di Christopher Nolan è stato girato quasi interamente con telecamere IMAX su una spiaggia francese?",
-        "opzioni": ["Dunkirk", "Tenet", "Interstellar", "Inception"],
-        "corretta": "Dunkirk"
-    },
-    {
-        "domanda": "Chi interpreta la moglie di Leonardo DiCaprio in 'Inception'?",
-        "opzioni": ["Marion Cotillard", "Ellen Page", "Scarlett Johansson", "Anne Hathaway"],
-        "corretta": "Marion Cotillard"
-    },
-    {
-        "domanda": "In 'Bastardi senza gloria', qual è l'attrice tedesca che fa il doppio gioco per gli alleati?",
-        "opzioni": ["Bridget von Hammersmark", "Shosanna Dreyfus", "Diane Kruger", "Francesca Mondino"],
-        "corretta": "Bridget von Hammersmark"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar racconta la storia di un giovane musicista che finisce nel Regno dei Morti?",
-        "opzioni": ["Coco", "Soul", "Onward", "Luca"],
-        "corretta": "Coco"
-    },
-    {
-        "domanda": "Chi ha diretto il film di fantascienza 'Blade Runner 2049'?",
-        "opzioni": ["Denis Villeneuve", "Ridley Scott", "Christopher Nolan", "James Cameron"],
-        "corretta": "Denis Villeneuve"
-    },
-    {
-        "domanda": "In 'The Wolf of Wall Street', quale attrice interpreta Naomi Lapaglia, la seconda moglie di Jordan?",
-        "opzioni": ["Margot Robbie", "Emma Stone", "Jennifer Lawrence", "Gal Gadot"],
-        "corretta": "Margot Robbie"
-    },
-    {
-        "domanda": "Quale attore interpreta l'antagonista principale in 'The Dark Knight Rises' (Bane)?",
-        "opzioni": ["Tom Hardy", "Cillian Murphy", "Liam Neeson", "Joseph Gordon-Levitt"],
-        "corretta": "Tom Hardy"
-    },
-    {
-        "domanda": "In 'Pulp Fiction', qual è il contenuto della siringa che Vincent inietta nel petto di Mia?",
-        "opzioni": ["Adrenalina", "Morfina", "Eroina", "Insulina"],
-        "corretta": "Adrenalina"
-    },
-    {
-        "domanda": "Chi interpreta il protagonista nel film 'The Truman Show'?",
-        "opzioni": ["Jim Carrey", "Adam Sandler", "Robin Williams", "Tom Hanks"],
-        "corretta": "Jim Carrey"
-    },
-    {
-        "domanda": "Quale film di David Fincher ruota attorno alla creazione di un club di combattimento clandestino?",
-        "opzioni": ["Fight Club", "The Game", "Zodiac", "Seven"],
-        "corretta": "Fight Club"
-    },
-    {
-        "domanda": "In 'Il Cavaliere Oscuro', cosa usa il Joker per scegliere se uccidere o meno le sue vittime in ospedale?",
-        "opzioni": ["Una moneta", "Un mazzo di carte", "Un coltello", "Il caso"],
-        "corretta": "Una moneta"
-    },
-    {
-        "domanda": "Chi ha diretto 'Gran Torino'?",
-        "opzioni": ["Clint Eastwood", "Steven Spielberg", "Martin Scorsese", "Ron Howard"],
-        "corretta": "Clint Eastwood"
-    },
-    {
-        "domanda": "In 'Parasite', come si chiama la tecnica di infiltrazione usata dalla famiglia Kim?",
-        "opzioni": ["Parasitismo", "Il piano", "Simbiotica", "Sostituzione"],
-        "corretta": "Il piano"
-    },
-    {
-        "domanda": "Quale attore interpreta il ruolo di Michael Corleone nella saga de 'Il Padrino'?",
-        "opzioni": ["Al Pacino", "Robert De Niro", "Marlon Brando", "James Caan"],
-        "corretta": "Al Pacino"
-    },
-    {
-        "domanda": "In 'Django Unchained', quale attore interpreta lo schiavo Django?",
-        "opzioni": ["Jamie Foxx", "Samuel L. Jackson", "Christoph Waltz", "Idris Elba"],
-        "corretta": "Jamie Foxx"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar vede un robot compattatore di rifiuti innamorarsi di una sonda di nome EVE?",
-        "opzioni": ["WALL-E", "Robots", "Big Hero 6", "A Bug's Life"],
-        "corretta": "WALL-E"
-    },
-    {
-        "domanda": "Chi interpreta il detective William Somerset in 'Seven'?",
-        "opzioni": ["Morgan Freeman", "Brad Pitt", "Kevin Spacey", "Samuel L. Jackson"],
-        "corretta": "Morgan Freeman"
-    },
-    {
-        "domanda": "In 'Shutter Island', qual è l'arma che Teddy Daniels usa durante gran parte del film?",
-        "opzioni": ["Una pistola finta (di plastica)", "Una Smith & Wesson", "Un coltello a serramanico", "Un fucile"],
-        "corretta": "Una pistola finta (di plastica)"
-    },
-    {
-        "domanda": "Quale film ha vinto l'Oscar come Miglior Film nel 2017 (dopo l'errore della busta con La La Land)?",
-        "opzioni": ["Moonlight", "Arrival", "Manchester by the Sea", "Fences"],
-        "corretta": "Moonlight"
-    },
-    {
-        "domanda": "Chi interpreta il personaggio di Gandalf ne 'Il Signore degli Anelli'?",
-        "opzioni": ["Ian McKellen", "Christopher Lee", "Viggo Mortensen", "Patrick Stewart"],
-        "corretta": "Ian McKellen"
-    },
-    {
-        "domanda": "In 'The Hateful Eight', chi è l'unico personaggio che sopravvive (forse) alla fine del film insieme a Mannix?",
-        "opzioni": ["Maggiore Marquis Warren", "John Ruth", "Daisy Domergue", "Joe Gage"],
-        "corretta": "Maggiore Marquis Warren"
-    },
-    {
-        "domanda": "Quale film di Tarantino racconta la storia di Jackie Brown, un'assistente di volo?",
-        "opzioni": ["Jackie Brown", "Pulp Fiction", "Le Iene", "Death Proof"],
-        "corretta": "Jackie Brown"
-    },
-    {
-        "domanda": "Chi ha diretto 'Interstellar'?",
-        "opzioni": ["Christopher Nolan", "Steven Spielberg", "Ridley Scott", "James Cameron"],
-        "corretta": "Christopher Nolan"
-    },
-    {
-        "domanda": "In 'Matrix', qual è il vero nome di Neo?",
-        "opzioni": ["Thomas Anderson", "John Smith", "Agent Smith", "Cypher"],
-        "corretta": "Thomas Anderson"
-    },
-    {
-        "domanda": "Quale attore interpreta il Gladiatore Massimo Decimo Meridio?",
-        "opzioni": ["Russell Crowe", "Joaquin Phoenix", "Brad Pitt", "Mel Gibson"],
-        "corretta": "Russell Crowe"
-    },
-    {
-        "domanda": "In 'Oldboy', qual è il cibo che il protagonista mangia ogni giorno durante la prigionia?",
-        "opzioni": ["Ravioli cinesi (Gyoza)", "Ramen", "Riso in bianco", "Zuppa di miso"],
-        "corretta": "Ravioli cinesi (Gyoza)"
-    },
-    {
-        "domanda": "Chi interpreta l'antagonista in 'Le Iene' che taglia l'orecchio al poliziotto?",
-        "opzioni": ["Michael Madsen (Mr. Blonde)", "Steve Buscemi", "Harvey Keitel", "Chris Penn"],
-        "corretta": "Michael Madsen (Mr. Blonde)"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar ha per protagonista una famiglia di supereroi?",
-        "opzioni": ["Gli Incredibili", "Monsters & Co.", "Toy Story", "Cars"],
-        "corretta": "Gli Incredibili"
-    },
-    {
-        "domanda": "In 'Shining', cosa scrive ossessivamente Jack Torrance sulla sua macchina da scrivere?",
-        "opzioni": ["Il mattino ha l'oro in bocca", "Redrum", "Vieni a giocare con noi", "Aiutami"],
-        "corretta": "Il mattino ha l'oro in bocca"
-    },
-    {
-        "domanda": "Un'adolescente viene trascinata in un mondo incantato governato da una strega, dove i suoi genitori sono stati trasformati in maiali. Come si intitola il film?",
-        "opzioni": ["La città incantata", "Il mio vicino Totoro", "Il castello errante di Howl", "Principessa Mononoke"],
-        "corretta": "La città incantata"
-    },
-    {
-        "domanda": "Un programmatore scopre che la realtà è una simulazione creata dalle macchine e si unisce a una ribellione per liberare l'umanità. Di quale film si tratta?",
-        "opzioni": ["Matrix", "eXistenZ", "Blade Runner", "Inception"],
-        "corretta": "Matrix"
-    },
-    {
-        "domanda": "Un ex detective affetto da perdita della memoria a breve termine cerca l'assassino della moglie usando tatuaggi e foto polaroid. Qual è il film?",
-        "opzioni": ["Memento", "Following", "Shutter Island", "Zodiac"],
-        "corretta": "Memento"
-    },
-    {
-        "domanda": "Un veterano del Vietnam mentalmente instabile lavora come tassista notturno a New York e decide di 'pulire' la città dal marciume. Di che titolo parliamo?",
-        "opzioni": ["Taxi Driver", "Mean Streets", "Il braccio violento della legge", "Joker"],
-        "corretta": "Taxi Driver"
-    },
-    {
-        "domanda": "Una giovane donna pianifica una vendetta sistematica contro le persone che hanno rovinato la vita della sua migliore amica anni prima. Come si chiama il film?",
-        "opzioni": ["Promising Young Woman", "Kill Bill", "Gone Girl", "Una donna promettente"],
-        "corretta": "Promising Young Woman"
-    },
-    {
-        "domanda": "Un gruppo di investigatori entra nei sogni delle persone per rubare segreti, ma questa volta deve tentare l'operazione inversa: innestare un'idea. Qual è il film?",
-        "opzioni": ["Inception", "Paprika", "Tenet", "Source Code"],
-        "corretta": "Inception"
-    },
-    {
-        "domanda": "Un uomo viene rapito e tenuto prigioniero in una stanza per 15 anni senza spiegazione, poi viene rilasciato e ha 5 giorni per trovare il colpevole. Di che film si tratta?",
-        "opzioni": ["Oldboy", "Lady Vendetta", "I Saw the Devil", "The Chaser"],
-        "corretta": "Oldboy"
-    },
-    {
-        "domanda": "Un padre vedovo e sua figlia si trasferiscono in una nuova casa in campagna e scoprono l'esistenza di creature magiche nei boschi vicini. Qual è il titolo?",
-        "opzioni": ["Il mio vicino Totoro", "Ponyo sulla scogliera", "Kiki - Consegne a domicilio", "Arrietty"],
-        "corretta": "Il mio vicino Totoro"
-    },
-    {
-        "domanda": "Un broker di New York ascesa ai vertici della finanza mondiale attraverso frodi e corruzione, vivendo una vita di eccessi sfrenati. Di che film parliamo?",
-        "opzioni": ["The Wolf of Wall Street", "Wall Street", "La grande scommessa", "American Psycho"],
-        "corretta": "The Wolf of Wall Street"
-    },
-    {
-        "domanda": "Un killer professionista incontra una ragazzina di dodici anni la cui famiglia è stata sterminata e decide di insegnarle il mestiere per vendetta. Qual è il film?",
-        "opzioni": ["Léon", "Nikita", "Il professionista", "Nikita"],
-        "corretta": "Léon"
-    },
-    {
-        "domanda": "In un futuro distopico, un poliziotto ha il compito di rintracciare ed 'eliminare' androidi ribelli che sembrano identici agli esseri umani. Qual è il titolo?",
-        "opzioni": ["Blade Runner", "Total Recall", "RoboCop", "Minority Report"],
-        "corretta": "Blade Runner"
-    },
-    {
-        "domanda": "Un uomo convinto di essere un agente federale indaga sulla scomparsa di una pluriomicida da un ospedale psichiatrico su un'isola remota. Qual è il titolo?",
-        "opzioni": ["Shutter Island", "The Ward", "A Beautiful Mind", "Fractured"],
-        "corretta": "Shutter Island"
-    },
-    {
-        "domanda": "Un impiegato assicurativo scopre che la sua intera vita è un reality show trasmesso in tutto il mondo a sua insaputa. Di che film si tratta?",
-        "opzioni": ["The Truman Show", "Edtv", "Stranger than Fiction", "Pleasantville"],
-        "corretta": "The Truman Show"
-    },
-    {
-        "domanda": "Due maghi rivali nella Londra vittoriana ingaggiano una sfida mortale basata sull'ossessione e sul sacrificio per creare l'illusione perfetta. Qual è il titolo?",
-        "opzioni": ["The Prestige", "The Illusionist", "Houdini", "Now You See Me"],
-        "corretta": "The Prestige"
-    },
-    {
-        "domanda": "Un uomo con un basso quoziente intellettivo attraversa decenni di storia americana, influenzando involontariamente eventi mondiali. Come si chiama il film?",
-        "opzioni": ["Forrest Gump", "Big fish", "Rain Man", "Oltre il giardino"],
-        "corretta": "Forrest Gump"
-    },
-    {
-        "domanda": "Un detective indaga su una serie di omicidi rituali ispirati ai sette peccati capitali, affiancato da un giovane collega impulsivo. Qual è il titolo?",
-        "opzioni": ["Seven", "Zodiac", "Il collezionista di ossa", "Prisoners"],
-        "corretta": "Seven"
-    },
-    {
-        "domanda": "Una famiglia povera si infiltra con l'inganno nella vita di una famiglia ricca, scatenando una serie di eventi violenti e imprevedibili. Di che film parliamo?",
-        "opzioni": ["Parasite", "Burning", "Madre", "The Host"],
-        "corretta": "Parasite"
-    },
-    {
-        "domanda": "Un ex generale romano ridotto in schiavitù cerca vendetta contro il corrotto imperatore che ha ucciso la sua famiglia. Qual è il titolo?",
-        "opzioni": ["Il Gladiatore", "Troy", "300", "Ben-Hur"],
-        "corretta": "Il Gladiatore"
-    },
-    {
-        "domanda": "Un giovane batterista jazz viene spinto oltre i propri limiti fisici e mentali da un insegnante spietato e maniacale. Di che titolo si tratta?",
-        "opzioni": ["Whiplash", "La La Land", "Bird", "Ray"],
-        "corretta": "Whiplash"
-    },
-    {
-        "domanda": "Una restauratrice di pellicole antiche vive in solitudine parlando mentalmente con i suoi idoli musicali defunti mentre frequenta un caffè storico. Qual è il titolo?",
-        "opzioni": ["Mia", "Amélie", "La La Land", "Lost in Translation"],
-        "corretta": "Mia"
-    },
-    {
-        "domanda": "Un gruppo di astronauti viaggia attraverso un wormhole alla ricerca di un nuovo pianeta abitabile per salvare l'umanità dall'estinzione. Qual è il film?",
-        "opzioni": ["Interstellar", "Gravity", "Ad Astra", "The Martian"],
-        "corretta": "Interstellar"
-    },
-    {
-        "domanda": "Un killer messicano riceve l'incarico di eliminare chiunque trovi una valigetta piena di soldi nel deserto, usando una bombola d'aria compressa. Qual è il titolo?",
-        "opzioni": ["Non è un paese per vecchi", "Fargo", "Sicario", "Hell or High Water"],
-        "corretta": "Non è un paese per vecchi"
-    },
-    {
-        "domanda": "Un uomo d'affari tedesco salva centinaia di ebrei durante l'Olocausto impiegandoli nella sua fabbrica di smalto. Di che film si tratta?",
-        "opzioni": ["Schindler's List", "Il pianista", "La vita è bella", "The Reader"],
-        "corretta": "Schindler's List"
-    },
-    {
-        "domanda": "Un giovane viene assunto come assistente da un misterioso uomo in una villa isolata per testare le capacità di un'intelligenza artificiale femminile. Qual è il titolo?",
-        "opzioni": ["Ex Machina", "Her", "A.I. - Intelligenza Artificiale", "Morgan"],
-        "corretta": "Ex Machina"
-    },
-    {
-        "domanda": "In una Spagna post-guerra civile, una bambina scopre un labirinto magico e deve superare tre prove per reclamare il suo trono di principessa. Qual è il titolo?",
-        "opzioni": ["Il labirinto del fauno", "La spina del diavolo", "The Orphanage", "La forma dell'acqua"],
-        "corretta": "Il labirinto del fauno"
-    },
-    {
-        "domanda": "Due assassini a pagamento, un pugile e una coppia di rapinatori incrociano le loro storie in una Los Angeles violenta e grottesca. Di che film parliamo?",
-        "opzioni": ["Pulp Fiction", "Le Iene", "Jackie Brown", "Snatch"],
-        "corretta": "Pulp Fiction"
-    },
-    {
-        "domanda": "Un nobile decaduto e la sua giovane figlia fuggono attraverso la Francia durante la rivoluzione per evitare la ghigliottina. Qual è il titolo?",
-        "opzioni": ["Les Misérables", "Il patriota", "Maria Antonietta", "Danton"],
-        "corretta": "Les Misérables"
-    },
-    {
-        "domanda": "Un astronauta viene dato per morto e abbandonato su Marte, dovendo usare il suo ingegno per sopravvivere fino a una possibile missione di recupero. Qual è il titolo?",
-        "opzioni": ["The Martian", "Mission to Mars", "Sopravvissuto", "Europa Report"],
-        "corretta": "The Martian"
-    },
-    {
-        "domanda": "Un uomo d'affari si risveglia in una stanza d'albergo accanto al cadavere della sua amante e assume un'avvocata per ricostruire i fatti. Qual è il titolo?",
-        "opzioni": ["Il contrattempo", "La migliore offerta", "Doppio sospetto", "L'ospite invisibile"],
-        "corretta": "L'ospite invisibile"
-    },
-    {
-        "domanda": "Un detective australiano torna nella sua città natale per il funerale di un amico d'infanzia e indaga su un presunto omicidio-suicidio durante una siccità. Qual è il titolo?",
-        "opzioni": ["Chi è senza peccato - The Dry", "Animal Kingdom", "Mystery Road", "Gold"],
-        "corretta": "Chi è senza peccato - The Dry"
-    },
-    {
-        "domanda": "Un'investigatrice privata si fa ricoverare in un ospedale psichiatrico fingendo una paranoia per indagare sulla morte misteriosa di un interno. Qual è il titolo?",
-        "opzioni": ["Quando Dio imparò a scrivere", "Shutter Island", "La cura dal benessere", "Ragazze interrotte"],
-        "corretta": "Quando Dio imparò a scrivere"
-    },
-    {
-        "domanda": "Due missionarie mormoni bussano alla porta dell'uomo sbagliato, ritrovandosi intrappolate in un gioco psicologico mortale sulla fede. Qual è il titolo?",
-        "opzioni": ["Heretic", "The Witch", "Midsommar", "Saint Maud"],
-        "corretta": "Heretic"
-    },
-    {
-        "domanda": "In un futuro dove le risorse sono scarse, i detenuti vivono in una prigione verticale dove il cibo scende su una piattaforma tra i vari livelli. Qual è il titolo?",
-        "opzioni": ["Il buco", "Snowpiercer", "The Experiment", "Cube - Il cubo"],
-        "corretta": "Il buco"
-    },
-    {
-        "domanda": "Un uomo isolato dal mondo sviluppa una relazione sentimentale con un sistema operativo dotato di un'intelligenza artificiale avanzata. Qual è il titolo?",
-        "opzioni": ["Her", "Ex Machina", "Lucy", "Trascendence"],
-        "corretta": "Her"
-    },
-    {
-        "domanda": "Una bambina dotata di un'intelligenza straordinaria e poteri telecinetici deve affrontare genitori negligenti e una preside tirannica. Qual è il titolo?",
-        "opzioni": ["Matilda 6 mitica", "Carrie", "L'incendiaria", "Heathers"],
-        "corretta": "Matilda 6 mitica"
-    },
-    {
-        "domanda": "Un padre disperato cerca di proteggere il figlio durante un'invasione aliena improvvisa che sta distruggendo le città con enormi tripodi. Qual è il titolo?",
-        "opzioni": ["La guerra dei mondi", "Independence Day", "Signs", "Arrival"],
-        "corretta": "La guerra dei mondi"
-    },
-    {
-        "domanda": "Un eccentrico proprietario di una fabbrica di dolci organizza un concorso mondiale mettendo cinque biglietti d'oro nelle tavolette di cioccolato. Qual è il titolo?",
-        "opzioni": ["La fabbrica di cioccolato", "Il GGG", "Paddington", "Chocolat"],
-        "corretta": "La fabbrica di cioccolato"
-    },
-    {
-        "domanda": "Durante la Seconda Guerra Mondiale, un matematico guida una squadra per decifrare il codice Enigma usato dai nazisti. Qual è il titolo?",
-        "opzioni": ["The Imitation Game", "U-571", "Fury", "Monuments Men"],
-        "corretta": "The Imitation Game"
-    },
-    {
-        "domanda": "Un detective indaga sul rapimento di due bambine, scontrandosi con un padre che decide di farsi giustizia da solo torturando un sospettato. Qual è il titolo?",
-        "opzioni": ["Prisoners", "Gone Baby Gone", "Mystic River", "The Nice Guys"],
-        "corretta": "Prisoners"
-    },
-    {
-        "domanda": "Un giovane di colore va a trovare i genitori della sua fidanzata bianca nella loro tenuta isolata, scoprendo un segreto inquietante. Qual è il titolo?",
-        "opzioni": ["Get Out", "Noi", "Candyman", "Oltre i confini del male"],
-        "corretta": "Get Out"
-    },
-    {
-        "domanda": "Un ladro di professione accetta un ultimo incarico: entrare nel subconscio di un erede industriale per piantare un'idea invece di rubarla. Qual è il titolo?",
-        "opzioni": ["Inception", "Tenet", "Looper", "In Time"],
-        "corretta": "Inception"
-    },
-    {
-        "domanda": "Un gruppo di cacciatori di taglie cerca rifugio da una bufera di neve in un emporio, ma sospettano che qualcuno non sia chi dice di essere. Qual è il titolo?",
-        "opzioni": ["The Hateful Eight", "Django Unchained", "I magnifici sette", "Balla coi lupi"],
-        "corretta": "The Hateful Eight"
-    },
-    {
-        "domanda": "In un mondo post-apocalittico, un uomo e suo figlio viaggiano verso sud cercando di sopravvivere al freddo e al cannibalismo. Qual è il titolo?",
-        "opzioni": ["The Road", "Children of Men", "Mad Max", "Il libro di Eli"],
-        "corretta": "The Road"
-    },
-    {
-        "domanda": "Un uomo decide di partecipare a un esperimento sociale in cui viene rinchiuso in una cella e riceve solo gli avanzi del piano superiore. Qual è il titolo?",
-        "opzioni": ["Il buco", "Oldboy", "Cella 211", "The Platform"],
-        "corretta": "Il buco"
-    },
-    {
-        "domanda": "Un ex sicario della mafia russa torna in attività dopo che il figlio di un boss ruba la sua auto e uccide il suo cane. Qual è il titolo?",
-        "opzioni": ["John Wick", "Io vi troverò", "The Equalizer", "Atomica Bionda"],
-        "corretta": "John Wick"
-    },
-    {
-        "domanda": "Una giovane donna viene tenuta segregata in una stanza per anni con il figlio nato dalla violenza, cercando un modo per fuggire. Qual è il titolo?",
-        "opzioni": ["Room", "3096 giorni", "The captive", "Fuga da Pretoria"],
-        "corretta": "Room"
-    },
-    {
-        "domanda": "Un serial killer sceglie le sue vittime in base ai sette peccati capitali, sfidando due detective della omicidi. Qual è il titolo?",
-        "opzioni": ["Seven", "Zodiac", "Copycat", "Il collezionista di ossa"],
-        "corretta": "Seven"
-    },
-    {
-        "domanda": "Un uomo si risveglia in un bagno sporco incatenato a un tubo, con un cadavere tra lui e un altro prigioniero. Qual è il titolo?",
-        "opzioni": ["Saw - L'enigmista", "Hostel", "Escape Room", "Final Destination"],
-        "corretta": "Saw - L'enigmista"
-    },
-    {
-        "domanda": "Un anziano veterano di guerra cerca di redimere un adolescente asiatico che ha tentato di rubare la sua preziosa automobile. Qual è il titolo?",
-        "opzioni": ["Gran Torino", "The Mule", "Cry Macho", "Sully"],
-        "corretta": "Gran Torino"
-    },
-    {
-        "domanda": "Un pilota della marina viene rimandato alla scuola d'élite per addestrare una nuova squadra per una missione quasi impossibile. Qual è il titolo?",
-        "opzioni": ["Top Gun: Maverick", "Pearl Harbor", "Behind Enemy Lines", "Dunkirk"],
-        "corretta": "Top Gun: Maverick"
-    },
-    {
-        "domanda": "In un futuro dove le persone smettono di invecchiare a 25 anni, il tempo è diventato la valuta corrente tatuata sul braccio. Qual è il titolo?",
-        "opzioni": ["In Time", "Gattaca", "Anon", "Divergent"],
-        "corretta": "In Time"
-    },
-    {
-        "domanda": "Un gruppo di sopravvissuti si rifugia in un centro commerciale durante un'improvvisa epidemia che trasforma i morti in zombie. Qual è il titolo?",
-        "opzioni": ["L'alba dei morti viventi", "28 giorni dopo", "World War Z", "Resident Evil"],
-        "corretta": "L'alba dei morti viventi"
-    },
-    {
-        "domanda": "Un geniale inventore miliardario viene rapito e costruisce un'armatura tecnologica per fuggire, diventando un supereroe. Qual è il titolo?",
-        "opzioni": ["Iron Man", "Batman Begins", "Robocop", "Spider-Man"],
-        "corretta": "Iron Man"
-    },
-    {
-        "domanda": "Un prestigiatore accetta una scommessa pericolosa per dimostrare che un celebre medium è in realtà un imbroglione. Qual è il titolo?",
-        "opzioni": ["Red Lights", "L'illusionista", "The Prestige", "Magic in the Moonlight"],
-        "corretta": "Red Lights"
-    },
-    {
-        "domanda": "Un uomo viene ingiustamente accusato di omicidio e condannato all'ergastolo, trovando speranza e amicizia all'interno del carcere. Qual è il titolo?",
-        "opzioni": ["Le ali della libertà", "Il miglio verde", "Papillon", "The Rock"],
-        "corretta": "Le ali della libertà"
-    },
-    {
-        "domanda": "Un chirurgo plastico ossessionato crea una pelle sintetica perfetta dopo che la moglie è rimasta sfigurata, usandola su un prigioniero. Qual è il titolo?",
-        "opzioni": ["La pelle che abito", "Dolor y gloria", "Gli abbracci spezzati", "Legami!"],
-        "corretta": "La pelle che abito"
-    },
-    {
-        "domanda": "Una banda di criminali dilettanti tenta di rapinare una banca, ma la situazione degenera in un sequestro con ostaggi sotto il sole di New York. Qual è il titolo?",
-        "opzioni": ["Quel pomeriggio di un giorno da cani", "Inside Man", "Heat", "I soliti sospetti"],
-        "corretta": "Quel pomeriggio di un giorno da cani"
-    },
-    {
-        "domanda": "Un astronauta deve lottare contro il tempo e l'intelligenza artificiale della sua base lunare che sembra nascondergli la verità sulla sua missione. Qual è il titolo?",
-        "opzioni": ["Moon", "Sunshine", "Solaris", "Oblivion"],
-        "corretta": "Moon"
-    },
-    {
-        "domanda": "Un professore di archeologia parte per una missione pericolosa alla ricerca dell'Arca dell'Alleanza prima che cada nelle mani dei nazisti. Qual è il titolo?",
-        "opzioni": ["I predatori dell'arca perduta", "La mummia", "Tomb Raider", "National Treasure"],
-        "corretta": "I predatori dell'arca perduta"
-    },
-    {
-        "domanda": "Un giovane scrittore va a lavorare come custode invernale in un hotel isolato, dove la solitudine lo trascina nella follia omicida. Qual è il titolo?",
-        "opzioni": ["Shining", "Doctor Sleep", "Misery non deve morire", "1408"],
-        "corretta": "Shining"
-    },
-    {
-        "domanda": "Un uomo si ritrova intrappolato in un loop temporale, costretto a rivivere lo stesso giorno di festa in una cittadina della Pennsylvania. Qual è il titolo?",
-        "opzioni": ["Ricomincio da capo", "Questione di tempo", "Source Code", "Palm Springs"],
-        "corretta": "Ricomincio da capo"
-    },
-    {
-        "domanda": "Una detective indaga sulla sparizione di una donna il giorno del suo quinto anniversario di matrimonio, sospettando del marito. Qual è il titolo?",
-        "opzioni": ["L'amore bugiardo - Gone Girl", "La ragazza del treno", "I segreti di Twin Peaks", "The Game"],
-        "corretta": "L'amore bugiardo - Gone Girl"
-    },
-    {
-        "domanda": "Un ex sicario del cartello viene inseguito da un killer spietato attraverso il deserto del Texas dopo aver rubato una valigetta piena di soldi. Qual è il titolo?",
-        "opzioni": ["Non è un paese per vecchi", "Tre manifesti a Ebbing, Missouri", "Sicario", "Hell or High Water"],
-        "corretta": "Non è un paese per vecchi"
-    },
-    {
-        "domanda": "Un giovane afroamericano viene rapito e venduto come schiavo, passando dodici anni tra soprusi prima di ritrovare la libertà. Qual è il titolo?",
-        "opzioni": ["12 anni schiavo", "Django Unchained", "The Butler", "Lincoln"],
-        "corretta": "12 anni schiavo"
-    },
-    {
-        "domanda": "Un bambino di otto anni viene dimenticato a casa dalla famiglia partita per le vacanze e deve difendere la villa da due ladri. Qual è il titolo?",
-        "opzioni": ["Mamma, ho perso l'aereo", "Richie Rich", "Beethoven", "Dennis la minaccia"],
-        "corretta": "Mamma, ho perso l'aereo"
-    },
-    {
-        "domanda": "Un genio della matematica affetto da schizofrenia combatte tra realtà e allucinazioni mentre lavora per il governo americano. Qual è il titolo?",
-        "opzioni": ["A Beautiful Mind", "The Imitation Game", "Will Hunting - Genio ribelle", "La teoria del tutto"],
-        "corretta": "A Beautiful Mind"
-    },
-    {
-        "domanda": "Un uomo decide di cancellare chirurgicamente i ricordi della sua ex fidanzata dopo una rottura dolorosa, ma cambia idea durante la procedura. Qual è il titolo?",
-        "opzioni": ["Se mi lasci ti cancello", "Her", "Il lato positivo", "About Time"],
-        "corretta": "Se mi lasci ti cancello"
-    },
-    {
-        "domanda": "In un mondo futuro, la polizia arresta i criminali prima che commettano il reato grazie alle visioni di tre esseri chiaroveggenti. Qual è il titolo?",
-        "opzioni": ["Minority Report", "Io, Robot", "Total Recall", "Oblivion"],
-        "corretta": "Minority Report"
-    },
-    {
-        "domanda": "Un pugile dilettante di Philadelphia riceve l'occasione della vita: sfidare il campione del mondo dei pesi massimi Apollo Creed. Qual è il titolo?",
-        "opzioni": ["Rocky", "Toro Scatenato", "Creed", "The Fighter"],
-        "corretta": "Rocky"
-    },
-    {
-        "domanda": "Un gruppo di giocattoli prende vita quando il loro proprietario non è presente, affrontando avventure per restare uniti. Qual è il titolo?",
-        "opzioni": ["Toy Story", "Small Soldiers", "A Bug's Life", "Monsters & Co."],
-        "corretta": "Toy Story"
-    },
-    {
-        "domanda": "Un eccentrico capitano pirata cerca di recuperare la sua nave, la Perla Nera, sottratta da un equipaggio di non-morti. Qual è il titolo?",
-        "opzioni": ["La maledizione della prima luna", "Master & Commander", "Hook", "Waterworld"],
-        "corretta": "La maledizione della prima luna"
-    },
-    {
-        "domanda": "Un serial killer rapisce le donne per scuoiarle, mentre una giovane recluta dell'FBI chiede aiuto a un antropofago rinchiuso in cella. Qual è il titolo?",
-        "opzioni": ["Il silenzio degli innocenti", "Hannibal", "Red Dragon", "Seven"],
-        "corretta": "Il silenzio degli innocenti"
-    },
-    {
-        "domanda": "Un reduce della guerra civile americana si avventura in un territorio selvaggio per salvare la nipote rapita dai Comanche. Qual è il titolo?",
-        "opzioni": ["Sentieri selvaggi", "Balla coi lupi", "Il grinta", "Gli spietati"],
-        "corretta": "Sentieri selvaggi"
-    },
-    {
-        "domanda": "Una truffatrice e un mago del crimine uniscono le forze per un colpo elaborato che coinvolge agenti dell'FBI e politici corrotti. Qual è il titolo?",
-        "opzioni": ["American Hustle", "Ocean's Eleven", "The Wolf of Wall Street", "La stangata"],
-        "corretta": "American Hustle"
-    },
-    {
-        "domanda": "Un ex pilota spaziale deve abbandonare la sua famiglia per guidare una missione attraverso un buco nero per salvare l'umanità. Qual è il titolo?",
-        "opzioni": ["Interstellar", "Contact", "The Martian", "Sunshine"],
-        "corretta": "Interstellar"
-    },
-    {
-        "domanda": "In un futuro distopico, i giovani vengono scelti per partecipare a un torneo mortale trasmesso in televisione fino a un unico vincitore. Qual è il titolo?",
-        "opzioni": ["Hunger Games", "Battle Royale", "Divergent", "Maze Runner"],
-        "corretta": "Hunger Games"
-    },
-    {
-        "domanda": "Un bambino vede le persone morte che camminano tra i vivi e chiede aiuto a uno psicologo infantile che ha subito un trauma. Qual è il titolo?",
-        "opzioni": ["Il sesto senso", "The Others", "The Orphanage", "Hereditary"],
-        "corretta": "Il sesto senso"
-    },
-    {
-        "domanda": "Un giovane nobile viene tradito dalla sua famiglia e si unisce ai nativi di un pianeta desertico per combattere un impero galattico. Qual è il titolo?",
-        "opzioni": ["Dune", "Star Wars", "John Carter", "Chronicles of Riddick"],
-        "corretta": "Dune"
-    },
-    {
-        "domanda": "Un uomo d'affari cinico assume una prostituta per accompagnarlo a eventi sociali per una settimana, ma finisce per innamorarsi. Qual è il titolo?",
-        "opzioni": ["Pretty Woman", "Notting Hill", "Serendipity", "C'è posta per te"],
-        "corretta": "Pretty Woman"
-    },
-    {
-        "domanda": "Un sarto di lusso nella Londra degli anni '50 inizia una relazione ossessiva con una giovane donna che diventa la sua musa. Qual è il titolo?",
-        "opzioni": ["Il filo nascosto", "The Danish Girl", "Carol", "Anna Karenina"],
-        "corretta": "Il filo nascosto"
-    },
-    {
-        "domanda": "Un gruppo di amici si ritrova in una baita isolata e scopre un libro che risveglia antiche presenze demoniache nel bosco. Qual è il titolo?",
-        "opzioni": ["La casa (Evil Dead)", "Cabin in the Woods", "L'evocazione", "Venerdì 13"],
-        "corretta": "La casa (Evil Dead)"
-    },
-    {
-        "domanda": "Un poliziotto bianco e uno nero, con caratteri opposti, devono collaborare per sgominare una banda di trafficanti di droga a Los Angeles. Qual è il titolo?",
-        "opzioni": ["Arma Letale", "Bad Boys", "Rush Hour", "Training Day"],
-        "corretta": "Arma Letale"
-    },
-    {
-        "domanda": "Un uomo si risveglia da un coma e scopre che un virus ha trasformato la popolazione di Londra in mostri assetati di sangue. Qual è il titolo?",
-        "opzioni": ["28 giorni dopo", "L'alba dei morti viventi", "Io sono leggenda", "Rec"],
-        "corretta": "28 giorni dopo"
-    },
-    {
-        "domanda": "Un ex soldato paralizzato viene inviato su un pianeta alieno per infiltrarsi tra i nativi usando un corpo biologico controllato a distanza. Qual è il titolo?",
-        "opzioni": ["Avatar", "District 9", "Elysium", "Valerian"],
-        "corretta": "Avatar"
-    },
-    {
-        "domanda": "Due poliziotti della omicidi inseguono un killer che sceglie le vittime basandosi sui peccati della Bibbia. Qual è il titolo?",
-        "opzioni": ["Seven", "8mm - Delitto a luci rosse", "Zodiac", "L'alienista"],
-        "corretta": "Seven"
-    },
-    {
-        "domanda": "Un anziano venditore di palloncini viaggia verso il Sudamerica con la sua casa volante, accompagnato da un giovane scout. Qual è il titolo?",
-        "opzioni": ["Up", "Inside Out", "Coco", "Soul"],
-        "corretta": "Up"
-    },
-    {
-        "domanda": "Un gruppo di soldati americani in Francia durante la guerra organizza un complotto per uccidere i vertici del Terzo Reich in un cinema. Qual è il titolo?",
-        "opzioni": ["Bastardi senza gloria", "Salvate il soldato Ryan", "Oltre le linee nemiche", "Fury"],
-        "corretta": "Bastardi senza gloria"
-    },
-    {
-        "domanda": "In un mondo senza più bambini, un uomo deve scortare una giovane donna miracolosamente incinta verso un santuario sicuro. Qual è il titolo?",
-        "opzioni": ["I figli degli uomini", "The Road", "A Quiet Place", "Bird Box"],
-        "corretta": "I figli degli uomini"
-    },
-    {
-        "domanda": "Un hacker scopre che la sua realtà è controllata da un'intelligenza artificiale e sceglie la pillola rossa per svegliarsi. Qual è il titolo?",
-        "opzioni": ["Matrix", "Tron", "Dark City", "Equilibrium"],
-        "corretta": "Matrix"
-    },
-    {
-        "domanda": "Un ragazzino trova un piccolo alieno abbandonato sulla Terra e cerca di aiutarlo a tornare a casa prima che il governo lo catturi. Qual è il titolo?",
-        "opzioni": ["E.T. l'extra-terrestre", "Incontri ravvicinati del terzo tipo", "Super 8", "Paul"],
-        "corretta": "E.T. l'extra-terrestre"
-    },
-    {
-        "domanda": "Un uomo viene ingiustamente imprigionato in un castello isolato, scappa dopo anni e torna sotto falsa identità per vendicarsi dei suoi traditori. Qual è il titolo?",
-        "opzioni": ["Il conte di Montecristo", "I miserabili", "La maschera di ferro", "V per Vendetta"],
-        "corretta": "Il conte di Montecristo"
-    },
-    {
-        "domanda": "Una famiglia si trasferisce in una casa isolata dove scopre che i precedenti abitanti non se ne sono mai andati veramente. Qual è il titolo?",
-        "opzioni": ["The Others", "The Conjuring", "Poltergeist", "Insidious"],
-        "corretta": "The Others"
-    },
-    {
-        "domanda": "Un giovane povero vince un biglietto per il viaggio inaugurale del transatlantico più grande del mondo e si innamora di una ragazza aristocratica. Qual è il titolo?",
-        "opzioni": ["Titanic", "Poseidon", "A Night to Remember", "The Legend of 1900"],
-        "corretta": "Titanic"
-    },
-    {
-        "domanda": "Un sicario della mafia in pensione ripercorre la sua vita e il suo coinvolgimento nella scomparsa del sindacalista Jimmy Hoffa. Qual è il titolo?",
-        "opzioni": ["The Irishman", "Quei bravi ragazzi", "Casinò", "Il Padrino"],
-        "corretta": "The Irishman"
-    },
-    {
-        "domanda": "Un poliziotto di New York va a trovare la moglie a Los Angeles per Natale, ma si ritrova a combattere terroristi in un grattacielo. Qual è il titolo?",
-        "opzioni": ["Die Hard - Trappola di cristallo", "L'ultimo boy scout", "Speed", "Arma Letale"],
-        "corretta": "Die Hard - Trappola di cristallo"
-    },
-    {
-        "domanda": "In un futuro dove i sentimenti sono illegali, un agente incaricato di distruggere opere d'arte smette di assumere la sua droga soppressiva. Qual è il titolo?",
-        "opzioni": ["Equilibrium", "Fahrenheit 451", "Gattaca", "Blade Runner"],
-        "corretta": "Equilibrium"
-    },
-    {
-        "domanda": "Un padre attraversa l'oceano per ritrovare il figlio rapito da un subacqueo, accompagnato da un pesce chirurgo con perdite di memoria. Qual è il titolo?",
-        "opzioni": ["Alla ricerca di Nemo", "Shark Tale", "La sirenetta", "Luca"],
-        "corretta": "Alla ricerca di Nemo"
-    },
-    {
-        "domanda": "Un avvocato difende un uomo di colore accusato ingiustamente di violenza in una cittadina dell'Alabama durante la Grande Depressione. Qual è il titolo?",
-        "opzioni": ["Il buio oltre la siepe", "Il momento di uccidere", "Mississippi Burning", "La paranza dei bambini"],
-        "corretta": "Il buio oltre la siepe"
-    },
-    {
-        "domanda": "Un detective privato viene assunto per indagare su un caso di adulterio che nasconde una gigantesca rete di corruzione legata all'acqua a Los Angeles. Qual è il titolo?",
-        "opzioni": ["Chinatown", "L.A. Confidential", "Il lungo addio", "The Nice Guys"],
-        "corretta": "Chinatown"
-    },
-    {
-        "domanda": "Un uomo si sveglia ogni mattina vivendo sempre lo stesso giorno, cercando di conquistare la sua collega tra varie disavventure. Qual è il titolo?",
-        "opzioni": ["Ricomincio da capo", "Questione di tempo", "Edge of Tomorrow", "50 volte il primo bacio"],
-        "corretta": "Ricomincio da capo"
-    },
-    {
-        "domanda": "Un ragazzo scopre di avere poteri magici e viene invitato a frequentare una scuola speciale nascosta al mondo dei non-maghi. Qual è il titolo?",
-        "opzioni": ["Harry Potter e la pietra filosofale", "Percy Jackson", "Animali Fantastici", "Il Signore degli Anelli"],
-        "corretta": "Harry Potter e la pietra filosofale"
-    },
-    {
-        "domanda": "Un soldato romano viene tradito e ridotto in schiavitù, diventando un lottatore nell'arena per vendicarsi dell'imperatore. Qual è il titolo?",
-        "opzioni": ["Il Gladiatore", "Spartacus", "Ben-Hur", "300"],
-        "corretta": "Il Gladiatore"
-    },
-    {
-        "domanda": "Un uomo accetta di partecipare a un esperimento dove deve sorvegliare una villa isolata abitata da un'intelligenza artificiale avanzata. Qual è il titolo?",
-        "opzioni": ["Ex Machina", "Upgrade", "Tau", "I am Mother"],
-        "corretta": "Ex Machina"
-    },
-    {
-        "domanda": "Un detective indaga sulla scomparsa di una ragazza in una comunità religiosa isolata su un'isola scozzese. Qual è il titolo?",
-        "opzioni": ["The Wicker Man", "Midsommar", "Il rito", "The Apostle"],
-        "corretta": "The Wicker Man"
-    },
-    {
-        "domanda": "Due detective inseguono un serial killer che sceglie le vittime in base ai sette peccati capitali. Qual è il titolo?",
-        "opzioni": ["Seven", "Zodiac", "Resurrection", "L'alienista"],
-        "corretta": "Seven"
-    },
-    {
-        "domanda": "Un gruppo di ladri gentiluomini pianifica un colpo simultaneo a tre dei più grandi casinò di Las Vegas. Qual è il titolo?",
-        "opzioni": ["Ocean's Eleven", "The Italian Job", "Inside Man", "I soliti sospetti"],
-        "corretta": "Ocean's Eleven"
-    },
-    {
-        "domanda": "Un bambino scopre che la sua nuova babysitter fa parte di un culto satanico e deve sopravvivere a una notte di terrore. Qual è il titolo?",
-        "opzioni": ["The Babysitter", "Omen - Il presagio", "Scary Movie", "L'esorcista"],
-        "corretta": "The Babysitter"
-    },
-    {
-        "domanda": "Un fisico guida il progetto segreto per costruire la prima bomba atomica durante la Seconda Guerra Mondiale. Qual è il titolo?",
-        "opzioni": ["Oppenheimer", "Fat Man and Little Boy", "Dunkirk", "The Imitation Game"],
-        "corretta": "Oppenheimer"
-    },
-    {
-        "domanda": "Un uomo si fa ricoverare in un ospedale psichiatrico per sfuggire alla prigione, ma si scontra con la rigida caposala. Qual è il titolo?",
-        "opzioni": ["Qualcuno volò sul nido del cuculo", "Shutter Island", "Ragazze interrotte", "Risvegli"],
-        "corretta": "Qualcuno volò sul nido del cuculo"
-    },
-    {
-        "domanda": "Un giovane sognatore finisce in un mondo sotterraneo dove deve recuperare una corona magica per salvare il suo regno. Qual è il titolo?",
-        "opzioni": ["Labyrinth", "La storia infinita", "Willow", "Stardust"],
-        "corretta": "Labyrinth"
-    },
-    {
-        "domanda": "Un sicario esperto deve proteggere una ragazzina dopo che la sua famiglia è stata uccisa da agenti corrotti della DEA. Qual è il titolo?",
-        "opzioni": ["Léon", "The Professional", "Man on Fire", "Nikita"],
-        "corretta": "Léon"
-    },
-    {
-        "domanda": "Un'attrice e un musicista jazz cercano di realizzare i propri sogni a Los Angeles, affrontando le difficoltà della carriera e dell'amore. Qual è il titolo?",
-        "opzioni": ["La La Land", "Whiplash", "A Star Is Born", "Singin' in the Rain"],
-        "corretta": "La La Land"
-    },
-    {
-        "domanda": "Un uomo viene rapito e costretto a combattere in un torneo mortale organizzato da una setta segreta per il divertimento dei ricchi. Qual è il titolo?",
-        "opzioni": ["Senza esclusione di colpi", "Mortal Kombat", "Enter the Dragon", "Kickboxer"],
-        "corretta": "Senza esclusione di colpi"
-    },
-    {
-        "domanda": "Un gruppo di ricercatori in Antartide viene attaccato da una forma di vita aliena capace di mutare forma e imitare gli esseri umani. Qual è il titolo?",
-        "opzioni": ["La cosa", "Alien", "Life - Non oltrepassare il limite", "The Abyss"],
-        "corretta": "La cosa"
-    },
-    {
-        "domanda": "In un mondo futuro, i ricchi vivono su una stazione spaziale lussuosa mentre i poveri soffrono su una Terra devastata. Qual è il titolo?",
-        "opzioni": ["Elysium", "District 9", "Chappie", "In Time"],
-        "corretta": "Elysium"
-    },
-    {
-        "domanda": "Un geniale criminologo tetraplegico e una giovane agente danno la caccia a un feroce serial killer a New York. Qual è il titolo?",
-        "opzioni": ["Il collezionista di ossa", "Seven", "Zodiac", "Nella morsa del ragno"],
-        "corretta": "Il collezionista di ossa"
-    },
-    {
-        "domanda": "Un uomo si ritrova a vivere la stessa missione militare fallimentare ogni volta che muore, cercando un modo per sconfiggere gli alieni. Qual è il titolo?",
-        "opzioni": ["Edge of Tomorrow", "Source Code", "Tenet", "Looper"],
-        "corretta": "Edge of Tomorrow"
-    },
-    {
-        "domanda": "Un fotografo bloccato in casa per una gamba ingessata spia i vicini di casa e si convince che uno di loro abbia commesso un omicidio. Qual è il titolo?",
-        "opzioni": ["La finestra sul cortile", "Disturbia", "Psycho", "Nodo alla gola"],
-        "corretta": "La finestra sul cortile"
-    },
-    {
-        "domanda": "Un ex truffatore viene reclutato da un'agenzia segreta per indossare una tuta che gli permette di rimpicciolirsi e comunicare con gli insetti. Qual è il titolo?",
-        "opzioni": ["Ant-Man", "Iron Man", "Honey, I Shrunk the Kids", "The Wasp"],
-        "corretta": "Ant-Man"
-    },
-    {
-        "domanda": "Un bambino di 10 anni si perde a New York durante le vacanze di Natale e finisce per affrontare di nuovo i suoi vecchi nemici. Qual è il titolo?",
-        "opzioni": ["Mamma, ho riperso l'aereo: mi sono smarrito a New York", "Elf", "Una poltrona per due", "Miracolo nella 34ª strada"],
-        "corretta": "Mamma, ho riperso l'aereo: mi sono smarrito a New York"
-    },
-    {
-        "domanda": "Un'adolescente scopre di essere la prescelta per sconfiggere un'entità malvagia che appare ogni 27 anni sotto forma di clown nelle fogne di Derry. Qual è il titolo?",
-        "opzioni": ["IT", "Poltergeist", "The Conjuring", "Sinister"],
-        "corretta": "IT"
-    },
-    {
-        "domanda": "Un uomo isolato in un futuro post-apocalittico deve scortare una giovane ragazza immune a una piaga fungina attraverso gli Stati Uniti devastati. Qual è il titolo?",
-        "opzioni": ["The Last of Us", "The Road", "Children of Men", "A Quiet Place"],
-        "corretta": "The Last of Us"
-    },
-    {
-        "domanda": "Una giovane donna pianifica una vendetta metodica contro chi ha abusato di lei e della sua amica, fingendosi ubriaca nei club ogni notte. Qual è il titolo?",
-        "opzioni": ["Promising Young Woman", "Revenge", "Hard Candy", "Gone Girl"],
-        "corretta": "Promising Young Woman"
-    },
-    {
-        "domanda": "Un agente dell'FBI si infiltra in una banda di surfisti sospettati di essere rapinatori di banche che indossano maschere di ex presidenti. Qual è il titolo?",
-        "opzioni": ["Point Break", "Heat", "Bad Boys", "Speed"],
-        "corretta": "Point Break"
-    },
-    {
-        "domanda": "Un uomo viene rapito e costretto a vivere in una prigione privata per 20 anni, scoprendo una verità sconvolgente una volta liberato. Qual è il titolo?",
-        "opzioni": ["Oldboy", "Lady Vendetta", "The Chaser", "Memories of Murder"],
-        "corretta": "Oldboy"
-    },
-    {
-        "domanda": "Un gruppo di scienziati in una base isolata in Antartide scopre un organismo alieno capace di assumere le sembianze di chiunque. Qual è il titolo?",
-        "opzioni": ["La cosa", "Alien", "The Abyss", "Sfera"],
-        "corretta": "La cosa"
-    },
-    {
-        "domanda": "Un detective indaga sulla scomparsa di un bambino in una cittadina dove una siccità estrema ha portato a galla segreti del passato. Qual è il titolo?",
-        "opzioni": ["Chi è senza peccato - The Dry", "Wind River", "Nocturnal Animals", "Gone Baby Gone"],
-        "corretta": "Chi è senza peccato - The Dry"
-    },
-    {
-        "domanda": "Un sarto rinomato nella Londra degli anni '50 trova una musa che mette a dura prova il suo rigido stile di vita e le sue ossessioni. Qual è il titolo?",
-        "opzioni": ["Il filo nascosto", "The Danish Girl", "Carol", "Anna Karenina"],
-        "corretta": "Il filo nascosto"
-    },
-    {
-        "domanda": "Due missionarie mormoni vengono intrappolate nella casa di un uomo che le costringe a un brutale test psicologico sulla loro fede. Qual è il titolo?",
-        "opzioni": ["Heretic", "The Witch", "Midsommar", "Saint Maud"],
-        "corretta": "Heretic"
-    },
-    {
-        "domanda": "Una bambina finisce per errore in un mondo governato da spiriti e deve lavorare in una stazione termale per salvare i genitori trasformati in maiali. Qual è il titolo?",
-        "opzioni": ["La città incantata", "Il mio vicino Totoro", "Il castello errante di Howl", "Ponyo"],
-        "corretta": "La città incantata"
-    },
-    {
-        "domanda": "Un uomo decide di partecipare a un esperimento sociale in una prigione verticale dove il cibo viene distribuito dall'alto verso il basso. Qual è il titolo?",
-        "opzioni": ["Il buco", "Snowpiercer", "The Experiment", "Cube"],
-        "corretta": "Il buco"
-    },
-    {
-        "domanda": "Un hacker scopre che l'umanità è intrappolata in una realtà simulata e si unisce alla resistenza guidata da un misterioso mentore. Qual è il titolo?",
-        "opzioni": ["Matrix", "Tron", "Existenz", "Dark City"],
-        "corretta": "Matrix"
-    },
-    {
-        "domanda": "Un gruppo di astronauti viaggia attraverso un wormhole vicino Saturno per trovare una nuova casa per l'umanità che sta morendo sulla Terra. Qual è il titolo?",
-        "opzioni": ["Interstellar", "Gravity", "Ad Astra", "Contact"],
-        "corretta": "Interstellar"
-    },
-    {
-        "domanda": "Un veterano del Vietnam con disturbi psichici lavora come tassista a New York e decide di eliminare il 'marciume' delle strade. Qual è il titolo?",
-        "opzioni": ["Taxi Driver", "Mean Streets", "Serpico", "Joker"],
-        "corretta": "Taxi Driver"
-    },
-    {
-        "domanda": "Un bambino vede i morti e chiede l'aiuto di uno psicologo infantile che sta cercando di superare un fallimento professionale. Qual è il titolo?",
-        "opzioni": ["Il sesto senso", "The Others", "The Orphanage", "Hereditary"],
-        "corretta": "Il sesto senso"
-    },
-    {
-        "domanda": "Un giovane afroamericano visita la tenuta dei genitori della sua fidanzata bianca, scoprendo che la loro accoglienza nasconde un fine sinistro. Qual è il titolo?",
-        "opzioni": ["Get Out", "Us", "Nope", "Antebellum"],
-        "corretta": "Get Out"
-    },
-    {
-        "domanda": "Un investigatore dell'assicurazione cerca di rintracciare un uomo che soffre di amnesia a breve termine e che comunica tramite tatuaggi sul corpo. Qual è il titolo?",
-        "opzioni": ["Memento", "Following", "Shutter Island", "Insomnia"],
-        "corretta": "Memento"
-    },
-    {
-        "domanda": "Un chirurgo plastico tiene prigioniera una persona in una villa isolata, testando su di lei una nuova pelle sintetica indistruttibile. Qual è il titolo?",
-        "opzioni": ["La pelle che abito", "Dolor y Gloria", "Gli abbracci spezzati", "Talk to Her"],
-        "corretta": "La pelle che abito"
-    },
-    {
-        "domanda": "Un ladro di sogni deve compiere l'operazione inversa: innestare un'idea nella mente di un potente erede industriale. Qual è il titolo?",
-        "opzioni": ["Inception", "Tenet", "Source Code", "Looper"],
-        "corretta": "Inception"
-    },
-    {
-        "domanda": "Un professore di archeologia cerca di impedire ai nazisti di impossessarsi di un antico manufatto dai poteri divini. Qual è il titolo?",
-        "opzioni": ["I predatori dell'arca perduta", "La mummia", "National Treasure", "Tomb Raider"],
-        "corretta": "I predatori dell'arca perduta"
-    },
-    {
-        "domanda": "Un gruppo di cacciatori di taglie e fuorilegge rimane bloccato in un emporio durante una tempesta di neve nel Wyoming post-Guerra Civile. Qual è il titolo?",
-        "opzioni": ["The Hateful Eight", "Django Unchained", "I magnifici sette", "Balla coi lupi"],
-        "corretta": "The Hateful Eight"
-    },
-    {
-        "domanda": "Un giovane viene assunto per testare l'intelligenza artificiale di un robot dalle sembianze femminili in una lussuosa villa hi-tech. Qual è il titolo?",
-        "opzioni": ["Ex Machina", "Her", "A.I.", "Morgan"],
-        "corretta": "Ex Machina"
-    },
-    {
-        "domanda": "Un anziano vedovo lega dei palloncini alla sua casa per volare verso le cascate in Sud America, accompagnato da un ragazzino scout. Qual è il titolo?",
-        "opzioni": ["Up", "Inside Out", "Coco", "Toy Story"],
-        "corretta": "Up"
-    },
-    {
-        "domanda": "Un ex detective indaga sulla scomparsa di una paziente da un ospedale psichiatrico situato su un'isola inaccessibile. Qual è il titolo?",
-        "opzioni": ["Shutter Island", "The Ward", "A Beautiful Mind", "Fractured"],
-        "corretta": "Shutter Island"
-    },
-    {
-        "domanda": "Un sicario della malavita russa torna in azione per vendicare l'uccisione del suo cane, ultimo regalo della moglie defunta. Qual è il titolo?",
-        "opzioni": ["John Wick", "Io vi troverò", "The Equalizer", "Atomica Bionda"],
-        "corretta": "John Wick"
-    },
-    {
-        "domanda": "Una detective indaga sulla misteriosa scomparsa di una donna durante il suo quinto anniversario di matrimonio, sospettando del marito. Qual è il titolo?",
-        "opzioni": ["Gone Girl", "La ragazza del treno", "The Game", "Prisoners"],
-        "corretta": "Gone Girl"
-    },
-    {
-        "domanda": "Un astronauta deve sopravvivere da solo su Marte coltivando patate e usando il suo ingegno scientifico dopo essere stato dato per morto. Qual è il titolo?",
-        "opzioni": ["The Martian", "Gravity", "Ad Astra", "Interstellar"],
-        "corretta": "The Martian"
-    },
-    {
-        "domanda": "Un batterista jazz ossessionato dal successo viene spinto oltre ogni limite umano da un insegnante brutale e perfezionista. Qual è il titolo?",
-        "opzioni": ["Whiplash", "La La Land", "Birdman", "Soul"],
-        "corretta": "Whiplash"
-    },
-    {
-        "domanda": "Un uomo si risveglia in una stanza d'albergo accanto al cadavere della sua amante e assolda un'avvocata per preparare la difesa in tre ore. Qual è il titolo?",
-        "opzioni": ["L'ospite invisibile", "Il contrattempo", "La migliore offerta", "Il corpo"],
-        "corretta": "L'ospite invisibile"
-    },
-    {
-        "domanda": "Un investigatore privato viene assunto per trovare una ragazza a Los Angeles, finendo in un groviglio di corruzione politica e scandali legati all'acqua. Qual è il titolo?",
-        "opzioni": ["Chinatown", "L.A. Confidential", "Il lungo addio", "The Nice Guys"],
-        "corretta": "Chinatown"
-    },
-    {
-        "domanda": "Chi ha diretto il film 'Pulp Fiction', celebre per i dialoghi serrati e la struttura non lineare?",
-        "opzioni": ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg", "David Fincher"],
-        "corretta": "Quentin Tarantino"
-    },
-    {
-        "domanda": "Quale attore si è realmente tagliato la mano con un bicchiere di vetro in 'Django Unchained' continuando a recitare?",
-        "opzioni": ["Leonardo DiCaprio", "Jamie Foxx", "Christoph Waltz", "Samuel L. Jackson"],
-        "corretta": "Leonardo DiCaprio"
-    },
-    {
-        "domanda": "A quale film appartiene la citazione: 'Francamente, me ne infischio'?",
-        "opzioni": ["Via col vento", "Casablanca", "Il Padrino", "Viale del tramonto"],
-        "corretta": "Via col vento"
-    },
-    {
-        "domanda": "Quale oggetto usa il protagonista di 'Cast Away' come unico compagno durante la sua permanenza sull'isola?",
-        "opzioni": ["Un pallone da pallavolo", "Un orologio da taschino", "Una radio rotta", "Un diario"],
-        "corretta": "Un pallone da pallavolo"
-    },
-    {
-        "domanda": "Chi ha composto l'iconica colonna sonora di 'Interstellar'?",
-        "opzioni": ["Hans Zimmer", "John Williams", "Ennio Morricone", "Danny Elfman"],
-        "corretta": "Hans Zimmer"
-    },
-    {
-        "domanda": "Quale regista è noto per l'uso di inquadrature perfettamente simmetriche e colori pastello?",
-        "opzioni": ["Wes Anderson", "Tim Burton", "Christopher Nolan", "Woody Allen"],
-        "corretta": "Wes Anderson"
-    },
-    {
-        "domanda": "In quale film un uomo cerca di fuggire dalla prigione di Shawshank attraverso un tunnel scavato in vent'anni?",
-        "opzioni": ["Le ali della libertà", "Il miglio verde", "Fuga da Alcatraz", "Papillon"],
-        "corretta": "Le ali della libertà"
-    },
-    {
-        "domanda": "Quale attrice interpreta la protagonista nel thriller psicologico 'Promising Young Woman'?",
-        "opzioni": ["Carey Mulligan", "Margot Robbie", "Emma Stone", "Saoirse Ronan"],
-        "corretta": "Carey Mulligan"
-    },
-    {
-        "domanda": "In 'Inception', quale oggetto funge da totem per Arthur?",
-        "opzioni": ["Un dado truccato", "Una trottola", "Una pedina degli scacchi", "Una fiche"],
-        "corretta": "Un dado truccato"
-    },
-    {
-        "domanda": "A quale celebre saga appartiene il personaggio di Jeff Buckley nella fantasia della protagonista Mia?",
-        "opzioni": ["Nessuna, è un riferimento musicale reale", "Il Signore degli Anelli", "Star Wars", "Harry Potter"],
-        "corretta": "Nessuna, è un riferimento musicale reale"
-    },
-    {
-        "domanda": "Quale film horror di Stanley Kubrick è ambientato nell'inquietante Overlook Hotel?",
-        "opzioni": ["Shining", "Arancia Meccanica", "Eyes Wide Shut", "Full Metal Jacket"],
-        "corretta": "Shining"
-    },
-    {
-        "domanda": "Chi ha diretto il film 'La forma dell'acqua', vincitore dell'Oscar come Miglior Film?",
-        "opzioni": ["Guillermo del Toro", "Alfonso Cuarón", "Alejandro Iñárritu", "Bong Joon-ho"],
-        "corretta": "Guillermo del Toro"
-    },
-    {
-        "domanda": "In quale città è ambientato il film 'La grande bellezza' di Paolo Sorrentino?",
-        "opzioni": ["Roma", "Napoli", "Milano", "Venezia"],
-        "corretta": "Roma"
-    },
-    {
-        "domanda": "Quale film d'animazione Pixar esplora il mondo delle emozioni nella mente di Riley?",
-        "opzioni": ["Inside Out", "Soul", "Coco", "Up"],
-        "corretta": "Inside Out"
-    },
-    {
-        "domanda": "A quale film appartiene la citazione: 'Spero che tu stia bene là fuori, ovunque tu sia'?",
-        "opzioni": ["Heretic", "The Dry", "Promising Young Woman", "Quando Dio imparò a scrivere"],
-        "corretta": "Heretic"
-    },
-    {
-        "domanda": "Quale attore interpreta il Joker nel film 'Il Cavaliere Oscuro' di Christopher Nolan?",
-        "opzioni": ["Heath Ledger", "Joaquin Phoenix", "Jack Nicholson", "Jared Leto"],
-        "corretta": "Heath Ledger"
-    },
-    {
-        "domanda": "Qual è il titolo del film in cui una restauratrice di foto vive un dialogo muto con idoli musicali defunti?",
-        "opzioni": ["Mia", "Amélie", "La La Land", "The Whale"],
-        "corretta": "Mia"
-    },
-    {
-        "domanda": "Quale regista è famoso per i suoi 'camei' in quasi tutti i suoi film thriller?",
-        "opzioni": ["Alfred Hitchcock", "M. Night Shyamalan", "Quentin Tarantino", "David Lynch"],
-        "corretta": "Alfred Hitchcock"
-    },
-    {
-        "domanda": "In 'The Truman Show', qual è il nome della città-set in cui vive il protagonista?",
-        "opzioni": ["Seahaven", "Paradise", "Hill Valley", "Pleasantville"],
-        "corretta": "Seahaven"
-    },
-    {
-        "domanda": "Quale strumento musicale è al centro della trama del film 'Whiplash'?",
-        "opzioni": ["La batteria", "Il pianoforte", "La tromba", "Il sassofono"],
-        "corretta": "La batteria"
-    },
-    {
-        "domanda": "In quale film di fantascienza gli esseri umani usano il tempo come moneta corrente?",
-        "opzioni": ["In Time", "Gattaca", "Looper", "Tenet"],
-        "corretta": "In Time"
-    },
-    {
-        "domanda": "Chi interpreta l'ispettore Javert nel musical 'Les Misérables' del 2012?",
-        "opzioni": ["Russell Crowe", "Hugh Jackman", "Eddie Redmayne", "Sacha Baron Cohen"],
-        "corretta": "Russell Crowe"
-    },
-    {
-        "domanda": "Quale film racconta la storia di un matematico che decifra il codice Enigma?",
-        "opzioni": ["The Imitation Game", "A Beautiful Mind", "La teoria del tutto", "Tenet"],
-        "corretta": "The Imitation Game"
-    },
-    {
-        "domanda": "In quale film di Tarantino un gruppo di soldati ebrei dà la caccia ai nazisti nella Francia occupata?",
-        "opzioni": ["Bastardi senza gloria", "Django Unchained", "Le Iene", "Grindhouse"],
-        "corretta": "Bastardi senza gloria"
-    },
-    {
-        "domanda": "Quale film del 2024 vede Hugh Grant nei panni di un uomo che mette alla prova la fede di due missionarie?",
-        "opzioni": ["Heretic", "The Dry", "Promising Young Woman", "The Whale"],
-        "corretta": "Heretic"
-    },
-    {
-        "domanda": "A quale film appartiene la frase: 'Mi piace l'odore del napalm al mattino'?",
-        "opzioni": ["Apocalypse Now", "Full Metal Jacket", "Platoon", "Black Hawk Down"],
-        "corretta": "Apocalypse Now"
-    },
-    {
-        "domanda": "Chi ha diretto il capolavoro d'animazione 'La città incantata'?",
-        "opzioni": ["Hayao Miyazaki", "Isao Takahata", "Satoshi Kon", "Makoto Shinkai"],
-        "corretta": "Hayao Miyazaki"
-    },
-    {
-        "domanda": "Quale film ha vinto l'Oscar come Miglior Film nel 1995?",
-        "opzioni": ["Forrest Gump", "Pulp Fiction", "Le ali della libertà", "Braveheart"],
-        "corretta": "Forrest Gump"
-    },
-    {
-        "domanda": "In 'The Prestige', quale scienziato realmente esistito aiuta Robert Angier?",
-        "opzioni": ["Nikola Tesla", "Thomas Edison", "Albert Einstein", "Isaac Newton"],
-        "corretta": "Nikola Tesla"
-    },
-    {
-        "domanda": "Quale film segue le vicende di una famiglia che vive in silenzio per sfuggire a creature sensibili al suono?",
-        "opzioni": ["A Quiet Place", "Bird Box", "The Silence", "Don't Breathe"],
-        "corretta": "A Quiet Place"
-    },
-    {
-        "domanda": "In 'The Departed', quale oggetto viene usato da Billy Costigan per colpire un uomo al bar all'inizio del film?",
-        "opzioni": ["Un boccale di birra", "Un bicchiere di vetro", "Un portacenere", "Una bottiglia"],
-        "corretta": "Un bicchiere di vetro"
-    },
-    {
-        "domanda": "A quale film appartiene l'iconica citazione: 'La prima regola del Club è che non si parla del Club'?",
-        "opzioni": ["Fight Club", "The Snatch", "I soliti sospetti", "Le Iene"],
-        "corretta": "Fight Club"
-    },
-    {
-        "domanda": "Quale regista è noto per le sue scene d'azione iper-violente e l'uso costante della tecnica 'Trunk Shot' (inquadratura dal bagagliaio)?",
-        "opzioni": ["Quentin Tarantino", "Guy Ritchie", "Robert Rodriguez", "Matthew Vaughn"],
-        "corretta": "Quentin Tarantino"
-    },
-    {
-        "domanda": "In 'Quando Dio imparò a scrivere', qual è il nome della detective protagonista interpretata da Bárbara Lennie?",
-        "opzioni": ["Alice Gould", "Mia", "Elena Blanco", "Amaya Salazar"],
-        "corretta": "Alice Gould"
-    },
-    {
-        "domanda": "Quale compositore ha realizzato la colonna sonora di 'Nuovo Cinema Paradiso' e 'C'era una volta in America'?",
-        "opzioni": ["Ennio Morricone", "Nino Rota", "Nicola Piovani", "Giorgio Moroder"],
-        "corretta": "Ennio Morricone"
-    },
-    {
-        "domanda": "In 'Heretic', qual è il gioco da tavolo che Mr. Reed usa per spiegare la sua teoria sulla religione?",
-        "opzioni": ["Monopoly", "Scacchi", "Cluedo", "Dungeons & Dragons"],
-        "corretta": "Monopoly"
-    },
-    {
-        "domanda": "In quale film di fantascienza un'astronave a forma di ciambella appare sopra diverse città del mondo?",
-        "opzioni": ["Arrival", "Independence Day", "District 9", "Prometheus"],
-        "corretta": "Arrival"
-    },
-    {
-        "domanda": "Chi interpreta il protagonista Aaron Falk nel thriller australiano 'Chi è senza peccato - The Dry'?",
-        "opzioni": ["Eric Bana", "Hugh Jackman", "Russell Crowe", "Guy Pearce"],
-        "corretta": "Eric Bana"
-    },
-    {
-        "domanda": "In 'Inception', quale brano musicale viene usato come 'calcio' per svegliare i sognatori?",
-        "opzioni": ["Non, je ne regrette rien", "La vie en rose", "Claire de Lune", "Time"],
-        "corretta": "Non, je ne regrette rien"
-    },
-    {
-        "domanda": "Quale oggetto cult di 'Ritorno al Futuro' permette ai protagonisti di viaggiare nel tempo quando raggiunge le 88 miglia orarie?",
-        "opzioni": ["La DeLorean DMC-12", "Il flusso canalizzatore", "L'Hoverboard", "L'Almanacco sportivo"],
-        "corretta": "La DeLorean DMC-12"
-    },
-    {
-        "domanda": "A quale film appartiene la frase: 'Sei solo chiacchiere e distintivo!'?",
-        "opzioni": ["The Untouchables - Gli intoccabili", "Quei bravi ragazzi", "Scarface", "Il Padrino"],
-        "corretta": "The Untouchables - Gli intoccabili"
-    },
-    {
-        "domanda": "Quale film horror del 2022 vede una donna intrappolata in un Airbnb che nasconde un segreto nel seminterrato?",
-        "opzioni": ["Barbarian", "Smile", "X", "Pearl"],
-        "corretta": "Barbarian"
-    },
-    {
-        "domanda": "Chi ha diretto 'Oldboy' (2003), parte della 'Trilogia della Vendetta'?",
-        "opzioni": ["Park Chan-wook", "Bong Joon-ho", "Lee Chang-dong", "Takeshi Kitano"],
-        "corretta": "Park Chan-wook"
-    },
-    {
-        "domanda": "In 'The Whale', quale saggio letterario il protagonista Charlie chiede costantemente di leggergli?",
-        "opzioni": ["Moby Dick", "Il vecchio e il mare", "La lettera scarlatta", "Grande Gatsby"],
-        "corretta": "Moby Dick"
-    },
-    {
-        "domanda": "Quale attrice interpreta la perfida infermiera Ratched in 'Qualcuno volò sul nido del cuculo'?",
-        "opzioni": ["Louise Fletcher", "Faye Dunaway", "Diane Keaton", "Ellen Burstyn"],
-        "corretta": "Louise Fletcher"
-    },
-    {
-        "domanda": "In 'Shutter Island', qual è l'ultima frase che Teddy dice a Chuck prima del finale?",
-        "opzioni": ["Cosa sarebbe peggio? Vivere da mostro o morire da uomo perbene?", "Dobbiamo andarcene da quest'isola", "Non mi prenderanno mai", "Lei è il dottor Sheehan?"],
-        "corretta": "Cosa sarebbe peggio? Vivere da mostro o morire da uomo perbene?"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar racconta la storia di un'amicizia tra un mostro azzurro e una bambina di nome Boo?",
-        "opzioni": ["Monsters & Co.", "Toy Story", "Luca", "Onward"],
-        "corretta": "Monsters & Co."
-    },
-    {
-        "domanda": "Chi ha interpretato il ruolo di Amy Dunne nel thriller 'Gone Girl'?",
-        "opzioni": ["Rosamund Pike", "Amy Adams", "Jessica Chastain", "Charlize Theron"],
-        "corretta": "Rosamund Pike"
-    },
-    {
-        "domanda": "A quale film appartiene la colonna sonora con il brano 'Skyfall' di Adele?",
-        "opzioni": ["007 - Skyfall", "Spectre", "No Time to Die", "Casino Royale"],
-        "corretta": "007 - Skyfall"
-    },
-    {
-        "domanda": "Quale regista è famoso per inserire messaggi subliminali e una forte critica al consumismo in 'Fight Club'?",
-        "opzioni": ["David Fincher", "Christopher Nolan", "Darren Aronofsky", "Zack Snyder"],
-        "corretta": "David Fincher"
-    },
-    {
-        "domanda": "In 'Promising Young Woman', qual è la canzone pop che Cassie e Ryan cantano nel negozio di dischi?",
-        "opzioni": ["Stars Are Blind", "Toxic", "It's Raining Men", "Oops!... I Did It Again"],
-        "corretta": "Stars Are Blind"
-    },
-    {
-        "domanda": "Quale oggetto simboleggia l'infanzia perduta di Charles Foster Kane in 'Quarto Potere'?",
-        "opzioni": ["Uno slittino (Rosabella)", "Un orologio", "Una palla di neve", "Un diario"],
-        "corretta": "Uno slittino (Rosabella)"
-    },
-    {
-        "domanda": "Chi interpreta la protagonista Mia nel progetto cinematografico sulla restauratrice di pellicole?",
-        "opzioni": ["Mia", "Nessuna, è un personaggio originale", "Emma Stone", "Zoe Kravitz"],
-        "corretta": "Mia"
-    },
-    {
-        "domanda": "In 'Pulp Fiction', qual è il nome del 'ripulitore' chiamato per risolvere il problema del cadavere in auto?",
-        "opzioni": ["Winston Wolf", "Vincent Vega", "Jules Winnfield", "Marsellus Wallace"],
-        "corretta": "Winston Wolf"
-    },
-    {
-        "domanda": "A quale film appartiene la citazione: 'Al mio segnale, scatenate l'inferno'?",
-        "opzioni": ["Il Gladiatore", "300", "Braveheart", "Alexander"],
-        "corretta": "Il Gladiatore"
-    },
-    {
-        "domanda": "Quale film del 1975 ha terrorizzato il mondo rendendo le persone timorose di nuotare nell'oceano?",
-        "opzioni": ["Lo squalo", "Piranha", "L'orca assassina", "The Abyss"],
-        "corretta": "Lo squalo"
-    },
-    {
-        "domanda": "In 'The Hateful Eight', qual è il segreto nascosto sotto le assi del pavimento dell'emporio?",
-        "opzioni": ["I complici di Daisy Domergue", "Un tesoro rubato", "Il cadavere di Minnie", "Una botola per la fuga"],
-        "corretta": "I complici di Daisy Domergue"
-    },
-    {
-        "domanda": "Chi ha diretto 'Blade Runner' (1982), caposaldo del genere cyberpunk?",
-        "opzioni": ["Ridley Scott", "James Cameron", "George Lucas", "Steven Spielberg"],
-        "corretta": "Ridley Scott"
-    },
-    {
-        "domanda": "Quale film segue le vicende di un uomo che vive in una casa isolata parlando con il fantasma di Jeff Buckley?",
-        "opzioni": ["Mia", "Grace", "Hallelujah", "A Ghost Story"],
-        "corretta": "Mia"
-    },
-    {
-        "domanda": "In 'Matrix', di che colore è la pillola che Morpheus offre a Neo per restare nel mondo simulato?",
-        "opzioni": ["Blu", "Rossa", "Verde", "Gialla"],
-        "corretta": "Blu"
-    },
-    {
-        "domanda": "In 'The Prestige', quale parola viene usata per descrivere la terza e ultima fase di un trucco magico?",
-        "opzioni": ["Il Prestigio", "La Svolta", "La Promessa", "Il Colpo"],
-        "corretta": "Il Prestigio"
-    },
-    {
-        "domanda": "Quale regista è noto per l'uso ricorrente di inquadrature dal basso, scene di danza improvvisate e feticismo per i piedi?",
-        "opzioni": ["Quentin Tarantino", "Martin Scorsese", "Paul Thomas Anderson", "Guy Ritchie"],
-        "corretta": "Quentin Tarantino"
-    },
-    {
-        "domanda": "A quale film appartiene l'iconica citazione: 'Sto per fargli un'offerta che non potrà rifiutare'?",
-        "opzioni": ["Il Padrino", "Scarface", "Goodfellas", "Carlito's Way"],
-        "corretta": "Il Padrino"
-    },
-    {
-        "domanda": "Quale oggetto è fondamentale nel film 'Cast Away' per permettere a Chuck Noland di estrarre un dente dolorante?",
-        "opzioni": ["Un pattino da ghiaccio", "Una pietra", "Un coltellino svizzero", "Un pezzo di legno"],
-        "corretta": "Un pattino da ghiaccio"
-    },
-    {
-        "domanda": "In 'Quando Dio imparò a scrivere', dove si svolge la maggior parte della trama del film?",
-        "opzioni": ["In un ospedale psichiatrico", "In un carcere di massima sicurezza", "In un tribunale", "In una villa isolata"],
-        "corretta": "In un ospedale psichiatrico"
-    },
-    {
-        "domanda": "Quale attrice interpreta la protagonista nel thriller psicologico 'Promising Young Woman'?",
-        "opzioni": ["Carey Mulligan", "Margot Robbie", "Emma Stone", "Saoirse Ronan"],
-        "corretta": "Carey Mulligan"
-    },
-    {
-        "domanda": "Chi ha composto la celebre e martellante colonna sonora del film 'Lo Squalo'?",
-        "opzioni": ["John Williams", "Hans Zimmer", "Jerry Goldsmith", "Bernard Herrmann"],
-        "corretta": "John Williams"
-    },
-    {
-        "domanda": "In 'Inception', quale brano di Edith Piaf viene usato per avvisare i sognatori che il 'calcio' sta arrivando?",
-        "opzioni": ["Non, je ne regrette rien", "La Vie en Rose", "Milord", "Padam Padam"],
-        "corretta": "Non, je ne regrette rien"
-    },
-    {
-        "domanda": "Quale film di animazione Pixar ha come protagonista un anziano che fa volare la sua casa con migliaia di palloncini?",
-        "opzioni": ["Up", "Soul", "Coco", "Inside Out"],
-        "corretta": "Up"
-    },
-    {
-        "domanda": "A quale film appartiene la frase: 'Sei solo chiacchiere e distintivo!'?",
-        "opzioni": ["The Untouchables - Gli intoccabili", "Quei bravi ragazzi", "Scarface", "L.A. Confidential"],
-        "corretta": "The Untouchables - Gli intoccabili"
-    },
-    {
-        "domanda": "Quale regista ha diretto il remake di 'Dune' (2021) e il suo sequel?",
-        "opzioni": ["Denis Villeneuve", "Christopher Nolan", "Ridley Scott", "George Lucas"],
-        "corretta": "Denis Villeneuve"
-    },
-    {
-        "domanda": "In 'Heretic', qual è il nome del personaggio interpretato da Hugh Grant che mette alla prova le missionarie?",
-        "opzioni": ["Mr. Reed", "Mr. Brown", "Mr. White", "Mr. Black"],
-        "corretta": "Mr. Reed"
-    },
-    {
-        "domanda": "Quale film horror del 2017 vede una famiglia perseguitata da un'entità che appare solo quando le luci sono spente?",
-        "opzioni": ["Lights Out", "The Conjuring", "Insidious", "Hereditary"],
-        "corretta": "Lights Out"
-    },
-    {
-        "domanda": "In 'The Whale', qual è l'hobby o l'ossessione del protagonista Charlie che lo lega alla letteratura?",
-        "opzioni": ["Insegna scrittura creativa online", "Scrive poesie", "Rilegge Moby Dick", "Colleziona libri rari"],
-        "corretta": "Insegna scrittura creativa online"
-    },
-    {
-        "domanda": "Chi interpreta il detective Aaron Falk nel thriller 'Chi è senza peccato - The Dry'?",
-        "opzioni": ["Eric Bana", "Hugh Jackman", "Guy Pearce", "Russell Crowe"],
-        "corretta": "Eric Bana"
-    },
-    {
-        "domanda": "Quale film di Stanley Kubrick fu ritirato dalle sale del Regno Unito per volere del regista stesso fino alla sua morte?",
-        "opzioni": ["Arancia Meccanica", "Lolita", "Shining", "Eyes Wide Shut"],
-        "corretta": "Arancia Meccanica"
-    },
-    {
-        "domanda": "A quale film appartiene la colonna sonora che include il brano 'Skyfall' di Adele?",
-        "opzioni": ["007 - Skyfall", "Spectre", "No Time to Die", "Casino Royale"],
-        "corretta": "007 - Skyfall"
-    },
-    {
-        "domanda": "In 'The Truman Show', qual è l'ultima frase che Truman dice rivolto alla telecamera prima di uscire dal set?",
-        "opzioni": ["Ciaone! E semmai non vi rivedessi...", "Addio a tutti", "Sono libero", "Era tutto finto?"],
-        "corretta": "Ciaone! E semmai non vi rivedessi..."
-    },
-    {
-        "domanda": "Quale oggetto cult di 'Pulp Fiction' emana una luce dorata quando viene aperto, ma il suo contenuto non viene mai rivelato?",
-        "opzioni": ["La valigetta", "Il portafoglio di Jules", "La scatola di cereali", "Il frigo di Marcellus"],
-        "corretta": "La valigetta"
-    },
-    {
-        "domanda": "Chi ha diretto il thriller psicologico 'Zodiac' basato sui reali omicidi del killer dello zodiaco?",
-        "opzioni": ["David Fincher", "Christopher Nolan", "David Lynch", "Bong Joon-ho"],
-        "corretta": "David Fincher"
-    },
-    {
-        "domanda": "In 'Shutter Island', qual è il nome del protagonista interpretato da Leonardo DiCaprio?",
-        "opzioni": ["Teddy Daniels", "Chuck Aule", "Andrew Laeddis", "Lester Sheehan"],
-        "corretta": "Teddy Daniels"
-    },
-    {
-        "domanda": "Quale film di guerra di Christopher Nolan è girato seguendo tre linee temporali: molo (una settimana), mare (un giorno), aria (un'ora)?",
-        "opzioni": ["Dunkirk", "Tenet", "Oppenheimer", "Interstellar"],
-        "corretta": "Dunkirk"
-    },
-    {
-        "domanda": "A quale film appartiene la citazione: 'Houston, abbiamo un problema'?",
-        "opzioni": ["Apollo 13", "Gravity", "Interstellar", "The Martian"],
-        "corretta": "Apollo 13"
-    },
-    {
-        "domanda": "Quale attrice interpreta la perfida infermiera Ratched in 'Qualcuno volò sul nido del cuculo'?",
-        "opzioni": ["Louise Fletcher", "Faye Dunaway", "Diane Keaton", "Ellen Burstyn"],
-        "corretta": "Louise Fletcher"
-    },
-    {
-        "domanda": "In 'Bastardi senza gloria', quale lingua usa Hans Landa per smascherare i protagonisti nella scena della taverna?",
-        "opzioni": ["Italiano", "Francese", "Inglese", "Tedesco"],
-        "corretta": "Italiano"
-    },
-    {
-        "domanda": "Quale film d'animazione Disney è ambientato nella Polinesia e segue il viaggio di una ragazza e del semidio Maui?",
-        "opzioni": ["Oceania", "Lilo & Stitch", "Raya e l'ultimo drago", "Frozen"],
-        "corretta": "Oceania"
-    },
-    {
-        "domanda": "Chi interpreta il ruolo di Patrick Bateman nel film 'American Psycho'?",
-        "opzioni": ["Christian Bale", "Jared Leto", "Tom Cruise", "Edward Norton"],
-        "corretta": "Christian Bale"
-    },
-    {
-        "domanda": "In 'The Hateful Eight', chi è l'autore della lettera (falsa) di Abramo Lincoln che Marquis Warren porta con sé?",
-        "opzioni": ["Marquis Warren stesso", "John Ruth", "Chris Mannix", "Joe Gage"],
-        "corretta": "Marquis Warren stesso"
-    },
-    {
-        "domanda": "Quale regista è noto per la sua trilogia 'Dark Knight' e per l'ossessione per il tempo e i sogni?",
-        "opzioni": ["Christopher Nolan", "David Fincher", "Denis Villeneuve", "James Cameron"],
-        "corretta": "Christopher Nolan"
-    },
-    {
-        "domanda": "In 'Mia', la protagonista quale abitudine silenziosa ha quando frequenta il Caffè Storico?",
-        "opzioni": ["Ascolta una band dal vivo", "Scrive un diario", "Restaura foto", "Legge poesie"],
-        "corretta": "Ascolta una band dal vivo"
-    },
-    {
-        "domanda": "Quale attore ha vinto l'Oscar per la sua interpretazione del Joker nel film del 2019 diretto da Todd Phillips?",
-        "opzioni": ["Joaquin Phoenix", "Heath Ledger", "Jared Leto", "Jack Nicholson"],
-        "corretta": "Joaquin Phoenix"
-    },
-    {
-        "domanda": "In 'The Departed', quale brano dei Dropkick Murphys accompagna le scene d'azione più iconiche?",
-        "opzioni": ["I'm Shipping Up to Boston", "The State of Massachusetts", "Rose Tattoo", "Going Out in Style"],
-        "corretta": "I'm Shipping Up to Boston"
-    },
-    {
-        "domanda": "A quale film appartiene la citazione: 'C'è un solo modo per uscirne, e io non l'ho ancora trovato'?",
-        "opzioni": ["Quando Dio imparò a scrivere", "Shutter Island", "Il buco", "Fractured"],
-        "corretta": "Quando Dio imparò a scrivere"
-    },
-    {
-        "domanda": "In 'Heretic', quale prelibatezza culinaria viene offerta alle missionarie per trattenerle in casa?",
-        "opzioni": ["Torta di mirtilli", "Biscotti al cioccolato", "Tè e pasticcini", "Muffin alle noci"],
-        "corretta": "Torta di mirtilli"
-    },
-    {
-        "domanda": "Quale regista ha diretto il capolavoro del 1994 'Pulp Fiction'?",
-        "opzioni": ["Quentin Tarantino", "Robert Rodriguez", "David Fincher", "Martin Scorsese"],
-        "corretta": "Quentin Tarantino"
-    },
-    {
-        "domanda": "In quale film di fantascienza del 2014 il protagonista Cooper comunica attraverso la gravità oltre l'orizzonte degli eventi?",
-        "opzioni": ["Interstellar", "Ad Astra", "Contact", "Gravity"],
-        "corretta": "Interstellar"
-    },
-    {
-        "domanda": "Qual è il nome dell'assistente di volo protagonista del film 'Jackie Brown'?",
-        "opzioni": ["Jackie Brown", "Mia Wallace", "Beatrix Kiddo", "Daisy Domergue"],
-        "corretta": "Jackie Brown"
-    },
-    {
-        "domanda": "Chi interpreta la protagonista nel film 'Promising Young Woman'?",
-        "opzioni": ["Carey Mulligan", "Margot Robbie", "Emma Stone", "Anya Taylor-Joy"],
-        "corretta": "Carey Mulligan"
-    },
-    {
-        "domanda": "In 'Shutter Island', quale oggetto usa Teddy Daniels per accendersi le sigarette (rivelando un dettaglio chiave sulla sua identità)?",
-        "opzioni": ["Un accendino che gli porge Chuck", "I fiammiferi dell'ospedale", "Il suo accendino personale", "Non fuma mai nel film"],
-        "corretta": "Un accendino che gli porge Chuck"
-    },
-    {
-        "domanda": "A quale film appartiene la frase: 'Io ne ho viste cose che voi umani non potreste immaginarvi'?",
-        "opzioni": ["Blade Runner", "Star Wars", "Matrix", "Alien"],
-        "corretta": "Blade Runner"
-    },
-    {
-        "domanda": "In 'The Hateful Eight', qual è il titolo del brano di Ennio Morricone che apre il film?",
-        "opzioni": ["L'Ultima Diligenza per Red Rock", "Neve", "L'Inferno Bianco", "Il Prologo"],
-        "corretta": "L'Ultima Diligenza per Red Rock"
-    },
-    {
-        "domanda": "Quale oggetto funge da totem per Cobb in 'Inception', ereditato dalla moglie Mal?",
-        "opzioni": ["Una trottola", "Un dado", "Una fede nuziale", "Un orologio"],
-        "corretta": "Una trottola"
-    },
-    {
-        "domanda": "Chi ha diretto 'Chi è senza peccato - The Dry', adattamento del romanzo di Jane Harper?",
-        "opzioni": ["Robert Connolly", "Justin Kurzel", "David Michôd", "Baz Luhrmann"],
-        "corretta": "Robert Connolly"
-    },
-    {
-        "domanda": "In 'American Beauty', quale attore interpreta il protagonista Lester Burnham?",
-        "opzioni": ["Kevin Spacey", "Annette Bening", "Wes Bentley", "Chris Cooper"],
-        "corretta": "Kevin Spacey"
-    },
-    {
-        "domanda": "Quale film d'animazione Pixar vede come protagonista un robot compattatore di rifiuti rimasto solo sulla Terra?",
-        "opzioni": ["WALL-E", "Robots", "Big Hero 6", "Cars"],
-        "corretta": "WALL-E"
-    },
-    {
-        "domanda": "In 'Mia', qual è lo strumento musicale principale suonato dalla band nel Caffè Storico?",
-        "opzioni": ["Pianoforte", "Sassofono", "Contrabbasso", "Chitarra elettrica"],
-        "corretta": "Pianoforte"
-    },
-    {
-        "domanda": "Quale regista è famoso per i suoi film ambientati quasi interamente in una sola stanza o location (es. 'Le Iene', 'The Hateful Eight')?",
-        "opzioni": ["Quentin Tarantino", "Christopher Nolan", "Steven Spielberg", "Ridley Scott"],
-        "corretta": "Quentin Tarantino"
-    },
-    {
-        "domanda": "In 'Whiplash', quale frase brutale usa Fletcher per spronare Andrew?",
-        "opzioni": ["Non era il mio tempo!", "Ancora!", "Sei un fallito", "Vattene via"],
-        "corretta": "Non era il mio tempo!"
-    },
-    {
-        "domanda": "A quale film appartiene la citazione: 'Tieni i tuoi amici vicini, ma i tuoi nemici ancora più vicini'?",
-        "opzioni": ["Il Padrino - Parte II", "Scarface", "Goodfellas", "Carlito's Way"],
-        "corretta": "Il Padrino - Parte II"
-    },
-    {
-        "domanda": "Chi interpreta il personaggio di John Wick nella celebre saga d'azione?",
-        "opzioni": ["Keanu Reeves", "Liam Neeson", "Tom Cruise", "Jason Statham"],
-        "corretta": "Keanu Reeves"
-    },
-    {
-        "domanda": "In 'Gran Torino', qual è il nome del giovane vicino che Walt Kowalski prende sotto la sua ala?",
-        "opzioni": ["Thao", "Spider", "Smokie", "Mitch"],
-        "corretta": "Thao"
-    },
-    {
-        "domanda": "Quale film di David Fincher del 1995 segue la caccia a un serial killer basata sui sette peccati capitali?",
-        "opzioni": ["Seven", "Zodiac", "Panic Room", "The Game"],
-        "corretta": "Seven"
-    },
-    {
-        "domanda": "In 'The Prestige', quale attore interpreta il geniale Nikola Tesla?",
-        "opzioni": ["David Bowie", "Christian Bale", "Hugh Jackman", "Michael Caine"],
-        "corretta": "David Bowie"
-    },
-    {
-        "domanda": "Quale film di animazione Disney del 1994 vede come protagonista il leoncino Simba?",
-        "opzioni": ["Il Re Leone", "Tarzan", "Aladdin", "Mulan"],
-        "corretta": "Il Re Leone"
-    },
-    {
-        "domanda": "In 'Matrix', di che colore è la pillola che permette a Neo di conoscere la verità?",
-        "opzioni": ["Rossa", "Blu", "Verde", "Gialla"],
-        "corretta": "Rossa"
-    },
-    {
-        "domanda": "Chi ha diretto 'Il Signore degli Anelli', l'epica trilogia tratta dai libri di Tolkien?",
-        "opzioni": ["Peter Jackson", "Guillermo del Toro", "Steven Spielberg", "James Cameron"],
-        "corretta": "Peter Jackson"
-    },
-    {
-        "domanda": "In 'Full Metal Jacket', come viene soprannominato l'istruttore interpretato da R. Lee Ermey?",
-        "opzioni": ["Sergente Hartman", "Sergente Palla di Lardo", "Sergente Joker", "Sergente Cowboy"],
-        "corretta": "Sergente Hartman"
-    },
-    {
-        "domanda": "Quale film del 2011 vede Ryan Gosling nei panni di un pilota acrobatico che lavora come autista per rapine?",
-        "opzioni": ["Drive", "Only God Forgives", "The Place Beyond the Pines", "Nightcrawler"],
-        "corretta": "Drive"
-    },
-    {
-        "domanda": "In 'The Wolf of Wall Street', quale droga è l'ossessione principale di Jordan Belfort?",
-        "opzioni": ["Quaalude (Ludes)", "Cocaina", "Eroina", "Marijuana"],
-        "corretta": "Quaalude (Ludes)"
-    },
-    {
-        "domanda": "A quale film appartiene la citazione: 'Ho visto infinite volte il Live a Chicago' (riferito a Jeff Buckley)?",
-        "opzioni": ["Mia", "Grace", "A Ghost Story", "Last Days"],
-        "corretta": "Mia"
+        "domanda": "Nel film 'Barry Lyndon' (1975), Stanley Kubrick cercò un'estetica visiva che ricordasse i dipinti del XVIII secolo. Quale specifica innovazione tecnica gli permise di girare le scene a lume di candela senza l'uso di illuminazione artificiale aggiuntiva?",
+        "opzioni": [
+            "Lenti Zeiss Planar f/0.7 sviluppate per la NASA",
+            "Pellicola Kodak Vision3 ad altissima sensibilità",
+            "Tecnica del Bleach Bypass in fase di sviluppo",
+            "Lenti anamorfiche Panavision serie C"
+        ],
+        "corretta": "Lenti Zeiss Planar f/0.7 sviluppate per la NASA",
+        "aiuto": "L'ottica necessaria doveva avere un'apertura di diaframma mostruosa, originariamente concepita per fotografare il lato oscuro della Luna.",
+        "spiegazione": "Kubrick utilizzò lenti Zeiss Planar 50mm f/0.7, originariamente create per il programma Apollo della NASA. Queste lenti catturavano talmente tanta luce da permettere riprese con la sola illuminazione delle candele, ma con una profondità di campo quasi inesistente."
+    },
+    {
+        "domanda": "Quale film segnò la fine simbolica della 'New Hollywood' a causa del suo disastroso fallimento economico, portando gli studios a riprendere un controllo ferreo sulle produzioni e limitando l'autonomia dei registi?",
+        "opzioni": [
+            "I cancelli del cielo (Heaven's Gate)",
+            "Apocalypse Now",
+            "Waterworld",
+            "Ishtar"
+        ],
+        "corretta": "I cancelli del cielo (Heaven's Gate)",
+        "aiuto": "È un western epico diretto da Michael Cimino, uscito nel 1980, i cui costi lievitarono a tal punto da far fallire la United Artists.",
+        "spiegazione": "Il flop colossale di 'Heaven's Gate' (1980) distrusse la United Artists e segnò la fine dell'era in cui ai registi (la 'New Hollywood') veniva concesso il controllo creativo totale e budget illimitati."
+    },
+    {
+        "domanda": "L'effetto Kuleshov è un esperimento fondamentale per la teoria del montaggio sovietico. Cosa dimostrò Lev Kuleshov alternando lo stesso primo piano inespressivo dell'attore Ivan Mozžuchin con immagini diverse (un piatto di zuppa, una bara, una donna)?",
+        "opzioni": [
+            "Che il significato di un'inquadratura è determinato dalla sua relazione con quelle adiacenti, non dal contenuto isolato",
+            "Che la recitazione teatrale era superiore a quella cinematografica",
+            "Che il pubblico non notava errori di continuità se il ritmo era veloce",
+            "Che la persistenza della visione retinica creava un'illusione di movimento fluido"
+        ],
+        "corretta": "Che il significato di un'inquadratura è determinato dalla sua relazione con quelle adiacenti, non dal contenuto isolato",
+        "aiuto": "Il pubblico percepiva fame, dolore o desiderio sul volto dell'attore, anche se il volto era identico in ogni sequenza.",
+        "spiegazione": "L'effetto Kuleshov dimostrò il potere cognitivo del montaggio: lo spettatore proietta le proprie emozioni sul volto dell'attore basandosi sul contesto fornito dall'immagine successiva (zuppa = fame, bara = tristezza)."
+    },
+    {
+        "domanda": "Il 'Codice Hays' governò la censura cinematografica statunitense dal 1934 al 1968. Quale delle seguenti regole era esplicitamente inclusa nel codice?",
+        "opzioni": [
+            "Il crimine non deve mai pagare e i criminali devono essere puniti o morire",
+            "Era vietato mostrare armi da fuoco se non in mano alle forze dell'ordine",
+            "Le coppie sposate potevano condividere il letto solo se vestite",
+            "Era proibito mostrare bandiere straniere se non alleate"
+        ],
+        "corretta": "Il crimine non deve mai pagare e i criminali devono essere puniti o morire",
+        "aiuto": "L'obiettivo morale del codice era impedire che lo spettatore potesse simpatizzare con il peccato o la violazione della legge.",
+        "spiegazione": "Uno dei pilastri del Codice Hays era la 'compensazione morale': non si poteva mostrare un criminale che traeva profitto dalle sue azioni senza subire una punizione finale, per evitare di ispirare comportamenti imitativi."
+    },
+    {
+        "domanda": "Nel contesto del cinema d'animazione, quale fu la prima innovazione tecnica significativa introdotta da Walt Disney con il cortometraggio 'The Old Mill' (1937)?",
+        "opzioni": [
+            "La Multiplane Camera (cinepresa a piani multipli)",
+            "Il Technicolor a tre strisce",
+            "Il suono stereofonico Fantasound",
+            "La xerografia per copiare i disegni su celluloide"
+        ],
+        "corretta": "La Multiplane Camera (cinepresa a piani multipli)",
+        "aiuto": "Questa tecnologia serviva a dare una sensazione di profondità tridimensionale, muovendo diversi strati di sfondo a velocità differenti.",
+        "spiegazione": "La Multiplane Camera permetteva di filmare diversi livelli di artwork (primo piano, sfondo, ecc.) a distanze e velocità diverse, creando un effetto di parallasse e profondità realistica mai visto prima."
+    },
+    {
+        "domanda": "Solo tre film nella storia hanno vinto i 'Big Five' agli Oscar (Miglior Film, Regia, Attore, Attrice, Sceneggiatura). Quale dei seguenti titoli NON appartiene a questo gruppo esclusivo?",
+        "opzioni": [
+            "Titanic",
+            "Accadde una notte",
+            "Qualcuno volò sul nido del cuculo",
+            "Il silenzio degli innocenti"
+        ],
+        "corretta": "Titanic",
+        "aiuto": "Questo film detiene il record per il maggior numero di Oscar vinti (11), ma non ha vinto premi per la sceneggiatura né per gli attori protagonisti.",
+        "spiegazione": "'Titanic' vinse 11 Oscar eguagliando 'Ben-Hur', ma non vinse né per la Sceneggiatura né per gli Attori. I tre film 'Big Five' sono 'Accadde una notte' (1934), 'Qualcuno volò sul nido del cuculo' (1975) e 'Il silenzio degli innocenti' (1991)."
+    },
+    {
+        "domanda": "Cosa si intende tecnicamente con il termine 'MacGuffin', reso celebre da Alfred Hitchcock?",
+        "opzioni": [
+            "Un oggetto o obiettivo che motiva i personaggi ma è irrilevante per lo spettatore",
+            "Un colpo di scena finale che ribalta la prospettiva della storia",
+            "L'apparizione del regista in un cameo all'interno del film",
+            "Una tecnica di illuminazione per nascondere il volto dell'assassino"
+        ],
+        "corretta": "Un oggetto o obiettivo che motiva i personaggi ma è irrilevante per lo spettatore",
+        "aiuto": "Pensate alla valigetta in 'Pulp Fiction' o ai documenti segreti in 'Intrigo internazionale': contano perché tutti li vogliono, non per cosa sono.",
+        "spiegazione": "Il MacGuffin è il motore della trama (spie che cercano piani segreti, ladri che cercano un diamante), ma la sua natura specifica è ininfluente per l'esperienza emotiva o tematica del film."
+    },
+    {
+        "domanda": "Quale fu il primo film a vincere l'Oscar come Miglior Film (Best Picture) durante la prima cerimonia del 1929?",
+        "opzioni": [
+            "Wings (Ali)",
+            "Sunrise (Aurora)",
+            "The Jazz Singer (Il cantante di jazz)",
+            "Metropolis"
+        ],
+        "corretta": "Wings (Ali)",
+        "aiuto": "È un film muto sulla Prima Guerra Mondiale, famoso per le sue spettacolari sequenze di combattimento aereo.",
+        "spiegazione": "'Wings' (1927) vinse il premio come 'Outstanding Picture'. 'Sunrise' vinse un premio parallelo per la 'Unique and Artistic Picture', ma storicamente 'Wings' è considerato il primo vincitore del Best Picture."
+    },
+    {
+        "domanda": "Il 'Decreto Paramount' del 1948 cambiò per sempre l'industria cinematografica americana. Cosa impose alle major di Hollywood?",
+        "opzioni": [
+            "Di vendere le loro catene di sale cinematografiche, ponendo fine all'integrazione verticale",
+            "Di adottare il sistema di rating MPAA al posto del Codice Hays",
+            "Di limitare la durata dei contratti esclusivi con gli attori a 7 anni",
+            "Di pagare le royalties agli sceneggiatori per le repliche televisive"
+        ],
+        "corretta": "Di vendere le loro catene di sale cinematografiche, ponendo fine all'integrazione verticale",
+        "aiuto": "La Corte Suprema giudicò che possedere produzione, distribuzione ed esercizio (sale) costituisse un monopolio illegale.",
+        "spiegazione": "La sentenza United States v. Paramount Pictures, Inc. costrinse gli studios a disinvestire dalle sale cinematografiche. Questo distrusse il 'Block Booking' e aprì il mercato ai film indipendenti e stranieri."
+    },
+    {
+        "domanda": "Quale film è considerato il capostipite del Neorealismo Italiano, sebbene elementi si trovassero già in opere precedenti?",
+        "opzioni": [
+            "Roma città aperta",
+            "Ladri di biciclette",
+            "Ossessione",
+            "La terra trema"
+        ],
+        "corretta": "Roma città aperta",
+        "aiuto": "Diretto da Roberto Rossellini nel 1945, fu girato con pellicola scaduta e set improvvisati in una città appena liberata.",
+        "spiegazione": "Sebbene 'Ossessione' di Visconti (1943) anticipi i temi, 'Roma città aperta' (1945) codificò il genere a livello internazionale: riprese in esterni reali, attori non professionisti misti a star (Magnani, Fabrizi) e temi di attualità sociale e bellica."
+    },
+    {
+        "domanda": "In 'Quarto Potere' (Citizen Kane), il direttore della fotografia Gregg Toland perfezionò una tecnica che permetteva di mantenere a fuoco sia il primo piano che lo sfondo estremo contemporaneamente. Come si chiama?",
+        "opzioni": [
+            "Deep Focus (Profondità di campo totale)",
+            "Rack Focus",
+            "Dolly Zoom",
+            "Matte Painting"
+        ],
+        "corretta": "Deep Focus (Profondità di campo totale)",
+        "aiuto": "Questa tecnica richiede molta luce e diaframmi molto chiusi per estendere la zona di nitidezza.",
+        "spiegazione": "Il Deep Focus permette una messa in scena complessa (mise-en-scène) dove l'azione si svolge su più piani contemporaneamente senza bisogno di stacchi di montaggio, come nella scena del contratto o del tentato suicidio."
+    },
+    {
+        "domanda": "Qual è l'unico film con rating 'X' (vietato ai minori) ad aver mai vinto l'Oscar come Miglior Film?",
+        "opzioni": [
+            "Un uomo da marciapiede (Midnight Cowboy)",
+            "Arancia Meccanica",
+            "Ultimo tango a Parigi",
+            "L'esorcista"
+        ],
+        "corretta": "Un uomo da marciapiede (Midnight Cowboy)",
+        "aiuto": "Uscito nel 1969, racconta l'amicizia tra un gigolo texano ingenuo e un truffatore malato a New York.",
+        "spiegazione": "All'epoca della sua uscita (1969), 'Midnight Cowboy' ricevette la classificazione X per i suoi contenuti sessuali e tematici. Successivamente, i criteri cambiarono e fu riclassificato come R, ma vinse l'Oscar mentre era ancora X."
+    },
+    {
+        "domanda": "Chi è Alan Smithee?",
+        "opzioni": [
+            "Uno pseudonimo ufficiale usato dai registi che disconoscono il proprio film",
+            "Il fondatore del sindacato Directors Guild of America",
+            "Il montatore più prolifico della storia di Hollywood",
+            "Un regista fittizio creato per aggirare le quote di importazione europee"
+        ],
+        "corretta": "Uno pseudonimo ufficiale usato dai registi che disconoscono il proprio film",
+        "aiuto": "Quando un regista perde il controllo creativo o odia il risultato finale, può chiedere alla Guild di usare questo nome nei crediti.",
+        "spiegazione": "Dal 1968 al 2000, 'Alan Smithee' è stato lo pseudonimo standard concesso dalla DGA ai registi che potevano dimostrare di aver perso il controllo artistico sul film. È stato ritirato dopo l'uscita del film 'An Alan Smithee Film: Burn Hollywood Burn'."
+    },
+    {
+        "domanda": "Quale fu il primo lungometraggio interamente generato al computer (CGI)?",
+        "opzioni": [
+            "Toy Story",
+            "Tron",
+            "The Abyss",
+            "Il tagliaerbe"
+        ],
+        "corretta": "Toy Story",
+        "aiuto": "Uscito nel 1995, è una produzione Pixar.",
+        "spiegazione": "Mentre film come 'Tron' o 'Jurassic Park' usavano la CGI per sequenze specifiche, 'Toy Story' (1995) fu il primo lungometraggio narrativo creato interamente in computer grafica."
+    },
+    {
+        "domanda": "Il termine 'Dogma 95' si riferisce a un movimento cinematografico fondato da Lars von Trier e Thomas Vinterberg. Quale delle seguenti è una regola del loro 'Voto di Castità'?",
+        "opzioni": [
+            "La cinepresa deve essere portata a mano",
+            "Il film deve essere in bianco e nero",
+            "La colonna sonora deve essere composta prima delle riprese",
+            "Il regista deve apparire in almeno una scena"
+        ],
+        "corretta": "La cinepresa deve essere portata a mano",
+        "aiuto": "Il movimento cercava di purificare il cinema dagli artifizi tecnici, proibendo luci artificiali, musica non diegetica e treppiedi.",
+        "spiegazione": "La regola 3 del Voto di Castità impone: 'La cinepresa deve essere a mano. Qualsiasi movimento o immobilità ottenibile a mano è permesso'. L'obiettivo era forzare la concentrazione sulla storia e sulla recitazione."
+    },
+    {
+        "domanda": "Per quale motivo specifico il film 'Tron' (1982) fu escluso dalle nomination all'Oscar per i Migliori Effetti Speciali?",
+        "opzioni": [
+            "L'Academy riteneva che usare i computer fosse 'barare'",
+            "Gli effetti non erano finiti in tempo per la scadenza",
+            "Usava troppa animazione tradizionale mista al digitale",
+            "Era considerato un film d'animazione e non live-action"
+        ],
+        "corretta": "L'Academy riteneva che usare i computer fosse 'barare'",
+        "aiuto": "Sembra paradossale oggi, ma all'epoca la generazione digitale non era vista come un'abilità artistica manuale.",
+        "spiegazione": "Nel 1982, l'industria non comprendeva ancora la complessità della CGI. L'Academy squalificò 'Tron' perché considerava l'uso del computer come un modo per automatizzare il lavoro artistico, anziché crearlo artigianalmente."
+    },
+    {
+        "domanda": "Cosa indica il termine 'Tatami shot' (inquadratura tatami) spesso associato al regista Yasujirō Ozu?",
+        "opzioni": [
+            "Una ripresa effettuata da un'altezza molto bassa, circa 90 cm da terra",
+            "Una ripresa zenitale perfettamente perpendicolare al pavimento",
+            "Un piano sequenza statico che dura più di 5 minuti",
+            "Una ripresa che incornicia i personaggi attraverso porte scorrevoli"
+        ],
+        "corretta": "Una ripresa effettuata da un'altezza molto bassa, circa 90 cm da terra",
+        "aiuto": "Questa prospettiva emula il punto di vista di una persona inginocchiata su un tappeto tradizionale giapponese.",
+        "spiegazione": "Ozu posizionava la cinepresa molto in basso per eguagliare il livello degli occhi di chi siede sul tatami. Questo conferiva ai suoi film un senso di stabilità, intimità e un'estetica rigorosamente giapponese."
+    },
+    {
+        "domanda": "Quale film è noto per aver distrutto la carriera del suo regista, Michael Powell, a causa delle critiche feroci sul suo contenuto voyeuristico, per poi essere rivalutato decenni dopo come capolavoro?",
+        "opzioni": [
+            "L'occhio che uccide (Peeping Tom)",
+            "I diavoli",
+            "Freaks",
+            "Salò o le 120 giornate di Sodoma"
+        ],
+        "corretta": "L'occhio che uccide (Peeping Tom)",
+        "aiuto": "Uscì nel 1960, lo stesso anno di 'Psycho', ma mentre Hitchcock fu lodato, questo regista britannico fu ostracizzato per aver mostrato il punto di vista dell'assassino.",
+        "spiegazione": "'Peeping Tom' fu massacrato dalla critica britannica per la sua natura morbosa e per come implicava lo spettatore nel voyeurismo del killer. Powell, fino ad allora venerato (Scarpette Rosse), faticò a lavorare per il resto della vita."
+    },
+    {
+        "domanda": "Cosa caratterizzava il processo 'Technicolor a tre strisce' (3-strip Technicolor) utilizzato tra gli anni '30 e '50?",
+        "opzioni": [
+            "Una cinepresa enorme che esponeva tre pellicole in bianco e nero simultaneamente attraverso filtri colorati",
+            "Una singola pellicola con tre strati di emulsione chimica sovrapposti",
+            "La colorazione a mano di ogni singolo fotogramma dopo lo sviluppo",
+            "L'uso di lenti prismatiche per proiettare tre immagini distinte sullo schermo"
+        ],
+        "corretta": "Una cinepresa enorme che esponeva tre pellicole in bianco e nero simultaneamente attraverso filtri colorati",
+        "aiuto": "Il prisma all'interno della macchina da presa divideva la luce in ciano, magenta e giallo (o meglio, registrava i record rosso, verde e blu su tre negativi separati).",
+        "spiegazione": "La macchina Technicolor usava un prisma beam-splitter per dirigere la luce su tre diverse pellicole b/n (una sensibile al blu, una al rosso, una al verde). Queste venivano poi usate per creare matrici di stampa a trasferimento di colore, garantendo una saturazione ineguagliabile."
+    },
+    {
+        "domanda": "Quale fu il primo film a utilizzare il sistema audio multicanale noto come 'Fantasound', precursore del surround moderno?",
+        "opzioni": [
+            "Fantasia",
+            "Il mago di Oz",
+            "King Kong",
+            "Via col vento"
+        ],
+        "corretta": "Fantasia",
+        "aiuto": "È un film Disney del 1940 incentrato sulla musica classica.",
+        "spiegazione": "Per 'Fantasia' (1940), Disney sviluppò un sistema proprietario (Fantasound) che utilizzava tracce audio multiple per spostare il suono attraverso la sala, creando un'esperienza immersiva decenni prima del Dolby Surround."
+    },
+    {
+        "domanda": "Nel linguaggio cinematografico, cos'è un 'Match Cut'?",
+        "opzioni": [
+            "Un taglio di montaggio che collega due inquadrature tramite una somiglianza visiva, sonora o tematica",
+            "Un taglio invisibile nascosto in un movimento di macchina veloce",
+            "Un taglio che avviene esattamente a tempo di musica",
+            "Il taglio finale approvato dal regista"
+        ],
+        "corretta": "Un taglio di montaggio che collega due inquadrature tramite una somiglianza visiva, sonora o tematica",
+        "aiuto": "L'esempio più celebre è in '2001: Odissea nello spazio', dove un osso lanciato in aria si trasforma visivamente in un'astronave.",
+        "spiegazione": "Il match cut crea una continuità logica o metaforica tra due scene diverse. Oltre all'osso di Kubrick, un altro esempio famoso è il soffio sulla candela che diventa il deserto in 'Lawrence d'Arabia'."
+    },
+    {
+        "domanda": "Chi detiene il record per il maggior numero di Oscar vinti nella categoria 'Migliori Costumi', con ben 8 statuette?",
+        "opzioni": [
+            "Edith Head",
+            "Milena Canonero",
+            "Colleen Atwood",
+            "Sandy Powell"
+        ],
+        "corretta": "Edith Head",
+        "aiuto": "È la leggendaria costumista dai caratteristici occhiali tondi e frangetta, che ha ispirato il personaggio di Edna Mode ne 'Gli Incredibili'.",
+        "spiegazione": "Edith Head è la donna più premiata nella storia degli Oscar, con 35 nomination e 8 vittorie, lavorando principalmente per la Paramount e vestendo star come Audrey Hepburn e Grace Kelly."
+    },
+    {
+        "domanda": "Quale film segnò il debutto del 'Dolby Stereo' ottico nelle sale, cambiando per sempre il sound design cinematografico?",
+        "opzioni": [
+            "A Star Is Born (1976)",
+            "Star Wars (1977)",
+            "Apocalypse Now (1979)",
+            "Lo squalo (1975)"
+        ],
+        "corretta": "A Star Is Born (1976)",
+        "aiuto": "Sebbene 'Star Wars' lo abbia reso famoso l'anno successivo, fu un musical con Barbra Streisand a inaugurare la tecnologia.",
+        "spiegazione": "Mentre 'Star Wars' rese il Dolby Stereo onnipresente, il sistema debuttò ufficialmente con 'A Star Is Born' (1976). 'Apocalypse Now' fu invece pioniere del suono 5.1 (allora chiamato Dolby Stereo 70mm a 6 tracce)."
+    },
+    {
+        "domanda": "Qual è la vera origine della famosa frase 'Play it again, Sam' associata al film Casablanca?",
+        "opzioni": [
+            "È una citazione errata; la frase esatta non viene mai pronunciata nel film",
+            "Viene detta da Ilsa (Ingrid Bergman) ma non da Rick (Humphrey Bogart)",
+            "È stata aggiunta nel doppiaggio italiano ma non esiste nell'originale",
+            "Appare solo nel trailer originale ma fu tagliata nel film"
+        ],
+        "corretta": "È una citazione errata; la frase esatta non viene mai pronunciata nel film",
+        "aiuto": "Ilsa dice 'Play it, Sam' e Rick dice 'You played it for her, you can play it for me'.",
+        "spiegazione": "Si tratta di uno dei più famosi casi di Effetto Mandela nel cinema. La frase esatta 'Play it again, Sam' non esiste nel film. Woody Allen contribuì al mito intitolando così la sua commedia teatrale (in italiano 'Provaci ancora, Sam')."
+    },
+    {
+        "domanda": "Che cos'è la 'Magic Hour' (o Golden Hour) tanto amata da registi come Terrence Malick?",
+        "opzioni": [
+            "Il breve periodo dopo il tramonto o prima dell'alba quando la luce è diffusa e priva di ombre nette",
+            "L'ora di pranzo sul set, sacra per le unioni sindacali",
+            "Il momento in fase di montaggio in cui il film prende forma",
+            "L'ora di punta al botteghino il venerdì sera"
+        ],
+        "corretta": "Il breve periodo dopo il tramonto o prima dell'alba quando la luce è diffusa e priva di ombre nette",
+        "aiuto": "Il film 'I giorni del cielo' (Days of Heaven) fu girato quasi interamente in questi brevi lassi di tempo giornalieri.",
+        "spiegazione": "La Magic Hour offre una luce morbida, calda e dorata perché il sole è sotto l'orizzonte e la luce è riflessa dall'atmosfera. Offre un look pittorico unico, ma concede pochissimo tempo utile per le riprese (spesso solo 20 minuti)."
+    },
+    {
+        "domanda": "Quale importante innovazione portò il film 'Il cantante di jazz' (The Jazz Singer, 1927)?",
+        "opzioni": [
+            "Fu il primo lungometraggio con sequenze di dialogo e canto sincronizzati",
+            "Fu il primo film interamente a colori",
+            "Fu il primo film proiettato in formato widescreen",
+            "Fu il primo film a vincere un Oscar"
+        ],
+        "corretta": "Fu il primo lungometraggio con sequenze di dialogo e canto sincronizzati",
+        "aiuto": "Non era tutto parlato (gran parte era muto con didascalie), ma conteneva la famosa frase: 'You ain't heard nothin' yet!'.",
+        "spiegazione": "Sebbene esistessero cortometraggi sonori precedenti, 'The Jazz Singer' fu il lungometraggio che convinse l'industria e il pubblico della fattibilità commerciale del sonoro sincronizzato (Vitaphone), segnando la fine del muto."
+    },
+    {
+        "domanda": "Chi era 'Robert Rich', che vinse l'Oscar per la Miglior Sceneggiatura di 'La più grande corrida' (The Brave One) nel 1957?",
+        "opzioni": [
+            "Uno pseudonimo di Dalton Trumbo, sceneggiatore inserito nella Lista Nera",
+            "Un giovane scrittore morto prima della cerimonia",
+            "Il nipote del produttore, accreditato per nepotismo",
+            "Un errore di stampa dell'Academy mai corretto"
+        ],
+        "corretta": "Uno pseudonimo di Dalton Trumbo, sceneggiatore inserito nella Lista Nera",
+        "aiuto": "L'autore reale era uno degli 'Hollywood Ten', bandito dagli studios per presunte simpatie comuniste.",
+        "spiegazione": "Dalton Trumbo, bandito a causa del maccartismo, scrisse molti film sotto falso nome. Quando 'Robert Rich' vinse, nessuno salì a ritirare il premio. L'Oscar gli fu consegnato ufficialmente solo nel 1975."
+    },
+    {
+        "domanda": "Cosa si intende per 'Aspect Ratio' 1.37:1?",
+        "opzioni": [
+            "L'Academy Ratio, il formato standard dell'epoca d'oro di Hollywood prima del widescreen",
+            "Il formato CinemaScope",
+            "Il rapporto usato per i film IMAX",
+            "Il formato nativo dei televisori HD moderni (16:9)"
+        ],
+        "corretta": "L'Academy Ratio, il formato standard dell'epoca d'oro di Hollywood prima del widescreen",
+        "aiuto": "È un formato quasi quadrato, evoluzione del 1.33:1 del muto per accomodare la traccia audio ottica sulla pellicola.",
+        "spiegazione": "Nel 1932 l'Academy standardizzò questo formato (4 perforazioni, 35mm con colonna sonora) che rimase la norma fino all'avvento dei formati panoramici (come il 1.85:1 o il 2.35:1) negli anni '50 per combattere la TV."
+    },
+    {
+        "domanda": "Quale regista è associato all'uso ossessivo della 'simmetria centrale' nelle sue inquadrature?",
+        "opzioni": [
+            "Wes Anderson",
+            "Quentin Tarantino",
+            "Christopher Nolan",
+            "Martin Scorsese"
+        ],
+        "corretta": "Wes Anderson",
+        "aiuto": "I suoi film sembrano case delle bambole o diorami perfetti, spesso con colori pastello.",
+        "spiegazione": "Wes Anderson ha reso la simmetria piatta e frontale il suo marchio di fabbrica stilistico, creando un mondo visivo ordinato e artificiale che si distacca dal realismo."
+    },
+    {
+        "domanda": "Nel film 'Psycho', Hitchcock usò un trucco visivo insolito per nascondere l'identità dell'assassino nella scena della doccia e in altre sequenze. Quale?",
+        "opzioni": [
+            "Usò lenti sfocate e controluce",
+            "Non inquadrò mai il volto di 'Mother'",
+            "Usò controfigure e angolazioni dall'alto",
+            "Dipinse le ombre direttamente sul set"
+        ],
+        "corretta": "Non inquadrò mai il volto di 'Mother'",
+        "aiuto": "L'identità è svelata solo nel finale. Fino ad allora, vediamo solo silhouette o parrucche.",
+        "spiegazione": "Hitchcock utilizzò controfigure per 'Mother' e angolazioni strategiche (o ombre) per nascondere che non si trattava di una vecchia signora, mantenendo il mistero fino alla rivelazione finale su Norman Bates."
+    },
+    {
+        "domanda": "Quale film giapponese ha ispirato 'Per un pugno di dollari' di Sergio Leone, portando a una causa legale per plagio?",
+        "opzioni": [
+            "Yojimbo (La sfida del samurai)",
+            "I sette samurai",
+            "Rashomon",
+            "Trono di sangue"
+        ],
+        "corretta": "Yojimbo (La sfida del samurai)",
+        "aiuto": "Entrambi i film parlano di un guerriero solitario che arriva in una città divisa tra due bande rivali e le mette una contro l'altra.",
+        "spiegazione": "Akira Kurosawa scrisse a Leone: 'È un bel film, ma è il mio film'. La Toho vinse la causa e ottenne i diritti di distribuzione in Estremo Oriente più il 15% degli incassi globali del film di Leone."
+    },
+    {
+        "domanda": "Cos'è il 'Wilhelm Scream'?",
+        "opzioni": [
+            "Un effetto sonoro di urlo usato come 'inside joke' in centinaia di film",
+            "L'urlo finale della 'Regina dell'Urlo' Fay Wray in King Kong",
+            "Una tecnica di recitazione vocale per film horror",
+            "Il soprannome dato alle recensioni negative urlate dai critici"
+        ],
+        "corretta": "Un effetto sonoro di urlo usato come 'inside joke' in centinaia di film",
+        "aiuto": "Si sente quando un personaggio cade da un'altezza o viene colpito da un'esplosione. È in Star Wars, Indiana Jones, e molti altri.",
+        "spiegazione": "Registrato originariamente per il film 'Distant Drums' (1951), l'effetto sonoro fu reso celebre dal sound designer Ben Burtt che lo inserì in Star Wars e in quasi tutti i suoi lavori successivi, diventando un cliché amato dai tecnici del suono."
+    },
+    {
+        "domanda": "Quale caratteristica distingueva il formato Cinerama originale degli anni '50?",
+        "opzioni": [
+            "Utilizzava tre proiettori sincronizzati su uno schermo curvo enorme",
+            "Era il primo formato a usare occhiali 3D polarizzati",
+            "Proiettava film a 48 fotogrammi al secondo invece di 24",
+            "Utilizzava pellicola da 70mm a scorrimento orizzontale"
+        ],
+        "corretta": "Utilizzava tre proiettori sincronizzati su uno schermo curvo enorme",
+        "aiuto": "L'immagine era composta da tre pannelli affiancati, spesso con linee di giunzione visibili.",
+        "spiegazione": "Il Cinerama offriva un campo visivo di 146 gradi. Richiedeva tre cineprese per girare e tre proiettori in sala, più un quarto per il suono. Era spettacolare ma logisticamente da incubo."
+    },
+    {
+        "domanda": "In 'Shining', Stanley Kubrick fece ripetere una scena specifica all'attrice Shelley Duvall per un numero record di volte (127 ciak). Qual era la scena?",
+        "opzioni": [
+            "La scena della mazza da baseball sulle scale",
+            "La scena in cui scopre il manoscritto 'All work and no play'",
+            "La scena del bagno nella Room 237",
+            "La scena iniziale in auto verso l'hotel"
+        ],
+        "corretta": "La scena della mazza da baseball sulle scale",
+        "aiuto": "È il momento in cui Wendy indietreggia terrorizzata mentre Jack avanza minaccioso.",
+        "spiegazione": "Kubrick voleva indurre uno stato di stress reale e isteria nell'attrice. Il record di 127 ciak è entrato nel Guinness dei Primati per il maggior numero di riprese per una scena con dialogo."
+    },
+    {
+        "domanda": "Quale innovazione narrativa è attribuita al film 'Rashomon' (1950) di Akira Kurosawa?",
+        "opzioni": [
+            "La narrazione dello stesso evento da punti di vista multipli e contraddittori",
+            "L'uso del flashback all'interno di un flashback",
+            "Il finale aperto senza risoluzione",
+            "La rottura della quarta parete durante un interrogatorio"
+        ],
+        "corretta": "La narrazione dello stesso evento da punti di vista multipli e contraddittori",
+        "aiuto": "Un crimine viene raccontato dal bandito, dalla moglie, dal fantasma del samurai e dal taglialegna. Nessuna versione coincide.",
+        "spiegazione": "L''Effetto Rashomon' indica una situazione in cui la soggettività dei testimoni rende impossibile stabilire una verità oggettiva. Il film rivoluzionò la struttura narrativa nel cinema mondiale."
+    },
+    {
+        "domanda": "Chi fu il primo attore afroamericano a vincere un Oscar?",
+        "opzioni": [
+            "Hattie McDaniel",
+            "Sidney Poitier",
+            "Dorothy Dandridge",
+            "Harry Belafonte"
+        ],
+        "corretta": "Hattie McDaniel",
+        "aiuto": "Vinse come Miglior Attrice Non Protagonista per 'Via col vento' nel 1940.",
+        "spiegazione": "Hattie McDaniel vinse per il ruolo di Mami. Alla cerimonia, a causa della segregazione razziale, dovette sedere a un tavolo separato in fondo alla sala, lontano dalle altre star del film."
+    },
+    {
+        "domanda": "Quale regista è famoso per aver 'inventato' l'effetto Dolly Zoom (o 'Vertigo Effect')?",
+        "opzioni": [
+            "Alfred Hitchcock (tramite il cameraman Irmin Roberts)",
+            "Steven Spielberg",
+            "Orson Welles",
+            "Fritz Lang"
+        ],
+        "corretta": "Alfred Hitchcock (tramite il cameraman Irmin Roberts)",
+        "aiuto": "L'effetto deforma la prospettiva mantenendo il soggetto della stessa grandezza: lo sfondo sembra allontanarsi o avvicinarsi.",
+        "spiegazione": "L'effetto fu usato per la prima volta in 'La donna che visse due volte' (Vertigo) per simulare le vertigini del protagonista. Si ottiene zoomando in avanti mentre si carrell indietro (o viceversa)."
+    },
+    {
+        "domanda": "Che cos'è una pellicola 'Nitrato'?",
+        "opzioni": [
+            "Una base per pellicole usata fino agli anni '50, altamente infiammabile e instabile",
+            "Un tipo di filtro usato per le scene notturne",
+            "Una pellicola digitale ad alta risoluzione",
+            "Un metodo di sviluppo per film in bianco e nero"
+        ],
+        "corretta": "Una base per pellicole usata fino agli anni '50, altamente infiammabile e instabile",
+        "aiuto": "È il motivo per cui gran parte del cinema muto è andato perduto: i magazzini prendevano fuoco o la pellicola si decomponeva in polvere.",
+        "spiegazione": "La pellicola al nitrato di cellulosa era lo standard industriale. Era chimicamente instabile e poteva autocombustione. Fu sostituita dalla pellicola 'Safety' (acetato) intorno al 1950."
+    },
+    {
+        "domanda": "Il film 'Arca russa' (Russian Ark, 2002) di Aleksandr Sokurov è famoso per una specifica prodezza tecnica. Quale?",
+        "opzioni": [
+            "È un unico piano sequenza di 96 minuti senza tagli",
+            "È stato girato interamente con la luce di un solo fiammifero",
+            "È stato montato al contrario, dalla fine all'inizio",
+            "Tutti gli attori sono ologrammi digitali"
+        ],
+        "corretta": "È un unico piano sequenza di 96 minuti senza tagli",
+        "aiuto": "La cinepresa attraversa 33 stanze del Museo dell'Ermitage di San Pietroburgo, coprendo secoli di storia russa in tempo reale.",
+        "spiegazione": "Grazie alle prime videocamere digitali HD con hard disk portatili, Sokurov riuscì a girare l'intero film in una sola ripresa continua (Steadicam), cosa impossibile con la pellicola che richiedeva il cambio rullo ogni 10 minuti."
+    },
+    {
+        "domanda": "Cosa si intende per 'Diegetic Sound' (suono diegetico)?",
+        "opzioni": [
+            "Suono che proviene da una fonte interna al mondo narrativo del film, udibile dai personaggi",
+            "La colonna sonora orchestrale aggiunta in post-produzione",
+            "La voce narrante onnisciente",
+            "Effetti sonori creati sinteticamente"
+        ],
+        "corretta": "Suono che proviene da una fonte interna al mondo narrativo del film, udibile dai personaggi",
+        "aiuto": "Se un personaggio accende una radio e sente una canzone, quella canzone è diegetica. Se la musica parte per emozionare il pubblico ma i personaggi non la sentono, è extra-diegetica.",
+        "spiegazione": "Il termine deriva da 'diegesi' (narrazione). Capire la differenza è fondamentale per l'analisi filmica: ad esempio, nei musical, il confine è spesso sfumato."
+    },
+    {
+        "domanda": "Quale film segnò il fallimento della United Artists e, contestualmente, la nascita dello studio indipendente Orion Pictures, fondato dai dirigenti che lasciarono la UA?",
+        "opzioni": [
+            "I cancelli del cielo",
+            "New York, New York",
+            "Toro Scatenato",
+            "Cleopatra"
+        ],
+        "corretta": "I cancelli del cielo",
+        "aiuto": "La domanda si collega al disastro finanziario citato in precedenza causato da Michael Cimino.",
+        "spiegazione": "Dopo il disastro di 'Heaven's Gate', i dirigenti chiave della United Artists (Arthur Krim, Eric Pleskow) se ne andarono e fondarono la Orion Pictures, che divenne una potenza negli anni '80 (Terminator, Platoon, Il silenzio degli innocenti)."
+    },
+    {
+        "domanda": "Chi ha diretto il primo film d'animazione lungometraggio della storia (non Disney)?",
+        "opzioni": [
+            "Lotte Reiniger",
+            "Walt Disney",
+            "Quirino Cristiani",
+            "Winsor McCay"
+        ],
+        "corretta": "Quirino Cristiani",
+        "aiuto": "Era un regista argentino. Il film, 'El Apóstol', uscì nel 1917, ben 20 anni prima di 'Biancaneve'.",
+        "spiegazione": "Mentre 'Biancaneve' è il primo lungometraggio animato a colori e sonoro *sopravvissuto* e famoso, l'argentino Quirino Cristiani realizzò 'El Apóstol' (satira politica) nel 1917 usando figurine di cartone ritagliate. Il film è andato perduto in un incendio."
+    },
+    {
+        "domanda": "Cosa caratterizza le lenti anamorfiche, spesso associate al 'look cinematografico' classico?",
+        "opzioni": [
+            "Bokeh ovale e flare orizzontali (spesso blu)",
+            "Immagine quadrata e nitidezza estrema ai bordi",
+            "Colori desaturati e alto contrasto",
+            "Effetto fish-eye pronunciato"
+        ],
+        "corretta": "Bokeh ovale e flare orizzontali (spesso blu)",
+        "aiuto": "J.J. Abrams è famoso per abusare di questi riflessi di luce orizzontali nei suoi film di Star Trek.",
+        "spiegazione": "Le lenti anamorfiche 'schiacciano' un'immagine panoramica su una pellicola standard. Quando proiettate (e 'de-schiacciate'), creano un formato widescreen, ma lasciano artefatti caratteristici come le luci fuori fuoco ovali e i lens flare orizzontali."
+    },
+    {
+        "domanda": "Quale attore detiene il record (postumo) per aver recitato in tre film nominati come 'Miglior Film' nello stesso anno?",
+        "opzioni": [
+            "John Cazale",
+            "James Dean",
+            "Heath Ledger",
+            "Philip Seymour Hoffman"
+        ],
+        "corretta": "John Cazale",
+        "aiuto": "Ha fatto solo 5 film in tutta la sua vita, e tutti e 5 sono stati nominati come Miglior Film. È famoso per il ruolo di Fredo Corleone.",
+        "spiegazione": "John Cazale morì giovane nel 1978. La sua filmografia è perfetta: Il Padrino, La Conversazione, Il Padrino Parte II, Quel pomeriggio di un giorno da cani, Il Cacciatore. Tutti nominati al Best Picture."
+    },
+    {
+        "domanda": "Cos'è il 'Metodo Stanislavskij', che rivoluzionò la recitazione cinematografica americana negli anni '50?",
+        "opzioni": [
+            "Un sistema che richiede all'attore di attingere alla propria memoria emotiva per creare verità psicologica",
+            "Un metodo di memorizzazione rapida delle battute",
+            "Una tecnica per muoversi sul set senza guardare i segni a terra",
+            "L'uso di trucco prostetico per cambiare i connotati"
+        ],
+        "corretta": "Un sistema che richiede all'attore di attingere alla propria memoria emotiva per creare verità psicologica",
+        "aiuto": "Diffuso dall'Actors Studio di Lee Strasberg, fu reso iconico da Marlon Brando e James Dean.",
+        "spiegazione": "Il Metodo si contrapponeva alla recitazione classica/teatrale basata sulla tecnica vocale e gestuale esteriore. Chiedeva all'attore di 'vivere' il personaggio, spesso rimanendo nel ruolo anche fuori dal set."
+    },
+    {
+        "domanda": "Quale film ha introdotto l'uso della CGI per creare una superficie d'acqua realistica e controllabile (lo 'pseudopod')?",
+        "opzioni": [
+            "The Abyss",
+            "Terminator 2",
+            "Waterworld",
+            "Titanic"
+        ],
+        "corretta": "The Abyss",
+        "aiuto": "Film di James Cameron del 1989. La creatura d'acqua imita i volti dei protagonisti.",
+        "spiegazione": "La Industrial Light & Magic creò il tentacolo d'acqua per 'The Abyss'. Il successo di questa tecnologia convinse Cameron che era possibile realizzare il T-1000 in metallo liquido per 'Terminator 2' due anni dopo."
+    },
+    {
+        "domanda": "Cosa è il 'Free Cinema'?",
+        "opzioni": [
+            "Un movimento documentaristico britannico degli anni '50 che rifiutava il conformismo commerciale",
+            "La distribuzione gratuita di film su internet",
+            "Un genere di film sperimentali senza trama",
+            "Il cinema finanziato interamente dallo stato"
+        ],
+        "corretta": "Un movimento documentaristico britannico degli anni '50 che rifiutava il conformismo commerciale",
+        "aiuto": "I fondatori includevano Lindsay Anderson e Karel Reisz. Il loro motto era: 'Una perfezione non è uno scopo'.",
+        "spiegazione": "Il Free Cinema britannico (precursore della British New Wave o 'Kitchen Sink Realism') voleva mostrare la classe operaia e la vita quotidiana con un approccio poetico ma realistico, libero dalle imposizioni degli studios."
+    },
+    {
+        "domanda": "Qual è la funzione del 'Clapperboard' (Ciak) sul set?",
+        "opzioni": [
+            "Sincronizzare l'audio registrato separatamente con l'immagine visiva",
+            "Segnalare agli attori quando iniziare a parlare",
+            "Misurare la luce della scena per l'esposizione",
+            "Indicare al montatore quali scene scartare"
+        ],
+        "corretta": "Sincronizzare l'audio registrato separatamente con l'immagine visiva",
+        "aiuto": "Il suono secco della barretta che sbatte crea un picco nell'onda audio che può essere allineato visivamente al momento esatto in cui la barretta tocca la lavagna.",
+        "spiegazione": "Poiché nel cinema professionale audio e video sono registrati su dispositivi diversi, il 'clap' fornisce un punto di riferimento univoco per rimetterli insieme (sync) in post-produzione."
+    },
+    {
+        "domanda": "In 'Blade Runner' (1982), cos'è l'effetto 'shining eyes' (occhi luccicanti) usato per identificare i replicanti?",
+        "opzioni": [
+            "Un riflesso arancione nella pupilla ottenuto con uno specchio semiriflettente (Beam Splitter)",
+            "Una post-produzione digitale sugli occhi",
+            "Lenti a contatto speciali riflettenti",
+            "Una luce puntata direttamente negli occhi degli attori"
+        ],
+        "corretta": "Un riflesso arancione nella pupilla ottenuto con uno specchio semiriflettente (Beam Splitter)",
+        "aiuto": "È lo stesso effetto (tapetum lucidum) che fa brillare gli occhi dei gatti di notte, ma creato artificialmente.",
+        "spiegazione": "Il direttore della fotografia Jordan Cronenweth usò una tecnica chiamata 'Schüfftan process' modificata: una luce posta a 45 gradi veniva riflessa da uno specchio semitrasparente direttamente nell'obiettivo, allineata con la pupilla dell'attore, creando quel bagliore innaturale."
+    },
+    {
+        "domanda": "Chi ha diretto 'Nanook of the North' (Nanuk l'esquimese, 1922), considerato il primo documentario lungometraggio, sebbene contenesse molte scene ricostruite?",
+        "opzioni": [
+            "Robert J. Flaherty",
+            "Dziga Vertov",
+            "John Grierson",
+            "Leni Riefenstahl"
+        ],
+        "corretta": "Robert J. Flaherty",
+        "aiuto": "Il regista visse con gli Inuit per anni, ma fece usare loro arpioni tradizionali invece dei fucili che possedevano già, per 'romanzare' la loro lotta contro la natura.",
+        "spiegazione": "Flaherty è il padre del documentario, ma il suo metodo è oggi controverso. Ricostruì scene (come la caccia al tricheco) e costruì igloo a metà per permettere l'ingresso della cinepresa, mescolando etnografia e finzione."
+    },
+    {
+        "domanda": "Quale film ha introdotto il personaggio di 'Little Tramp' (Charlot) interpretato da Charlie Chaplin?",
+        "opzioni": [
+            "Kid Auto Races at Venice (1914)",
+            "The Kid (1921)",
+            "The Tramp (1915)",
+            "City Lights (1931)"
+        ],
+        "corretta": "Kid Auto Races at Venice (1914)",
+        "aiuto": "È un cortometraggio quasi improvvisato dove Chaplin disturba una gara di go-kart per bambini.",
+        "spiegazione": "Sebbene 'Mabel's Strange Predicament' fu girato prima, 'Kid Auto Races at Venice' fu il primo ad essere distribuito nelle sale mostrando il costume iconico (bombetta, bastone, scarpe grandi)."
+    },
+    {
+        "domanda": "Qual è il significato del termine 'Snorricam'?",
+        "opzioni": [
+            "Una telecamera montata sul corpo dell'attore e puntata verso il suo viso",
+            "Una telecamera montata su un drone",
+            "Un tipo di carrello per riprese veloci",
+            "Una tecnica di montaggio audio"
+        ],
+        "corretta": "Una telecamera montata sul corpo dell'attore e puntata verso il suo viso",
+        "aiuto": "Usata spesso da Darren Aronofsky (es. 'Requiem for a Dream') per trasmettere disorientamento o ebbrezza.",
+        "spiegazione": "La Snorricam crea un effetto in cui il soggetto rimane immobile al centro dell'inquadratura mentre lo sfondo si muove freneticamente attorno a lui, comunicando isolamento o alterazione psicofisica."
+    },
+    {
+        "domanda": "Quale film ha vinto la prima Palma d'Oro (Palme d'Or) con questo nome specifico a Cannes nel 1955?",
+        "opzioni": [
+            "Marty",
+            "Il terzo uomo",
+            "La dolce vita",
+            "I 400 colpi"
+        ],
+        "corretta": "Marty",
+        "aiuto": "È un dramma americano intimo su un macellaio italo-americano solitario.",
+        "spiegazione": "Prima del 1955, il premio massimo si chiamava 'Grand Prix du Festival International du Film'. 'Marty' di Delbert Mann fu il primo a ricevere la 'Palma d'Oro' fisica come la conosciamo oggi."
+    },
+    {
+        "domanda": "Nel montaggio cinematografico, cosa si intende per 'Regola dei 180 gradi'?",
+        "opzioni": [
+            "Una linea immaginaria tra due personaggi che la cinepresa non deve attraversare per mantenere la coerenza spaziale",
+            "L'angolo massimo dell'otturatore per evitare lo sfarfallio",
+            "La temperatura colore necessaria per bilanciare il bianco",
+            "Il raggio d'azione di una panoramica"
+        ],
+        "corretta": "Una linea immaginaria tra due personaggi che la cinepresa non deve attraversare per mantenere la coerenza spaziale",
+        "aiuto": "Se violi questa regola, i personaggi che si stanno parlando sembreranno guardare nella stessa direzione anziché l'uno verso l'altro.",
+        "spiegazione": "Mantenendo la cinepresa su un lato dell'asse dell'azione, si garantisce che lo spettatore capisca sempre dove sono posizionati i personaggi l'uno rispetto all'altro (sinistra/destra)."
+    },
+    {
+        "domanda": "Quale compositore ha collaborato con Sergio Leone per creare le iconiche colonne sonore degli 'Spaghetti Western'?",
+        "opzioni": [
+            "Ennio Morricone",
+            "Nino Rota",
+            "Riz Ortolani",
+            "Giorgio Moroder"
+        ],
+        "corretta": "Ennio Morricone",
+        "aiuto": "Usava fischi, chitarre elettriche, fruste e cori umani per creare un sound unico.",
+        "spiegazione": "Il sodalizio Leone-Morricone è leggendario. Spesso Leone faceva comporre la musica *prima* di girare, per muovere la cinepresa a tempo con la colonna sonora (es. il duello finale de 'Il buono, il brutto, il cattivo')."
+    },
+    {
+        "domanda": "Cosa si intende per 'Giallo' nel contesto del cinema internazionale?",
+        "opzioni": [
+            "Un genere italiano di thriller-horror che mescola mistery, slasher ed erotismo",
+            "I film comici italiani degli anni '70",
+            "I film colorati a mano dei primi del '900",
+            "Un filtro fotografico usato per le scene diurne"
+        ],
+        "corretta": "Un genere italiano di thriller-horror che mescola mistery, slasher ed erotismo",
+        "aiuto": "Il nome deriva dal colore delle copertine dei libri tascabili di mistero pubblicati da Mondadori.",
+        "spiegazione": "Registi come Mario Bava e Dario Argento hanno reso il Giallo famoso nel mondo. Caratterizzato da assassini con guanti neri, colori saturi, trame contorte e violenza stilizzata, ha influenzato pesantemente lo slasher americano."
+    },
+    {
+        "domanda": "Chi ha scritto la sceneggiatura originale di 'Taxi Driver' (1976)?",
+        "opzioni": [
+            "Paul Schrader",
+            "Martin Scorsese",
+            "Oliver Stone",
+            "Francis Ford Coppola"
+        ],
+        "corretta": "Paul Schrader",
+        "aiuto": "Scrisse la sceneggiatura in un periodo di profonda depressione, vivendo nella sua auto e ossessionato dalle armi.",
+        "spiegazione": "Paul Schrader incanalò i suoi demoni personali nel personaggio di Travis Bickle. La frase 'You talkin' to me?', tuttavia, fu improvvisata da De Niro; lo script diceva solo 'Travis parla allo specchio'."
+    },
+    {
+        "domanda": "Qual è la differenza principale tra 'Suspense' e 'Sorpresa' secondo la famosa definizione di Hitchcock?",
+        "opzioni": [
+            "Nella suspense il pubblico sa che c'è una bomba sotto il tavolo, nella sorpresa non lo sa finché non esplode",
+            "La suspense è visiva, la sorpresa è sonora",
+            "La sorpresa dura a lungo, la suspense è istantanea",
+            "La suspense riguarda il passato, la sorpresa il futuro"
+        ],
+        "corretta": "Nella suspense il pubblico sa che c'è una bomba sotto il tavolo, nella sorpresa non lo sa finché non esplode",
+        "aiuto": "La sorpresa offre 15 secondi di shock. La suspense offre 15 minuti di ansia.",
+        "spiegazione": "Hitchcock spiegava che dare informazioni al pubblico (la bomba sta ticchettando) crea un coinvolgimento emotivo superiore (ansia per i personaggi ignari) rispetto al semplice shock di un'esplosione improvvisa."
+    },
+    {
+        "domanda": "In quale film compare per la prima volta l'iconico logo della Columbia Pictures (la donna con la torcia), anche se in forma diversa da quella odierna?",
+        "opzioni": [
+            "È apparsa fin dalla fondazione nel 1924",
+            "Accadde una notte",
+            "Gilda",
+            "Lawrence d'Arabia"
+        ],
+        "corretta": "È apparsa fin dalla fondazione nel 1924",
+        "aiuto": "Il logo si è evoluto molto, ma il concetto della 'Torch Lady' (ispirato alla personificazione dell'America) c'è sempre stato.",
+        "spiegazione": "La 'Torch Lady' è il logo sin dal 1924. L'immagine attuale, dipinta da Michael Deas, risale però al 1992 e la modella era una casalinga britannica di nome Jenny Joseph."
+    },
+    {
+        "domanda": "Quale film francese del 1902 è considerato il primo film di fantascienza della storia?",
+        "opzioni": [
+            "Viaggio nella Luna (Le Voyage dans la Lune)",
+            "Metropolis",
+            "L'arrivo di un treno alla stazione di La Ciotat",
+            "Vampyr"
+        ],
+        "corretta": "Viaggio nella Luna (Le Voyage dans la Lune)",
+        "aiuto": "Diretto dal mago Georges Méliès, contiene la famosa immagine del razzo conficcato nell'occhio della Luna.",
+        "spiegazione": "Méliès usò trucchi teatrali, sovraimpressioni e scenografie dipinte per creare un mondo fantastico, dimostrando che il cinema poteva inventare la realtà, non solo registrarla."
+    },
+    {
+        "domanda": "Nel film 'Barry Lyndon' (1975), Stanley Kubrick ottenne un'illuminazione a lume di candela senza precedenti. Quale attrezzatura tecnica specifica rese possibile questa impresa?",
+        "opzioni": ["Obiettivi Zeiss Planar 50mm f/0.7 progettati per la NASA", "Pellicola Kodak Vision3 500T spinta a 3200 ISO", "Lenti anamorfiche Panavision C-Series modificate", "Riflettori a specchio concavo del XVIII secolo"],
+        "corretta": "Obiettivi Zeiss Planar 50mm f/0.7 progettati per la NASA",
+        "aiuto": "Era un'ottica destinata a fotografare il lato oscuro della Luna.",
+        "spiegazione": "Kubrick utilizzò lenti Zeiss progettate per il programma Apollo per catturare scene illuminate solo da candele, con una profondità di campo quasi inesistente."
+    },
+    {
+        "domanda": "Charlie Chaplin vinse il suo unico Oscar competitivo (non alla carriera) nel 1973, per un film uscito vent'anni prima. Di quale film si tratta?",
+        "opzioni": ["Luci della ribalta (Limelight)", "Il grande dittatore", "Tempi moderni", "Il monello"],
+        "corretta": "Luci della ribalta (Limelight)",
+        "aiuto": "Il film fu boicottato negli USA al momento dell'uscita originale per le presunte simpatie comuniste dell'autore.",
+        "spiegazione": "Il film del 1952 non fu proiettato a Los Angeles fino al 1972, rendendolo eleggibile per gli Oscar solo due decenni dopo."
+    },
+    {
+        "domanda": "Quale sostanza fu utilizzata per simulare il sangue nella celebre scena della doccia in 'Psycho' (1960) di Alfred Hitchcock?",
+        "opzioni": ["Sciroppo di cioccolato Bosco", "Salsa di pomodoro concentrata", "Ketchup diluito con acqua", "Sangue di maiale sintetico"],
+        "corretta": "Sciroppo di cioccolato Bosco",
+        "aiuto": "In un film in bianco e nero, la viscosità conta più del colore rosso.",
+        "spiegazione": "Hitchcock scelse lo sciroppo di cioccolato perché sul pellicola in bianco e nero aveva una densità e un contrasto più realistici del sangue finto rosso."
+    },
+    {
+        "domanda": "Il film 'I cancelli del cielo' (Heaven's Gate, 1980) è famigerato nella storia del cinema per un motivo specifico legato all'industria. Quale?",
+        "opzioni": ["Il suo fallimento commerciale portò alla bancarotta della United Artists", "Fu il primo film a costare più di 100 milioni di dollari", "Causò lo sciopero più lungo della Screen Actors Guild", "Venne ritirato dalle sale dopo un solo giorno per oscenità"],
+        "corretta": "Il suo fallimento commerciale portò alla bancarotta della United Artists",
+        "aiuto": "Segnò la fine dell'era della 'New Hollywood' in cui ai registi veniva dato controllo totale.",
+        "spiegazione": "I costi e i ritardi fuori controllo di Michael Cimino affossarono lo studio, ponendo fine all'era del 'regista-autore' onnipotente degli anni '70."
+    },
+    {
+        "domanda": "In 'Cantando sotto la pioggia' (Singin' in the Rain), cosa fu aggiunto all'acqua per farla risaltare meglio davanti alla cinepresa durante l'iconica sequenza di ballo?",
+        "opzioni": ["Latte", "Glicerina", "Inchiostro nero", "Argento colloidale"],
+        "corretta": "Latte",
+        "aiuto": "L'acqua trasparente è difficile da illuminare su uno sfondo scuro.",
+        "spiegazione": "Si dice che sia stato aggiunto del latte all'acqua per renderla più visibile, anche se Gene Kelly ha successivamente smentito dicendo che fu solo un sapiente gioco di luci (retroilluminazione)."
+    },
+    {
+        "domanda": "Il film 'Nosferatu' (1922) di Murnau rischiò di essere distrutto completamente. Perché?",
+        "opzioni": ["La vedova di Bram Stoker vinse una causa per violazione del copyright", "Il governo tedesco lo considerò sovversivo", "La pellicola era altamente infiammabile e bruciò quasi ovunque", "Murnau stesso ordinò la distruzione per insoddisfazione artistica"],
+        "corretta": "La vedova di Bram Stoker vinse una causa per violazione del copyright",
+        "aiuto": "Cambiare il nome in 'Conte Orlok' non fu sufficiente a evitare la legge.",
+        "spiegazione": "Il tribunale ordinò la distruzione di tutte le copie. Fortunatamente, alcune copie pirata sopravvissero all'estero, salvando il capolavoro."
+    },
+    {
+        "domanda": "Quale film fu il primo a ricevere il rating 'X' (vietato ai minori) e a vincere comunque l'Oscar come Miglior Film?",
+        "opzioni": ["Un uomo da marciapiede (Midnight Cowboy)", "Arancia Meccanica", "L'ultimo tango a Parigi", "L'esorcista"],
+        "corretta": "Un uomo da marciapiede (Midnight Cowboy)",
+        "aiuto": "Racconta l'amicizia tra un lavapiatti e un gigolo texano a New York.",
+        "spiegazione": "Uscito nel 1969, ottenne la 'X' per i temi trattati, poi riclassificata come 'R'. Rimane l'unico film classificato X (o NC-17) a vincere la statuetta principale."
+    },
+    {
+        "domanda": "Nel film 'Tron' (1982), perché l'Academy rifiutò di nominare il film per l'Oscar ai Migliori Effetti Speciali?",
+        "opzioni": ["Consideravano l'uso della computer grafica come 'barare'", "Gli effetti erano stati realizzati in Corea e non negli USA", "Il film conteneva troppa animazione tradizionale mista", "La Disney non inviò la candidatura in tempo"],
+        "corretta": "Consideravano l'uso della computer grafica come 'barare'",
+        "aiuto": "All'epoca, premere un tasto non era considerato artigianato.",
+        "spiegazione": "L'industria non comprendeva ancora la CGI e riteneva che generare immagini al computer togliesse merito artistico agli artigiani degli effetti pratici."
+    },
+    {
+        "domanda": "Durante le riprese di 'Fitzcarraldo', Werner Herzog insistette per compiere un'impresa folle senza effetti speciali. Quale?",
+        "opzioni": ["Trascinare una nave di 320 tonnellate sopra una collina", "Far recitare Klaus Kinski senza copione", "Costruire un teatro dell'opera funzionante nella giungla", "Discendere le rapide su una zattera di bambù senza sicurezze"],
+        "corretta": "Trascinare una nave di 320 tonnellate sopra una collina",
+        "aiuto": "La metafora della fatica di Sisifo resa letterale nella giungla peruviana.",
+        "spiegazione": "Herzog rifiutò i modellini. La nave fu realmente trainata con un sistema di carrucole, un'operazione che richiese mesi e causò vari infortuni."
+    },
+    {
+        "domanda": "Il film 'Arca russa' (2002) di Aleksandr Sokurov è tecnicamente unico per quale motivo?",
+        "opzioni": ["È un unico piano sequenza di 96 minuti senza tagli nascosti", "È stato girato interamente con la luce naturale delle candele", "Non ha dialoghi, solo musica e rumori d'ambiente", "È stato montato al contrario, dalla fine all'inizio"],
+        "corretta": "È un unico piano sequenza di 96 minuti senza tagli nascosti",
+        "aiuto": "Girato all'interno del Museo dell'Ermitage.",
+        "spiegazione": "Grazie all'avvento del digitale ad alta capacità, Sokurov riuscì a girare l'intero film in una sola ripresa continua (alla quarta prova)."
+    },
+    {
+        "domanda": "Chi ha fornito la voce demoniaca di Regan MacNeil nel film 'L'esorcista' (1973)?",
+        "opzioni": ["Mercedes McCambridge", "Linda Blair (modificata elettronicamente)", "Orson Welles", "Sissy Spacek"],
+        "corretta": "Mercedes McCambridge",
+        "aiuto": "Un'attrice radiofonica veterana che beveva uova crude e fumava a catena per ottenere quel timbro.",
+        "spiegazione": "La McCambridge si sottopose a un regime estremo per alterare la voce. Inizialmente non fu accreditata, il che portò a una disputa con il regista Friedkin."
+    },
+    {
+        "domanda": "In 'Lawrence d'Arabia' (1962), qual è una caratteristica statistica unica riguardante il cast parlato?",
+        "opzioni": ["Non c'è nessuna donna con ruoli parlati nell'intero film", "Tutti gli attori arabi sono doppiati da attori britannici", "Peter O'Toole è l'unico attore biondo del film", "È il film con il maggior numero di comparse nella storia"],
+        "corretta": "Non c'è nessuna donna con ruoli parlati nell'intero film",
+        "aiuto": "È un film di guerra nel deserto lungo quasi 4 ore, tutto al maschile.",
+        "spiegazione": "Nonostante la durata epica, non ci sono dialoghi recitati da donne. Si vedono donne solo in campo lungo o nelle scene di folla."
+    },
+    {
+        "domanda": "Il versetto biblico Ezechiele 25:17 recitato da Jules in 'Pulp Fiction' ha una particolarità. Quale?",
+        "opzioni": ["È in gran parte inventato e non corrisponde al testo biblico reale", "È l'unico passo della Bibbia in cui si cita la vendetta", "Fu improvvisato da Samuel L. Jackson sul momento", "Appare solo nella versione di Re Giacomo del 1611"],
+        "corretta": "È in gran parte inventato e non corrisponde al testo biblico reale",
+        "aiuto": "Tarantino lo prese da un film di arti marziali degli anni '70, non dalla Bibbia.",
+        "spiegazione": "Il testo è un pastiche preso dal film 'Karate Kiba' (The Bodyguard) con Sonny Chiba. Solo l'ultima frase corrisponde vagamente alle Scritture."
+    },
+    {
+        "domanda": "In 'Terminator 2 - Il giorno del giudizio', come è stata realizzata la scena in cui Sarah Connor opera il T-800 davanti a uno specchio?",
+        "opzioni": ["Usando la sorella gemella di Linda Hamilton e nessun specchio", "Con la prima applicazione avanzata di CGI per i riflessi", "Utilizzando uno specchio semiriflettente (beam splitter)", "Attraverso il processo di compositing ottico 'Bluescreen'"],
+        "corretta": "Usando la sorella gemella di Linda Hamilton e nessun specchio",
+        "aiuto": "A volte la soluzione più semplice è biologica, non tecnologica.",
+        "spiegazione": "Leslie Hamilton, gemella di Linda, interpretava il riflesso 'nello specchio' (che era in realtà una finestra vuota), mentre Linda era in primo piano con un manichino di Schwarzenegger."
+    },
+    {
+        "domanda": "In 'La parola ai giurati' (12 Angry Men), il regista Sidney Lumet usò un trucco con le lenti della cinepresa man mano che il film procedeva. Quale?",
+        "opzioni": ["Usò lenti focali sempre più lunghe per schiacciare la prospettiva", "Usò lenti grandangolari per distorcere i volti dei giurati", "Abbassò gradualmente l'illuminazione per creare ombra", "Inclinò leggermente la cinepresa per creare disorientamento"],
+        "corretta": "Usò lenti focali sempre più lunghe per schiacciare la prospettiva",
+        "aiuto": "L'obiettivo era far sembrare la stanza sempre più piccola.",
+        "spiegazione": "Passando dai grandangoli ai teleobiettivi, le pareti dello sfondo sembrano avvicinarsi progressivamente, aumentando il senso di claustrofobia."
+    },
+    {
+        "domanda": "Quale film ha accidentalmente inventato l'effetto sonoro della spada laser di Star Wars?",
+        "opzioni": ["Nessun film, era il ronzio di un proiettore e di un tubo catodico", "Il pianeta proibito", "La guerra dei mondi (1953)", "Metropolis"],
+        "corretta": "Nessun film, era il ronzio di un proiettore e di un tubo catodico",
+        "aiuto": "Non è una clip da un film, ma un'interferenza catturata da Ben Burtt.",
+        "spiegazione": "Il sound designer Ben Burtt scoprì il suono per caso passando un microfono vicino a un vecchio proiettore interbloccato e a un televisore rotto."
+    },
+    {
+        "domanda": "Nel film 'Cannibal Holocaust' (1980), il regista Ruggero Deodato fu costretto a presentarsi in tribunale per dimostrare cosa?",
+        "opzioni": ["Che gli attori non erano stati realmente uccisi sul set", "Che gli animali uccisi erano destinati all'alimentazione locale", "Che non aveva plagiato 'Mondo Cane'", "Che il film non era finanziato dalla mafia"],
+        "corretta": "Che gli attori non erano stati realmente uccisi sul set",
+        "aiuto": "Gli attori avevano firmato un contratto per sparire dai media per un anno.",
+        "spiegazione": "Il realismo era tale (e la clausola di sparizione così efficace) che Deodato fu accusato di omicidio. Dovette convocare gli attori in aula per essere scagionato."
+    },
+    {
+        "domanda": "Perché la produzione di 'Toy Story 2' rischiò di essere cancellata quasi completamente durante la lavorazione?",
+        "opzioni": ["Un comando 'rm -rf' fu eseguito per errore sui server cancellando il film", "La Disney minacciò di chiudere la Pixar per divergenze creative", "I file furono corrotti da un virus informatico", "Il rendering richiedeva più tempo di quanto disponibile fisicamente"],
+        "corretta": "Un comando 'rm -rf' fu eseguito per errore sui server cancellando il film",
+        "aiuto": "La salvezza arrivò da una dipendente che lavorava da casa per la maternità.",
+        "spiegazione": "Il comando cancellò il 90% del film. Fortunatamente, Galyn Susman aveva una copia di backup recente sul suo computer di casa."
+    },
+    {
+        "domanda": "Qual è l'origine della maschera indossata da Michael Myers nella saga di 'Halloween'?",
+        "opzioni": ["Una maschera del Capitano Kirk (William Shatner) dipinta di bianco", "Un calco del volto di un clown degli anni '40", "Una maschera di Nixon deformata", "Un volto generico creato appositamente dal dipartimento artistico"],
+        "corretta": "Una maschera del Capitano Kirk (William Shatner) dipinta di bianco",
+        "aiuto": "Era la maschera più economica disponibile nel negozio di costumi.",
+        "spiegazione": "La produzione comprò una maschera di Star Trek per circa 2 dollari, allargò i buchi degli occhi e la dipinse di bianco spettrale."
+    },
+    {
+        "domanda": "In 'Il Padrino', la presenza delle arance in scena ha un significato simbolico ricorrente. Quale?",
+        "opzioni": ["Preannunciano una morte o una tragedia imminente", "Simboleggiano la ricchezza proveniente dalla Sicilia", "Rappresentano il desiderio di tornare a una vita onesta", "Indicano che un personaggio sta mentendo"],
+        "corretta": "Preannunciano una morte o una tragedia imminente",
+        "aiuto": "Don Vito ne compra alcune poco prima dell'attentato.",
+        "spiegazione": "Ogni volta che appaiono delle arance (frutto o succo), qualcuno muore o accade qualcosa di tragico poco dopo. Inizialmente era solo una scelta cromatica dello scenografo."
+    },
+    {
+        "domanda": "Quale fu il primo film a vincere l'Oscar come Miglior Film, nel 1927, e che contiene la prima scena di nudo (seppur breve) in una produzione mainstream?",
+        "opzioni": ["Ali (Wings)", "Aurora (Sunrise)", "Settimo cielo", "Il cantante di jazz"],
+        "corretta": "Ali (Wings)",
+        "aiuto": "È famoso per le spettacolari battaglie aeree della Prima Guerra Mondiale.",
+        "spiegazione": "'Wings' è l'unico film muto ad aver vinto come Miglior Film (fino a 'The Artist'). Contiene una fugace scena di nudo maschile durante le visite mediche militari."
+    },
+    {
+        "domanda": "L'effetto 'Dolly Zoom' (o effetto Vertigo) fu inventato da Irmin Roberts per il film di Hitchcock. Come si ottiene tecnicamente?",
+        "opzioni": ["La camera carrellata in avanti mentre lo zoom va all'indietro (o viceversa)", "La camera ruota su se stessa mentre si cambia il fuoco", "Si usano due lenti sovrapposte che si muovono in direzioni opposte", "È un effetto di post-produzione ottenuto scalando l'immagine"],
+        "corretta": "La camera carrellata in avanti mentre lo zoom va all'indietro (o viceversa)",
+        "aiuto": "Mantiene le dimensioni del soggetto in primo piano inalterate mentre lo sfondo cambia prospettiva.",
+        "spiegazione": "Questa tecnica crea un senso di vertigine visiva, modificando la prospettiva dello sfondo senza cambiare la grandezza del soggetto principale."
+    },
+    {
+        "domanda": "George Miller, creatore della saga di 'Mad Max', svolgeva un'altra professione prima di diventare regista, che influenzò la violenza dei suoi film. Quale?",
+        "opzioni": ["Medico di pronto soccorso", "Poliziotto stradale", "Meccanico di auto da corsa", "Veterano del Vietnam"],
+        "corretta": "Medico di pronto soccorso",
+        "aiuto": "Vedeva quotidianamente le conseguenze degli incidenti stradali.",
+        "spiegazione": "Miller lavorava in un pronto soccorso a Sydney. La brutalità degli incidenti che curava ispirò la violenza viscerale e 'motorizzata' di Mad Max."
+    },
+    {
+        "domanda": "Quale film detiene il record per il maggior numero di riprese (takes) per una singola scena con dialogo (127 ciak)?",
+        "opzioni": ["Shining (scena della mazza da baseball)", "Eyes Wide Shut (scena dell'ingresso)", "Spider-Man (scena del vassoio nella mensa)", "I cancelli del cielo (scena della frusta)"],
+        "corretta": "Shining (scena della mazza da baseball)",
+        "aiuto": "L'attrice Shelley Duvall fu spinta all'esaurimento nervoso.",
+        "spiegazione": "Kubrick fece ripetere la scena della scala 127 volte. Shelley Duvall perse i capelli per lo stress, ma la performance di terrore puro è, in parte, reale."
+    },
+    {
+        "domanda": "Per il film 'Biancaneve e i sette nani' (1937), Walt Disney ricevette un Oscar speciale. Com'era fatto?",
+        "opzioni": ["Una statuetta normale e sette statuette in miniatura su una base a gradini", "Una statuetta fatta di cristallo invece che di bronzo", "Una targa dipinta a mano da Salvador Dalí", "Una statuetta in legno intagliato"],
+        "corretta": "Una statuetta normale e sette statuette in miniatura su una base a gradini",
+        "aiuto": "Un omaggio letterale ai protagonisti del film.",
+        "spiegazione": "L'Academy premiò l'innovazione del primo lungometraggio animato con questo design unico, consegnato da Shirley Temple."
+    },
+    {
+        "domanda": "In 'Alien' (1979), la luce blu laser che copre le uova dello Xenomorfo nella stiva dell'astronave proveniva da una fonte inaspettata. Quale?",
+        "opzioni": ["L'attrezzatura scenica prestata dalla band The Who", "Un prototipo di scanner medico ospedaliero", "Luci di atterraggio di un aeroporto militare", "Laser da laboratorio della NASA"],
+        "corretta": "L'attrezzatura scenica prestata dalla band The Who",
+        "aiuto": "La band stava provando i laser per il tour nel teatro di posa accanto.",
+        "spiegazione": "Ridley Scott vide i laser che gli Who stavano testando nello studio vicino (Shepperton Studios) e chiese di poterli usare per creare l'effetto nebbia luminosa."
+    },
+    {
+        "domanda": "Quale attore era stato originariamente scritturato per interpretare Aragorn in 'Il Signore degli Anelli', ma fu licenziato il giorno prima delle riprese perché troppo giovane?",
+        "opzioni": ["Stuart Townsend", "Nicolas Cage", "Daniel Day-Lewis", "Russell Crowe"],
+        "corretta": "Stuart Townsend",
+        "aiuto": "Viggo Mortensen fu chiamato all'ultimo minuto per sostituirlo.",
+        "spiegazione": "Townsend si allenò per mesi, ma Peter Jackson realizzò all'ultimo che Aragorn necessitava di un attore con più gravitas ed età scenica."
+    },
+    {
+        "domanda": "L'effetto 'Bullet Time' in 'Matrix' (1999) è stato ispirato da tecniche fotografiche precedenti, ma come è stato realizzato fisicamente sul set?",
+        "opzioni": ["Una serie di 120 fotocamere fisse disposte a cerchio che scattavano in sequenza", "Una telecamera robotica ad altissima velocità su un binario circolare", "Interamente in CGI, gli attori non erano presenti nella scena", "Specchi rotanti che riflettevano l'immagine su una singola camera"],
+        "corretta": "Una serie di 120 fotocamere fisse disposte a cerchio che scattavano in sequenza",
+        "aiuto": "È una versione evoluta della tecnica del 'time-slice'.",
+        "spiegazione": "Le immagini delle fotocamere fisse venivano poi interpolate al computer per creare il movimento fluido della 'camera virtuale' attorno all'azione congelata."
+    },
+    {
+        "domanda": "Perché la scena della piscina in 'Poltergeist' (1982) è considerata da molti l'origine della presunta maledizione sul cast?",
+        "opzioni": ["Furono utilizzati scheletri umani veri perché costavano meno di quelli di plastica", "L'attrice JoBeth Williams rischiò realmente di annegare per un corto circuito", "La piscina fu costruita sopra un vero cimitero indiano sconsacrato", "L'acqua divenne tossica a causa di reazioni chimiche con la scenografia"],
+        "corretta": "Furono utilizzati scheletri umani veri perché costavano meno di quelli di plastica",
+        "aiuto": "All'epoca, le repliche mediche in plastica erano costose e poco realistiche.",
+        "spiegazione": "La produzione acquistò scheletri reali da una fornitura medica. L'attrice lo scoprì solo dopo aver girato la scena immersa nel fango con loro."
+    },
+    {
+        "domanda": "Nella scena della nevicata nel campo di papaveri in 'Il Mago di Oz' (1939), cosa fu usato per simulare la neve?",
+        "opzioni": ["Amianto puro (Crisotilo)", "Fiocchi di mais sbiancati", "Piume d'oca tritate", "Cotone idrofilo"],
+        "corretta": "Amianto puro (Crisotilo)",
+        "aiuto": "Un materiale ignifugo molto comune all'epoca, oggi noto cancerogeno.",
+        "spiegazione": "L'amianto veniva commercializzato come neve artificiale natalizia sicura perché non infiammabile. Gli attori ne furono letteralmente ricoperti."
+    },
+    {
+        "domanda": "Marlon Brando rifiutò il suo Oscar per 'Il Padrino' nel 1973. Chi mandò sul palco al suo posto?",
+        "opzioni": ["Sacheen Littlefeather (Piccola Piuma)", "Il suo avvocato", "Un membro delle Pantere Nere", "Francis Ford Coppola"],
+        "corretta": "Sacheen Littlefeather (Piccola Piuma)",
+        "aiuto": "Voleva protestare contro il trattamento dei nativi americani nell'industria cinematografica.",
+        "spiegazione": "Sacheen Littlefeather rifiutò la statuetta a nome di Brando. In seguito si scoprì che era un'attrice e attivista (Maria Louise Cruz), non nativa al 100% secondo alcuni, ma il gesto rimase storico."
+    },
+    {
+        "domanda": "Quale film ha reso celebre il 'Codice Wilhelm', un effetto sonoro usato in oltre 400 film?",
+        "opzioni": ["Tamburi lontani (Distant Drums, 1951)", "Guerre Stellari (1977)", "King Kong (1933)", "I predatori dell'arca perduta"],
+        "corretta": "Tamburi lontani (Distant Drums, 1951)",
+        "aiuto": "La scena coinvolge un soldato che viene trascinato sott'acqua da un alligatore.",
+        "spiegazione": "Sebbene reso famoso da Ben Burtt in Star Wars, l'urlo originale fu registrato per questo western del 1951, per un personaggio morso da un alligatore."
+    },
+    {
+        "domanda": "Il regista di 'Eraserhead', David Lynch, mantenne un segreto sulla produzione per anni. Quale?",
+        "opzioni": ["Come fu realizzato il bambino mostruoso", "Che il film era stato girato nella sua camera da letto", "Che Jack Nance portò la stessa acconciatura per 5 anni", "Che i finanziamenti provenivano da una vincita alla lotteria"],
+        "corretta": "Come fu realizzato il bambino mostruoso",
+        "aiuto": "Si specula che fosse un feto di vitello o di agnello imbalsamato.",
+        "spiegazione": "Lynch si è rifiutato di rivelare la composizione del neonato deforme. Ha fatto bendare il proiezionista durante i giornalieri per non svelare il trucco."
+    },
+    {
+        "domanda": "Durante le riprese di 'La passione di Cristo' (2004), cosa accadde all'attore Jim Caviezel?",
+        "opzioni": ["Fu colpito da un fulmine mentre era sulla croce", "Si ruppe entrambe le gambe cadendo", "Divenne temporaneamente cieco per il trucco", "Fu morso da un serpente velenoso"],
+        "corretta": "Fu colpito da un fulmine mentre era sulla croce",
+        "aiuto": "Un evento che molti sul set considerarono un segno divino o un presagio.",
+        "spiegazione": "Caviezel fu colpito da un fulmine durante la scena del Discorso della Montagna. Anche l'assistente alla regia Jan Michelini fu colpito (due volte)."
+    },
+    {
+        "domanda": "In 'The Blues Brothers', il budget per quale sostanza fu previsto specificamente come voce di spesa (chiamata 'rinfreschi notturni')?",
+        "opzioni": ["Cocaina", "Occhiali da sole di ricambio", "Benzina per le auto della polizia", "Sigarette"],
+        "corretta": "Cocaina",
+        "aiuto": "John Belushi ne faceva un uso smodato durante le riprese.",
+        "spiegazione": "Dan Aykroyd ha confermato che nel budget era inclusa una voce per la cocaina per aiutare cast e crew a sostenere le riprese notturne estenuanti."
+    },
+    {
+        "domanda": "Il disclaimer iniziale di 'Fargo' (1996) afferma che la storia è vera. Qual è la realtà?",
+        "opzioni": ["È una completa invenzione dei fratelli Coen", "È basato su due crimini diversi uniti insieme", "È vero, ma i nomi sono stati cambiati", "È basato su una leggenda metropolitana giapponese"],
+        "corretta": "È una completa invenzione dei fratelli Coen",
+        "aiuto": "La frase 'Questa è una storia vera' è parte della finzione narrativa.",
+        "spiegazione": "I Coen ammisero che la storia è inventata. Usarono il disclaimer per convincere il pubblico a sospendere l'incredulità riguardo alle azioni illogiche dei criminali."
+    },
+    {
+        "domanda": "Perché il film 'L'armata delle tenebre' (Army of Darkness) ha due finali completamente diversi?",
+        "opzioni": ["Il finale originale (apocalittico) fu considerato troppo deprimente per il pubblico USA", "Sam Raimi perse la bobina originale", "Bruce Campbell si rifiutò di girare il finale scritto", "Lo studio voleva un sequel immediato"],
+        "corretta": "Il finale originale (apocalittico) fu considerato troppo deprimente per il pubblico USA",
+        "aiuto": "In uno Ash dorme troppo e si sveglia in un futuro post-apocalittico.",
+        "spiegazione": "Il finale originale vede Ash sbagliare la pozione e svegliarsi in un futuro distrutto. Lo studio impose il finale 'Happy Ending' (S-Mart) per il mercato americano."
+    },
+    {
+        "domanda": "Nel film 'Il Laureato', Dustin Hoffman interpreta uno studente universitario neolaureato sedotto da una donna matura. Qual era la reale differenza di età tra Hoffman e Anne Bancroft?",
+        "opzioni": ["Solo 6 anni", "20 anni", "Erano coetanei", "15 anni"],
+        "corretta": "Solo 6 anni",
+        "aiuto": "Il trucco e la recitazione hanno creato un divario generazionale inesistente.",
+        "spiegazione": "Nonostante la dinamica 'cougar', Hoffman aveva 29 anni e la Bancroft 35. Lei fu invecchiata col trucco, lui interpretò un ruolo più giovanile."
+    },
+    {
+        "domanda": "Quale di queste celebri citazioni cinematografiche è in realtà un 'effetto Mandela' (mai pronunciata esattamente così nel film)?",
+        "opzioni": ["Suonala ancora, Sam (Casablanca)", "Francamente, me ne infischio (Via col vento)", "Vedo la gente morta (Il sesto senso)", "Houston, abbiamo un problema (Apollo 13)"],
+        "corretta": "Suonala ancora, Sam (Casablanca)",
+        "aiuto": "La frase corretta è 'Suonala, Sam. Suona Mentre il tempo passa'.",
+        "spiegazione": "Ingrid Bergman dice: 'Play it, Sam'. Bogart non dice mai 'Play it again, Sam'. La frase errata divenne famosa grazie a un film di Woody Allen con quel titolo."
+    },
+    {
+        "domanda": "Il film 'Iron Man' (2008), che lanciò l'MCU, aveva un problema fondamentale all'inizio delle riprese. Quale?",
+        "opzioni": ["Non aveva una sceneggiatura completa, solo un canovaccio", "Robert Downey Jr. non era assicurabile", "L'armatura non entrava dalla porta del set", "I diritti del personaggio appartenevano ancora alla Fox"],
+        "corretta": "Non aveva una sceneggiatura completa, solo un canovaccio",
+        "aiuto": "Molti dei dialoghi furono improvvisati dagli attori.",
+        "spiegazione": "Favreau e il cast si concentrarono sulla storia e l'azione, lasciando i dialoghi all'improvvisazione, cosa che diede al film il suo tono fresco e naturale."
+    },
+    {
+        "domanda": "In 'Il silenzio degli innocenti', per quanto tempo appare effettivamente Anthony Hopkins sullo schermo?",
+        "opzioni": ["Poco più di 16 minuti", "Circa 45 minuti", "Esattamente 30 minuti", "Meno di 10 minuti"],
+        "corretta": "Poco più di 16 minuti",
+        "aiuto": "È una delle performance da Oscar come Miglior Attore Protagonista più brevi della storia.",
+        "spiegazione": "Nonostante l'impatto monumentale del personaggio, Hannibal Lecter è in scena per un tempo brevissimo, vincendo comunque l'Oscar come attore protagonista."
+    },
+    {
+        "domanda": "Quale regista distrusse personalmente una delle chitarre inestimabili del 1870 durante le riprese di 'The Hateful Eight'?",
+        "opzioni": ["Kurt Russell (l'attore, per errore)", "Quentin Tarantino", "Jennifer Jason Leigh", "Ennio Morricone"],
+        "corretta": "Kurt Russell (l'attore, per errore)",
+        "aiuto": "Doveva essere sostituita con una copia prima di essere spaccata.",
+        "spiegazione": "Non fu il regista, ma l'attore Kurt Russell. Nessuno gli disse che la chitarra in mano a Jennifer Jason Leigh era l'originale Martin del museo, non la copia di scena."
+    },
+    {
+        "domanda": "Il famoso 'Codice Hays', che censurò il cinema americano dal 1934 al 1968, vietava esplicitamente di mostrare cosa riguardo alle coppie sposate?",
+        "opzioni": ["Condividere lo stesso letto matrimoniale", "Baciarsi per più di 3 secondi", "Litigare violentemente", "Mostrare la gravidanza"],
+        "corretta": "Condividere lo stesso letto matrimoniale",
+        "aiuto": "Da qui la classica immagine dei letti gemelli separati da un comodino.",
+        "spiegazione": "Anche le coppie sposate dovevano dormire in letti singoli separati. Fu un simbolo del puritanesimo di Hollywood di quell'epoca."
+    },
+    {
+        "domanda": "Quale film ha utilizzato per la prima volta il 'morphing' digitale avanzato per una trasformazione continua di un personaggio?",
+        "opzioni": ["Willow (1988)", "Terminator 2", "The Abyss", "Indiana Jones e l'ultima crociata"],
+        "corretta": "Willow (1988)",
+        "aiuto": "Un film fantasy prodotto da George Lucas, prima dell'acqua di The Abyss.",
+        "spiegazione": "La ILM sviluppò la tecnica del morphing per la scena in cui l'animale si trasforma nella strega Fin Raziel attraverso vari stadi intermedi."
+    },
+    {
+        "domanda": "In 'Quei bravi ragazzi' (Goodfellas), la scena della 'prigione' in cui cucinano è famosa per un dettaglio culinario. Quale?",
+        "opzioni": ["Tagliare l'aglio con una lametta da barba", "Usare il vino di contrabbando per il sugo", "Cuocere la pasta nell'acqua minerale", "Farsi consegnare l'aragosta fresca"],
+        "corretta": "Tagliare l'aglio con una lametta da barba",
+        "aiuto": "Paulie voleva che l'aglio fosse così sottile da sciogliersi nell'olio.",
+        "spiegazione": "È un dettaglio iconico che mostra come i boss mantenessero il loro stile di vita e le loro manie di controllo anche dietro le sbarre."
+    },
+    {
+        "domanda": "Harrison Ford aveva girato un cameo per 'E.T. l'extra-terrestre', che fu poi tagliato. Chi interpretava?",
+        "opzioni": ["Il preside della scuola di Elliott", "Il padre assente di Elliott", "Il medico del governo", "Un vicino di casa ficcanaso"],
+        "corretta": "Il preside della scuola di Elliott",
+        "aiuto": "Si vedeva solo di spalle e si sentiva la voce.",
+        "spiegazione": "Spielberg tagliò la scena perché la presenza di una star come Ford (fresco di Indiana Jones) avrebbe distratto il pubblico dalla storia intima dei bambini."
+    },
+    {
+        "domanda": "Nel film 'Fight Club', David Fincher ha inserito un oggetto specifico in quasi ogni scena del film. Quale?",
+        "opzioni": ["Un bicchiere di Starbucks", "Un pacchetto di sigarette", "Un poster pubblicitario di intimo", "Un orologio digitale"],
+        "corretta": "Un bicchiere di Starbucks",
+        "aiuto": "Simbolo del consumismo globale onnipresente.",
+        "spiegazione": "Fincher voleva mostrare come il brand fosse ovunque. Starbucks non si oppose, ma chiese che il logo non venisse mostrato nella scena in cui il bar viene distrutto."
+    },
+    {
+        "domanda": "Qual è il vero nome dell'attore che recitò nel ruolo di 'V' in 'V per Vendetta' (2005) per tutto il film, senza mai mostrare il volto?",
+        "opzioni": ["Hugo Weaving", "James Purefoy", "Willem Dafoe", "Ralph Fiennes"],
+        "corretta": "Hugo Weaving",
+        "aiuto": "James Purefoy iniziò le riprese ma fu sostituito dopo poche settimane.",
+        "spiegazione": "Hugo Weaving recitò tutto il film dietro la maschera. La voce fu doppiata in post-produzione per renderla più risonante a causa del filtro della maschera."
+    },
+    {
+        "domanda": "Il 'Wilhelm Scream' è famoso, ma esiste un altro urlo stock molto usato, noto come 'Howie Long Scream'. In quale film ha avuto origine?",
+        "opzioni": ["Nome in codice: Broken Arrow", "Die Hard", "Cliffhanger", "L'urlo dell'odio"],
+        "corretta": "Nome in codice: Broken Arrow",
+        "aiuto": "L'attore Howie Long muore cadendo.",
+        "spiegazione": "L'urlo emesso dal personaggio di Howie Long mentre cade è diventato un effetto sonoro ricorrente (spesso chiamato 'Gut-wrenching scream') in molti film successivi."
+    },
+    {
+        "domanda": "Per la colonna sonora di quale film Hans Zimmer ha utilizzato un'orchestra composta interamente da ottoni e bassi, eliminando violini e legni alti?",
+        "opzioni": ["Inception", "Il cavaliere oscuro", "Dunkirk", "Il Gladiatore"],
+        "corretta": "Inception",
+        "aiuto": "Il suono iconico 'BWAHH' ricorda le trombe da nebbia.",
+        "spiegazione": "Zimmer voleva un suono pesante e massiccio per rappresentare i livelli del sogno, basandosi su una versione rallentata di 'Non, je ne regrette rien'."
+    },
+    {
+        "domanda": "In 'Barry Lyndon' (1975), Stanley Kubrick voleva girare le scene in interni utilizzando esclusivamente la luce delle candele. Per farlo, dovette adattare una lente specifica originariamente progettata per quale organizzazione?",
+        "opzioni": ["NASA", "DARPA", "ESA", "KGB"],
+        "corretta": "NASA",
+        "aiuto": "Questa lente Zeiss f/0.7 era stata creata per fotografare il lato oscuro della Luna.",
+        "spiegazione": "Kubrick utilizzò le lenti Zeiss Planar 50mm f/0.7, progettate per il programma Apollo della NASA, montandole su una cinepresa Mitchell BNC modificata per catturare la scarsa luminosità delle candele senza illuminazione artificiale."
+    },
+    {
+        "domanda": "Nel film 'Psycho' (1960) di Alfred Hitchcock, quale 'prima volta' nella storia del cinema americano mainstream viene spesso citata, oltre alla violenza esplicita della scena della doccia?",
+        "opzioni": ["Lo sciacquone di un water tirato in primo piano", "Una donna in biancheria intima a letto", "L'uso della parola 'transvestite'", "La rottura della quarta parete da parte del villain"],
+        "corretta": "Lo sciacquone di un water tirato in primo piano",
+        "aiuto": "È un dettaglio idraulico legato al tentativo di sbarazzarsi di una prova scritta.",
+        "spiegazione": "Hitchcock mostrò esplicitamente il water e lo sciacquone che portava via i pezzi di carta strappata, un tabù per il Codice Hays dell'epoca che considerava i sanitari 'indecenti'."
+    },
+    {
+        "domanda": "Durante le riprese di 'Il Padrino' (1972), la presenza di un gatto nella scena d'apertura con Don Corleone fu completamente improvvisata. Quale problema tecnico causò questo felino?",
+        "opzioni": ["Le fusa coprivano le battute di Marlon Brando", "Graffiò il volto dell'attore Salvatore Corsitto", "Fece cadere una cinepresa costosa", "Saltò sulla scrivania rovinando la continuità"],
+        "corretta": "Le fusa coprivano le battute di Marlon Brando",
+        "aiuto": "Il suono emesso dall'animale era così forte da rendere inintelligibile il dialogo registrato.",
+        "spiegazione": "Il gatto era un randagio trovato da Coppola nel lotto della Paramount. Le sue fusa erano così rumorose che la traccia audio di Brando dovette essere pesantemente rielaborata in post-produzione."
+    },
+    {
+        "domanda": "Per la famosa sequenza sotto la pioggia in 'Cantando sotto la pioggia' (1952), cosa fu aggiunto all'acqua per renderla più visibile davanti alla cinepresa?",
+        "opzioni": ["Latte", "Inchiostro argentato", "Glicerina", "Sabbia fine"],
+        "corretta": "Latte",
+        "aiuto": "Un liquido bianco comune aiutò il contrasto contro lo sfondo scuro della notte.",
+        "spiegazione": "L'acqua trasparente non si vedeva bene con l'illuminazione dell'epoca. Fu aggiunto del latte per renderla opaca e catturare meglio la luce, anche se questo fece restringere il vestito di lana di Gene Kelly."
+    },
+    {
+        "domanda": "In 'Pulp Fiction', il contenuto della valigetta di Marsellus Wallace non viene mai rivelato. Tuttavia, qual è la combinazione numerica per aprirla?",
+        "opzioni": ["666", "911", "123", "777"],
+        "corretta": "666",
+        "aiuto": "Un numero biblicamente associato alla 'bestia'.",
+        "spiegazione": "La combinazione è 666. Questo dettaglio ha alimentato la teoria dei fan secondo cui la valigetta conteneva l'anima di Marsellus Wallace."
+    },
+    {
+        "domanda": "Quale film detiene il record per il maggior numero di nomination all'Oscar (11) senza averne vinta nemmeno una, record condiviso con 'Due vite, una svolta' (The Turning Point)?",
+        "opzioni": ["Il colore viola", "Le ali della libertà", "Gangs of New York", "American Hustle"],
+        "corretta": "Il colore viola",
+        "aiuto": "È un film diretto da Steven Spielberg nel 1985 basato su un romanzo epistolare.",
+        "spiegazione": "'Il colore viola' ricevette 11 nomination ma non vinse nulla. Anche 'Due vite, una svolta' (1977) ebbe lo stesso destino. (Nota: 'Gangs of New York' e 'Il Grinta' si fermarono a 10)."
+    },
+    {
+        "domanda": "Nel film 'Blade Runner' (1982), quale animale origami lascia Gaff per Deckard alla fine del film, suggerendo la vera natura del protagonista?",
+        "opzioni": ["Un unicorno", "Una pecora", "Un gufo", "Un serpente"],
+        "corretta": "Un unicorno",
+        "aiuto": "È una creatura mitologica che Deckard vede anche in un sogno (nella Director's Cut).",
+        "spiegazione": "L'origami dell'unicorno suggerisce che Gaff conosca i sogni di Deckard, implicando che questi siano impianti di memoria e che Deckard stesso sia un replicante."
+    },
+    {
+        "domanda": "Il famoso 'Urlo di Wilhelm' (Wilhelm Scream) è un effetto sonoro stock utilizzato in centinaia di film. In quale film del 1951 ha avuto origine?",
+        "opzioni": ["Tamburi lontani (Distant Drums)", "La carica dei seicento", "L'uomo del pianeta X", "Le miniere di re Salomone"],
+        "corretta": "Tamburi lontani (Distant Drums)",
+        "aiuto": "Un film western con Gary Cooper ambientato nelle paludi della Florida.",
+        "spiegazione": "L'urlo fu registrato per il personaggio di un soldato che viene trascinato sott'acqua da un alligatore in 'Tamburi lontani'. Prese il nome 'Wilhelm' da un personaggio che lo usò successivamente in un altro western."
+    },
+    {
+        "domanda": "In 'Apocalypse Now', Marlon Brando si presentò sul set in condizioni inaspettate, costringendo Coppola a cambiare il modo di riprenderlo. Qual era il problema?",
+        "opzioni": ["Era fortemente sovrappeso", "Si era rasato le sopracciglia", "Aveva perso la voce", "Si era rotto una gamba"],
+        "corretta": "Era fortemente sovrappeso",
+        "aiuto": "Il Colonnello Kurtz doveva essere un militare emaciato, ma l'attore arrivò pesando oltre 130 kg.",
+        "spiegazione": "Per nascondere la stazza di Brando, Coppola decise di vestirlo di nero, inquadrarlo solo in primo piano e utilizzare un'illuminazione molto scura e contrastata, il che contribuì all'atmosfera cupa del finale."
+    },
+    {
+        "domanda": "Chi è l'unico attore ad aver vinto l'Oscar per aver interpretato un personaggio che aveva già vinto un Oscar quando era stato interpretato da un altro attore?",
+        "opzioni": ["Robert De Niro", "Joaquin Phoenix", "Heath Ledger", "Christoph Waltz"],
+        "corretta": "Robert De Niro",
+        "aiuto": "Il personaggio è Vito Corleone.",
+        "spiegazione": "Marlon Brando vinse l'Oscar per Vito Corleone ne 'Il Padrino'. Robert De Niro vinse l'Oscar come Miglior Attore Non Protagonista interpretando lo stesso personaggio da giovane in 'Il Padrino - Parte II'. (Joker ha dato l'Oscar a due attori diversi, ma non è lo *stesso* film continuity/personaggio nello stesso universo narrativo diretto). "
+    },
+    {
+        "domanda": "Quale film muto del 1927 vinse il primo Oscar in assoluto come 'Miglior Film' (allora chiamato 'Outstanding Picture')?",
+        "opzioni": ["Ali (Wings)", "Aurora (Sunrise)", "Settimo cielo", "The Jazz Singer"],
+        "corretta": "Ali (Wings)",
+        "aiuto": "Un film di guerra famoso per le sue spettacolari battaglie aeree.",
+        "spiegazione": "'Ali' è l'unico film interamente muto ad aver vinto il premio principale (The Artist è un film sonoro muto moderno). 'Aurora' vinse un premio parallelo per la 'Miglior Produzione Artistica', poi abolito."
+    },
+    {
+        "domanda": "Nel film 'I predatori dell'arca perduta', la famosa scena in cui Indiana Jones spara allo spadaccino invece di combattere fu dovuta a:",
+        "opzioni": ["Harrison Ford aveva la dissenteria", "La spada dell'attore si era rotta", "Spielberg era in ritardo sulla tabella di marcia", "Era scritto così nel copione originale"],
+        "corretta": "Harrison Ford aveva la dissenteria",
+        "aiuto": "L'attore non aveva le forze fisiche per eseguire la lunga coreografia prevista.",
+        "spiegazione": "Ford e gran parte della troupe stavano male per un'intossicazione alimentare in Tunisia. Ford suggerì a Spielberg: 'Perché non gli sparo e basta?', trasformando una scena d'azione in una gag iconica."
+    },
+    {
+        "domanda": "Qual è il vero nome dell'intelligenza artificiale HAL 9000 in '2001: Odissea nello spazio', secondo la smentita di Arthur C. Clarke riguardo alla teoria dell'alfabeto traslato (IBM)?",
+        "opzioni": ["Heuristically programmed ALgorithmic computer", "High Advanced Logic 9000", "Humanoid Artificial Lifeform", "Hyper Active Liquid processor"],
+        "corretta": "Heuristically programmed ALgorithmic computer",
+        "aiuto": "L'acronimo deriva dai due metodi di apprendimento del computer.",
+        "spiegazione": "Sebbene H-A-L siano le lettere precedenti a I-B-M, Clarke ha sempre sostenuto che fosse una coincidenza e che il nome stia per 'Heuristically programmed ALgorithmic computer'."
+    },
+    {
+        "domanda": "In 'Matrix' (1999), i registi Wachowski colorarono ogni scena che si svolge all'interno di Matrix con una leggera sfumatura verde. Di che colore erano sfumate le scene nel mondo reale?",
+        "opzioni": ["Blu", "Rosso", "Giallo", "Grigio"],
+        "corretta": "Blu",
+        "aiuto": "Un colore freddo per rappresentare la durezza e la mancanza di calore artificiale.",
+        "spiegazione": "Il mondo reale ha una tinta bluastra per differenziarlo visivamente dal verde 'digitale' di Matrix e per sottolineare la freddezza e la realtà desolata del futuro post-apocalittico."
+    },
+    {
+        "domanda": "Quale regista è accreditato per l'invenzione della tecnica 'Dolly Zoom' (o effetto Vertigo), utilizzata per la prima volta nel film 'La donna che visse due volte'?",
+        "opzioni": ["Irmin Roberts", "Alfred Hitchcock", "Saul Bass", "Robert Burks"],
+        "corretta": "Irmin Roberts",
+        "aiuto": "Non è il regista del film, ma un operatore della seconda unità della Paramount.",
+        "spiegazione": "Sebbene Hitchcock volesse l'effetto, fu Irmin Roberts (non accreditato nel film) a capire come realizzarlo combinando uno zoom in avanti con una carrellata indietro."
+    },
+    {
+        "domanda": "La maschera iconica di Michael Myers nella serie 'Halloween' era in realtà una maschera economica raffigurante quale celebrità?",
+        "opzioni": ["William Shatner", "Elvis Presley", "Richard Nixon", "Marlon Brando"],
+        "corretta": "William Shatner",
+        "aiuto": "Raffigurava il Capitano Kirk di Star Trek.",
+        "spiegazione": "La produzione acquistò una maschera del Capitano Kirk per circa 2 dollari, allargò i buchi degli occhi, rimosse le basette e la dipinse di bianco spray per creare il volto privo di emozioni di Michael Myers."
+    },
+    {
+        "domanda": "Nel film 'Il Mago di Oz' (1939), di che materiale era fatta la 'neve' che cade su Dorothy e i suoi amici nel campo di papaveri?",
+        "opzioni": ["Amianto", "Cotone", "Fiocchi di mais", "Plastica triturata"],
+        "corretta": "Amianto",
+        "aiuto": "Un materiale ignifugo molto comune all'epoca, oggi noto per la sua tossicità.",
+        "spiegazione": "All'epoca, l'amianto crisotilo era venduto commercialmente come decorazione natalizia ignifuga. Gli attori furono letteralmente ricoperti di sostanze cancerogene."
+    },
+    {
+        "domanda": "Quale film deteneva il record di incassi di tutti i tempi prima di essere superato da 'Guerre Stellari' nel 1977?",
+        "opzioni": ["Lo squalo (Jaws)", "Via col vento", "Il Padrino", "Tutti insieme appassionatamente"],
+        "corretta": "Lo squalo (Jaws)",
+        "aiuto": "Il primo vero blockbuster estivo, uscito due anni prima.",
+        "spiegazione": "'Lo squalo' (1975) di Spielberg fu il primo film a superare i 100 milioni di dollari di noleggio (la metrica usata allora), strappando il record a 'Il Padrino'."
+    },
+    {
+        "domanda": "Chi è il misterioso 'Alan Smithee' che appare nei crediti di molti film dagli anni '60 agli anni '90?",
+        "opzioni": ["Uno pseudonimo per registi che rinnegano il film", "Il direttore della Directors Guild of America", "Un montatore prolifico mai accreditato", "Un errore ricorrente di stampa nei titoli di coda"],
+        "corretta": "Uno pseudonimo per registi che rinnegano il film",
+        "aiuto": "Veniva usato quando un regista dimostrava alla Guild di aver perso il controllo creativo sull'opera.",
+        "spiegazione": "La Directors Guild of America permetteva l'uso di questo pseudonimo ufficiale se il regista poteva provare che il montaggio finale era stato alterato contro la sua volontà. La pratica cessò dopo l'uscita del film parodia 'An Alan Smithee Film: Burn Hollywood Burn'."
+    },
+    {
+        "domanda": "Per quale film Daniel Day-Lewis ha imparato il ceco, pur non dovendo parlarlo nel film, e ha rifiutato di rompere il personaggio per 8 mesi?",
+        "opzioni": ["L'insostenibile leggerezza dell'essere", "Il mio piede sinistro", "Il petroliere", "Gangs of New York"],
+        "corretta": "L'insostenibile leggerezza dell'essere",
+        "aiuto": "Un film basato sul romanzo di Milan Kundera.",
+        "spiegazione": "Day-Lewis è noto per il suo 'Method acting'. Per questo film, imparò il ceco per capire meglio il background del personaggio, Tomas, un chirurgo ceco, anche se il film è recitato in inglese."
+    },
+    {
+        "domanda": "Quale grande classico del cinema inizia con la linea di dialogo: 'Rosebud'?",
+        "opzioni": ["Quarto potere (Citizen Kane)", "Viale del tramonto", "Casablanca", "Via col vento"],
+        "corretta": "Quarto potere (Citizen Kane)",
+        "aiuto": "È la parola pronunciata dal magnate Charles Foster Kane in punto di morte.",
+        "spiegazione": "Sebbene sia la premessa di tutto il film (il giornalista cerca il significato di questa parola), è tecnicamente l'unica parola pronunciata nella scena iniziale della morte di Kane."
+    },
+    {
+        "domanda": "Nel film 'I soliti sospetti', chi ha suggerito l'idea che il personaggio di Benicio del Toro parlasse in modo quasi incomprensibile?",
+        "opzioni": ["Benicio del Toro stesso", "Bryan Singer", "Christopher McQuarrie", "Kevin Spacey"],
+        "corretta": "Benicio del Toro stesso",
+        "aiuto": "L'attore pensava che il personaggio, essendo il primo a morire, non avesse importanza nelle parole.",
+        "spiegazione": "Del Toro decise che, poiché il suo personaggio Fenster moriva per primo, non importava cosa dicesse. Improvvisò un borbottio strascicato che rese le sue battute comiche e memorabili."
+    },
+    {
+        "domanda": "In 'Shining' di Kubrick, cosa c'è di strano nella macchina da scrivere di Jack Torrance che si nota solo in un'analisi dettagliata?",
+        "opzioni": ["Cambia colore durante il film", "È un modello che non esisteva ancora nel 1980", "Manca la lettera 'I'", "È un modello tedesco Adler con layout QWERTZ"],
+        "corretta": "Cambia colore durante il film",
+        "aiuto": "Un errore di continuità o una scelta deliberata di Kubrick?",
+        "spiegazione": "La macchina da scrivere cambia colore da bianca a grigia/blu in diverse scene. Dato il perfezionismo di Kubrick, molti teorizzano che sia intenzionale per disorientare lo spettatore."
+    },
+    {
+        "domanda": "Qual è il titolo del film fittizio che i personaggi guardano all'interno del film 'Bastardi senza gloria' di Tarantino?",
+        "opzioni": ["Orgoglio della Nazione", "Il destino del soldato", "Gloria germanica", "L'ultimo colpo"],
+        "corretta": "Orgoglio della Nazione",
+        "aiuto": "Il film nel film è diretto da Eli Roth.",
+        "spiegazione": "'Stolz der Nation' (Orgoglio della Nazione) è il film di propaganda nazista che viene proiettato al cinema, con protagonista il cecchino Frederick Zoller."
+    },
+    {
+        "domanda": "Nel 'Mago di Oz', le scarpette di Dorothy nel libro di L. Frank Baum non sono color rubino. Di che colore sono?",
+        "opzioni": ["Argento", "Oro", "Smeraldo", "Bianco"],
+        "corretta": "Argento",
+        "aiuto": "Furono cambiate per sfruttare al meglio il Technicolor.",
+        "spiegazione": "Nel libro sono d'argento. La MGM le cambiò in rosso rubino perché l'argento non risaltava abbastanza sulla strada di mattoni gialli con la nuova tecnologia Technicolor a tre strisce."
+    },
+    {
+        "domanda": "Chi ha doppiato il demone Pazuzu in 'L'esorcista' (1973)?",
+        "opzioni": ["Mercedes McCambridge", "Linda Blair", "Orson Welles", "Ellen Burstyn"],
+        "corretta": "Mercedes McCambridge",
+        "aiuto": "Un'attrice radiofonica veterana che ha bevuto uova crude e fumato a catena per ottenere la voce.",
+        "spiegazione": "Mercedes McCambridge fornì la voce gutturale del demone. Chiese di essere legata a una sedia durante la registrazione per simulare la costrizione fisica del demone."
+    },
+    {
+        "domanda": "Quale film ha segnato la prima apparizione del logo THX della Lucasfilm nei cinema?",
+        "opzioni": ["Il ritorno dello Jedi", "L'impero colpisce ancora", "Indiana Jones e il tempio maledetto", "Willow"],
+        "corretta": "Il ritorno dello Jedi",
+        "aiuto": "L'anno era il 1983.",
+        "spiegazione": "Il sistema di certificazione audio THX fu sviluppato da Tomlinson Holman per garantire che la colonna sonora de 'Il ritorno dello Jedi' fosse riprodotta esattamente come inteso nelle sale."
+    },
+    {
+        "domanda": "In 'Taxi Driver', la famosa scena 'You talkin' to me?' (Dici a me?) è stata improvvisata da De Niro. A cosa si è ispirato?",
+        "opzioni": ["Bruce Springsteen a un concerto", "Un ubriaco incontrato in un bar", "Marlon Brando in Fronte del Porto", "Un comico stand-up"],
+        "corretta": "Bruce Springsteen a un concerto",
+        "aiuto": "De Niro aveva visto il 'Boss' interagire con la folla pochi giorni prima.",
+        "spiegazione": "De Niro vide Springsteen chiedere alla folla che urlava il suo nome: 'Are you talkin' to me?'. Trovò l'atteggiamento perfetto per la paranoia narcisista di Travis Bickle."
+    },
+    {
+        "domanda": "Quale regista rifiutò di dirigere 'Lo squalo' perché non voleva dirigere un film su 'un pesce', preferendo concentrarsi su 'una balena' (Moby Dick)?",
+        "opzioni": ["John Sturges", "Sam Peckinpah", "John Huston", "Robert Altman"],
+        "corretta": "John Sturges",
+        "aiuto": "Famoso per 'I magnifici sette' e 'La grande fuga'.",
+        "spiegazione": "I produttori offrirono il lavoro a John Sturges, ma lui rispose che aveva già fatto 'Il vecchio e il mare' e non voleva lavorare con un pesce, ma con Moby Dick. Questo aprì la strada al giovane Spielberg."
+    },
+    {
+        "domanda": "In 'Ritorno al futuro', la macchina del tempo originale nella prima bozza della sceneggiatura non era una DeLorean. Cos'era?",
+        "opzioni": ["Un frigorifero", "Una cabina telefonica", "Un furgone Volkswagen", "Una lavatrice"],
+        "corretta": "Un frigorifero",
+        "aiuto": "L'idea fu scartata per paura che i bambini si chiudessero dentro per imitare il film.",
+        "spiegazione": "Nella bozza originale, Marty viaggiava nel tempo entrando in un frigorifero che doveva essere portato in un sito di test nucleari per attivarsi."
+    },
+    {
+        "domanda": "Il Codice Hays, che ha censurato Hollywood per decenni, proibiva specificamente di mostrare quale atto tra una coppia sposata?",
+        "opzioni": ["Dormire nello stesso letto matrimoniale", "Baciarsi per più di 30 secondi", "Entrare insieme in bagno", "Mangiare dallo stesso piatto"],
+        "corretta": "Dormire nello stesso letto matrimoniale",
+        "aiuto": "È il motivo per cui vediamo tanti letti gemelli nei vecchi film e nelle sitcom.",
+        "spiegazione": "Il codice imponeva che le coppie, anche sposate, dormissero in letti separati (letti gemelli). Se erano sullo stesso letto, uno dei due doveva avere almeno un piede a terra."
+    },
+    {
+        "domanda": "Quale film detiene il record per il maggior numero di riprese per una singola scena con dialogo (148 ciak) voluto da David Fincher?",
+        "opzioni": ["The Social Network", "Fight Club", "Gone Girl", "Zodiac"],
+        "corretta": "The Social Network",
+        "aiuto": "È la scena di apertura in cui Mark e Erica parlano in un pub.",
+        "spiegazione": "Fincher è noto per il suo perfezionismo. La scena d'apertura di 5 minuti richiese 99 ciak, ma il record nel film è di una scena più breve che arrivò a cifre altissime per ottenere il ritmo perfetto alla Sorkin."
+    },
+    {
+        "domanda": "In 'Qualcuno volò sul nido del cuculo', molti delle comparse sullo sfondo erano:",
+        "opzioni": ["Veri pazienti psichiatrici", "Manichini animatronici", "Membri della troupe", "Parenti del cast"],
+        "corretta": "Veri pazienti psichiatrici",
+        "aiuto": "Il film è stato girato nell'ospedale statale dell'Oregon.",
+        "spiegazione": "Milos Forman girò all'interno di un vero ospedale psichiatrico e il direttore dell'ospedale, il Dr. Dean Brooks (che recita nel film), permise ad alcuni pazienti di partecipare come comparse per scopi terapeutici."
+    },
+    {
+        "domanda": "Quale oggetto funge da 'MacGuffin' nel film 'Pulp Fiction', recuperato da Butch nella sua casa rischiando la vita?",
+        "opzioni": ["L'orologio d'oro del padre", "La valigetta di Marsellus", "Le chiavi della Honda", "Il guantone da boxe fortunato"],
+        "corretta": "L'orologio d'oro del padre",
+        "aiuto": "Un oggetto che ha passato anni in un luogo molto scomodo durante la guerra.",
+        "spiegazione": "L'orologio d'oro era stato nascosto nel retto del padre di Butch e poi del capitano Koons per salvarlo dai vietcong. Butch torna indietro solo per recuperarlo."
+    },
+    {
+        "domanda": "Il famoso 'codice a pioggia' verde di Matrix è in realtà composto da scansioni di:",
+        "opzioni": ["Ricette di sushi giapponesi", "Codice binario invertito", "Equazioni di meccanica quantistica", "Caratteri sanscriti casuali"],
+        "corretta": "Ricette di sushi giapponesi",
+        "aiuto": "Lo scenografo ha scansionato i libri di cucina di sua moglie.",
+        "spiegazione": "Simon Whiteley, il creatore del codice, ha rivelato di aver scansionato le ricette di sushi dai libri di cucina della moglie giapponese, mescolando hiragana, katakana e kanji."
+    },
+    {
+        "domanda": "In 'The Truman Show', qual è il nome della barca a vela che Truman usa per la sua fuga finale?",
+        "opzioni": ["Santa Maria", "Mayflower", "Spirit of St. Louis", "Beagle"],
+        "corretta": "Santa Maria",
+        "aiuto": "È lo stesso nome di una delle caravelle di Colombo.",
+        "spiegazione": "Il nome 'Santa Maria' simboleggia la scoperta di un 'Nuovo Mondo' da parte di Truman, proprio come Colombo."
+    },
+    {
+        "domanda": "Quale attore era la prima scelta per il ruolo di Neo in 'Matrix' ma rifiutò perché 'non capiva la sceneggiatura'?",
+        "opzioni": ["Will Smith", "Brad Pitt", "Tom Cruise", "Leonardo DiCaprio"],
+        "corretta": "Will Smith",
+        "aiuto": "Preferì girare 'Wild Wild West'.",
+        "spiegazione": "Will Smith rifiutò il ruolo, ammettendo anni dopo di non aver compreso il concetto del 'bullet time' quando gli fu spiegato dai Wachowski."
+    },
+    {
+        "domanda": "Nel film 'Il silenzio degli innocenti', Anthony Hopkins non fa mai una cosa specifica mentre parla come Hannibal Lecter. Cosa?",
+        "opzioni": ["Sbattere le palpebre", "Respirare rumorosamente", "Mostrare i denti", "Toccare il vetro"],
+        "corretta": "Sbattere le palpebre",
+        "aiuto": "Una tecnica per rendere lo sguardo più penetrante e rettiliano.",
+        "spiegazione": "Hopkins decise di sbattere le palpebre il meno possibile (o mai durante i monologhi) per creare un effetto ipnotico e inquietante, ispirandosi ai rettili."
+    },
+    {
+        "domanda": "Quale film ha introdotto per la prima volta la tecnologia CGI per creare un personaggio principale interattivo (non solo effetti o sfondi)?",
+        "opzioni": ["Casper", "Jurassic Park", "Terminator 2", "Abyss"],
+        "corretta": "Casper",
+        "aiuto": "Un film del 1995 su un fantasma amichevole.",
+        "spiegazione": "Mentre 'Terminator 2' e 'Jurassic Park' usarono CGI rivoluzionaria, 'Casper' (1995) è considerato il primo film con un protagonista interamente in CGI che interagisce con attori reali per quasi tutta la durata del film."
+    },
+    {
+        "domanda": "In 'Salvate il soldato Ryan', perché Matt Damon non fu costretto a partecipare al brutale addestramento militare pre-riprese a cui fu sottoposto il resto del cast?",
+        "opzioni": ["Per creare risentimento reale negli altri attori verso di lui", "Perché era impegnato su un altro set", "Perché aveva un infortunio alla schiena", "Perché il suo ruolo non richiedeva abilità tattiche"],
+        "corretta": "Per creare risentimento reale negli altri attori verso di lui",
+        "aiuto": "Spielberg voleva un'alienazione psicologica autentica.",
+        "spiegazione": "Il resto del cast fu sottoposto a giorni di inferno e privazioni. Damon fu esentato apposta affinché gli altri attori provassero una genuina irritazione verso di lui ('Perché noi rischiamo la vita per salvare lui?'), rispecchiando la trama."
+    },
+    {
+        "domanda": "La frase iconica 'Frankly, my dear, I don't give a damn' in 'Via col vento' rischiò di essere censurata. Quale alternativa fu considerata?",
+        "opzioni": ["I don't give a straw", "It makes no difference", "I don't care at all", "I wash my hands of it"],
+        "corretta": "I don't give a straw",
+        "aiuto": "Un'espressione arcaica che significa 'non me ne importa un fico secco'.",
+        "spiegazione": "Il produttore Selznick pagò una multa di 5.000 dollari per mantenere la parola 'damn', preferendola alle deboli alternative proposte dai censori."
+    },
+    {
+        "domanda": "Quale film horror è stato il primo film statunitense a mostrare un water in funzione (sciacquone), spesso erroneamente attribuito a 'Psycho'?",
+        "opzioni": ["Non è un film horror, ma 'L'uomo della folla' (1928)", "Psycho (1960)", "La maschera di cera (1953)", "Dracula (1931)"],
+        "corretta": "Non è un film horror, ma 'L'uomo della folla' (1928)",
+        "aiuto": "In realtà 'Psycho' è famoso per il primo piano dello scarico, ma il water visibile apparve prima in 'The Crowd' (La folla) di King Vidor.",
+        "spiegazione": "È una domanda trabocchetto. Molti citano Psycho, ma 'The Crowd' (1928) mostrò un bagno. Tuttavia, Psycho rese lo sciacquone un elemento narrativo centrale e scioccante per l'epoca sonora."
+    },
+    {
+        "domanda": "In 'Frankenstein Junior' (1974), Gene Wilder insistette per includere una scena specifica, altrimenti non avrebbe fatto il film. Quale?",
+        "opzioni": ["Il numero musicale 'Puttin' on the Ritz'", "La scena 'Si può fare!'", "L'incontro con l'eremita cieco", "La scena del cervello 'Abnormal'"],
+        "corretta": "Il numero musicale 'Puttin' on the Ritz'",
+        "aiuto": "Mel Brooks pensava fosse troppo frivola e rompesse l'atmosfera gotica.",
+        "spiegazione": "Brooks odiava l'idea del mostro che balla il tip tap, ritenendola troppo sciocca. Wilder lottò per averla, e divenne la scena più iconica del film."
+    },
+    {
+        "domanda": "Quale attore ha recitato in tutti i lungometraggi di John Cazale (famoso per Fredo Corleone)?",
+        "opzioni": ["Nessuno, Cazale è morto giovane", "Al Pacino", "Robert De Niro", "Meryl Streep"],
+        "corretta": "Nessuno, Cazale è morto giovane",
+        "aiuto": "Attenzione alla formulazione: Cazale ha fatto solo 5 film. Chi era in tutti e 5?",
+        "spiegazione": "Nessun singolo attore appare in *tutti* i 5 film di Cazale (Il Padrino 1&2, La conversazione, Quel pomeriggio di un giorno da cani, Il cacciatore). La 'curiosità' famosa è che tutti e 5 i film in cui ha recitato sono stati nominati all'Oscar come Miglior Film."
+    },
+    {
+        "domanda": "Nel film 'Seven', il finale originale proposto dallo studio (e rifiutato da Fincher e Pitt) prevedeva:",
+        "opzioni": ["Somerset uccide John Doe al posto di Mills", "La testa nella scatola è di un cane", "La moglie di Mills viene salvata all'ultimo", "John Doe scappa per un sequel"],
+        "corretta": "La testa nella scatola è di un cane",
+        "aiuto": "Lo studio voleva attenuare la crudeltà dell'epilogo.",
+        "spiegazione": "I produttori suggerirono che nella scatola ci fosse la testa del cane di Mills, non di sua moglie Tracy, per rendere il finale meno deprimente. Brad Pitt minacciò di lasciare il film se il finale fosse stato cambiato."
+    },
+    {
+        "domanda": "Quale regista è noto per distruggere (o archiviare in segreto) tutti i negativi delle scene tagliate e gli scarti per impedire che vengano mai rilasciate 'Director's Cut' o versioni estese in futuro?",
+        "opzioni": ["Christopher Nolan", "Quentin Tarantino", "Wes Anderson", "Paul Thomas Anderson"],
+        "corretta": "Christopher Nolan",
+        "aiuto": "È un purista della pellicola e crede che la versione uscita in sala sia l'unica che deve esistere.",
+        "spiegazione": "Nolan ha dichiarato di non voler rilasciare scene tagliate o versioni alternative. Ciò che non entra nel film finito è considerato irrilevante per la sua visione."
+    },
+    {
+        "domanda": "Nel film 'Titanic' (1997), quanto durarono le scene ambientate nel 1912 (escludendo le scene moderne)?",
+        "opzioni": ["2 ore e 40 minuti, il tempo esatto dell'affondamento reale", "3 ore e 14 minuti", "1 ora e 50 minuti", "2 ore e 10 minuti"],
+        "corretta": "2 ore e 40 minuti, il tempo esatto dell'affondamento reale",
+        "aiuto": "Cameron è ossessionato dalla precisione temporale.",
+        "spiegazione": "James Cameron ha montato il film in modo che la durata delle scene dal momento della collisione all'affondamento corrisponda quasi esattamente al tempo reale che il Titanic impiegò per affondare."
+    },
+    {
+        "domanda": "Chi ha inventato il 'MacGuffin', termine usato per descrivere un oggetto che guida la trama ma è irrilevante in sé?",
+        "opzioni": ["Angus MacPhail", "Alfred Hitchcock", "Orson Welles", "Billy Wilder"],
+        "corretta": "Angus MacPhail",
+        "aiuto": "Spesso attribuito a Hitchcock, ma fu un suo sceneggiatore e amico a coniarlo.",
+        "spiegazione": "Sebbene Hitchcock abbia reso popolare il termine spiegandolo nelle sue interviste (come quella con Truffaut), fu lo sceneggiatore britannico Angus MacPhail a inventare la parola."
+    },
+    {
+        "domanda": "Quale film ha vinto la Palma d'Oro a Cannes, l'Oscar come Miglior Film e l'Oscar come Miglior Film Internazionale (Straniero)?",
+        "opzioni": ["Parasite", "La vita è bella", "Roma", "Amour"],
+        "corretta": "Parasite",
+        "aiuto": "Un film sudcoreano del 2019.",
+        "spiegazione": "'Parasite' di Bong Joon-ho ha fatto la storia diventando il primo film non in lingua inglese a vincere l'Oscar come Miglior Film, oltre alla Palma d'Oro."
+    },
+    {
+        "domanda": "Il personaggio di Indiana Jones è stato chiamato così in onore di:",
+        "opzioni": ["Il cane di George Lucas", "Il cane di Steven Spielberg", "Lo stato dell'Indiana", "Un archeologo realmente esistito"],
+        "corretta": "Il cane di George Lucas",
+        "aiuto": "Era un Alaskan Malamute.",
+        "spiegazione": "George Lucas aveva un cane di nome Indiana. La cosa è anche citata scherzosamente alla fine di 'L'ultima crociata' ('Il cane?! Ti chiamavi come il cane?!')."
     }
 ]
