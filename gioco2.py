@@ -21,7 +21,7 @@ st.markdown("""
     [data-testid="stHorizontalBlock"] { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; gap: 4px !important; }
     [data-testid="column"] { flex: 1 !important; min-width: 0px !important; padding: 0px !important; }
     [data-testid="stButton"] { text-align: center; margin-bottom: 0px !important; }
-    .stButton button { width: 100% !important; height: 2.0em !important; min-height: 2.0em !important; padding: 0px 5px !important; font-size: 14px !important; border-radius: 4px !important; margin: 0px !important; }
+    .stButton button { width: 100% !important; height: 2.0em !important; min-height: 2.0em !important; padding: 0px 5px !important; font-size: 18px !important; border-radius: 4px !important; margin: 0px !important; }
     [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 1px !important; }
     .centered { text-align: center; }
     header { background-color: transparent !important; height: 2rem !important; }
@@ -131,6 +131,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
