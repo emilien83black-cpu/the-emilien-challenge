@@ -4,6 +4,7 @@ import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
 # 1. Configurazione
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
+st.cache_data.clear()
 
 # 2. CSS
 st.markdown("""
@@ -14,6 +15,7 @@ st.markdown("""
     .stButton button { width: 100% !important; height: 2.0em !important; min-height: 2.0em !important; padding: 0px 5px !important; font-size: 14px !important; border-radius: 4px !important; margin: 0px !important; }
     [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 5px !important; }
     .centered { text-align: center; }
+    header { visibility: visible !important; }
     footer { visibility: hidden; }
     .block-container { padding: 0.5rem 0.5rem !important; }
     </style>
@@ -129,5 +131,3 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
-
-
