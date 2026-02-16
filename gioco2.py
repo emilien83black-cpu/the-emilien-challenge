@@ -74,7 +74,7 @@ if not st.session_state.fine:
             st.rerun()
     else:
         st.markdown(f"<h2 class='centered'>🔴 Domanda {st.session_state.indice + 1}</h2>", unsafe_allow_html=True)
-        st.markdown(f"<div class='centered' style='font-size: 18px; font-weight: bold; padding: 5px;'>{attuale['domanda'].replace('#', '')}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='centered' style='font-size: 14px; font-weight: bold; padding: 5px;'>{attuale['domanda'].replace('#', '')}</div>", unsafe_allow_html=True)
 
         st.markdown("<div style='margin-top: 15px;'></div>", unsafe_allow_html=True)
 
@@ -131,6 +131,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
