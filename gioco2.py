@@ -26,18 +26,18 @@ st.markdown("""
     [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 5px !important; }
     .centered { text-align: center; }
     
-    /* Rende l'header trasparente e riduce l'altezza per non coprire il testo */
-    header { background-color: transparent !important; height: 2rem !important; }
-    /* Nasconde i tasti Fork, Edit e GitHub lasciando solo i tre puntini */
+    /* Header e spazio superiore */
+    header { background-color: transparent !important; height: 0px !important; }
+    [data-testid="stHeader"] { height: 0px !important; }
+    
+    /* Nasconde tasti inutili e lascia solo i tre puntini */
     .stAppDeployButton, [data-testid="stStatusWidget"], .stActionButton { display: none !important; }
     
     footer { visibility: hidden; }
     .block-container { padding: 0rem 0.5rem !important; }
+    .main .block-container { padding-top: 1rem !important; }
     </style>
     """, unsafe_allow_html=True)
-
-    [data-testid="stHeader"] { height: 0px !important; }
-    .main .block-container { padding-top: 1rem !important; }
 
 # --- LOGICA DI GIOCO ---
 if 'indice' not in st.session_state: st.session_state.indice = 0
@@ -149,6 +149,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
