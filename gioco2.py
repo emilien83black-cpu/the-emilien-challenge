@@ -1,6 +1,6 @@
 import streamlit as st
 import random
-import cultura, sport, calcio, cinema, intrattenimento, musica
+import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
 # 1. Configurazione
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
@@ -32,7 +32,7 @@ if 'opzioni_ridotte' not in st.session_state: st.session_state.opzioni_ridotte =
 premi = [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 20000]
 
 scelta = st.sidebar.selectbox("Scegli:", ["Cultura Generale", "Sport Generale", "Calcio", "Cinema", "Intrattenimento Generale", "Musica"])
-mappa_domande = {"Cultura Generale": cultura.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
+mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
 
 if 'argomento_attuale' not in st.session_state or st.session_state.argomento_attuale != scelta:
     st.session_state.argomento_attuale = scelta
@@ -129,3 +129,4 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
