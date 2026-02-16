@@ -3,14 +3,13 @@ import random
 import importlib
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
+# Forza il ricaricamento dei moduli delle domande
 importlib.reload(culturagenerale)
 importlib.reload(sport)
 importlib.reload(calcio)
 importlib.reload(cinema)
 importlib.reload(intrattenimento)
 importlib.reload(musica)
-
-# 1. Configurazione (questa riga c'è già, lasciala come riferimento)
 
 # 1. Configurazione
 st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
@@ -40,7 +39,7 @@ st.markdown("""
     
     footer { visibility: hidden; }
     </style>
-    """, unsafe_allow_html=True))
+    """, unsafe_allow_html=True)
 
 # --- LOGICA DI GIOCO ---
 if 'indice' not in st.session_state: st.session_state.indice = 0
@@ -152,6 +151,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
