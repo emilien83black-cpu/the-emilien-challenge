@@ -42,7 +42,7 @@ if 'usato_cambio' not in st.session_state: st.session_state.usato_cambio = False
 if 'usato_suggerimento' not in st.session_state: st.session_state.usato_suggerimento = False
 if 'opzioni_ridotte' not in st.session_state: st.session_state.opzioni_ridotte = None
 
-premi = [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 20000]
+premi = [10000, 20000, 30000, 50000, 70000, 100000, 150000, 200000, 300000, 1000000]
 
 scelta = st.sidebar.selectbox("Scegli:", ["Cultura Generale", "Sport Generale", "Calcio", "Cinema", "Intrattenimento Generale", "Musica"])
 mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
@@ -131,6 +131,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
