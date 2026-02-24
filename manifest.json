@@ -1,0 +1,15 @@
+{
+  "short_name": "Emilien",
+  "name": "The Emilien Challenge",
+  "icons": [
+    {
+      "src": "emilien.png",
+      "sizes": "801x801", 
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
