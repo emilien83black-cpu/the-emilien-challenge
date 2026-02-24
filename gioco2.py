@@ -11,11 +11,7 @@ importlib.reload(intrattenimento)
 importlib.reload(musica)
 
 # 1. Configurazione
-st.set_page_config(page_title="The Emilien Challenge", page_icon="emilien.png", layout="wide")
-
-# Collegamento al file manifest per l'installazione su smartphone
-st.markdown('<link rel="manifest" href="./manifest.json">', unsafe_allow_html=True)
-
+st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
 st.cache_data.clear()
 
 # 2. CSS
@@ -52,7 +48,7 @@ scelta = st.sidebar.selectbox("Scegli:", ["Cultura Generale", "Sport Generale", 
 mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
 
 if 'argomento_attuale' not in st.session_state or st.session_state.argomento_attuale != scelta:
-    st.session_state.argomento_attuale = choice = scelta
+    st.session_state.argomento_attuale = scelta
     lista = mappa_domande[scelta].copy()
     random.shuffle(lista)
     for d in lista: random.shuffle(d["opzioni"])
@@ -65,7 +61,7 @@ if not st.session_state.fine:
     
     import base64
     try:
-        with open("emilien.png", "rb") as f:
+        with open("Emilien.png", "rb") as f:
             data = base64.b64encode(f.read()).decode("utf-8")
         st.markdown(f'<div class="centered"><img src="data:image/png;base64,{data}" width="100"></div>', unsafe_allow_html=True)
     except: pass
@@ -135,3 +131,16 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
+
+
+
+
+
+
+
+
+
+
+
+
