@@ -1,15 +1,11 @@
 import streamlit as st
 import random
 import importlib
-import base64
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
-# --- CONFIGURAZIONE ICONA E MANIFEST AGGIORNATA ---
-st.set_page_config(
-    page_title="The Emilien Challenge", 
-    page_icon="icona_nuova.png", 
-    layout="wide"
-)
+# --- CONFIGURAZIONE ICONA E MANIFEST ---
+# Qui usiamo icona_nuova.png per l'installazione smartphone
+st.set_page_config(page_title="The Emilien Challenge", page_icon="icona_nuova.png", layout="wide")
 
 st.markdown(
     """
@@ -28,7 +24,7 @@ importlib.reload(musica)
 
 st.cache_data.clear()
 
-# 2. CSS
+# 2. CSS (Ripristinato l'originale preciso)
 st.markdown("""
     <style>
     [data-testid="stVerticalBlock"] { gap: 0.1rem !important; }
@@ -73,11 +69,8 @@ if not st.session_state.fine:
     attuale = st.session_state.domande[st.session_state.indice]
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
-    try:
-        with open("icona_nuova.png", "rb") as f:
-            data = base64.b64encode(f.read()).decode("utf-8")
-        st.markdown(f'<div class="centered"><img src="data:image/png;base64,{data}" width="100"></div>', unsafe_allow_html=True)
-    except: pass
+    # Visualizzazione Logo centrale (usiamo l'immagine che avevi già nel repository)
+    st.image("icona_nuova.png", width=100)
 
     if st.session_state.mostra_errore:
         st.markdown(f"<div style='background-color: #ff4b4b; padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 20px;'><h3>Sbagliato!</h3><p>La risposta corretta era: <b>{attuale['corretta']}</b></p><p><i>{attuale.get('spiegazione', 'Nessun commento disponibile.')}</i></p></div>", unsafe_allow_html=True)
