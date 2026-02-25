@@ -1,14 +1,19 @@
 import streamlit as st
 import random
 import importlib
+import base64
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
-# --- CONFIGURAZIONE ICONA E MANIFEST ---
-st.set_page_config(page_title="The Emilien Challenge", page_icon="logo.png", layout="wide")
+# --- CONFIGURAZIONE ICONA E MANIFEST AGGIORNATA ---
+st.set_page_config(
+    page_title="The Emilien Challenge", 
+    page_icon="icona_nuova.png", 
+    layout="wide"
+)
 
 st.markdown(
     """
-    <link rel="manifest" href="./manifest.json?v=1">
+    <link rel="manifest" href="./manifest.json?v=4">
     """,
     unsafe_allow_html=True
 )
@@ -26,7 +31,7 @@ st.cache_data.clear()
 # 2. CSS
 st.markdown("""
     <style>
-    [data-testid="stVerticalBlock"] { gap: 0,1rem !important; }
+    [data-testid="stVerticalBlock"] { gap: 0.1rem !important; }
     [data-testid="stHorizontalBlock"] { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; gap: 4px !important; }
     [data-testid="column"] { flex: 1 !important; min-width: 0px !important; padding: 0px !important; }
     [data-testid="stButton"] { text-align: center; margin-bottom: 0px !important; }
@@ -68,9 +73,8 @@ if not st.session_state.fine:
     attuale = st.session_state.domande[st.session_state.indice]
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
-    import base64
     try:
-        with open("Emilien.png", "rb") as f:
+        with open("icona_nuova.png", "rb") as f:
             data = base64.b64encode(f.read()).decode("utf-8")
         st.markdown(f'<div class="centered"><img src="data:image/png;base64,{data}" width="100"></div>', unsafe_allow_html=True)
     except: pass
@@ -140,4 +144,3 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
-
