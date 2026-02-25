@@ -3,8 +3,7 @@ import random
 import importlib
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
-# --- CONFIGURAZIONE ICONA E MANIFEST ---
-# Qui usiamo icona_nuova.png per l'installazione smartphone
+# --- CONFIGURAZIONE ---
 st.set_page_config(page_title="The Emilien Challenge", page_icon="icona_nuova.png", layout="wide")
 
 st.markdown(
@@ -14,7 +13,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- RESTO DEL CODICE ---
+# --- REFRESH ---
 importlib.reload(culturagenerale)
 importlib.reload(sport)
 importlib.reload(calcio)
@@ -24,7 +23,7 @@ importlib.reload(musica)
 
 st.cache_data.clear()
 
-# 2. CSS (Ripristinato l'originale preciso)
+# --- CSS ORIGINALE ---
 st.markdown("""
     <style>
     [data-testid="stVerticalBlock"] { gap: 0.1rem !important; }
@@ -42,7 +41,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- LOGICA DI GIOCO ---
+# --- LOGICA ---
 if 'indice' not in st.session_state: st.session_state.indice = 0
 if 'fine' not in st.session_state: st.session_state.fine = False
 if 'game_over' not in st.session_state: st.session_state.game_over = False
@@ -69,8 +68,8 @@ if not st.session_state.fine:
     attuale = st.session_state.domande[st.session_state.indice]
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
-    # Visualizzazione Logo centrale (usiamo l'immagine che avevi già nel repository)
-    st.image("icona_nuova.png", width=100)
+    # Questo carica l'immagine centrale correttamente senza rompere tutto
+    st.markdown('<div class="centered"><img src="https://raw.githubusercontent.com/TUO_UTENTE/TUO_REPO/main/icona_nuova.png" width="100"></div>', unsafe_allow_html=True)
 
     if st.session_state.mostra_errore:
         st.markdown(f"<div style='background-color: #ff4b4b; padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 20px;'><h3>Sbagliato!</h3><p>La risposta corretta era: <b>{attuale['corretta']}</b></p><p><i>{attuale.get('spiegazione', 'Nessun commento disponibile.')}</i></p></div>", unsafe_allow_html=True)
@@ -81,7 +80,6 @@ if not st.session_state.fine:
     else:
         st.markdown(f"<div class='centered' style='font-size: 22px; font-weight: bold;'>🔴 Domanda {st.session_state.indice + 1}</div>", unsafe_allow_html=True)
         st.markdown(f"<div class='centered' style='font-size: 22px; font-weight: bold; padding: 5px;'>{attuale['domanda'].replace('#', '')}</div>", unsafe_allow_html=True)
-
         st.markdown("<div style='margin-top: 15px;'></div>", unsafe_allow_html=True)
 
         c1, c2, c3 = st.columns(3)
