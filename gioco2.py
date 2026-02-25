@@ -3,6 +3,17 @@ import random
 import importlib
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
+# --- CONFIGURAZIONE ICONA E MANIFEST ---
+st.set_page_config(page_title="The Emilien Challenge", page_icon="logo.png", layout="wide")
+
+st.markdown(
+    """
+    <link rel="manifest" href="./manifest.json">
+    """,
+    unsafe_allow_html=True
+)
+
+# --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
 importlib.reload(sport)
 importlib.reload(calcio)
@@ -10,8 +21,6 @@ importlib.reload(cinema)
 importlib.reload(intrattenimento)
 importlib.reload(musica)
 
-# 1. Configurazione
-st.set_page_config(page_title="The Emilien Challenge", page_icon="💰", layout="wide")
 st.cache_data.clear()
 
 # 2. CSS
@@ -131,16 +140,3 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
-
-
-
-
-
-
-
-
-
-
-
-
-
