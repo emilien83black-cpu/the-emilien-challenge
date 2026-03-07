@@ -6,16 +6,29 @@ import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 # --- CONFIGURAZIONE ICONA E MANIFEST ---
 st.set_page_config(page_title="The Emilien Challenge", page_icon="logo.png", layout="wide")
 
-# --- PULIZIA INTERFACCIA (Sparisce tutto) ---
+# --- PULIZIA INTERFACCIA (Corretta e Mirata) ---
 st.markdown("""
     <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    /* Recupera spazio prezioso in alto sullo smartphone */
-    .block-container {
-        padding-top: 1rem; 
-        padding-bottom: 0rem;
+    /* 1. Rimuove la barra superiore e i tre puntini (il tasto menu) */
+    [data-testid="stHeader"] {
+        display: none !important;
+    }
+
+    /* 2. Rimuove la scritta 'Made with Streamlit' in fondo alla pagina */
+    footer {
+        display: none !important;
+    }
+
+    /* 3. Sposta tutto il contenuto verso il basso per far riapparire i tuoi tasti */
+    .main .block-container {
+        padding-top: 5rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    /* 4. Forza la visibilità delle immagini (i tuoi loghi) */
+    img {
+        visibility: visible !important;
+        opacity: 1 !important;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -154,6 +167,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
