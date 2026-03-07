@@ -6,12 +6,38 @@ import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 # --- CONFIGURAZIONE ICONA E MANIFEST ---
 st.set_page_config(page_title="The Emilien Challenge", page_icon="logo.png", layout="wide")
 
-st.markdown(
-    """
-    <link rel="manifest" href="./manifest.json?v=6">
-    """,
-    unsafe_allow_html=True
-)
+hide_streamlit_style = """
+                <style>
+                div[data-testid="stToolbar"] {
+                visibility: hidden;
+                height: 0%;
+                position: fixed;
+                }
+                div[data-testid="stDecoration"] {
+                visibility: hidden;
+                height: 0%;
+                position: fixed;
+                }
+                div[data-testid="stStatusWidget"] {
+                visibility: hidden;
+                height: 0%;
+                position: fixed;
+                }
+                #MainMenu {
+                visibility: hidden;
+                height: 0%;
+                }
+                header {
+                visibility: hidden;
+                height: 0%;
+                }
+                footer {
+                visibility: hidden;
+                height: 0%;
+                }
+                </style>
+                """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
@@ -140,6 +166,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
