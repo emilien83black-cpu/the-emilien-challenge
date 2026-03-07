@@ -6,6 +6,20 @@ import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 # --- CONFIGURAZIONE ICONA E MANIFEST ---
 st.set_page_config(page_title="The Emilien Challenge", page_icon="logo.png", layout="wide")
 
+# --- PULIZIA INTERFACCIA (Sparisce tutto) ---
+st.markdown("""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    /* Recupera spazio prezioso in alto sullo smartphone */
+    .block-container {
+        padding-top: 1rem; 
+        padding-bottom: 0rem;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.markdown(
     """
     <link rel="manifest" href="./manifest.json?v=6">
@@ -140,5 +154,6 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
