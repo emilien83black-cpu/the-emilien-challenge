@@ -698,5 +698,706 @@ domande = [
         "corretta": "Bada Bing!",
         "aiuto": "Il nome è un'espressione onomatopeica italo-americana resa famosa da 'Il Padrino'.",
         "spiegazione": "Il Bada Bing! è il locale di Silvio Dante. Nella realtà, le riprese esterne e interne furono girate al Satin Dolls, un vero strip club situato a Lodi, nel New Jersey."
+    },
+    {
+        "domanda": "Chi detiene il record assoluto di conduzioni del Festival di Sanremo?",
+        "opzioni": ["Pippo Baudo", "Mike Bongiorno", "Amadeus", "Carlo Conti"],
+        "corretta": "Pippo Baudo",
+        "aiuto": "Ha condotto il Festival per ben 13 volte.",
+        "spiegazione": "Pippo Baudo ha condotto 13 edizioni del Festival di Sanremo, seguito da Mike Bongiorno con 11. La sua prima conduzione risale al 1968."
+    },
+    {
+        "domanda": "In che anno è andata in onda in Italia la primissima puntata del reality show \"Grande Fratello\"?",
+        "opzioni": ["2000", "1999", "2001", "2003"],
+        "corretta": "2000",
+        "aiuto": "È l'anno del 'Millennium Bug'.",
+        "spiegazione": "La prima puntata fu trasmessa il 14 settembre 2000 su Canale 5, con la conduzione di Daria Bignardi. Il vincitore di quella storica edizione fu Cristina Plevani."
+    },
+    {
+        "domanda": "Quale attore e regista italiano ha vinto due premi Oscar per il film \"La vita è bella\"?",
+        "opzioni": ["Roberto Benigni", "Massimo Troisi", "Sophia Loren", "Marcello Mastroianni"],
+        "corretta": "Roberto Benigni",
+        "aiuto": "Celebre la sua camminata sugli schienali delle poltrone durante la cerimonia.",
+        "spiegazione": "Nel 1999, Benigni vinse l'Oscar come Miglior attore protagonista e Miglior film straniero. Sophia Loren urlò il famoso 'Roberto!' all'apertura della busta."
+    },
+    {
+        "domanda": "Qual è il nome dell'intelligenza artificiale originariamente creata da Tony Stark nel Marvel Cinematic Universe?",
+        "opzioni": ["J.A.R.V.I.S.", "F.R.I.D.A.Y.", "E.D.I.T.H.", "U.L.T.R.O.N."],
+        "corretta": "J.A.R.V.I.S.",
+        "aiuto": "Prende il nome dal maggiordomo umano della famiglia Stark.",
+        "spiegazione": "J.A.R.V.I.S. (Just A Rather Very Intelligent System) è doppiato in lingua originale da Paul Bettany, che in seguito ha interpretato fisicamente l'eroe Visione."
+    },
+    {
+        "domanda": "Qual è la serie TV più vista di sempre sulla piattaforma Netflix, in termini di ore di visualizzazione nei primi 28 giorni?",
+        "opzioni": ["Squid Game", "Stranger Things", "Mercoledì", "La casa di carta"],
+        "corretta": "Squid Game",
+        "aiuto": "È una produzione sudcoreana.",
+        "spiegazione": "'Squid Game' ha accumulato oltre 1,65 miliardi di ore di visualizzazione nel primo mese. Il creatore Hwang Dong-hyuk ha impiegato più di 10 anni per far produrre lo show."
+    },
+    {
+        "domanda": "Quale storico programma televisivo italiano, nato in radio, è stato condotto da Corrado dal 1986 al 1999?",
+        "opzioni": ["La Corrida", "Il Pranzo è Servito", "Portobello", "Scommettiamo che...?"],
+        "corretta": "La Corrida",
+        "aiuto": "I concorrenti erano 'dilettanti allo sbaraglio'.",
+        "spiegazione": "'La Corrida - Dilettanti allo sbaraglio' nacque in radio nel 1968. Il pubblico in studio esprimeva il proprio giudizio con applausi o suonando campanacci e fischietti al segnale del semaforo verde."
+    },
+    {
+        "domanda": "Chi è il creatore, sceneggiatore e regista principale della pluripremiata serie TV \"Breaking Bad\"?",
+        "opzioni": ["Vince Gilligan", "David Chase", "Matthew Weiner", "Damon Lindelof"],
+        "corretta": "Vince Gilligan",
+        "aiuto": "Ha lavorato anche a lungo come sceneggiatore in 'X-Files'.",
+        "spiegazione": "Vince Gilligan ha ideato la trasformazione di Walter White da 'Mr. Chips a Scarface'. Ha poi creato anche il celebre spin-off 'Better Call Saul'."
+    },
+    {
+        "domanda": "Nel film cult \"Matrix\" (1999), di che colore è la pillola che Morpheus offre a Neo per fargli scoprire la verità?",
+        "opzioni": ["Rossa", "Blu", "Verde", "Nera"],
+        "corretta": "Rossa",
+        "aiuto": "Rappresenta il risveglio doloroso, al contrario dell'altra che offre una beata ignoranza.",
+        "spiegazione": "La 'Red Pill' sveglia Neo nel mondo reale. Le sorelle Wachowski hanno affermato che la pillola rossa può essere interpretata anche come un'allegoria della terapia ormonale per la transizione di genere."
+    },
+    {
+        "domanda": "Ai Grammy Awards 2024, quale artista ha stabilito il record assoluto vincendo per la quarta volta l'Album dell'Anno?",
+        "opzioni": ["Taylor Swift", "Beyoncé", "Adele", "Billie Eilish"],
+        "corretta": "Taylor Swift",
+        "aiuto": "Ha vinto il premio con l'album 'Midnights'.",
+        "spiegazione": "Taylor Swift ha superato leggende come Frank Sinatra, Stevie Wonder e Paul Simon, diventando l'unica artista ad aver vinto il premio 'Album of the Year' per ben quattro volte."
+    },
+    {
+        "domanda": "Chi è stata la celebre valletta di Mike Bongiorno dal 1989 al 1995 nel programma \"La Ruota della Fortuna\"?",
+        "opzioni": ["Paola Barale", "Antonella Elia", "Miriana Trevisan", "Susanna Messaggio"],
+        "corretta": "Paola Barale",
+        "aiuto": "Iniziò la sua carriera lavorando come sosia di Madonna.",
+        "spiegazione": "Paola Barale divenne un volto iconico degli anni '90 affiancando Mike Bongiorno. Fu poi sostituita da Antonella Elia e Miriana Trevisan nelle edizioni successive."
+    },
+    {
+        "domanda": "Quale attore interpreta il Commissario Salvo Montalbano nella celebre e longeva fiction di Rai 1?",
+        "opzioni": ["Luca Zingaretti", "Claudio Amendola", "Marco Giallini", "Alessandro Gassmann"],
+        "corretta": "Luca Zingaretti",
+        "aiuto": "Il personaggio è nato dalla penna dello scrittore Andrea Camilleri.",
+        "spiegazione": "Zingaretti interpreta Montalbano dal 1999. Fatto curioso: l'attore fu allievo dello stesso Camilleri all'Accademia Nazionale d'Arte Drammatica."
+    },
+    {
+        "domanda": "Nel 2020, quale film è diventato il primo lungometraggio non in lingua inglese a vincere l'Oscar come Miglior Film?",
+        "opzioni": ["Parasite", "Roma", "Minari", "La vita è bella"],
+        "corretta": "Parasite",
+        "aiuto": "È diretto dal regista sudcoreano Bong Joon-ho.",
+        "spiegazione": "'Parasite' ha trionfato agli Oscar vincendo 4 statuette, tra cui Miglior Film, Miglior Regista, Miglior Sceneggiatura Originale e Miglior Film Internazionale."
+    },
+    {
+        "domanda": "Quale indimenticabile conduttore televisivo apriva le sue trasmissioni con il tormentone \"Allegria!\"?",
+        "opzioni": ["Mike Bongiorno", "Corrado", "Enzo Tortora", "Raimondo Vianello"],
+        "corretta": "Mike Bongiorno",
+        "aiuto": "Ha condotto la prima trasmissione della TV di Stato italiana nel 1954.",
+        "spiegazione": "Mike Bongiorno, considerato uno dei padri fondatori della televisione italiana, ideò il saluto 'Allegria!' per infondere ottimismo nel pubblico del Dopoguerra."
+    },
+    {
+        "domanda": "In quale città è ambientata la fortunata serie televisiva italiana \"Mare Fuori\"?",
+        "opzioni": ["Napoli", "Roma", "Palermo", "Bari"],
+        "corretta": "Napoli",
+        "aiuto": "Le vicende si svolgono in un IPM (Istituto Penale per Minorenni) ispirato a quello di Nisida.",
+        "spiegazione": "La serie si concentra sulle storie dei giovani detenuti nell'IPM di Napoli. La sigla 'O Mar For' è cantata da Matteo Paolillo, uno degli attori della serie."
+    },
+    {
+        "domanda": "Chi ha vinto un Oscar postumo come Miglior Attore Non Protagonista per aver interpretato il Joker ne \"Il cavaliere oscuro\"?",
+        "opzioni": ["Heath Ledger", "Joaquin Phoenix", "Jack Nicholson", "Jared Leto"],
+        "corretta": "Heath Ledger",
+        "aiuto": "L'attore è scomparso tragicamente nel 2008 a soli 28 anni.",
+        "spiegazione": "Heath Ledger ha offerto un'interpretazione iconica che gli è valsa l'Oscar. Joaquin Phoenix ha successivamente vinto l'Oscar come Miglior Attore Protagonista interpretando lo stesso personaggio nel film 'Joker' (2019)."
+    },
+    {
+        "domanda": "Qual è il nome dell'autore televisivo che ha ideato nel 1988 il telegiornale satirico \"Striscia la notizia\"?",
+        "opzioni": ["Antonio Ricci", "Davide Parenti", "Carlo Freccero", "Michele Guardì"],
+        "corretta": "Antonio Ricci",
+        "aiuto": "È anche il creatore dello storico programma comico 'Drive In'.",
+        "spiegazione": "Antonio Ricci ha ideato 'Striscia la notizia', il cui esordio avvenne su Italia 1 prima di passare definitivamente su Canale 5. Il Gabibbo, simbolo del programma, è stato introdotto nel 1990."
+    },
+    {
+        "domanda": "Qual è il vero nome del cantante Blanco, vincitore del Festival di Sanremo 2022 in coppia con Mahmood?",
+        "opzioni": ["Riccardo Fabbriconi", "Alessandro Mahmoud", "Jacopo Lazzarini", "Edoardo D'Erme"],
+        "corretta": "Riccardo Fabbriconi",
+        "aiuto": "È nato a Calvagese della Riviera, in provincia di Brescia.",
+        "spiegazione": "Blanco (Riccardo Fabbriconi) ha vinto Sanremo a soli 19 anni con il brano 'Brividi'. Jacopo Lazzarini è Lazza, mentre Edoardo D'Erme è il vero nome di Calcutta."
+    },
+    {
+        "domanda": "Quale acclamata serie TV della HBO racconta le lotte di potere all'interno della famiglia Roy, proprietaria della Waystar Royco?",
+        "opzioni": ["Succession", "Billions", "Mad Men", "The Crown"],
+        "corretta": "Succession",
+        "aiuto": "Il patriarca della famiglia si chiama Logan.",
+        "spiegazione": "'Succession', creata da Jesse Armstrong, ha vinto numerosi Emmy Awards. Molti ritengono che la famiglia Roy sia parzialmente ispirata alla famiglia del magnate Rupert Murdoch."
+    },
+    {
+        "domanda": "In quale anno è uscito nelle sale cinematografiche il primissimo film della saga di \"Star Wars\" (Episodio IV)?",
+        "opzioni": ["1977", "1975", "1980", "1982"],
+        "corretta": "1977",
+        "aiuto": "È lo stesso anno in cui è morta la leggenda del rock 'n' roll Elvis Presley.",
+        "spiegazione": "Uscito il 25 maggio 1977, 'Guerre Stellari' (poi reintitolato 'Episodio IV - Una nuova speranza') rivoluzionò il cinema di fantascienza e gli effetti speciali, grazie alla neonata Industrial Light & Magic."
+    },
+    {
+        "domanda": "Chi ha ricoperto il doppio ruolo di direttore artistico e conduttore del Festival di Sanremo per cinque edizioni consecutive dal 2020 al 2024?",
+        "opzioni": ["Amadeus", "Carlo Conti", "Claudio Baglioni", "Fabio Fazio"],
+        "corretta": "Amadeus",
+        "aiuto": "Il suo sodalizio con Fiorello è stato uno dei punti cardine delle sue edizioni.",
+        "spiegazione": "Amadeus (Amedeo Umberto Rita Sebastiani) ha guidato cinque edizioni di enorme successo commerciale e televisivo, riportando il Festival a record di ascolti e vendite discografiche."
+    },
+    {
+        "domanda": "Quale attrice detiene il record assoluto per il maggior numero di candidature ai premi Oscar nelle categorie recitative?",
+        "opzioni": ["Meryl Streep", "Katharine Hepburn", "Bette Davis", "Jane Fonda"],
+        "corretta": "Meryl Streep",
+        "aiuto": "Ha recitato ne 'Il diavolo veste Prada' e 'Kramer contro Kramer'.",
+        "spiegazione": "Meryl Streep ha accumulato ben 21 nomination agli Oscar, vincendone tre (per 'Kramer contro Kramer', 'La scelta di Sophie' e 'The Iron Lady')."
+    },
+    {
+        "domanda": "Quale graffiante giornalista conduce il programma di interviste \"Belve\", in onda su Rai 2?",
+        "opzioni": ["Francesca Fagnani", "Lilli Gruber", "Bianca Berlinguer", "Franca Leosini"],
+        "corretta": "Francesca Fagnani",
+        "aiuto": "Inizia sempre le sue interviste chiedendo: 'Che belva si sente?'.",
+        "spiegazione": "Il format 'Belve' prevede interviste faccia a faccia molto dirette e senza filtri. La Fagnani è anche coautrice del programma, originariamente nato sul canale Nove."
+    },
+    {
+        "domanda": "Quale leggendaria band britannica ha pubblicato nel 1973 l'album capolavoro \"The Dark Side of the Moon\"?",
+        "opzioni": ["Pink Floyd", "The Beatles", "The Rolling Stones", "Led Zeppelin"],
+        "corretta": "Pink Floyd",
+        "aiuto": "La copertina dell'album raffigura un prisma attraversato da un raggio di luce.",
+        "spiegazione": "'The Dark Side of the Moon' è uno degli album più venduti della storia, rimasto nella classifica Billboard 200 per ben 741 settimane consecutive (più di 14 anni)."
+    },
+    {
+        "domanda": "Nella celebre sitcom \"Friends\", qual è il nome della scimmietta cappuccina adottata da Ross Geller nella prima stagione?",
+        "opzioni": ["Marcel", "Gunther", "Hugsy", "Smelly"],
+        "corretta": "Marcel",
+        "aiuto": "Condivide il nome con il famoso mimo francese Marceau (quasi).",
+        "spiegazione": "Marcel è la scimmietta di Ross che, a causa dei suoi istinti sessuali nella seconda stagione, viene donata allo zoo di San Diego, per poi diventare una star del cinema all'interno della serie."
+    },
+    {
+        "domanda": "Quale regista italiano ha diretto \"La grande bellezza\", film trionfatore agli Oscar 2014?",
+        "opzioni": ["Paolo Sorrentino", "Matteo Garrone", "Luca Guadagnino", "Nanni Moretti"],
+        "corretta": "Paolo Sorrentino",
+        "aiuto": "Il film vede Toni Servillo nei panni dell'eccentrico scrittore Jep Gambardella.",
+        "spiegazione": "'La grande bellezza' ha riportato l'Oscar per il Miglior Film Straniero in Italia 15 anni dopo la vittoria di Roberto Benigni. Sorrentino ha citato Fellini, Scorsese e Maradona nel suo discorso di ringraziamento."
+    },
+    {
+        "domanda": "Quale storico programma musicale di MTV Italia, trasmesso da Piazza San Babila, ha lanciato Marco Maccarini e Giorgia Surina?",
+        "opzioni": ["TRL (Total Request Live)", "Festivalbar", "Top of the Pops", "MTV Select"],
+        "corretta": "TRL (Total Request Live)",
+        "aiuto": "Il format prevedeva una classifica dei 10 video più votati dal pubblico.",
+        "spiegazione": "TRL Italia debuttò nel 1999. Lo studio affacciato su Piazza San Babila a Milano divenne un punto di ritrovo quotidiano per migliaia di adolescenti fan degli artisti ospiti."
+    },
+    {
+        "domanda": "Quale attore irlandese presta il volto all'iconico boss criminale Thomas Shelby nella serie \"Peaky Blinders\"?",
+        "opzioni": ["Cillian Murphy", "Tom Hardy", "Paul Anderson", "Joe Cole"],
+        "corretta": "Cillian Murphy",
+        "aiuto": "Ha vinto l'Oscar come miglior attore per il film 'Oppenheimer'.",
+        "spiegazione": "Cillian Murphy ha interpretato Tommy Shelby per tutte le sei stagioni della serie britannica. Per prepararsi al ruolo, l'attore (che è vegetariano) ha dovuto ricominciare a mangiare carne per mettere su massa muscolare."
+    },
+    {
+        "domanda": "Chi ha scritto la sceneggiatura del film di culto \"Pulp Fiction\" (1994) insieme al regista Quentin Tarantino?",
+        "opzioni": ["Roger Avary", "Robert Rodriguez", "Eli Roth", "Aaron Sorkin"],
+        "corretta": "Roger Avary",
+        "aiuto": "Insieme a Tarantino lavorava in un negozio di noleggio videocassette.",
+        "spiegazione": "Tarantino e Avary vinsero l'Oscar alla Miglior Sceneggiatura Originale. I due lavoravano insieme al celebre 'Video Archives' in California prima di sfondare a Hollywood."
+    },
+    {
+        "domanda": "Quale famosa conduttrice è storicamente definita la \"Zia\" della domenica televisiva italiana grazie a \"Domenica In\"?",
+        "opzioni": ["Mara Venier", "Barbara D'Urso", "Antonella Clerici", "Raffaella Carrà"],
+        "corretta": "Mara Venier",
+        "aiuto": "Conduce il programma nel salotto pomeridiano di Rai 1.",
+        "spiegazione": "Mara Venier detiene il record assoluto di conduzioni di 'Domenica In', superando persino Pippo Baudo che ne presentò ben 13 edizioni."
+    },
+    {
+        "domanda": "Chi ha composto l'iconica colonna sonora del film \"Il buono, il brutto, il cattivo\" di Sergio Leone?",
+        "opzioni": ["Ennio Morricone", "Hans Zimmer", "John Williams", "Nino Rota"],
+        "corretta": "Ennio Morricone",
+        "aiuto": "Il tema principale imita l'ululato di un coyote.",
+        "spiegazione": "Ennio Morricone e Sergio Leone erano compagni di scuola alle elementari. La loro collaborazione è considerata una delle più leggendarie della storia del cinema."
+    },
+    {
+        "domanda": "Quale programma di Rete 4, con la storica conduzione di Emanuela Folliero, proponeva film romantici in prima e seconda serata?",
+        "opzioni": ["I Bellissimi", "Notte Horror", "Ciclo Cinema", "Sabato Sera"],
+        "corretta": "I Bellissimi",
+        "aiuto": "Il titolo indica che i film scelti erano esteticamente e qualitativamente 'splendidi'.",
+        "spiegazione": "'I Bellissimi di Rete 4' è stato un contenitore cinematografico storico. Emanuela Folliero ne è stata l'annunciatrice e volto simbolo per ben 28 anni, fino al 2018."
+    },
+    {
+        "domanda": "Quale cantautore italiano ha pubblicato \"La voce del padrone\" (1981), il primo album a superare il milione di copie vendute in Italia?",
+        "opzioni": ["Franco Battiato", "Lucio Dalla", "Fabrizio De André", "Francesco De Gregori"],
+        "corretta": "Franco Battiato",
+        "aiuto": "L'album contiene hit clamorose come 'Centro di gravità permanente' e 'Cuccurucucù'.",
+        "spiegazione": "'La voce del padrone' consacrò Battiato al grande pubblico, unendo testi colti, citazioni esoteriche e filosofiche a ritmi pop e sintetizzatori all'avanguardia."
+    },
+    {
+        "domanda": "Nella serie televisiva crime \"Gomorra\", qual è il nome del personaggio interpretato dall'attore Salvatore Esposito?",
+        "opzioni": ["Genny Savastano", "Ciro Di Marzio", "Pietro Savastano", "Salvatore Conte"],
+        "corretta": "Genny Savastano",
+        "aiuto": "È il figlio del boss Don Pietro.",
+        "spiegazione": "L'evoluzione di Gennaro 'Genny' Savastano, da ragazzo viziato a boss spietato, è il fulcro narrativo della serie tratta dall'omonimo romanzo di Roberto Saviano."
+    },
+    {
+        "domanda": "Quale film d'animazione dello Studio Ghibli ha vinto il Premio Oscar nel 2003?",
+        "opzioni": ["La città incantata", "Il mio vicino Totoro", "Principessa Mononoke", "Il castello errante di Howl"],
+        "corretta": "La città incantata",
+        "aiuto": "La protagonista è una bambina di nome Chihiro che finisce in un mondo di spiriti.",
+        "spiegazione": "Diretto da Hayao Miyazaki, 'La città incantata' è stato il primo film anime a vincere l'Oscar. Il regista non si presentò alla cerimonia per protestare contro la guerra in Iraq."
+    },
+    {
+        "domanda": "Quale celebre maschera comica fu creata da Paolo Villaggio e apparve per la prima volta in TV nel programma \"Quelli della domenica\" nel 1968?",
+        "opzioni": ["Professor Kranz", "Ugo Fantozzi", "Giandomenico Fracchia", "Tafazzi"],
+        "corretta": "Professor Kranz",
+        "aiuto": "Si presentava come un prestigiatore tedesco autoritario e aggressivo col pubblico.",
+        "spiegazione": "Il Professor Kranz fu il primo grande successo televisivo di Villaggio, che successivamente portò sul piccolo schermo Fracchia e infine consacrò al cinema il ragioniere Ugo Fantozzi."
+    },
+    {
+        "domanda": "Come si intitola la serie TV prequel de \"Il Trono di Spade\", incentrata sulla dinastia Targaryen?",
+        "opzioni": ["House of the Dragon", "The Rings of Power", "The Witcher", "Bloodmoon"],
+        "corretta": "House of the Dragon",
+        "aiuto": "È basata sul libro 'Fuoco e Sangue' di George R.R. Martin.",
+        "spiegazione": "Ambientata circa 200 anni prima degli eventi di Game of Thrones, la serie narra la guerra civile dei Targaryen nota come la 'Danza dei Draghi'."
+    },
+    {
+        "domanda": "Quale conduttore italiano ha guidato \"Affari Tuoi\" nella sua fase di massimo successo (2003-2006), rendendo iconico il \"gioco dei pacchi\"?",
+        "opzioni": ["Paolo Bonolis", "Flavio Insinna", "Max Giusti", "Amadeus"],
+        "corretta": "Paolo Bonolis",
+        "aiuto": "È affiancato storicamente dal maestro Luca Laurenti nei suoi show.",
+        "spiegazione": "Paolo Bonolis ha tenuto a battesimo il format in Italia, riuscendo nell'impresa di battere regolarmente negli ascolti l'imbattibile 'Striscia la notizia'."
+    },
+    {
+        "domanda": "Quale film detiene il primato assoluto di incassi mondiali al botteghino (senza contare l'inflazione), avendo superato i 2,9 miliardi di dollari?",
+        "opzioni": ["Avatar", "Avengers: Endgame", "Titanic", "Star Wars: Il risveglio della Forza"],
+        "corretta": "Avatar",
+        "aiuto": "È ambientato sul pianeta Pandora.",
+        "spiegazione": "Diretto da James Cameron e uscito nel 2009, 'Avatar' ha rivoluzionato l'uso del 3D al cinema. Fu superato brevemente da 'Avengers: Endgame', ma si riprese il primo posto grazie a delle riedizioni."
+    },
+    {
+        "domanda": "Chi è l'autore e interprete principale della celebre sigla fittizia \"Cacao Meravigliao\", tratta dal programma \"Indietro tutta!\"?",
+        "opzioni": ["Renzo Arbore", "Nino Frassica", "Gianni Boncompagni", "Claudio Cecchetto"],
+        "corretta": "Renzo Arbore",
+        "aiuto": "Il finto sponsor fu così convincente che la gente lo cercava nei supermercati.",
+        "spiegazione": "Arbore creò 'Cacao Meravigliao' per irridere l'eccesso di sponsorizzazioni in TV. Molti spettatori non capirono l'ironia e cercarono realmente il prodotto nei negozi, costringendo un'azienda a registrarne il marchio."
+    },
+    {
+        "domanda": "Quale iconica serie televisiva italiana degli anni '80 (1987-1989) raccontava le vicende degli studenti del liceo Leopardi di Roma?",
+        "opzioni": ["I ragazzi della 3ª C", "College", "Classe di ferro", "I liceali"],
+        "corretta": "I ragazzi della 3ª C",
+        "aiuto": "Tra i protagonisti c'era l'imbranato Chicco Laremi.",
+        "spiegazione": "Diretta da Claudio Risi, la serie divenne un vero e proprio cult per la generazione anni '80. Celebre il personaggio del secchione Elias e il tormentone 'Che ansia!'."
+    },
+    {
+        "domanda": "Chi è il fenomenale chitarrista solista e co-fondatore della rock band britannica Queen?",
+        "opzioni": ["Brian May", "Roger Taylor", "John Deacon", "Freddie Mercury"],
+        "corretta": "Brian May",
+        "aiuto": "Oltre a essere un musicista, è anche un astrofisico.",
+        "spiegazione": "Brian May suona la 'Red Special', una chitarra elettrica che ha costruito da ragazzo insieme a suo padre usando il legno di un vecchio caminetto. Ha conseguito un dottorato in astrofisica nel 2007."
+    },
+    {
+        "domanda": "Quale celebre showman italiano ha esordito in TV nei primi anni '90 diventando famoso grazie al programma itinerante \"Karaoke\"?",
+        "opzioni": ["Fiorello", "Amadeus", "Gerry Scotti", "Carlo Conti"],
+        "corretta": "Fiorello",
+        "aiuto": "All'epoca portava un iconico codino.",
+        "spiegazione": "Rosario Fiorello portò il 'Karaoke' nelle piazze italiane su Italia 1 dal 1992. Il successo fu tale che il suo codino divenne un vero e proprio simbolo di quegli anni."
+    },
+    {
+        "domanda": "Nel film di fantascienza \"Inception\" (2010), qual è l'oggetto (totem) usato dal protagonista Cobb per capire se si trova in un sogno?",
+        "opzioni": ["Una trottola", "Un dado", "Un orologio da taschino", "Una moneta"],
+        "corretta": "Una trottola",
+        "aiuto": "Se non smette mai di girare, significa che è un sogno.",
+        "spiegazione": "Il finale del film, in cui la trottola gira per poi vacillare leggermente appena prima del taglio a nero, è uno dei finali aperti più dibattuti della storia del cinema."
+    },
+    {
+        "domanda": "Come si chiama il celebre teatro di Los Angeles che ospita annualmente la cerimonia di premiazione degli Oscar dal 2002?",
+        "opzioni": ["Dolby Theatre", "TCL Chinese Theatre", "Microsoft Theater", "Shrine Auditorium"],
+        "corretta": "Dolby Theatre",
+        "aiuto": "Precedentemente era noto come Kodak Theatre.",
+        "spiegazione": "Il teatro è stato progettato appositamente per ospitare la cerimonia degli Academy Awards. Ha cambiato nome in Dolby Theatre nel 2012 dopo il fallimento della Kodak."
+    },
+    {
+        "domanda": "Quale programma d'inchiesta televisiva, trasmesso su Rai 3, è condotto dal giornalista Sigfrido Ranucci?",
+        "opzioni": ["Report", "PresaDiretta", "Chi l'ha visto?", "Cartabianca"],
+        "corretta": "Report",
+        "aiuto": "Il programma è stato fondato e condotto storicamente da Milena Gabanelli.",
+        "spiegazione": "'Report' è uno dei più importanti programmi di giornalismo investigativo in Italia. Ranucci ne ha preso le redini nel 2017 dopo l'addio della Gabanelli."
+    },
+    {
+        "domanda": "Quale attore ha regalato una performance magistrale vincendo l'Oscar per il ruolo di Hannibal Lecter ne \"Il silenzio degli innocenti\" (1991)?",
+        "opzioni": ["Anthony Hopkins", "Mads Mikkelsen", "Brian Cox", "Jack Nicholson"],
+        "corretta": "Anthony Hopkins",
+        "aiuto": "Nel film è un brillante psichiatra e serial killer cannibale.",
+        "spiegazione": "Hopkins vinse l'Oscar come Miglior Attore Protagonista pur comparendo sullo schermo per soli 16 minuti circa, una delle performance premiate più brevi di sempre in questa categoria."
+    },
+    {
+        "domanda": "Quale popolare show televisivo di Rai 1, condotto da Carlo Conti, vede i VIP esibirsi imitando famosi cantanti?",
+        "opzioni": ["Tale e Quale Show", "Il cantante mascherato", "Tu sí que vales", "Ballando con le stelle"],
+        "corretta": "Tale e Quale Show",
+        "aiuto": "I concorrenti subiscono ore di trucco prostetico prima dell'esibizione.",
+        "spiegazione": "Il format, adattamento dello spagnolo 'Tu cara me suena', è uno dei varietà di maggior successo della Rai. Storici giudici includono Loretta Goggi, Giorgio Panariello e Cristiano Malgioglio."
+    },
+    {
+        "domanda": "Quale stella dell'R&B ha tenuto l'esibizione principale dell'Halftime Show del Super Bowl LVIII nel febbraio 2024?",
+        "opzioni": ["Usher", "Rihanna", "The Weeknd", "Dr. Dre"],
+        "corretta": "Usher",
+        "aiuto": "Ha cantato successi come 'Yeah!' e 'My Boo'.",
+        "spiegazione": "L'esibizione di Usher a Las Vegas è stata ricca di ospiti a sorpresa, tra cui Alicia Keys, Ludacris e Lil Jon, celebrando i suoi 30 anni di carriera."
+    },
+    {
+        "domanda": "Quale regista ha vinto la prestigiosa Palma d'Oro al Festival di Cannes 2024 con il film indipendente \"Anora\"?",
+        "opzioni": ["Sean Baker", "Justine Triet", "Ruben Östlund", "Ken Loach"],
+        "corretta": "Sean Baker",
+        "aiuto": "È il regista di film come 'Tangerine' e 'The Florida Project'.",
+        "spiegazione": "Sean Baker ha vinto il massimo premio a Cannes consacrando il suo cinema indipendente americano. 'Anora' racconta la rocambolesca storia di una sex worker di Brooklyn."
+    },
+    {
+        "domanda": "Quale celebre programma degli anni '90, condotto dalla Gialappa's Band, prendeva in giro il mondo del calcio e della TV?",
+        "opzioni": ["Mai dire Gol", "Quelli che il calcio", "Controcampo", "Il processo del lunedì"],
+        "corretta": "Mai dire Gol",
+        "aiuto": "Tra i personaggi cult c'era l'inviato Caccamo interpretato da Teo Teocoli.",
+        "spiegazione": "'Mai dire Gol' è stato un vivaio straordinario di comici italiani, lanciando tra gli altri Aldo, Giovanni e Giacomo, Luciana Littizzetto, Antonio Albanese e Fabio De Luigi."
+    },
+    {   
+        "domanda": "Quale film ha vinto il premio Oscar come Miglior Film nel 2024?",
+        "opzioni": ["Barbie", "Oppenheimer", "Povere Creature!", "Killers of the Flower Moon"],
+        "corretta": "Oppenheimer",
+        "aiuto": "Il film è diretto da Christopher Nolan.",
+        "spiegazione": "Oppenheimer ha dominato gli Oscar 2024 vincendo 7 statuette, tra cui Miglior Film, Miglior Regia e Miglior Attore Protagonista per Cillian Murphy."
+    },
+    {
+        "domanda": "Chi è stato il primo storico conduttore del Festival di Sanremo nel 1951?",
+        "opzioni": ["Mike Bongiorno", "Corrado", "Nunzio Filogamo", "Pippo Baudo"],
+        "corretta": "Nunzio Filogamo",
+        "aiuto": "È famoso per il suo saluto: 'Cari amici vicini e lontani, buonasera!'.",
+        "spiegazione": "Nunzio Filogamo condusse la prima edizione del Festival di Sanremo trasmessa via radio dal Salone delle Feste del Casinò di Sanremo."
+    },
+    {
+        "domanda": "Come si chiama il protagonista della pluripremiata serie TV 'The Bear'?",
+        "opzioni": ["Richie Jerimovich", "Carmy Berzatto", "Marcus Brooks", "Sydney Adamu"],
+        "corretta": "Carmy Berzatto",
+        "aiuto": "È uno chef di alta cucina che torna a Chicago per gestire la paninoteca di famiglia.",
+        "spiegazione": "Carmen 'Carmy' Berzatto è interpretato da Jeremy Allen White, ruolo che gli è valso numerosi premi tra cui Golden Globe ed Emmy."
+    },
+    {
+        "domanda": "Quale di questi film NON fa parte del ristretto gruppo di pellicole che hanno vinto ben 11 premi Oscar?",
+        "opzioni": ["Ben-Hur", "Titanic", "Avatar", "Il Signore degli Anelli - Il ritorno del re"],
+        "corretta": "Avatar",
+        "aiuto": "È un film di fantascienza del 2009 ambientato su Pandora.",
+        "spiegazione": "Avatar ha vinto 'solo' 3 premi Oscar (tutti tecnici). Ben-Hur, Titanic e Il ritorno del re detengono il record assoluto con 11 statuette ciascuno."
+    },
+    {
+        "domanda": "Chi è l'ideatore del noto telegiornale satirico 'Striscia la notizia'?",
+        "opzioni": ["Gerry Scotti", "Antonio Ricci", "Ezio Greggio", "Carlo Conti"],
+        "corretta": "Antonio Ricci",
+        "aiuto": "È un autore televisivo che ha creato anche 'Drive In' e 'Paperissima'.",
+        "spiegazione": "Antonio Ricci ha ideato 'Striscia la notizia' nel 1988. Inizialmente il programma andava in onda su Italia 1 prima di passare su Canale 5."
+    },
+    {
+        "domanda": "Qual è il programma televisivo italiano più longevo ancora in onda?",
+        "opzioni": ["La Domenica Sportiva", "Zecchino d'Oro", "Festival di Sanremo", "Porta a Porta"],
+        "corretta": "La Domenica Sportiva",
+        "aiuto": "È un programma di approfondimento calcistico e sportivo della Rai.",
+        "spiegazione": "In onda dal 1953, 'La Domenica Sportiva' è il programma più longevo della televisione italiana, nato ancor prima dell'inizio delle trasmissioni regolari."
+    },
+    {
+        "domanda": "Quale band ha vinto l'Eurovision Song Contest nel 2021 riportando la vittoria in Italia?",
+        "opzioni": ["Irama", "Mahmood", "Måneskin", "Il Volo"],
+        "corretta": "Måneskin",
+        "aiuto": "Hanno trionfato con il brano 'Zitti e buoni'.",
+        "spiegazione": "I Måneskin hanno vinto l'Eurovision a Rotterdam, diventando il terzo artista italiano a vincere la competizione dopo Gigliola Cinquetti e Toto Cutugno."
+    },
+    {
+        "domanda": "Qual è stato il primo film d'animazione a ricevere una nomination all'Oscar come Miglior Film?",
+        "opzioni": ["Toy Story", "Il Re Leone", "La bella e la bestia", "Biancaneve e i sette nani"],
+        "corretta": "La bella e la bestia",
+        "aiuto": "È un classico Disney del 1991 che parla di una ragazza e un principe maledetto.",
+        "spiegazione": "Nel 1992, 'La bella e la bestia' divenne il primo film animato nominato nella categoria principale, quando c'erano ancora solo 5 candidati al Miglior Film."
+    },
+    {
+        "domanda": "Quale serie TV è il celebre spin-off e prequel di 'Breaking Bad'?",
+        "opzioni": ["El Camino", "Better Call Saul", "Ozark", "Narcos"],
+        "corretta": "Better Call Saul",
+        "aiuto": "Racconta le origini dell'avvocato Jimmy McGill.",
+        "spiegazione": "'Better Call Saul' si concentra sulla trasformazione di Jimmy McGill nell'avvocato senza scrupoli Saul Goodman, interpretato da Bob Odenkirk."
+    },
+    {
+        "domanda": "Quale famoso quiz televisivo segnò l'inizio della carriera di Mike Bongiorno in Rai nel 1955?",
+        "opzioni": ["Lascia o raddoppia?", "Rischiatutto", "La ruota della fortuna", "Scommettiamo che...?"],
+        "corretta": "Lascia o raddoppia?",
+        "aiuto": "Il titolo del programma è diventato un'espressione di uso comune nella lingua italiana.",
+        "spiegazione": "'Lascia o raddoppia?' fu il primo grande quiz della TV italiana. Il suo successo fu tale che i cinema dovevano interrompere le proiezioni per trasmetterlo."
+    },
+    {
+        "domanda": "Chi ha diretto il capolavoro italiano 'Nuovo Cinema Paradiso'?",
+        "opzioni": ["Roberto Benigni", "Paolo Sorrentino", "Giuseppe Tornatore", "Federico Fellini"],
+        "corretta": "Giuseppe Tornatore",
+        "aiuto": "Il regista è originario di Bagheria, in Sicilia.",
+        "spiegazione": "Il film, diretto da Tornatore e con le musiche di Ennio Morricone, vinse l'Oscar come Miglior Film Straniero nel 1990."
+    },
+    {
+        "domanda": "Qual è il film con il maggior incasso nella storia del cinema (non aggiustato per l'inflazione)?",
+        "opzioni": ["Avengers: Endgame", "Avatar", "Titanic", "Star Wars: Il risveglio della Forza"],
+        "corretta": "Avatar",
+        "aiuto": "È stato diretto da James Cameron e rilasciato nel 2009.",
+        "spiegazione": "Nonostante 'Avengers: Endgame' lo avesse temporaneamente superato, 'Avatar' è tornato al primo posto grazie alle successive riedizioni nelle sale."
+    },
+    {
+        "domanda": "Quale conduttore televisivo ha lasciato la Rai nella primavera del 2024 per passare al canale Nove?",
+        "opzioni": ["Fabio Fazio", "Carlo Conti", "Gerry Scotti", "Amadeus"],
+        "corretta": "Amadeus",
+        "aiuto": "Ha condotto le ultime cinque edizioni consecutive del Festival di Sanremo.",
+        "spiegazione": "Dopo un lustro di successi record a Sanremo e con 'Affari Tuoi', Amadeus ha firmato un contratto con Warner Bros. Discovery per passare al Nove."
+    },
+    {
+        "domanda": "Nella serie TV 'Succession', come si chiama il conglomerato mediatico fondato da Logan Roy?",
+        "opzioni": ["Pierce Global", "Waystar Royco", "Stark Industries", "Massive Dynamic"],
+        "corretta": "Waystar Royco",
+        "aiuto": "Il nome include parte del cognome della famiglia protagonista.",
+        "spiegazione": "Waystar Royco è l'impero fittizio dei media e dell'intrattenimento al centro delle lotte di potere tra i figli del patriarca Logan Roy."
+    },
+    {
+        "domanda": "Chi ha interpretato Ken nel film 'Barbie' del 2023 diretto da Greta Gerwig?",
+        "opzioni": ["Chris Evans", "Bradley Cooper", "Ryan Gosling", "Zac Efron"],
+        "corretta": "Ryan Gosling",
+        "aiuto": "Ha cantato la celebre canzone 'I'm Just Ken'.",
+        "spiegazione": "L'interpretazione ironica e profonda di Ryan Gosling gli è valsa una nomination all'Oscar come Miglior Attore Non Protagonista."
+    },
+    {
+        "domanda": "In quale anno sono iniziate ufficialmente le trasmissioni televisive a colori in Italia?",
+        "opzioni": ["1970", "1977", "1982", "1968"],
+        "corretta": "1977",
+        "aiuto": "È l'anno in cui uscì al cinema il primo film di Star Wars.",
+        "spiegazione": "Dopo anni di sperimentazioni e un lungo dibattito politico sul sistema da adottare (PAL o SECAM), la Rai iniziò ufficialmente a trasmettere a colori il 1º febbraio 1977."
+    },
+    {
+        "domanda": "Chi è l'ideatrice e storica conduttrice di 'C'è posta per te'?",
+        "opzioni": ["Milly Carlucci", "Barbara D'Urso", "Antonella Clerici", "Maria De Filippi"],
+        "corretta": "Maria De Filippi",
+        "aiuto": "Conduce anche 'Amici' e 'Uomini e Donne'.",
+        "spiegazione": "In onda dal 2000, 'C'è posta per te' è uno dei format più longevi e di successo di Mediaset, ideato dalla stessa Maria De Filippi insieme ad Alberto Silvestri."
+    },
+    {
+        "domanda": "Quale attore italiano ha vinto l'Oscar come Miglior Attore Protagonista per 'La vita è bella'?",
+        "opzioni": ["Marcello Mastroianni", "Giancarlo Giannini", "Roberto Benigni", "Toni Servillo"],
+        "corretta": "Roberto Benigni",
+        "aiuto": "È celebre la sua camminata sugli schienali delle poltrone durante la cerimonia degli Oscar.",
+        "spiegazione": "Benigni vinse l'Oscar nel 1999 sia come Miglior Attore che per il Miglior Film Straniero, esultando in modo indimenticabile al grido di 'Roberto!' di Sophia Loren."
+    },
+    {
+        "domanda": "In quale città italiana è ambientata la serie TV di successo 'Mare Fuori'?",
+        "opzioni": ["Roma", "Palermo", "Napoli", "Bari"],
+        "corretta": "Napoli",
+        "aiuto": "La serie si svolge in un fittizio Istituto Penitenziario Minorile (IPM) ispirato a quello di Nisida.",
+        "spiegazione": "'Mare Fuori' è diventato un fenomeno culturale in Italia, esplodendo in popolarità grazie al passaggio sulla piattaforma RaiPlay e poi su Netflix."
+    },
+    {
+        "domanda": "Chi è il creatore e showrunner principale della serie antologica 'Black Mirror'?",
+        "opzioni": ["Ryan Murphy", "Charlie Brooker", "Vince Gilligan", "J.J. Abrams"],
+        "corretta": "Charlie Brooker",
+        "aiuto": "È un autore britannico che ha iniziato come giornalista satirico.",
+        "spiegazione": "Charlie Brooker ha creato la serie nel 2011 per Channel 4, prima che i diritti passassero a Netflix, esplorando le derive oscure della tecnologia moderna."
+    },
+    {
+        "domanda": "Quale programma pre-serale condotto da Gerry Scotti è famoso per la sua 'botola'?",
+        "opzioni": ["Avanti un altro!", "The Wall", "Caduta libera", "Chi vuol essere milionario?"],
+        "corretta": "Caduta libera",
+        "aiuto": "I concorrenti devono rispondere a domande di cultura generale per non precipitare.",
+        "spiegazione": "Il format originale di 'Caduta libera' è israeliano e si chiama 'Still Standing'. I concorrenti cadono in una vasca piena di cuscini morbidi."
+    },
+    {
+        "domanda": "Qual è stato il primo film in lingua non inglese a vincere l'Oscar come Miglior Film?",
+        "opzioni": ["La vita è bella", "Roma", "Parasite", "Crouching Tiger, Hidden Dragon"],
+        "corretta": "Parasite",
+        "aiuto": "È un film sudcoreano diretto da Bong Joon-ho.",
+        "spiegazione": "Nel 2020, 'Parasite' ha fatto la storia degli Academy Awards vincendo 4 statuette, tra cui Miglior Film e Miglior Film Internazionale."
+    },
+    {
+        "domanda": "Quale attrice interpreta Undici (Eleven) nella serie Netflix 'Stranger Things'?",
+        "opzioni": ["Sadie Sink", "Millie Bobby Brown", "Maya Hawke", "Natalia Dyer"],
+        "corretta": "Millie Bobby Brown",
+        "aiuto": "Ha interpretato anche Enola Holmes in un'altra produzione Netflix.",
+        "spiegazione": "Millie Bobby Brown ha ottenuto il ruolo di Undici quando aveva solo 12 anni, diventando in breve tempo una delle giovani attrici più pagate di Hollywood."
+    },
+    {
+        "domanda": "Chi detiene il record assoluto di conduzioni del Festival di Sanremo?",
+        "opzioni": ["Mike Bongiorno", "Pippo Baudo", "Amadeus", "Carlo Conti"],
+        "corretta": "Pippo Baudo",
+        "aiuto": "Ha pronunciato la celebre frase: 'L'ho inventato io!'.",
+        "spiegazione": "Pippo Baudo ha condotto il Festival di Sanremo per ben 13 volte, superando Mike Bongiorno che si è fermato a 11 edizioni."
+    },
+    {
+        "domanda": "Quale regista italiano ha diretto il pluripremiato film 'Io Capitano' (2023)?",
+        "opzioni": ["Matteo Garrone", "Paolo Sorrentino", "Luca Guadagnino", "Nanni Moretti"],
+        "corretta": "Matteo Garrone",
+        "aiuto": "Ha diretto anche i film 'Gomorra' e 'Dogman'.",
+        "spiegazione": "'Io Capitano' racconta il drammatico viaggio di due giovani senegalesi verso l'Europa ed è stato nominato agli Oscar 2024 come Miglior Film Internazionale."
+    },
+    {
+        "domanda": "Nell'universo Marvel, come si chiama il metallo rarissimo di cui è ricca la nazione del Wakanda?",
+        "opzioni": ["Adamantio", "Kryptonite", "Vibranio", "Mithril"],
+        "corretta": "Vibranio",
+        "aiuto": "È lo stesso materiale di cui è fatto lo scudo di Captain America.",
+        "spiegazione": "Il Vibranio ha la capacità di assorbire l'energia cinetica. A differenza dell'Adamantio (legato a Wolverine), è di origine extraterrestre, caduto in Wakanda tramite un meteorite."
+    },
+    {
+        "domanda": "Quale storico programma di Fabio Fazio è traslocato sul canale Nove nell'autunno 2023?",
+        "opzioni": ["In mezz'ora", "Che tempo che fa", "Quelli che il calcio", "Vieni via con me"],
+        "corretta": "Che tempo che fa",
+        "aiuto": "Al programma partecipa stabilmente Luciana Littizzetto.",
+        "spiegazione": "Dopo 20 anni di messa in onda sui canali Rai, il talk show si è spostato su Nove (Warner Bros. Discovery) ottenendo fin da subito ascolti record per la rete."
+    },
+    {
+        "domanda": "Quale attore ha interpretato il Dottore in 'Doctor Who' per il periodo consecutivo più lungo nella serie classica?",
+        "opzioni": ["David Tennant", "Tom Baker", "Jon Pertwee", "William Hartnell"],
+        "corretta": "Tom Baker",
+        "aiuto": "Interpretava il Quarto Dottore, famoso per la sua lunghissima sciarpa multicolore.",
+        "spiegazione": "Tom Baker ha interpretato il Quarto Dottore per sette stagioni consecutive, dal 1974 al 1981, diventando uno dei volti più iconici dello show."
+    },
+    {
+        "domanda": "Chi ha prestato la voce originale in inglese a Darth Vader nella trilogia classica di Star Wars?",
+        "opzioni": ["David Prowse", "James Earl Jones", "Mark Hamill", "Harrison Ford"],
+        "corretta": "James Earl Jones",
+        "aiuto": "Ha doppiato anche Mufasa ne 'Il Re Leone'.",
+        "spiegazione": "Mentre fisicamente Darth Vader era interpretato dal bodybuilder David Prowse, la sua voce profonda e minacciosa apparteneva a James Earl Jones."
+    },
+    {
+        "domanda": "Chi è stata la vincitrice della prima storica edizione del 'Grande Fratello' in Italia nel 2000?",
+        "opzioni": ["Marina La Rosa", "Serena Garitta", "Cristina Plevani", "Floriana Secondi"],
+        "corretta": "Cristina Plevani",
+        "aiuto": "Ebbe una breve e tormentata relazione all'interno della casa con Pietro Taricone.",
+        "spiegazione": "Cristina Plevani vinse la prima edizione del reality, condotta da Daria Bignardi, che registrò ascolti stellari con oltre 16 milioni di spettatori per la finale."
+    },
+    {
+        "domanda": "La serie TV 'Gomorra' è tratta dall'omonimo romanzo best-seller di quale autore?",
+        "opzioni": ["Giancarlo De Cataldo", "Roberto Saviano", "Andrea Camilleri", "Maurizio de Giovanni"],
+        "corretta": "Roberto Saviano",
+        "aiuto": "L'autore vive sotto scorta dal 2006 a causa delle minacce ricevute dalla camorra.",
+        "spiegazione": "Pubblicato nel 2006, il libro 'Gomorra' ha venduto milioni di copie in tutto il mondo ed è stato adattato prima in un film (diretto da Matteo Garrone) e poi nella fortunata serie TV."
+    },
+    {
+        "domanda": "Qual è il titolo del primo lungometraggio diretto da Quentin Tarantino?",
+        "opzioni": ["Pulp Fiction", "Le Iene", "Jackie Brown", "Kill Bill: Volume 1"],
+        "corretta": "Le Iene",
+        "aiuto": "Il titolo originale del film è 'Reservoir Dogs'.",
+        "spiegazione": "Uscito nel 1992, 'Le Iene' è diventato un cult del cinema indipendente. Il cast includeva Harvey Keitel, Tim Roth, Steve Buscemi e lo stesso Tarantino."
+    },
+    {
+        "domanda": "Da chi è formato il duo comico 'I soliti idioti', tornato al cinema nel 2024?",
+        "opzioni": ["Pio e Amedeo", "Gigi e Ross", "Francesco Mandelli e Fabrizio Biggio", "Lillo e Greg"],
+        "corretta": "Francesco Mandelli e Fabrizio Biggio",
+        "aiuto": "Tra i loro personaggi più famosi ci sono Ruggero e Gianluca De Ceglie.",
+        "spiegazione": "Nati su MTV Italia, 'I soliti idioti' sono tornati nelle sale cinematografiche a 12 anni di distanza dal loro ultimo film insieme, con 'I soliti idioti 3 - Il ritorno'."
+    },
+    {
+        "domanda": "Quale artista si è esibito durante l'Halftime Show del Super Bowl LVIII nel 2024?",
+        "opzioni": ["Rihanna", "The Weeknd", "Usher", "Beyoncé"],
+        "corretta": "Usher",
+        "aiuto": "È un famoso cantante R&B noto per hit come 'Yeah!' e 'DJ Got Us Fallin' in Love'.",
+        "spiegazione": "L'esibizione di Usher a Las Vegas ha visto la partecipazione di numerosi ospiti a sorpresa, tra cui Alicia Keys, Ludacris, Lil Jon e H.E.R."
+    },
+    {
+        "domanda": "In quale celebre saga cinematografica viene pronunciata la frase 'Che la Forza sia con te'?",
+        "opzioni": ["Star Trek", "Star Wars", "Il Signore degli Anelli", "Harry Potter"],
+        "corretta": "Star Wars",
+        "aiuto": "La saga segue le avventure dei Jedi e dei Sith.",
+        "spiegazione": "La frase (in inglese 'May the Force be with you') è diventata così iconica che i fan hanno istituito lo 'Star Wars Day' il 4 maggio (May the 4th)."
+    },
+    {
+        "domanda": "Quale regista e autore televisivo ha ideato il programma cult degli anni '90 'Non è la Rai'?",
+        "opzioni": ["Jocelyn", "Michele Guardì", "Gianni Boncompagni", "Corrado"],
+        "corretta": "Gianni Boncompagni",
+        "aiuto": "È stato anche autore storico di Raffaella Carrà.",
+        "spiegazione": "'Non è la Rai' è stato un fenomeno di costume che ha lanciato molte future star della TV e del cinema italiano, su tutte Ambra Angiolini."
+    },
+    {
+        "domanda": "Chi ha interpretato Geralt di Rivia nelle prime tre stagioni della serie Netflix 'The Witcher'?",
+        "opzioni": ["Liam Hemsworth", "Henry Cavill", "Tom Hardy", "Chris Hemsworth"],
+        "corretta": "Henry Cavill",
+        "aiuto": "L'attore è noto anche per aver interpretato Superman nel DC Extended Universe.",
+        "spiegazione": "Dopo la terza stagione, Henry Cavill ha lasciato il ruolo, che dalla quarta stagione è stato affidato all'attore australiano Liam Hemsworth."
+    },
+    {
+        "domanda": "Quale attrice ha vinto il suo secondo premio Oscar nel 2024 per il film 'Povere Creature!'?",
+        "opzioni": ["Margot Robbie", "Emma Stone", "Jennifer Lawrence", "Cate Blanchett"],
+        "corretta": "Emma Stone",
+        "aiuto": "Il suo primo Oscar lo aveva vinto per il musical 'La La Land'.",
+        "spiegazione": "In 'Povere Creature!' (Poor Things), diretto da Yorgos Lanthimos, Emma Stone interpreta Bella Baxter, una giovane donna riportata in vita da un eccentrico scienziato."
+    },
+    {
+        "domanda": "Come si intitola il fortunato morning show condotto da Fiorello dal 2022 al 2024?",
+        "opzioni": ["Edicola Fiore", "Viva Rai2!", "Il Ruggito del Coniglio", "Buongiorno Italia"],
+        "corretta": "Viva Rai2!",
+        "aiuto": "Il programma veniva trasmesso in diretta da un 'glass' per le strade di Roma.",
+        "spiegazione": "'Viva Rai2!' ha rivoluzionato gli ascolti della fascia mattutina della Rai, mescolando rassegna stampa, varietà, comicità e grandi ospiti musicali."
+    },
+    {
+        "domanda": "Nella serie TV 'Il Trono di Spade' (Game of Thrones), qual è il motto della Casa Stark?",
+        "opzioni": ["Fuoco e Sangue", "Udite il mio ruggito!", "L'inverno sta arrivando", "Sempre fieri"],
+        "corretta": "L'inverno sta arrivando",
+        "aiuto": "È una frase che preannuncia tempi difficili e freddi.",
+        "spiegazione": "A differenza della maggior parte delle altre casate, il cui motto è una vanteria o una minaccia, quello degli Stark ('Winter is coming') è un avvertimento e un invito alla vigilanza."
+    },
+    {
+        "domanda": "Chi è il regista dell'epico film di fantascienza 'Interstellar' (2014)?",
+        "opzioni": ["Ridley Scott", "Denis Villeneuve", "Christopher Nolan", "Steven Spielberg"],
+        "corretta": "Christopher Nolan",
+        "aiuto": "Ha diretto anche la trilogia del Cavaliere Oscuro e Inception.",
+        "spiegazione": "Per realizzare i buchi neri in 'Interstellar', Nolan ha collaborato con il fisico teorico Kip Thorne, ottenendo simulazioni visive così accurate da generare nuove scoperte scientifiche."
+    },
+    {
+        "domanda": "Quale celebre presentatore italiano era soprannominato 'Il Re del Quiz'?",
+        "opzioni": ["Corrado", "Raimondo Vianello", "Mike Bongiorno", "Gerry Scotti"],
+        "corretta": "Mike Bongiorno",
+        "aiuto": "La sua parola d'ordine era 'Allegria!'.",
+        "spiegazione": "Mike Bongiorno è considerato uno dei padri fondatori della televisione italiana e ha condotto quiz storici per oltre 50 anni, passando dalla Rai a Fininvest (oggi Mediaset)."
+    },
+    {
+        "domanda": "Da quale nazione proviene la serie dei record 'Squid Game'?",
+        "opzioni": ["Giappone", "Corea del Sud", "Cina", "Thailandia"],
+        "corretta": "Corea del Sud",
+        "aiuto": "La capitale di questo paese è Seul.",
+        "spiegazione": "Rilasciata nel 2021, 'Squid Game' è diventata in poche settimane la serie originale Netflix più vista di sempre sulla piattaforma, introducendo al mondo i giochi d'infanzia sudcoreani."
+    },
+    {
+        "domanda": "Qual è il titolo del primo film della trilogia de 'Il Signore degli Anelli' diretta da Peter Jackson?",
+        "opzioni": ["Le due torri", "Il ritorno del re", "Lo Hobbit", "La Compagnia dell'Anello"],
+        "corretta": "La Compagnia dell'Anello",
+        "aiuto": "Narra la formazione del gruppo di nove membri incaricato di distruggere l'Unico Anello.",
+        "spiegazione": "Uscito nel 2001, 'La Compagnia dell'Anello' ha dato il via a una delle trilogie cinematografiche più premiate e redditizie della storia del cinema."
+    },
+    {
+        "domanda": "Quale programma del sabato sera di Rai 1 è condotto storicamente da Milly Carlucci?",
+        "opzioni": ["Tale e Quale Show", "Ballando con le Stelle", "I Migliori Anni", "Ti lascio una canzone"],
+        "corretta": "Ballando con le Stelle",
+        "aiuto": "I concorrenti VIP imparano a danzare in coppia con ballerini professionisti.",
+        "spiegazione": "Adattamento del format britannico 'Strictly Come Dancing', il programma va in onda ininterrottamente dal 2005 ed è il varietà più longevo attualmente in onda su Rai 1."
+    },
+    {
+        "domanda": "Da quante stagioni è composta l'iconica sitcom 'Friends'?",
+        "opzioni": ["8", "9", "10", "12"],
+        "corretta": "10",
+        "aiuto": "È andata in onda dal 1994 al 2004.",
+        "spiegazione": "La serie si è conclusa dopo 10 stagioni e 236 episodi. Il finale di serie negli Stati Uniti fu visto da ben 52,5 milioni di telespettatori."
+    },
+    {
+        "domanda": "Chi ha diretto il capolavoro del cinema italiano 'La dolce vita' (1960)?",
+        "opzioni": ["Vittorio De Sica", "Federico Fellini", "Luchino Visconti", "Roberto Rossellini"],
+        "corretta": "Federico Fellini",
+        "aiuto": "È famoso per la scena della Fontana di Trevi con Anita Ekberg e Marcello Mastroianni.",
+        "spiegazione": "Il film ha vinto la Palma d'oro al 13º Festival di Cannes e ha coniato il termine 'paparazzo', derivato dal nome del fotografo amico del protagonista."
+    },
+    {
+        "domanda": "Quale rete televisiva italiana è nata nel 2001 dalle ceneri della storica Telemontecarlo (TMC)?",
+        "opzioni": ["Rete 4", "Italia 1", "La7", "Nove"],
+        "corretta": "La7",
+        "aiuto": "Il suo telegiornale è diretto da Enrico Mentana.",
+        "spiegazione": "Il 24 giugno 2001 Telemontecarlo cambiò ufficialmente nome in La7. Oggi l'emittente è di proprietà del gruppo Cairo Communication."
+    },
+    {
+        "domanda": "Come si intitola il tour da record mondiale di Taylor Swift iniziato nel 2023?",
+        "opzioni": ["1989 World Tour", "Reputation Stadium Tour", "The Eras Tour", "Speak Now Tour"],
+        "corretta": "The Eras Tour",
+        "aiuto": "Il nome celebra tutte le 'epoche' musicali della sua carriera.",
+        "spiegazione": "'The Eras Tour' è diventato il primo tour nella storia della musica a incassare oltre un miliardo di dollari, generando un impatto economico enorme nelle città visitate."
+    },
+    {
+        "domanda": "Quale star di Hollywood detiene il record per il maggior numero di premi Oscar vinti nelle categorie di recitazione (4 statuette)?",
+        "opzioni": ["Meryl Streep", "Jack Nicholson", "Katharine Hepburn", "Daniel Day-Lewis"],
+        "corretta": "Katharine Hepburn",
+        "aiuto": "Attrice della Golden Age hollywoodiana, ha recitato in film come 'Indovina chi viene a cena?'.",
+        "spiegazione": "Katharine Hepburn ha vinto 4 Oscar come Miglior Attrice Protagonista. Meryl Streep, pur avendo il record di nomination (21), è ferma a 3 vittorie."
     }
 ]
+
