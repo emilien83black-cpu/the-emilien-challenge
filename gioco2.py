@@ -18,7 +18,7 @@ hide_streamlit_style = """
 
     /* Ripristina lo spazio necessario per far apparire i tuoi tasti */
     .main .block-container {
-        padding-top: 2rem !important;
+        padding-top: 6rem !important;
     }
 </style>
 """
@@ -151,6 +151,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
