@@ -11,9 +11,8 @@ hide_streamlit_style = """
     /* Nasconde la barra colorata in alto, il menu e il footer */
     [data-testid="stDecoration"], 
     [data-testid="stHeader"], 
-    #MainMenu, 
     footer {
-        visibility: hidden;
+    visibility: hidden;
     }
 
     /* Ripristina lo spazio necessario per far apparire i tuoi tasti */
@@ -151,6 +150,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
