@@ -76,7 +76,7 @@ if not st.session_state.fine:
     except: pass
 
     if st.session_state.mostra_errore:
-        st.markdown(f"<div style='background-color: #ff4b4b; padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 20px;'><h3>Sbagliato!</h3><p>La risposta corretta era: <b>{attuale['corretta']}</b></p><p><i>{attuale.get('spiegazione', 'Nessun commento disponibile.')}</i></p></div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='background-color: #333333; padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 20px;'><h3 style='font-size: 32px;'>Sbagliato!</h3><p style='font-size: 28px;'>La risposta corretta era: <b>{attuale['corretta']}</b></p><p style='font-size: 26px;'><i>{attuale.get('spiegazione', 'Nessun commento disponibile.')}</i></p></div>", unsafe_allow_html=True)
         if st.button("Continua", use_container_width=True):
             st.session_state.game_over = True
             st.session_state.fine = True
@@ -140,6 +140,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
