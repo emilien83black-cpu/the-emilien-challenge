@@ -18,7 +18,7 @@ st.markdown(
 ls = LocalStorage()
 
 def carica_fatte_smartphone():
-    f = ls.get("fatte_mobile")
+    f = ls.get("fatte_mobile") if ls is not None else None
     return set(f) if f else set()
 
 def salva_fatta_smartphone(dom):
@@ -74,7 +74,7 @@ if 'argomento_attuale' not in st.session_state or st.session_state.argomento_att
     st.session_state.argomento_attuale = scelta
     
     # FILTRO SMARTPHONE
-    fatte = carica_fatte_smartphone()
+    fatte = carica_fatte_smartphone() if 'ls' in locals() else set()
     lista_totale = mappa_domande[scelta].copy()
     lista_filtrata = [d for d in lista_totale if d['domanda'] not in fatte]
     
@@ -171,6 +171,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
