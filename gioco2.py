@@ -32,11 +32,17 @@ fatte = carica_fatte_smartphone()
 tutte_domande = culturagenerale.domande
 disponibili = [d for d in tutte_domande if d['domanda'] not in fatte]
 
-if disponibili:
-    attuale = random.choice(disponibles)
-else:
-    st.write("Hai completato tutte le domande!")
-    attuale = None
+if "attuale" not in st.session_state or st.session_state.attuale is None:
+    if disponibili:
+        st.session_state.attuale = random.choice(disponibili)
+    else:
+        st.session_state.attuale = None
+
+attuale = st.session_state.attuale
+
+if attuale is None:
+    st.error("Hai completato tutte le domande disponibili!")
+    st.stop()
 
 # --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
@@ -168,6 +174,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
