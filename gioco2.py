@@ -1,7 +1,25 @@
 import streamlit as st
 import random
 import importlib
+import json
+import os
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
+
+# --- FUNZIONI DI SALVATAGGIO PROGRESSO ---
+PROGRESS_FILE = "quiz_progress.json"
+
+def load_progress():
+    if os.path.exists(PROGRESS_FILE):
+        try:
+            with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            return []
+    return []
+
+def save_progress():
+    with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
+        json.dump(st.session_state.answered_questions, f)
 
 # --- CONFIGURAZIONE ICONA E MANIFEST ---
 st.set_page_config(page_title="The Emilien Challenge", page_icon="logo.png", layout="wide")
@@ -50,11 +68,17 @@ if 'usato_5050' not in st.session_state: st.session_state.usato_5050 = False
 if 'usato_cambio' not in st.session_state: st.session_state.usato_cambio = False
 if 'usato_suggerimento' not in st.session_state: st.session_state.usato_suggerimento = False
 if 'opzioni_ridotte' not in st.session_state: st.session_state.opzioni_ridotte = None
-if 'answered_questions' not in st.session_state: st.session_state.answered_questions = []
+if 'answered_questions' not in st.session_state: st.session_state.answered_questions = load_progress()
 
 premi = [10000, 20000, 30000, 50000, 70000, 100000, 150000, 200000, 300000, 1000000]
 
 scelta = st.sidebar.selectbox("Scegli:", ["Cultura Generale", "Sport Generale", "Calcio", "Cinema", "Intrattenimento Generale", "Musica"])
+
+if st.sidebar.button("Reset Progress"):
+    st.session_state.answered_questions = []
+    save_progress()
+    st.rerun()
+
 mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
 
 lista_completa = mappa_domande[scelta].copy()
@@ -62,6 +86,7 @@ domande_disponibili = [d for d in lista_completa if d['domanda'] not in st.sessi
 
 if len(domande_disponibili) < 10:
     st.session_state.answered_questions = [q for q in st.session_state.answered_questions if q not in [x['domanda'] for x in lista_completa]]
+    save_progress()
     domande_disponibili = lista_completa.copy()
 
 st.sidebar.markdown(f"**Domande rimanenti: {len(domande_disponibili)}**")
@@ -111,6 +136,7 @@ if not st.session_state.fine:
             if st.button("🔄", disabled=st.session_state.usato_cambio, use_container_width=True):
                 if attuale["domanda"] not in st.session_state.answered_questions:
                     st.session_state.answered_questions.append(attuale["domanda"])
+                    save_progress()
                 st.session_state.usato_cambio = True
                 st.session_state.indice = (st.session_state.indice + 1) % len(st.session_state.domande)
                 st.session_state.opzioni_ridotte = None
@@ -128,6 +154,7 @@ if not st.session_state.fine:
                 if st.button(opz[i], key=f"a_{i}", use_container_width=True):
                     if attuale["domanda"] not in st.session_state.answered_questions:
                         st.session_state.answered_questions.append(attuale["domanda"])
+                        save_progress()
                     if opz[i] == attuale["corretta"]:
                         st.session_state.indice += 1
                         st.session_state.opzioni_ridotte = None
@@ -141,6 +168,7 @@ if not st.session_state.fine:
                     if st.button(opz[i+1], key=f"a_{i+1}", use_container_width=True):
                         if attuale["domanda"] not in st.session_state.answered_questions:
                             st.session_state.answered_questions.append(attuale["domanda"])
+                            save_progress()
                         if opz[i+1] == attuale["corretta"]:
                             st.session_state.indice += 1
                             st.session_state.opzioni_ridotte = None
