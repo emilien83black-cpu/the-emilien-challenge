@@ -22,15 +22,20 @@ def carica_fatte_smartphone():
     return set(f.split("|")) if f else set()
 
 def salva_fatta_smartphone(dom):
-    f = list(carica_fatte_smartphone())
-    if dom not in f:
-        f.append(dom)
-        # Trasformiamo la lista in testo separato da |
-        valore_cookie = "|".join(f)
-        # Scrittura effettiva del cookie
-        st.context.cookies["fatte_mobile"] = valore_cookie
-        # Forza il ricaricamento per aggiornare il numero nella sidebar
-        st.rerun()
+    # Creiamo una lista nella sessione attuale per non perdere i progressi finché non chiudi il browser
+    if "fatte_temporanee" not in st.session_state:
+        st.session_state.fatte_temporanee = set()
+    
+    st.session_state.fatte_temporanee.add(dom)
+    
+    # Tentiamo il salvataggio su cookie solo se non crasha, altrimenti ignoriamo
+    try:
+        # Nota: Streamlit non supporta la scrittura nativa così. 
+        # Per ora commentiamo la riga che causa il crash.
+        # st.context.cookies["fatte_mobile"] = list(st.session_state.fatte_temporanee)
+        pass
+    except:
+        pass
 
 # --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
@@ -178,6 +183,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
