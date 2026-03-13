@@ -78,9 +78,6 @@ if 'argomento_attuale' not in st.session_state or st.session_state.argomento_att
 
 if not st.session_state.fine:
     attuale = st.session_state.domande[st.session_state.indice]
-    
-    if attuale["domanda"] not in st.session_state.answered_questions:
-        st.session_state.answered_questions.append(attuale["domanda"])
         
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
@@ -112,6 +109,8 @@ if not st.session_state.fine:
                 st.rerun()
         with c2:
             if st.button("🔄", disabled=st.session_state.usato_cambio, use_container_width=True):
+                if attuale["domanda"] not in st.session_state.answered_questions:
+                    st.session_state.answered_questions.append(attuale["domanda"])
                 st.session_state.usato_cambio = True
                 st.session_state.indice = (st.session_state.indice + 1) % len(st.session_state.domande)
                 st.session_state.opzioni_ridotte = None
@@ -127,6 +126,8 @@ if not st.session_state.fine:
             r_col1, r_col2 = st.columns(2)
             with r_col1:
                 if st.button(opz[i], key=f"a_{i}", use_container_width=True):
+                    if attuale["domanda"] not in st.session_state.answered_questions:
+                        st.session_state.answered_questions.append(attuale["domanda"])
                     if opz[i] == attuale["corretta"]:
                         st.session_state.indice += 1
                         st.session_state.opzioni_ridotte = None
@@ -138,6 +139,8 @@ if not st.session_state.fine:
             with r_col2:
                 if i + 1 < len(opz):
                     if st.button(opz[i+1], key=f"a_{i+1}", use_container_width=True):
+                        if attuale["domanda"] not in st.session_state.answered_questions:
+                            st.session_state.answered_questions.append(attuale["domanda"])
                         if opz[i+1] == attuale["corretta"]:
                             st.session_state.indice += 1
                             st.session_state.opzioni_ridotte = None
