@@ -50,6 +50,7 @@ if 'usato_5050' not in st.session_state: st.session_state.usato_5050 = False
 if 'usato_cambio' not in st.session_state: st.session_state.usato_cambio = False
 if 'usato_suggerimento' not in st.session_state: st.session_state.usato_suggerimento = False
 if 'opzioni_ridotte' not in st.session_state: st.session_state.opzioni_ridotte = None
+if 'domande_fatte' not in st.session_state: st.session_state.domande_fatte = []
 
 premi = [10000, 20000, 30000, 50000, 70000, 100000, 150000, 200000, 300000, 1000000]
 
@@ -58,7 +59,14 @@ mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": 
 
 if 'argomento_attuale' not in st.session_state or st.session_state.argomento_attuale != scelta:
     st.session_state.argomento_attuale = scelta
-    lista = mappa_domande[scelta].copy()
+    lista_completa = mappa_domande[scelta].copy()
+    
+    lista = [d for d in lista_completa if d['domanda'] not in st.session_state.domande_fatte]
+    
+    if len(lista) < 10:
+        st.session_state.domande_fatte = [q for q in st.session_state.domande_fatte if q not in [x['domanda'] for x in lista_completa]]
+        lista = lista_completa.copy()
+        
     random.shuffle(lista)
     for d in lista: random.shuffle(d["opzioni"])
     st.session_state.domande = lista
@@ -66,6 +74,10 @@ if 'argomento_attuale' not in st.session_state or st.session_state.argomento_att
 
 if not st.session_state.fine:
     attuale = st.session_state.domande[st.session_state.indice]
+    
+    if attuale["domanda"] not in st.session_state.domande_fatte:
+        st.session_state.domande_fatte.append(attuale["domanda"])
+        
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
     import base64
@@ -140,7 +152,3 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
-
-
-
-
