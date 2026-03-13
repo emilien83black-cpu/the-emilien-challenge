@@ -1,7 +1,6 @@
 import streamlit as st
 import random
 import importlib
-from streamlit_local_storage import LocalStorage
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
 # --- CONFIGURAZIONE ICONA E MANIFEST ---
@@ -13,27 +12,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-def carica_fatte_smartphone():
-    if "fatte_locali" not in st.session_state:
-        return set()
-    return st.session_state.fatte_locali
-
-def salva_fatta_smartphone(dom):
-    if "fatte_locali" not in st.session_state:
-        st.session_state.fatte_locali = set()
-    st.session_state.fatte_locali.add(dom)
-    
-    st.session_state.fatte_temporanee.add(dom)
-    
-    # Tentiamo il salvataggio su cookie solo se non crasha, altrimenti ignoriamo
-    try:
-        # Nota: Streamlit non supporta la scrittura nativa così. 
-        # Per ora commentiamo la riga che causa il crash.
-        # st.context.cookies["fatte_mobile"] = list(st.session_state.fatte_temporanee)
-        pass
-    except:
-        pass
 
 # --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
@@ -78,30 +56,16 @@ premi = [10000, 20000, 30000, 50000, 70000, 100000, 150000, 200000, 300000, 1000
 scelta = st.sidebar.selectbox("Scegli:", ["Cultura Generale", "Sport Generale", "Calcio", "Cinema", "Intrattenimento Generale", "Musica"])
 mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
 
-st.sidebar.markdown(f"### ✅ Domande indovinate: {len(carica_fatte_smartphone())}")
-
 if 'argomento_attuale' not in st.session_state or st.session_state.argomento_attuale != scelta:
     st.session_state.argomento_attuale = scelta
-    
-    # FILTRO SMARTPHONE
-    fatte = carica_fatte_smartphone() if 'ls' in locals() else set()
-    lista_totale = mappa_domande[scelta].copy()
-    lista_filtrata = [d for d in lista_totale if d['domanda'] not in fatte]
-    
-    if not lista_filtrata:
-        st.error("Hai finito le domande di questa categoria!")
-        st.stop()
-        
-    random.shuffle(lista_filtrata)
-    for d in lista_filtrata: 
-        random.shuffle(d["opzioni"])
-    
-    st.session_state.domande = lista_filtrata
+    lista = mappa_domande[scelta].copy()
+    random.shuffle(lista)
+    for d in lista: random.shuffle(d["opzioni"])
+    st.session_state.domande = lista
     st.session_state.indice = 0
-    st.session_state.attuale = st.session_state.domande[0] # Imposta la prima domanda
 
 if not st.session_state.fine:
-    attuale = st.session_state.domande[st.session_state.indice] if st.session_state.domande else None
+    attuale = st.session_state.domande[st.session_state.indice]
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
     import base64
@@ -139,17 +103,15 @@ if not st.session_state.fine:
         with c3:
             if st.button("💡", disabled=st.session_state.usato_suggerimento, use_container_width=True):
                 st.session_state.usato_suggerimento = True
-                st.toast(attuale.get("aiuto", "Nessun suggerimento disponibile"), icon="💡")
+                st.toast(attuale["aiuto"], icon="💡")
 
         opz = st.session_state.opzioni_ridotte if st.session_state.opzioni_ridotte else attuale["opzioni"]
         
-        for i in range(0, len(opz), 2): # <--- Questa riga deve essere allineata con 'opz'
+        for i in range(0, len(opz), 2):
             r_col1, r_col2 = st.columns(2)
             with r_col1:
                 if st.button(opz[i], key=f"a_{i}", use_container_width=True):
                     if opz[i] == attuale["corretta"]:
-                        salva_fatta_smartphone(attuale['domanda'])
-                        st.session_state.attuale = None # Reset domanda
                         st.session_state.indice += 1
                         st.session_state.opzioni_ridotte = None
                         if st.session_state.indice >= 10: st.session_state.fine = True
@@ -157,13 +119,10 @@ if not st.session_state.fine:
                     else:
                         st.session_state.mostra_errore = True
                         st.rerun()
-            
             with r_col2:
                 if i + 1 < len(opz):
                     if st.button(opz[i+1], key=f"a_{i+1}", use_container_width=True):
                         if opz[i+1] == attuale["corretta"]:
-                            salva_fatta_smartphone(attuale['domanda'])
-                            st.session_state.attuale = None # Reset domanda
                             st.session_state.indice += 1
                             st.session_state.opzioni_ridotte = None
                             if st.session_state.indice >= 10: st.session_state.fine = True
@@ -181,21 +140,6 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
