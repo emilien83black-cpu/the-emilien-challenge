@@ -698,5 +698,706 @@ domande = [
         "corretta": "Femore",
         "aiuto": "Si trova nell'arto inferiore, precisamente nella coscia.",
         "spiegazione": "Il femore è l'osso della coscia ed è il più lungo, pesante e resistente del corpo umano. In un adulto medio, costituisce circa un quarto dell'altezza totale della persona."
+    },
+    {
+        "domanda": "Quale sovrano europeo fu l'ultimo a detenere il titolo di 'Imperatore dei Romani' prima della dissoluzione del Sacro Romano Impero nel 1806?",
+        "opzioni": ["Francesco II", "Leopoldo II", "Giuseppe II", "Carlo VI"],
+        "corretta": "Francesco II",
+        "aiuto": "Divenne poi Francesco I d'Austria.",
+        "spiegazione": "Francesco II sciolse l'impero per evitare che Napoleone potesse reclamarne il titolo dopo la creazione della Confederazione del Reno."
+    },
+    {
+        "domanda": "In quale città si trova la 'Sede delle Nazioni Unite' progettata da un team che includeva Le Corbusier e Oscar Niemeyer?",
+        "opzioni": ["New York", "Ginevra", "Vienna", "Nairobi"],
+        "corretta": "New York",
+        "aiuto": "Si affaccia sull'East River.",
+        "spiegazione": "Sebbene si trovi a New York, il terreno su cui sorge è considerato territorio internazionale."
+    },
+    {
+        "domanda": "Quale filosofo greco è considerato il fondatore dello Stoicismo?",
+        "opzioni": ["Zeno di Cizio", "Epicuro", "Epitteto", "Marco Aurelio"],
+        "corretta": "Zeno di Cizio",
+        "aiuto": "Insegnava sotto la 'Stoa Poikile'.",
+        "spiegazione": "Zeno iniziò a insegnare ad Atene intorno al 300 a.C.; il nome deriva dal portico dipinto (Stoa) dove si riuniva con i discepoli."
+    },
+    {
+        "domanda": "Qual è l'unico elemento della tavola periodica che prende il nome da una scienziata donna (non derivato da un luogo o un mito)?",
+        "opzioni": ["Meitnerio", "Curio", "Bohrio", "Radio"],
+        "corretta": "Meitnerio",
+        "aiuto": "In onore di Lise Meitner.",
+        "spiegazione": "Il Curio prende il nome da entrambi i coniugi Curie, mentre il Meitnerio (elemento 109) è l'unico dedicato esclusivamente a una donna."
+    },
+    {
+        "domanda": "Chi scrisse il poema epico 'Il Paradiso Perduto' (Paradise Lost)?",
+        "opzioni": ["John Milton", "Dante Alighieri", "Geoffrey Chaucer", "William Blake"],
+        "corretta": "John Milton",
+        "aiuto": "Scritto nel XVII secolo, tratta della caduta dell'uomo.",
+        "spiegazione": "Milton dettò l'opera mentre era completamente cieco, completandola nel 1667."
+    },
+    {
+        "domanda": "Quale evento del 1911 portò alla riscoperta 'scientifica' di Machu Picchu da parte di Hiram Bingham?",
+        "opzioni": ["Una spedizione dell'Università di Yale", "La costruzione di una ferrovia", "Un terremoto", "Una ricerca mineraria"],
+        "corretta": "Una spedizione dell'Università di Yale",
+        "aiuto": "Bingham era uno storico di Yale.",
+        "spiegazione": "Sebbene i locali conoscessero il sito, Bingham lo portò all'attenzione internazionale, credendo erroneamente fosse Vilcabamba."
+    },
+    {
+        "domanda": "Quale compositore russo scrisse la suite sinfonica 'Sheherazade'?",
+        "opzioni": ["Nikolai Rimsky-Korsakov", "Pyotr Ilyich Tchaikovsky", "Modest Mussorgsky", "Sergei Rachmaninoff"],
+        "corretta": "Nikolai Rimsky-Korsakov",
+        "aiuto": "Basata su 'Le mille e una notte'.",
+        "spiegazione": "L'opera è celebre per la sua orchestrazione brillante e il tema del violino che rappresenta la narratrice."
+    },
+    {
+        "domanda": "In quale anno è stato firmato il Trattato di Tordesillas, che divise le terre fuori dall'Europa tra Spagna e Portogallo?",
+        "opzioni": ["1494", "1492", "1500", "1488"],
+        "corretta": "1494",
+        "aiuto": "Due anni dopo il primo viaggio di Colombo.",
+        "spiegazione": "Il trattato spostò la linea di demarcazione stabilita dal Papa, permettendo al Portogallo di rivendicare il Brasile."
+    },
+    {
+        "domanda": "Quale artista rinascimentale dipinse la 'Scuola di Atene' nelle Stanze Vaticane?",
+        "opzioni": ["Raffaello Sanzio", "Michelangelo", "Leonardo da Vinci", "Donatello"],
+        "corretta": "Raffaello Sanzio",
+        "aiuto": "Raffigura i più celebri filosofi dell'antichità.",
+        "spiegazione": "Raffaello incluse i ritratti di suoi contemporanei (come Leonardo e Michelangelo) nelle vesti dei filosofi greci."
+    },
+    {
+        "domanda": "Qual è la capitale amministrativa del Sudafrica?",
+        "opzioni": ["Pretoria", "Città del Capo", "Bloemfontein", "Johannesburg"],
+        "corretta": "Pretoria",
+        "aiuto": "Il Sudafrica ha tre capitali.",
+        "spiegazione": "Pretoria è la capitale amministrativa, Città del Capo quella legislativa e Bloemfontein quella giudiziaria."
+    },
+    {
+        "domanda": "Chi fu il primo uomo a circumnavigare il globo (completando il viaggio, anche se il leader morì a metà)?",
+        "opzioni": ["Juan Sebastián Elcano", "Ferdinando Magellano", "Vasco da Gama", "Francis Drake"],
+        "corretta": "Juan Sebastián Elcano",
+        "aiuto": "Prese il comando dopo la morte di Magellano nelle Filippine.",
+        "spiegazione": "Magellano morì nel 1521; Elcano riportò la nave 'Victoria' in Spagna nel 1522 con soli 18 sopravvissuti."
+    },
+    {
+        "domanda": "Quale gas costituisce circa il 78% dell'atmosfera terrestre?",
+        "opzioni": ["Azoto", "Ossigeno", "Argon", "Anidride Carbonica"],
+        "corretta": "Azoto",
+        "aiuto": "È un gas inerte fondamentale per il ciclo biologico.",
+        "spiegazione": "L'ossigeno rappresenta circa il 21%, mentre l'argon è il terzo gas più abbondante (circa lo 0,9%)."
+    },
+    {
+        "domanda": "In quale battaglia del 1815 Napoleone Bonaparte fu definitivamente sconfitto?",
+        "opzioni": ["Waterloo", "Lipsia", "Austerlitz", "Borodino"],
+        "corretta": "Waterloo",
+        "aiuto": "Si svolse nell'attuale Belgio.",
+        "spiegazione": "La sconfitta contro le forze di Wellington e Blücher segnò la fine dei 'Cento Giorni' e l'esilio a Sant'Elena."
+    },
+    {
+        "domanda": "Quale scrittore creò il detective belga Hercule Poirot?",
+        "opzioni": ["Agatha Christie", "Arthur Conan Doyle", "Georges Simenon", "Raymond Chandler"],
+        "corretta": "Agatha Christie",
+        "aiuto": "Apparve per la prima volta in 'Poirot a Styles Court'.",
+        "spiegazione": "Christie scrisse 33 romanzi e oltre 50 racconti con protagonista Poirot tra il 1920 e il 1975."
+    },
+    {
+        "domanda": "Quale città-stato greca vinse la Guerra del Peloponneso?",
+        "opzioni": ["Sparta", "Atene", "Tebe", "Corinto"],
+        "corretta": "Sparta",
+        "aiuto": "Grazie al supporto persiano e alla flotta di Lisandro.",
+        "spiegazione": "La guerra terminò nel 404 a.C. con la resa di Atene e l'instaurazione del regime dei Trenta Tiranni."
+    },
+    {
+        "domanda": "Chi è l'autore del celebre dipinto 'L'urlo'?",
+        "opzioni": ["Edvard Munch", "Vincent van Gogh", "Gustav Klimt", "Claude Monet"],
+        "corretta": "Edvard Munch",
+        "aiuto": "Artista espressionista norvegese.",
+        "spiegazione": "Munch realizzò diverse versioni dell'opera tra il 1893 e il 1910, usando vari materiali."
+    },
+    {
+        "domanda": "Quale imperatore romano legalizzò il cristianesimo con l'Editto di Milano nel 313 d.C.?",
+        "opzioni": ["Costantino il Grande", "Teodosio I", "Nerone", "Marco Aurelio"],
+        "corretta": "Costantino il Grande",
+        "aiuto": "Fu anche il fondatore di Costantinopoli.",
+        "spiegazione": "L'editto garantì la libertà di culto; fu solo con Teodosio nel 380 che il cristianesimo divenne religione di stato."
+    },
+    {
+        "domanda": "Qual è l'osso più lungo del corpo umano?",
+        "opzioni": ["Femore", "Tibia", "Omero", "Radio"],
+        "corretta": "Femore",
+        "aiuto": "Si trova nella coscia.",
+        "spiegazione": "Il femore è non solo il più lungo ma anche l'osso più forte e pesante del corpo umano."
+    },
+    {
+        "domanda": "In quale anno è caduto il Muro di Berlino?",
+        "opzioni": ["1989", "1991", "1987", "1990"],
+        "corretta": "1989",
+        "aiuto": "Il 9 novembre.",
+        "spiegazione": "La caduta segnò simbolicamente la fine della Guerra Fredda e l'inizio del processo di riunificazione tedesca."
+    },
+    {
+        "domanda": "Quale scienziato formulò la teoria della relatività generale nel 1915?",
+        "opzioni": ["Albert Einstein", "Isaac Newton", "Niels Bohr", "Max Planck"],
+        "corretta": "Albert Einstein",
+        "aiuto": "Rivoluzionò il concetto di gravità come curvatura dello spazio-tempo.",
+        "spiegazione": "La teoria fu confermata sperimentalmente durante l'eclissi solare del 1919."
+    },
+    {
+        "domanda": "Quale paese ha regalato la Statua della Libertà agli Stati Uniti?",
+        "opzioni": ["Francia", "Regno Unito", "Italia", "Spagna"],
+        "corretta": "Francia",
+        "aiuto": "Per celebrare il centenario della Dichiarazione d'Indipendenza.",
+        "spiegazione": "Progettata da Bartholdi, la struttura interna fu realizzata da Gustave Eiffel."
+    },
+    {
+        "domanda": "Chi dipinse la volta della Cappella Sistina?",
+        "opzioni": ["Michelangelo Buonarroti", "Raffaello", "Leonardo da Vinci", "Botticelli"],
+        "corretta": "Michelangelo Buonarroti",
+        "aiuto": "Impiegò quattro anni (1508-1512) lavorando su impalcature.",
+        "spiegazione": "Michelangelo inizialmente rifiutò l'incarico, considerandosi principalmente uno scultore."
+    },
+    {
+        "domanda": "Qual è il fiume più lungo del mondo (secondo la maggior parte delle fonti geografiche)?",
+        "opzioni": ["Nilo", "Rio delle Amazzoni", "Mississippi", "Fiume Azzurro"],
+        "corretta": "Nilo",
+        "aiuto": "Attraversa l'Africa nord-orientale.",
+        "spiegazione": "Sebbene ci sia un dibattito con il Rio delle Amazzoni, il Nilo è tradizionalmente considerato il più lungo con circa 6.650 km."
+    },
+    {
+        "domanda": "Quale drammaturgo scrisse 'Aspettando Godot'?",
+        "opzioni": ["Samuel Beckett", "Eugene Ionesco", "Harold Pinter", "Bertolt Brecht"],
+        "corretta": "Samuel Beckett",
+        "aiuto": "Caposaldo del Teatro dell'Assurdo.",
+        "spiegazione": "Beckett scrisse l'opera originariamente in francese ('En attendant Godot') prima di tradurla in inglese."
+    },
+    {
+        "domanda": "In quale città si trova il museo dell'Ermitage?",
+        "opzioni": ["San Pietroburgo", "Mosca", "Kiev", "Varsavia"],
+        "corretta": "San Pietroburgo",
+        "aiuto": "Fondato da Caterina la Grande.",
+        "spiegazione": "È uno dei musei più antichi e grandi del mondo, ospitato in parte nel Palazzo d'Inverno."
+    },
+    {
+        "domanda": "Quale elemento chimico ha il simbolo 'Au'?",
+        "opzioni": ["Oro", "Argento", "Alluminio", "Astato"],
+        "corretta": "Oro",
+        "aiuto": "Dal latino 'Aurum'.",
+        "spiegazione": "L'oro è un metallo nobile noto per la sua resistenza alla corrosione e la sua duttilità."
+    },
+    {
+        "domanda": "Chi fu il primo presidente degli Stati Uniti d'America?",
+        "opzioni": ["George Washington", "Thomas Jefferson", "John Adams", "Abraham Lincoln"],
+        "corretta": "George Washington",
+        "aiuto": "Eletto all'unanimità nel 1789.",
+        "spiegazione": "Washington servì per due mandati, stabilendo molti dei precedenti seguiti dai presidenti successivi."
+    },
+    {
+        "domanda": "In quale oceano si trova la Fossa delle Marianne?",
+        "opzioni": ["Oceano Pacifico", "Oceano Atlantico", "Oceano Indiano", "Mar Glaciale Artico"],
+        "corretta": "Oceano Pacifico",
+        "aiuto": "È il punto più profondo della crosta terrestre.",
+        "spiegazione": "Raggiunge una profondità di circa 10.994 metri sotto il livello del mare."
+    },
+    {
+        "domanda": "Quale scrittore russo è l'autore di 'Guerra e Pace'?",
+        "opzioni": ["Lev Tolstoj", "Fëdor Dostoevskij", "Anton Čechov", "Ivan Turgenev"],
+        "corretta": "Lev Tolstoj",
+        "aiuto": "Un monumentale affresco della società russa durante le guerre napoleoniche.",
+        "spiegazione": "Tolstoj impiegò sei anni per scrivere il romanzo, pubblicato tra il 1865 e il 1869."
+    },
+    {
+        "domanda": "Quale civiltà costruì le piramidi di Chichén Itzá?",
+        "opzioni": ["Maya", "Aztechi", "Inca", "Olmechi"],
+        "corretta": "Maya",
+        "aiuto": "Si trova nella penisola dello Yucatán.",
+        "spiegazione": "La piramide principale, El Castillo, è progettata per creare l'illusione di un serpente che scende durante gli equinozi."
+    },
+    {
+        "domanda": "Chi scoprì la penicillina nel 1928?",
+        "opzioni": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Marie Curie"],
+        "corretta": "Alexander Fleming",
+        "aiuto": "Fu una scoperta accidentale osservando una muffa.",
+        "spiegazione": "La penicillina rivoluzionò la medicina come primo vero antibiotico efficace."
+    },
+    {
+        "domanda": "Quale pianeta del sistema solare è noto come il 'Pianeta Rosso'?",
+        "opzioni": ["Marte", "Venere", "Giove", "Saturno"],
+        "corretta": "Marte",
+        "aiuto": "Il colore è dovuto all'ossido di ferro sulla sua superficie.",
+        "spiegazione": "Marte ha il vulcano più grande del sistema solare, l'Olympus Mons."
+    },
+    {
+        "domanda": "In quale anno è iniziata la Rivoluzione Francese?",
+        "opzioni": ["1789", "1776", "1799", "1804"],
+        "corretta": "1789",
+        "aiuto": "Con la presa della Bastiglia il 14 luglio.",
+        "spiegazione": "La rivoluzione portò alla fine della monarchia assoluta e alla nascita della Prima Repubblica."
+    },
+    {
+        "domanda": "Quale opera letteraria inizia con la frase 'Chiamatemi Ismaele'?",
+        "opzioni": ["Moby Dick", "Il vecchio e il mare", "L'isola del tesoro", "Ulisse"],
+        "corretta": "Moby Dick",
+        "aiuto": "Scritto da Herman Melville.",
+        "spiegazione": "Il romanzo narra la caccia ossessiva del capitano Achab alla balena bianca."
+    },
+    {
+        "domanda": "Quale paese detiene il record per il maggior numero di fusi orari (inclusi i territori d'oltremare)?",
+        "opzioni": ["Francia", "Russia", "Stati Uniti", "Cina"],
+        "corretta": "Francia",
+        "aiuto": "Grazie ai suoi numerosi territori sparsi per il globo.",
+        "spiegazione": "La Francia copre 12 diversi fusi orari, superando Russia e USA che ne hanno 11."
+    },
+    {
+        "domanda": "Chi ha dipinto 'La persistenza della memoria' (i celebri orologi molli)?",
+        "opzioni": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "René Magritte"],
+        "corretta": "Salvador Dalí",
+        "aiuto": "Esponente di punta del Surrealismo.",
+        "spiegazione": "Dalí affermò che l'idea gli venne guardando dei pezzi di formaggio Camembert che si scioglievano al sole."
+    },
+    {
+        "domanda": "Quale città fu la capitale dell'Impero Bizantino?",
+        "opzioni": ["Costantinopoli", "Roma", "Atene", "Alessandria"],
+        "corretta": "Costantinopoli",
+        "aiuto": "Oggi conosciuta come Istanbul.",
+        "spiegazione": "Cadde nelle mani dei turchi ottomani nel 1453, segnando la fine del Medioevo per molti storici."
+    },
+    {
+        "domanda": "Qual è l'animale terrestre più veloce?",
+        "opzioni": ["Ghepardo", "Leone", "Antilope", "Struzzo"],
+        "corretta": "Ghepardo",
+        "aiuto": "Può raggiungere i 110-120 km/h in brevi scatti.",
+        "spiegazione": "Il ghepardo ha un'accelerazione superiore a quella di molte auto sportive."
+    },
+    {
+        "domanda": "Chi scrisse 'Il Milione', il resoconto dei viaggi in Oriente?",
+        "opzioni": ["Marco Polo", "Cristoforo Colombo", "Amerigo Vespucci", "Ibn Battuta"],
+        "corretta": "Marco Polo",
+        "aiuto": "Dettò le sue memorie a Rustichello da Pisa mentre era in prigione.",
+        "spiegazione": "Il libro introdusse gli europei alla cultura e alle innovazioni della Cina della dinastia Yuan."
+    },
+    {
+        "domanda": "Quale scienziata scoprì il radio e il polonio?",
+        "opzioni": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Dorothy Hodgkin"],
+        "corretta": "Marie Curie",
+        "aiuto": "Fu la prima persona a vincere due premi Nobel in campi diversi.",
+        "spiegazione": "Vinse il Nobel per la Fisica nel 1903 e quello per la Chimica nel 1911."
+    },
+    {
+        "domanda": "In quale anno l'uomo è sbarcato sulla Luna per la prima volta?",
+        "opzioni": ["1969", "1961", "1972", "1965"],
+        "corretta": "1969",
+        "aiuto": "Missione Apollo 11.",
+        "spiegazione": "Neil Armstrong fu il primo a toccare il suolo lunare il 20 luglio 1969."
+    },
+    {
+        "domanda": "Quale lingua è la più parlata al mondo per numero di madrelingua?",
+        "opzioni": ["Cinese Mandarino", "Inglese", "Spagnolo", "Hindi"],
+        "corretta": "Cinese Mandarino",
+        "aiuto": "Oltre 900 milioni di persone.",
+        "spiegazione": "L'inglese è la più parlata in totale (includendo chi la parla come seconda lingua), ma il mandarino vince per i madrelingua."
+    },
+    {
+        "domanda": "Chi è l'autore della tragedia 'Amleto'?",
+        "opzioni": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Webster"],
+        "corretta": "William Shakespeare",
+        "aiuto": "Contiene il celebre monologo 'Essere o non essere'.",
+        "spiegazione": "È la tragedia più lunga di Shakespeare e una delle più influenti della letteratura mondiale."
+    },
+    {
+        "domanda": "Quale deserto è il più vasto del mondo (includendo quelli freddi)?",
+        "opzioni": ["Deserto Antartico", "Sahara", "Gobi", "Deserto Arabico"],
+        "corretta": "Deserto Antartico",
+        "aiuto": "Un deserto è definito dalla scarsità di precipitazioni, non dalla temperatura.",
+        "spiegazione": "L'Antartide è tecnicamente un deserto e copre circa 14 milioni di km quadrati."
+    },
+    {
+        "domanda": "Quale architetto progettò la Sagrada Família a Barcellona?",
+        "opzioni": ["Antoni Gaudí", "Le Corbusier", "Frank Lloyd Wright", "Ludwig Mies van der Rohe"],
+        "corretta": "Antoni Gaudí",
+        "aiuto": "L'opera è ancora incompiuta dopo oltre 140 anni.",
+        "spiegazione": "Gaudí dedicò gli ultimi anni della sua vita esclusivamente a questo progetto, fondendo stili gotici e curvilinei."
+    },
+    {
+        "domanda": "Quale strumento musicale è associato a Niccolò Paganini?",
+        "opzioni": ["Violino", "Pianoforte", "Violoncello", "Chitarra"],
+        "corretta": "Violino",
+        "aiuto": "Era soprannominato 'il violinista del diavolo' per il suo virtuosismo.",
+        "spiegazione": "Paganini compose i celebri '24 Capricci' che ancora oggi rappresentano una sfida per ogni violinista."
+    },
+    {
+        "domanda": "In quale città si trova la sede della Corte Internazionale di Giustizia?",
+        "opzioni": ["L'Aia", "Bruxelles", "Strasburgo", "Lussemburgo"],
+        "corretta": "L'Aia",
+        "aiuto": "Si trova nei Paesi Bassi.",
+        "spiegazione": "Ha sede nel Palazzo della Pace ed è il principale organo giudiziario delle Nazioni Unite."
+    },
+    {
+        "domanda": "Quale esploratore guidò la prima spedizione a raggiungere il Polo Sud nel 1911?",
+        "opzioni": ["Roald Amundsen", "Robert Falcon Scott", "Ernest Shackleton", "Richard Byrd"],
+        "corretta": "Roald Amundsen",
+        "aiuto": "Esploratore norvegese.",
+        "spiegazione": "Amundsen arrivò al polo solo 34 giorni prima della sfortunata spedizione di Scott."
+    },
+    {
+        "domanda": "Quale opera di George Orwell descrive una società distopica dominata dal 'Grande Fratello'?",
+        "opzioni": ["1984", "La fattoria degli animali", "Omaggio alla Catalogna", "Senza un soldo a Parigi e Londra"],
+        "corretta": "1984",
+        "aiuto": "Pubblicato nel 1949.",
+        "spiegazione": "Il romanzo ha introdotto termini come 'psicoreato' e 'neolingua' nel vocabolario comune."
+    },
+    {
+        "domanda": "Qual è il metallo più abbondante nella crosta terrestre?",
+        "opzioni": ["Alluminio", "Ferro", "Magnesio", "Rame"],
+        "corretta": "Alluminio",
+        "aiuto": "Costituisce circa l'8% della crosta.",
+        "spiegazione": "Sebbene il ferro sia più abbondante nel nucleo, l'alluminio è il metallo più comune nello strato superficiale."
+    },
+    {
+        "domanda": "Quale sovrano europeo fu l'ultimo a detenere il titolo di 'Imperatore dei Romani' prima della dissoluzione del Sacro Romano Impero nel 1806?",
+        "opzioni": ["Francesco II", "Leopoldo II", "Giuseppe II", "Carlo VI"],
+        "corretta": "Francesco II",
+        "aiuto": "Divenne poi Francesco I d'Austria.",
+        "spiegazione": "Francesco II sciolse l'impero per evitare che Napoleone potesse reclamarne il titolo dopo la creazione della Confederazione del Reno."
+    },
+    {
+        "domanda": "In quale città si trova la 'Sede delle Nazioni Unite' progettata da un team che includeva Le Corbusier e Oscar Niemeyer?",
+        "opzioni": ["New York", "Ginevra", "Vienna", "Nairobi"],
+        "corretta": "New York",
+        "aiuto": "Si affaccia sull'East River.",
+        "spiegazione": "Sebbene si trovi a New York, il terreno su cui sorge è considerato territorio internazionale."
+    },
+    {
+        "domanda": "Quale filosofo greco è considerato il fondatore dello Stoicismo?",
+        "opzioni": ["Zeno di Cizio", "Epicuro", "Epitteto", "Marco Aurelio"],
+        "corretta": "Zeno di Cizio",
+        "aiuto": "Insegnava sotto la 'Stoa Poikile'.",
+        "spiegazione": "Zeno iniziò a insegnare ad Atene intorno al 300 a.C.; il nome deriva dal portico dipinto (Stoa) dove si riuniva con i discepoli."
+    },
+    {
+        "domanda": "Qual è l'unico elemento della tavola periodica che prende il nome da una scienziata donna (non derivato da un luogo o un mito)?",
+        "opzioni": ["Meitnerio", "Curio", "Bohrio", "Radio"],
+        "corretta": "Meitnerio",
+        "aiuto": "In onore di Lise Meitner.",
+        "spiegazione": "Il Curio prende il nome da entrambi i coniugi Curie, mentre il Meitnerio (elemento 109) è l'unico dedicato esclusivamente a una donna."
+    },
+    {
+        "domanda": "Chi scrisse il poema epico 'Il Paradiso Perduto' (Paradise Lost)?",
+        "opzioni": ["John Milton", "Dante Alighieri", "Geoffrey Chaucer", "William Blake"],
+        "corretta": "John Milton",
+        "aiuto": "Scritto nel XVII secolo, tratta della caduta dell'uomo.",
+        "spiegazione": "Milton dettò l'opera mentre era completamente cieco, completandola nel 1667."
+    },
+    {
+        "domanda": "Quale evento del 1911 portò alla riscoperta 'scientifica' di Machu Picchu da parte di Hiram Bingham?",
+        "opzioni": ["Una spedizione dell'Università di Yale", "La costruzione di una ferrovia", "Un terremoto", "Una ricerca mineraria"],
+        "corretta": "Una spedizione dell'Università di Yale",
+        "aiuto": "Bingham era uno storico di Yale.",
+        "spiegazione": "Sebbene i locali conoscessero il sito, Bingham lo portò all'attenzione internazionale, credendo erroneamente fosse Vilcabamba."
+    },
+    {
+        "domanda": "Quale compositore russo scrisse la suite sinfonica 'Sheherazade'?",
+        "opzioni": ["Nikolai Rimsky-Korsakov", "Pyotr Ilyich Tchaikovsky", "Modest Mussorgsky", "Sergei Rachmaninoff"],
+        "corretta": "Nikolai Rimsky-Korsakov",
+        "aiuto": "Basata su 'Le mille e una notte'.",
+        "spiegazione": "L'opera è celebre per la sua orchestrazione brillante e il tema del violino che rappresenta la narratrice."
+    },
+    {
+        "domanda": "In quale anno è stato firmato il Trattato di Tordesillas, che divise le terre fuori dall'Europa tra Spagna e Portogallo?",
+        "opzioni": ["1494", "1492", "1500", "1488"],
+        "corretta": "1494",
+        "aiuto": "Due anni dopo il primo viaggio di Colombo.",
+        "spiegazione": "Il trattato spostò la linea di demarcazione stabilita dal Papa, permettendo al Portogallo di rivendicare il Brasile."
+    },
+    {
+        "domanda": "Quale artista rinascimentale dipinse la 'Scuola di Atene' nelle Stanze Vaticane?",
+        "opzioni": ["Raffaello Sanzio", "Michelangelo", "Leonardo da Vinci", "Donatello"],
+        "corretta": "Raffaello Sanzio",
+        "aiuto": "Raffigura i più celebri filosofi dell'antichità.",
+        "spiegazione": "Raffaello incluse i ritratti di suoi contemporanei (come Leonardo e Michelangelo) nelle vesti dei filosofi greci."
+    },
+    {
+        "domanda": "Qual è la capitale amministrativa del Sudafrica?",
+        "opzioni": ["Pretoria", "Città del Capo", "Bloemfontein", "Johannesburg"],
+        "corretta": "Pretoria",
+        "aiuto": "Il Sudafrica ha tre capitali.",
+        "spiegazione": "Pretoria è la capitale amministrativa, Città del Capo quella legislativa e Bloemfontein quella giudiziaria."
+    },
+    {
+        "domanda": "Chi fu il primo uomo a circumnavigare il globo (completando il viaggio, anche se il leader morì a metà)?",
+        "opzioni": ["Juan Sebastián Elcano", "Ferdinando Magellano", "Vasco da Gama", "Francis Drake"],
+        "corretta": "Juan Sebastián Elcano",
+        "aiuto": "Prese il comando dopo la morte di Magellano nelle Filippine.",
+        "spiegazione": "Magellano morì nel 1521; Elcano riportò la nave 'Victoria' in Spagna nel 1522 con soli 18 sopravvissuti."
+    },
+    {
+        "domanda": "Quale gas costituisce circa il 78% dell'atmosfera terrestre?",
+        "opzioni": ["Azoto", "Ossigeno", "Argon", "Anidride Carbonica"],
+        "corretta": "Azoto",
+        "aiuto": "È un gas inerte fondamentale per il ciclo biologico.",
+        "spiegazione": "L'ossigeno rappresenta circa il 21%, mentre l'argon è il terzo gas più abbondante (circa lo 0,9%)."
+    },
+    {
+        "domanda": "In quale battaglia del 1815 Napoleone Bonaparte fu definitivamente sconfitto?",
+        "opzioni": ["Waterloo", "Lipsia", "Austerlitz", "Borodino"],
+        "corretta": "Waterloo",
+        "aiuto": "Si svolse nell'attuale Belgio.",
+        "spiegazione": "La sconfitta contro le forze di Wellington e Blücher segnò la fine dei 'Cento Giorni' e l'esilio a Sant'Elena."
+    },
+    {
+        "domanda": "Quale scrittore creò il detective belga Hercule Poirot?",
+        "opzioni": ["Agatha Christie", "Arthur Conan Doyle", "Georges Simenon", "Raymond Chandler"],
+        "corretta": "Agatha Christie",
+        "aiuto": "Apparve per la prima volta in 'Poirot a Styles Court'.",
+        "spiegazione": "Christie scrisse 33 romanzi e oltre 50 racconti con protagonista Poirot tra il 1920 e il 1975."
+    },
+    {
+        "domanda": "Quale città-stato greca vinse la Guerra del Peloponneso?",
+        "opzioni": ["Sparta", "Atene", "Tebe", "Corinto"],
+        "corretta": "Sparta",
+        "aiuto": "Grazie al supporto persiano e alla flotta di Lisandro.",
+        "spiegazione": "La guerra terminò nel 404 a.C. con la resa di Atene e l'instaurazione del regime dei Trenta Tiranni."
+    },
+    {
+        "domanda": "Chi è l'autore del celebre dipinto 'L'urlo'?",
+        "opzioni": ["Edvard Munch", "Vincent van Gogh", "Gustav Klimt", "Claude Monet"],
+        "corretta": "Edvard Munch",
+        "aiuto": "Artista espressionista norvegese.",
+        "spiegazione": "Munch realizzò diverse versioni dell'opera tra il 1893 e il 1910, usando vari materiali."
+    },
+    {
+        "domanda": "Quale imperatore romano legalizzò il cristianesimo con l'Editto di Milano nel 313 d.C.?",
+        "opzioni": ["Costantino il Grande", "Teodosio I", "Nerone", "Marco Aurelio"],
+        "corretta": "Costantino il Grande",
+        "aiuto": "Fu anche il fondatore di Costantinopoli.",
+        "spiegazione": "L'editto garantì la libertà di culto; fu solo con Teodosio nel 380 che il cristianesimo divenne religione di stato."
+    },
+    {
+        "domanda": "Qual è l'osso più lungo del corpo umano?",
+        "opzioni": ["Femore", "Tibia", "Omero", "Radio"],
+        "corretta": "Femore",
+        "aiuto": "Si trova nella coscia.",
+        "spiegazione": "Il femore è non solo il più lungo ma anche l'osso più forte e pesante del corpo umano."
+    },
+    {
+        "domanda": "In quale anno è caduto il Muro di Berlino?",
+        "opzioni": ["1989", "1991", "1987", "1990"],
+        "corretta": "1989",
+        "aiuto": "Il 9 novembre.",
+        "spiegazione": "La caduta segnò simbolicamente la fine della Guerra Fredda e l'inizio del processo di riunificazione tedesca."
+    },
+    {
+        "domanda": "Quale scienziato formulò la teoria della relatività generale nel 1915?",
+        "opzioni": ["Albert Einstein", "Isaac Newton", "Niels Bohr", "Max Planck"],
+        "corretta": "Albert Einstein",
+        "aiuto": "Rivoluzionò il concetto di gravità come curvatura dello spazio-tempo.",
+        "spiegazione": "La teoria fu confermata sperimentalmente durante l'eclissi solare del 1919."
+    },
+    {
+        "domanda": "Quale paese ha regalato la Statua della Libertà agli Stati Uniti?",
+        "opzioni": ["Francia", "Regno Unito", "Italia", "Spagna"],
+        "corretta": "Francia",
+        "aiuto": "Per celebrare il centenario della Dichiarazione d'Indipendenza.",
+        "spiegazione": "Progettata da Bartholdi, la struttura interna fu realizzata da Gustave Eiffel."
+    },
+    {
+        "domanda": "Chi dipinse la volta della Cappella Sistina?",
+        "opzioni": ["Michelangelo Buonarroti", "Raffaello", "Leonardo da Vinci", "Botticelli"],
+        "corretta": "Michelangelo Buonarroti",
+        "aiuto": "Impiegò quattro anni (1508-1512) lavorando su impalcature.",
+        "spiegazione": "Michelangelo inizialmente rifiutò l'incarico, considerandosi principalmente uno scultore."
+    },
+    {
+        "domanda": "Qual è il fiume più lungo del mondo (secondo la maggior parte delle fonti geografiche)?",
+        "opzioni": ["Nilo", "Rio delle Amazzoni", "Mississippi", "Fiume Azzurro"],
+        "corretta": "Nilo",
+        "aiuto": "Attraversa l'Africa nord-orientale.",
+        "spiegazione": "Sebbene ci sia un dibattito con il Rio delle Amazzoni, il Nilo è tradizionalmente considerato il più lungo con circa 6.650 km."
+    },
+    {
+        "domanda": "Quale drammaturgo scrisse 'Aspettando Godot'?",
+        "opzioni": ["Samuel Beckett", "Eugene Ionesco", "Harold Pinter", "Bertolt Brecht"],
+        "corretta": "Samuel Beckett",
+        "aiuto": "Caposaldo del Teatro dell'Assurdo.",
+        "spiegazione": "Beckett scrisse l'opera originariamente in francese ('En attendant Godot') prima di tradurla in inglese."
+    },
+    {
+        "domanda": "In quale città si trova il museo dell'Ermitage?",
+        "opzioni": ["San Pietroburgo", "Mosca", "Kiev", "Varsavia"],
+        "corretta": "San Pietroburgo",
+        "aiuto": "Fondato da Caterina la Grande.",
+        "spiegazione": "È uno dei musei più antichi e grandi del mondo, ospitato in parte nel Palazzo d'Inverno."
+    },
+    {
+        "domanda": "Quale elemento chimico ha il simbolo 'Au'?",
+        "opzioni": ["Oro", "Argento", "Alluminio", "Astato"],
+        "corretta": "Oro",
+        "aiuto": "Dal latino 'Aurum'.",
+        "spiegazione": "L'oro è un metallo nobile noto per la sua resistenza alla corrosione e la sua duttilità."
+    },
+    {
+        "domanda": "Chi fu il primo presidente degli Stati Uniti d'America?",
+        "opzioni": ["George Washington", "Thomas Jefferson", "John Adams", "Abraham Lincoln"],
+        "corretta": "George Washington",
+        "aiuto": "Eletto all'unanimità nel 1789.",
+        "spiegazione": "Washington servì per due mandati, stabilendo molti dei precedenti seguiti dai presidenti successivi."
+    },
+    {
+        "domanda": "In quale oceano si trova la Fossa delle Marianne?",
+        "opzioni": ["Oceano Pacifico", "Oceano Atlantico", "Oceano Indiano", "Mar Glaciale Artico"],
+        "corretta": "Oceano Pacifico",
+        "aiuto": "È il punto più profondo della crosta terrestre.",
+        "spiegazione": "Raggiunge una profondità di circa 10.994 metri sotto il livello del mare."
+    },
+    {
+        "domanda": "Quale scrittore russo è l'autore di 'Guerra e Pace'?",
+        "opzioni": ["Lev Tolstoj", "Fëdor Dostoevskij", "Anton Čechov", "Ivan Turgenev"],
+        "corretta": "Lev Tolstoj",
+        "aiuto": "Un monumentale affresco della società russa durante le guerre napoleoniche.",
+        "spiegazione": "Tolstoj impiegò sei anni per scrivere il romanzo, pubblicato tra il 1865 e il 1869."
+    },
+    {
+        "domanda": "Quale civiltà costruì le piramidi di Chichén Itzá?",
+        "opzioni": ["Maya", "Aztechi", "Inca", "Olmechi"],
+        "corretta": "Maya",
+        "aiuto": "Si trova nella penisola dello Yucatán.",
+        "spiegazione": "La piramide principale, El Castillo, è progettata per creare l'illusione di un serpente che scende durante gli equinozi."
+    },
+    {
+        "domanda": "Chi scoprì la penicillina nel 1928?",
+        "opzioni": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Marie Curie"],
+        "corretta": "Alexander Fleming",
+        "aiuto": "Fu una scoperta accidentale osservando una muffa.",
+        "spiegazione": "La penicillina rivoluzionò la medicina come primo vero antibiotico efficace."
+    },
+    {
+        "domanda": "Quale pianeta del sistema solare è noto come il 'Pianeta Rosso'?",
+        "opzioni": ["Marte", "Venere", "Giove", "Saturno"],
+        "corretta": "Marte",
+        "aiuto": "Il colore è dovuto all'ossido di ferro sulla sua superficie.",
+        "spiegazione": "Marte ha il vulcano più grande del sistema solare, l'Olympus Mons."
+    },
+    {
+        "domanda": "In quale anno è iniziata la Rivoluzione Francese?",
+        "opzioni": ["1789", "1776", "1799", "1804"],
+        "corretta": "1789",
+        "aiuto": "Con la presa della Bastiglia il 14 luglio.",
+        "spiegazione": "La rivoluzione portò alla fine della monarchia assoluta e alla nascita della Prima Repubblica."
+    },
+    {
+        "domanda": "Quale opera letteraria inizia con la frase 'Chiamatemi Ismaele'?",
+        "opzioni": ["Moby Dick", "Il vecchio e il mare", "L'isola del tesoro", "Ulisse"],
+        "corretta": "Moby Dick",
+        "aiuto": "Scritto da Herman Melville.",
+        "spiegazione": "Il romanzo narra la caccia ossessiva del capitano Achab alla balena bianca."
+    },
+    {
+        "domanda": "Quale paese detiene il record per il maggior numero di fusi orari (inclusi i territori d'oltremare)?",
+        "opzioni": ["Francia", "Russia", "Stati Uniti", "Cina"],
+        "corretta": "Francia",
+        "aiuto": "Grazie ai suoi numerosi territori sparsi per il globo.",
+        "spiegazione": "La Francia copre 12 diversi fusi orari, superando Russia e USA che ne hanno 11."
+    },
+    {
+        "domanda": "Chi ha dipinto 'La persistenza della memoria' (i celebri orologi molli)?",
+        "opzioni": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "René Magritte"],
+        "corretta": "Salvador Dalí",
+        "aiuto": "Esponente di punta del Surrealismo.",
+        "spiegazione": "Dalí affermò che l'idea gli venne guardando dei pezzi di formaggio Camembert che si scioglievano al sole."
+    },
+    {
+        "domanda": "Quale città fu la capitale dell'Impero Bizantino?",
+        "opzioni": ["Costantinopoli", "Roma", "Atene", "Alessandria"],
+        "corretta": "Costantinopoli",
+        "aiuto": "Oggi conosciuta come Istanbul.",
+        "spiegazione": "Cadde nelle mani dei turchi ottomani nel 1453, segnando la fine del Medioevo per molti storici."
+    },
+    {
+        "domanda": "Qual è l'animale terrestre più veloce?",
+        "opzioni": ["Ghepardo", "Leone", "Antilope", "Struzzo"],
+        "corretta": "Ghepardo",
+        "aiuto": "Può raggiungere i 110-120 km/h in brevi scatti.",
+        "spiegazione": "Il ghepardo ha un'accelerazione superiore a quella di molte auto sportive."
+    },
+    {
+        "domanda": "Chi scrisse 'Il Milione', il resoconto dei viaggi in Oriente?",
+        "opzioni": ["Marco Polo", "Cristoforo Colombo", "Amerigo Vespucci", "Ibn Battuta"],
+        "corretta": "Marco Polo",
+        "aiuto": "Dettò le sue memorie a Rustichello da Pisa mentre era in prigione.",
+        "spiegazione": "Il libro introdusse gli europei alla cultura e alle innovazioni della Cina della dinastia Yuan."
+    },
+    {
+        "domanda": "Quale scienziata scoprì il radio e il polonio?",
+        "opzioni": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Dorothy Hodgkin"],
+        "corretta": "Marie Curie",
+        "aiuto": "Fu la prima persona a vincere due premi Nobel in campi diversi.",
+        "spiegazione": "Vinse il Nobel per la Fisica nel 1903 e quello per la Chimica nel 1911."
+    },
+    {
+        "domanda": "In quale anno l'uomo è sbarcato sulla Luna per la prima volta?",
+        "opzioni": ["1969", "1961", "1972", "1965"],
+        "corretta": "1969",
+        "aiuto": "Missione Apollo 11.",
+        "spiegazione": "Neil Armstrong fu il primo a toccare il suolo lunare il 20 luglio 1969."
+    },
+    {
+        "domanda": "Quale lingua è la più parlata al mondo per numero di madrelingua?",
+        "opzioni": ["Cinese Mandarino", "Inglese", "Spagnolo", "Hindi"],
+        "corretta": "Cinese Mandarino",
+        "aiuto": "Oltre 900 milioni di persone.",
+        "spiegazione": "L'inglese è la più parlata in totale (includendo chi la parla come seconda lingua), ma il mandarino vince per i madrelingua."
+    },
+    {
+        "domanda": "Chi è l'autore della tragedia 'Amleto'?",
+        "opzioni": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Webster"],
+        "corretta": "William Shakespeare",
+        "aiuto": "Contiene il celebre monologo 'Essere o non essere'.",
+        "spiegazione": "È la tragedia più lunga di Shakespeare e una delle più influenti della letteratura mondiale."
+    },
+    {
+        "domanda": "Quale deserto è il più vasto del mondo (includendo quelli freddi)?",
+        "opzioni": ["Deserto Antartico", "Sahara", "Gobi", "Deserto Arabico"],
+        "corretta": "Deserto Antartico",
+        "aiuto": "Un deserto è definito dalla scarsità di precipitazioni, non dalla temperatura.",
+        "spiegazione": "L'Antartide è tecnicamente un deserto e copre circa 14 milioni di km quadrati."
+    },
+    {
+        "domanda": "Quale architetto progettò la Sagrada Família a Barcellona?",
+        "opzioni": ["Antoni Gaudí", "Le Corbusier", "Frank Lloyd Wright", "Ludwig Mies van der Rohe"],
+        "corretta": "Antoni Gaudí",
+        "aiuto": "L'opera è ancora incompiuta dopo oltre 140 anni.",
+        "spiegazione": "Gaudí dedicò gli ultimi anni della sua vita esclusivamente a questo progetto, fondendo stili gotici e curvilinei."
+    },
+    {
+        "domanda": "Quale strumento musicale è associato a Niccolò Paganini?",
+        "opzioni": ["Violino", "Pianoforte", "Violoncello", "Chitarra"],
+        "corretta": "Violino",
+        "aiuto": "Era soprannominato 'il violinista del diavolo' per il suo virtuosismo.",
+        "spiegazione": "Paganini compose i celebri '24 Capricci' che ancora oggi rappresentano una sfida per ogni violinista."
+    },
+    {
+        "domanda": "In quale città si trova la sede della Corte Internazionale di Giustizia?",
+        "opzioni": ["L'Aia", "Bruxelles", "Strasburgo", "Lussemburgo"],
+        "corretta": "L'Aia",
+        "aiuto": "Si trova nei Paesi Bassi.",
+        "spiegazione": "Ha sede nel Palazzo della Pace ed è il principale organo giudiziario delle Nazioni Unite."
+    },
+    {
+        "domanda": "Quale esploratore guidò la prima spedizione a raggiungere il Polo Sud nel 1911?",
+        "opzioni": ["Roald Amundsen", "Robert Falcon Scott", "Ernest Shackleton", "Richard Byrd"],
+        "corretta": "Roald Amundsen",
+        "aiuto": "Esploratore norvegese.",
+        "spiegazione": "Amundsen arrivò al polo solo 34 giorni prima della sfortunata spedizione di Scott."
+    },
+    {
+        "domanda": "Quale opera di George Orwell descrive una società distopica dominata dal 'Grande Fratello'?",
+        "opzioni": ["1984", "La fattoria degli animali", "Omaggio alla Catalogna", "Senza un soldo a Parigi e Londra"],
+        "corretta": "1984",
+        "aiuto": "Pubblicato nel 1949.",
+        "spiegazione": "Il romanzo ha introdotto termini come 'psicoreato' e 'neolingua' nel vocabolario comune."
+    },
+    {
+        "domanda": "Qual è il metallo più abbondante nella crosta terrestre?",
+        "opzioni": ["Alluminio", "Ferro", "Magnesio", "Rame"],
+        "corretta": "Alluminio",
+        "aiuto": "Costituisce circa l'8% della crosta.",
+        "spiegazione": "Sebbene il ferro sia più abbondante nel nucleo, l'alluminio è il metallo più comune nello strato superficiale."
     }
 ]
+
