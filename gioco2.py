@@ -25,7 +25,15 @@ def salva_fatta_smartphone(dom):
     f = list(carica_fatte_smartphone())
     if dom not in f:
         f.append(dom)
-        ls.set("fatte_mobile", f)
+        def salva_fatta_smartphone(dom):
+    try:
+        f = list(carica_fatte_smartphone())
+        if dom not in f:
+            f.append(dom)
+            ls.set("fatte_mobile", f)
+    except:
+        # Se il salvataggio fallisce, non fare nulla e non crashare
+        pass
 
 # --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
@@ -173,6 +181,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
