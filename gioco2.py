@@ -31,7 +31,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- CARICAMENTO MODULI ---
+# --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
 importlib.reload(sport)
 importlib.reload(calcio)
@@ -41,34 +41,25 @@ importlib.reload(musica)
 
 st.cache_data.clear()
 
-# 2. CSS - Pulizia Interfaccia (Aggressive CSS) e Layout
+# 2. CSS
 st.markdown("""
     <style>
-    /* Layout originale */
-    [data-testid="stVerticalBlock"] { gap: 0.1rem !important; }
+    [data-testid="stVerticalBlock"] { gap: 0,1rem !important; }
     [data-testid="stHorizontalBlock"] { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; gap: 4px !important; }
     [data-testid="column"] { flex: 1 !important; min-width: 0px !important; padding: 0px !important; }
     [data-testid="stButton"] { text-align: center; margin-bottom: 0px !important; }
     .stButton button { width: 100% !important; height: 2.0em !important; min-height: 2.0em !important; padding: 0px 5px !important; font-size: 14px !important; border-radius: 4px !important; margin: 0px !important; }
     [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 1px !important; }
     .centered { text-align: center; }
+    header { background-color: transparent !important; height: 2rem !important; }
+    .stAppDeployButton, [data-testid="stStatusWidget"], .stActionButton { display: none !important; }
+    footer { visibility: hidden; }
     .block-container { padding: 0rem 0.5rem !important; }
     hr { margin-top: 2px !important; margin-bottom: 2px !important; }
-
-    /* Surgical CSS richiesto per pulire l'interfaccia */
-    #MainMenu {visibility: hidden;}
-    footer {display: none !important;}
-    header {visibility: hidden;}
-    button[data-testid="stSidebarCollapseButton"] {
-        visibility: visible !important;
-        display: block !important;
-    }
-    .stDeployButton {display:none !important;}
-    [data-testid="stAppShareMenu"] {display:none !important;}
     </style>
     """, unsafe_allow_html=True)
 
-# --- LOGICA DI GIOCO E GESTIONE STATO ---
+# --- LOGICA DI GIOCO ---
 if 'indice' not in st.session_state: st.session_state.indice = 0
 if 'fine' not in st.session_state: st.session_state.fine = False
 if 'game_over' not in st.session_state: st.session_state.game_over = False
@@ -83,7 +74,6 @@ premi = [10000, 20000, 30000, 50000, 70000, 100000, 150000, 200000, 300000, 1000
 
 scelta = st.sidebar.selectbox("Scegli:", ["Cultura Generale", "Sport Generale", "Calcio", "Cinema", "Intrattenimento Generale", "Musica"])
 
-# Tasto per azzerare il progresso
 if st.sidebar.button("Reset Progress"):
     st.session_state.answered_questions = []
     save_progress()
@@ -92,16 +82,13 @@ if st.sidebar.button("Reset Progress"):
 mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
 
 lista_completa = mappa_domande[scelta].copy()
-# Escludi le domande già risposte
 domande_disponibili = [d for d in lista_completa if d['domanda'] not in st.session_state.answered_questions]
 
-# Se le domande sono finite per questa categoria, resetta solo questa categoria
 if len(domande_disponibili) < 10:
     st.session_state.answered_questions = [q for q in st.session_state.answered_questions if q not in [x['domanda'] for x in lista_completa]]
     save_progress()
     domande_disponibili = lista_completa.copy()
 
-# Indicatore visivo
 st.sidebar.markdown(f"**Domande rimanenti: {len(domande_disponibili)}**")
 
 if 'argomento_attuale' not in st.session_state or st.session_state.argomento_attuale != scelta:
@@ -147,7 +134,6 @@ if not st.session_state.fine:
                 st.rerun()
         with c2:
             if st.button("🔄", disabled=st.session_state.usato_cambio, use_container_width=True):
-                # Segna come risposto in caso di cambio domanda in modo da non ripescarla
                 if attuale["domanda"] not in st.session_state.answered_questions:
                     st.session_state.answered_questions.append(attuale["domanda"])
                     save_progress()
@@ -166,7 +152,6 @@ if not st.session_state.fine:
             r_col1, r_col2 = st.columns(2)
             with r_col1:
                 if st.button(opz[i], key=f"a_{i}", use_container_width=True):
-                    # Salvataggio progressi SOLO DOPO che l'utente ha risposto
                     if attuale["domanda"] not in st.session_state.answered_questions:
                         st.session_state.answered_questions.append(attuale["domanda"])
                         save_progress()
@@ -181,7 +166,6 @@ if not st.session_state.fine:
             with r_col2:
                 if i + 1 < len(opz):
                     if st.button(opz[i+1], key=f"a_{i+1}", use_container_width=True):
-                        # Salvataggio progressi SOLO DOPO che l'utente ha risposto
                         if attuale["domanda"] not in st.session_state.answered_questions:
                             st.session_state.answered_questions.append(attuale["domanda"])
                             save_progress()
