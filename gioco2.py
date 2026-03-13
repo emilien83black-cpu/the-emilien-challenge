@@ -15,10 +15,10 @@ st.markdown(
 )
 
 # Inizializza memoria browser
-ls = LocalStorage()
+ls = st.context.cookies
 
 def carica_fatte_smartphone():
-    f = ls.get("fatte_mobile") if ls is not None else None
+    f = ls.get("fatte_mobile")
     return set(f) if f else set()
 
 def salva_fatta_smartphone(dom):
@@ -171,6 +171,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
