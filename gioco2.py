@@ -11,7 +11,7 @@ st.markdown(
     """
     <link rel="manifest" href="./manifest.json?v=6">
     """,
-    unsafe_allow_True=True
+    unsafe_allow_html=True
 )
 
 # Inizializza memoria browser
@@ -26,6 +26,17 @@ def salva_fatta_smartphone(dom):
     if dom not in f:
         f.append(dom)
         ls.set("fatte_mobile", f)
+
+# --- LOGICA DI SELEZIONE ---
+fatte = carica_fatte_smartphone()
+tutte_domande = culturagenerale.domande
+disponibili = [d for d in tutte_domande if d['domanda'] not in fatte]
+
+if disponibili:
+    attuale = random.choice(disponibles)
+else:
+    st.write("Hai completato tutte le domande!")
+    attuale = None
 
 # --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
@@ -154,6 +165,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
