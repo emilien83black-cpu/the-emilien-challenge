@@ -133,28 +133,31 @@ if not st.session_state.fine:
         opz = st.session_state.opzioni_ridotte if st.session_state.opzioni_ridotte else attuale["opzioni"]
         
         for i in range(0, len(opz), 2):
-            r_col1, r_col2 = st.columns(2)
-            with r_col1:
-                if st.button(opz[i], key=f"a_{i}", use_container_width=True):
-                    if opz[i] == attuale["corretta"]:
-                        st.session_state.indice += 1
-                        st.session_state.opzioni_ridotte = None
-                        if st.session_state.indice >= 10: st.session_state.fine = True
-                        st.rerun()
-                    else:
-                        st.session_state.mostra_errore = True
-                        st.rerun()
-            with r_col2:
-                if i + 1 < len(opz):
-                    if st.button(opz[i+1], key=f"a_{i+1}", use_container_width=True):
-                        if opz[i+1] == attuale["corretta"]:
-                            st.session_state.indice += 1
-                            st.session_state.opzioni_ridotte = None
-                            if st.session_state.indice >= 10: st.session_state.fine = True
-                            st.rerun()
-                        else:
-                            st.session_state.mostra_errore = True
-                            st.rerun()
+    r_col1, r_col2 = st.columns(2)
+    with r_col1:
+        if st.button(opz[i], key=f"a_{i}", use_container_width=True):
+            if opz[i] == attuale["corretta"]:
+                salva_fatta_smartphone(attuale['domanda'])
+                st.session_state.indice += 1
+                st.session_state.opzioni_ridotte = None
+                if st.session_state.indice >= 10: st.session_state.fine = True
+                st.rerun()
+            else:
+                st.session_state.mostra_errore = True
+                st.rerun()
+    
+    with r_col2:
+        if i + 1 < len(opz):
+            if st.button(opz[i+1], key=f"a_{i+1}", use_container_width=True):
+                if opz[i+1] == attuale["corretta"]:
+                    salva_fatta_smartphone(attuale['domanda'])
+                    st.session_state.indice += 1
+                    st.session_state.opzioni_ridotte = None
+                    if st.session_state.indice >= 10: st.session_state.fine = True
+                    st.rerun()
+                else:
+                    st.session_state.mostra_errore = True
+                    st.rerun()
 
         st.markdown(f"<div style='background-color: #000; padding: 10px; border-radius: 5px; text-align: center; border: 1px solid gold; margin-top: 10px;'>Vincita: {premi[st.session_state.indice]}€</div>", unsafe_allow_html=True)
 
@@ -165,6 +168,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
