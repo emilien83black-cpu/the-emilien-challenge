@@ -31,7 +31,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- RESTO DEL CODICE ---
+# --- CARICAMENTO MODULI ---
 importlib.reload(culturagenerale)
 importlib.reload(sport)
 importlib.reload(calcio)
@@ -41,7 +41,7 @@ importlib.reload(musica)
 
 st.cache_data.clear()
 
-# 2. CSS - Pulizia Interfaccia (Surgical CSS) e Layout
+# 2. CSS - Pulizia Interfaccia (Aggressive CSS) e Layout
 st.markdown("""
     <style>
     /* Layout originale */
@@ -52,19 +52,23 @@ st.markdown("""
     .stButton button { width: 100% !important; height: 2.0em !important; min-height: 2.0em !important; padding: 0px 5px !important; font-size: 14px !important; border-radius: 4px !important; margin: 0px !important; }
     [data-testid="stVerticalBlock"] > div { padding-bottom: 0px !important; margin-bottom: 1px !important; }
     .centered { text-align: center; }
-    header { background-color: transparent !important; height: 2rem !important; }
     .block-container { padding: 0rem 0.5rem !important; }
     hr { margin-top: 2px !important; margin-bottom: 2px !important; }
 
     /* Surgical CSS richiesto per pulire l'interfaccia */
     #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    [data-testid="stAppShareMenu"] {display: none;}
-    .stAppDeployButton {display: none;}
+    footer {display: none !important;}
+    header {visibility: hidden;}
+    button[data-testid="stSidebarCollapseButton"] {
+        visibility: visible !important;
+        display: block !important;
+    }
+    .stDeployButton {display:none !important;}
+    [data-testid="stAppShareMenu"] {display:none !important;}
     </style>
     """, unsafe_allow_html=True)
 
-# --- LOGICA DI GIOCO ---
+# --- LOGICA DI GIOCO E GESTIONE STATO ---
 if 'indice' not in st.session_state: st.session_state.indice = 0
 if 'fine' not in st.session_state: st.session_state.fine = False
 if 'game_over' not in st.session_state: st.session_state.game_over = False
