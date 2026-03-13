@@ -70,6 +70,8 @@ premi = [10000, 20000, 30000, 50000, 70000, 100000, 150000, 200000, 300000, 1000
 scelta = st.sidebar.selectbox("Scegli:", ["Cultura Generale", "Sport Generale", "Calcio", "Cinema", "Intrattenimento Generale", "Musica"])
 mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
 
+st.sidebar.markdown(f"### ✅ Domande indovinate: {len(carica_fatte_smartphone())}")
+
 if 'argomento_attuale' not in st.session_state or st.session_state.argomento_attuale != scelta:
     st.session_state.argomento_attuale = scelta
     
@@ -171,6 +173,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
