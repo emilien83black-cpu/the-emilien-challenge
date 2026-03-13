@@ -14,17 +14,15 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Inizializza memoria browser
-ls = st.context.cookies
-
 def carica_fatte_smartphone():
-    f = st.context.cookies.get("fatte_mobile")
-    return set(f.split("|")) if f else set()
+    if "fatte_locali" not in st.session_state:
+        return set()
+    return st.session_state.fatte_locali
 
 def salva_fatta_smartphone(dom):
-    # Creiamo una lista nella sessione attuale per non perdere i progressi finché non chiudi il browser
-    if "fatte_temporanee" not in st.session_state:
-        st.session_state.fatte_temporanee = set()
+    if "fatte_locali" not in st.session_state:
+        st.session_state.fatte_locali = set()
+    st.session_state.fatte_locali.add(dom)
     
     st.session_state.fatte_temporanee.add(dom)
     
@@ -183,6 +181,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
