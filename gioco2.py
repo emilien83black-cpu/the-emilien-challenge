@@ -91,7 +91,7 @@ if 'argomento_attuale' not in st.session_state or st.session_state.argomento_att
     st.session_state.attuale = st.session_state.domande[0] # Imposta la prima domanda
 
 if not st.session_state.fine:
-    attuale = st.session_state.domande[st.session_state.indice]
+    attuale = st.session_state.domande[st.session_state.indice] if st.session_state.domande else None
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
     import base64
@@ -129,7 +129,7 @@ if not st.session_state.fine:
         with c3:
             if st.button("💡", disabled=st.session_state.usato_suggerimento, use_container_width=True):
                 st.session_state.usato_suggerimento = True
-                st.toast(attuale["aiuto"], icon="💡")
+                st.toast(attuale.get("aiuto", "Nessun suggerimento disponibile"), icon="💡")
 
         opz = st.session_state.opzioni_ridotte if st.session_state.opzioni_ridotte else attuale["opzioni"]
         
@@ -171,6 +171,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
