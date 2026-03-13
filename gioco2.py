@@ -1,6 +1,7 @@
 import streamlit as st
 import random
 import importlib
+from streamlit_local_storage import LocalStorage
 import culturagenerale, sport, calcio, cinema, intrattenimento, musica
 
 # --- CONFIGURAZIONE ICONA E MANIFEST ---
@@ -10,8 +11,21 @@ st.markdown(
     """
     <link rel="manifest" href="./manifest.json?v=6">
     """,
-    unsafe_allow_html=True
+    unsafe_allow_True=True
 )
+
+# Inizializza memoria browser
+ls = LocalStorage()
+
+def carica_fatte_smartphone():
+    f = ls.get("fatte_mobile")
+    return set(f) if f else set()
+
+def salva_fatta_smartphone(dom):
+    f = list(carica_fatte_smartphone())
+    if dom not in f:
+        f.append(dom)
+        ls.set("fatte_mobile", f)
 
 # --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
@@ -140,6 +154,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
