@@ -50,24 +50,28 @@ if 'usato_5050' not in st.session_state: st.session_state.usato_5050 = False
 if 'usato_cambio' not in st.session_state: st.session_state.usato_cambio = False
 if 'usato_suggerimento' not in st.session_state: st.session_state.usato_suggerimento = False
 if 'opzioni_ridotte' not in st.session_state: st.session_state.opzioni_ridotte = None
-if 'domande_fatte' not in st.session_state: st.session_state.domande_fatte = []
+if 'answered_questions' not in st.session_state: st.session_state.answered_questions = []
 
 premi = [10000, 20000, 30000, 50000, 70000, 100000, 150000, 200000, 300000, 1000000]
 
 scelta = st.sidebar.selectbox("Scegli:", ["Cultura Generale", "Sport Generale", "Calcio", "Cinema", "Intrattenimento Generale", "Musica"])
 mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": sport.domande, "Calcio": calcio.domande, "Cinema": cinema.domande, "Intrattenimento Generale": intrattenimento.domande, "Musica": musica.domande}
 
+lista_completa = mappa_domande[scelta].copy()
+domande_disponibili = [d for d in lista_completa if d['domanda'] not in st.session_state.answered_questions]
+
+if len(domande_disponibili) < 10:
+    st.session_state.answered_questions = [q for q in st.session_state.answered_questions if q not in [x['domanda'] for x in lista_completa]]
+    domande_disponibili = lista_completa.copy()
+
+st.sidebar.markdown(f"**Domande rimanenti: {len(domande_disponibili)}**")
+
 if 'argomento_attuale' not in st.session_state or st.session_state.argomento_attuale != scelta:
     st.session_state.argomento_attuale = scelta
-    lista_completa = mappa_domande[scelta].copy()
     
-    lista = [d for d in lista_completa if d['domanda'] not in st.session_state.domande_fatte]
-    
-    if len(lista) < 10:
-        st.session_state.domande_fatte = [q for q in st.session_state.domande_fatte if q not in [x['domanda'] for x in lista_completa]]
-        lista = lista_completa.copy()
-        
+    lista = domande_disponibili.copy()
     random.shuffle(lista)
+    
     for d in lista: random.shuffle(d["opzioni"])
     st.session_state.domande = lista
     st.session_state.indice = 0
@@ -75,8 +79,8 @@ if 'argomento_attuale' not in st.session_state or st.session_state.argomento_att
 if not st.session_state.fine:
     attuale = st.session_state.domande[st.session_state.indice]
     
-    if attuale["domanda"] not in st.session_state.domande_fatte:
-        st.session_state.domande_fatte.append(attuale["domanda"])
+    if attuale["domanda"] not in st.session_state.answered_questions:
+        st.session_state.answered_questions.append(attuale["domanda"])
         
     st.markdown("<h1 class='centered'>💰 The Emilien Challenge</h1>", unsafe_allow_html=True)
     
@@ -94,7 +98,7 @@ if not st.session_state.fine:
             st.session_state.fine = True
             st.rerun()
     else:
-        st.markdown(f"<div class='centered' style='font-size: 22px; font-weight: bold;'>🔴 Domanda {st.session_state.indice + 1}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='centered' style='font-size: 22px; font-weight: bold;'>🔴 Domanda {st.session_state.indice + 1} di 10</div>", unsafe_allow_html=True)
         st.markdown(f"<div class='centered' style='font-size: 22px; font-weight: bold; padding: 5px;'>{attuale['domanda'].replace('#', '')}</div>", unsafe_allow_html=True)
 
         st.markdown("<div style='margin-top: 15px;'></div>", unsafe_allow_html=True)
