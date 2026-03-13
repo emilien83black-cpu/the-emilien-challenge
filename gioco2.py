@@ -27,23 +27,6 @@ def salva_fatta_smartphone(dom):
         f.append(dom)
         ls.set("fatte_mobile", f)
 
-# --- LOGICA DI SELEZIONE ---
-fatte = carica_fatte_smartphone()
-tutte_domande = culturagenerale.domande
-disponibili = [d for d in tutte_domande if d['domanda'] not in fatte]
-
-if "attuale" not in st.session_state or st.session_state.attuale is None:
-    if disponibili:
-        st.session_state.attuale = random.choice(disponibili)
-    else:
-        st.session_state.attuale = None
-
-attuale = st.session_state.attuale
-
-if attuale is None:
-    st.error("Hai completato tutte le domande disponibili!")
-    st.stop()
-
 # --- RESTO DEL CODICE ---
 importlib.reload(culturagenerale)
 importlib.reload(sport)
@@ -89,11 +72,23 @@ mappa_domande = {"Cultura Generale": culturagenerale.domande, "Sport Generale": 
 
 if 'argomento_attuale' not in st.session_state or st.session_state.argomento_attuale != scelta:
     st.session_state.argomento_attuale = scelta
-    lista = mappa_domande[scelta].copy()
-    random.shuffle(lista)
-    for d in lista: random.shuffle(d["opzioni"])
-    st.session_state.domande = lista
+    
+    # FILTRO SMARTPHONE
+    fatte = carica_fatte_smartphone()
+    lista_totale = mappa_domande[scelta].copy()
+    lista_filtrata = [d for d in lista_totale if d['domanda'] not in fatte]
+    
+    if not lista_filtrata:
+        st.error("Hai finito le domande di questa categoria!")
+        st.stop()
+        
+    random.shuffle(lista_filtrata)
+    for d in lista_filtrata: 
+        random.shuffle(d["opzioni"])
+    
+    st.session_state.domande = lista_filtrata
     st.session_state.indice = 0
+    st.session_state.attuale = st.session_state.domande[0] # Imposta la prima domanda
 
 if not st.session_state.fine:
     attuale = st.session_state.domande[st.session_state.indice]
@@ -176,6 +171,7 @@ else:
         for key in ['indice', 'fine', 'game_over', 'mostra_errore', 'usato_5050', 'usato_cambio', 'usato_suggerimento', 'opzioni_ridotte', 'argomento_attuale']:
             if key in st.session_state: del st.session_state[key]
         st.rerun()
+
 
 
 
