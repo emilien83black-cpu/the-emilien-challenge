@@ -156,9 +156,11 @@ if not st.session_state.fine:
                         st.session_state.answered_questions.append(attuale["domanda"])
                         save_progress()
                     if opz[i] == attuale["corretta"]:
-                        st.session_state.indice += 1
-                        st.session_state.opzioni_ridotte = None
-                        if st.session_state.indice >= 10: st.session_state.fine = True
+                        if st.session_state.indice == 9:
+                            st.session_state.fine = True
+                        else:
+                            st.session_state.indice += 1
+                            st.session_state.opzioni_ridotte = None
                         st.rerun()
                     else:
                         st.session_state.mostra_errore = True
@@ -170,9 +172,11 @@ if not st.session_state.fine:
                             st.session_state.answered_questions.append(attuale["domanda"])
                             save_progress()
                         if opz[i+1] == attuale["corretta"]:
-                            st.session_state.indice += 1
-                            st.session_state.opzioni_ridotte = None
-                            if st.session_state.indice >= 10: st.session_state.fine = True
+                            if st.session_state.indice == 9:
+                                st.session_state.fine = True
+                            else:
+                                st.session_state.indice += 1
+                                st.session_state.opzioni_ridotte = None
                             st.rerun()
                         else:
                             st.session_state.mostra_errore = True
